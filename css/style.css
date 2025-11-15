@@ -1,0 +1,171 @@
+:root {
+    --main-color: #E8AC20;
+    --bg-light: #fff7e6;
+    --text-dark: #333;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: var(--bg-light);
+    color: var(--text-dark);
+}
+
+/* INTRO ANIMATION */
+#intro {
+    position: fixed;
+    inset: 0;
+    background: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+}
+
+#intro div {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+#introLogo {
+    width: 0;
+    opacity: 0;
+    transition: all 1s ease;
+}
+
+#introText {
+    font-size: 2rem;
+    color: var(--main-color);
+    opacity: 0;
+    transform: translateX(-50px);
+    transition: all 1s ease;
+}
+
+/* NAVBAR */
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background: white;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+
+.brand {
+    display: flex;
+    align-items: center;
+    gap: 10px
+}
+
+.brand img {
+    width: 44px;
+    height: 44px;
+    border-radius: 8px
+}
+
+.brand h2 {
+    margin: 0;
+    color: var(--main-color);
+    font-weight: 800;
+    letter-spacing: -0.5px
+}
+
+nav .links {
+    display: flex;
+    gap: 24px;
+    font-size: 1.05rem
+}
+
+nav .links a {
+    text-decoration: none;
+    color: var(--text-dark);
+    font-weight: 600
+}
+
+/* HERO SECTION */
+.hero {
+    min-height: 70vh;
+    background: linear-gradient(rgba(0,0,0,0.35), rgba(0,0,0,0.35)),
+        url('https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=1200&q=60');
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 40px 20px;
+    animation: fadeIn 1.2s ease-in-out;
+}
+
+.hero h1 {
+    color: white;
+    font-size: 3rem;
+    margin: 0 0 18px 0;
+    animation: slideDown 1s ease;
+}
+
+@keyframes slideDown { from { transform: translateY(-20px); opacity:0 } to { transform: translateY(0); opacity:1 } }
+@keyframes fadeIn { from { opacity:0 } to { opacity:1 } }
+
+.search-box {
+    background: white;
+    padding: 12px;
+    display: flex;
+    gap: 10px;
+    border-radius: 14px;
+    box-shadow: 0 6px 20px rgba(0,0,0,0.18);
+    animation: popUp 0.9s ease;
+    width: min(900px, 95%);
+}
+
+.search-box input {
+    padding: 12px;
+    border: 2px solid var(--main-color);
+    border-radius: 10px;
+    flex: 1;
+    font-size: 1rem;
+    outline: none;
+}
+
+.search-box button {
+    background: var(--main-color);
+    border: none;
+    padding: 10px 18px;
+    border-radius: 10px;
+    font-size: 1rem;
+    color: white;
+    cursor: pointer;
+    transition: transform .18s ease;
+}
+
+.search-box button:hover { transform: translateY(-3px) }
+@keyframes popUp { from { transform: scale(.97); opacity:0 } to { transform: scale(1); opacity:1 } }
+
+/* RESULTS */
+.results { padding:40px; display:grid; grid-template-columns: repeat(auto-fit,minmax(250px,1fr)); gap:22px; max-width:1200px; margin:0 auto 80px auto }
+.card { background:white; border-radius:14px; box-shadow:0 8px 20px rgba(0,0,0,0.08); overflow:hidden; transition: transform 0.28s ease, box-shadow 0.28s ease; cursor:pointer; display:flex; flex-direction:column }
+.card:focus { outline:3px solid rgba(232,172,32,0.18) }
+.card:hover { transform:translateY(-8px); box-shadow:0 14px 30px rgba(0,0,0,0.12) }
+.card img { width:100%; height:170px; object-fit:cover }
+.card .body { padding:14px; flex:1 }
+.card h3 { margin:0 0 8px 0; color:var(--main-color) }
+.card p { margin:0; color:#555; line-height:1.5 }
+
+/* MODAL */
+#detailModal { display:none; position:fixed; inset:0; background:rgba(0,0,0,0.6); justify-content:center; align-items:center; z-index:200 }
+#detailModal .modalCard { background:white; width:90%; max-width:720px; border-radius:16px; overflow:hidden; animation:popUp .32s ease }
+#detailModal img { width:100%; height:300px; object-fit:cover }
+#detailModal .content { padding:20px }
+#detailModal .content h2 { margin:0 0 8px 0; color:var(--main-color) }
+#detailModal .content p { color:#444; line-height:1.6 }
+#detailModal .actions { margin-top:14px; display:flex; gap:10px }
+
+@media(max-width:600px) {
+    .hero h1 { font-size:1.8rem }
+    #detailModal img { height:180px }
+}
