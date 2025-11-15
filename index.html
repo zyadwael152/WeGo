@@ -1,15 +1,93 @@
-<!Doctype html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>TRW</title>
-    <link rel="stylesheet" href="css/style.css">
-    <script src="js/main.js"></script>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tourism Website - Home</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <header>
-        <h1>Welcome to TRW</h1>
-    </header>
+    <!-- INTRO ANIMATION -->
+    <div id="intro">
+        <div>
+            <img id="introLogo" src="data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='80' height='80' viewBox='0 0 24 24'><rect rx='6' width='24' height='24' fill='%23E8AC20'/><path d='M12 6l3 8-8 3 5-11z' fill='white'/></svg>" />
+            <h1 id="introText">Welcome to WeGo</h1>
+        </div>
+    </div>
+
+    <!-- NAVBAR -->
+    <nav>
+        <div class="brand">
+            <img alt="WeGo logo" src="data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='80' height='80' viewBox='0 0 24 24'><rect rx='6' width='24' height='24' fill='%23E8AC20'/><path d='M12 6l3 8-8 3 5-11z' fill='white'/></svg>" />
+            <h2>WeGo</h2>
+        </div>
+
+        <div class="links">
+            <a href="#">Home</a>
+            <a href="#">Explore</a>
+            <a href="#">Contact</a>
+        </div>
+    </nav>
+
+    <!-- HERO SECTION -->
+    <section class="hero">
+        <h1>Discover Your Next Adventure</h1>
+        <div class="search-box" role="search" aria-label="Search destinations">
+            <input id="searchInput" type="text" placeholder="Search destinations... e.g. Paris, Dubai" />
+            <button id="searchBtn">Search</button>
+        </div>
+    </section>
+
+    <!-- RESULTS -->
+    <section class="results" id="results">
+        <div class="card" tabindex="0" data-title="Paris">
+            <img src="https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=800&q=60" alt="Paris image" />
+            <div class="body">
+                <h3>Paris</h3>
+                <p>The city of lights and romance.</p>
+            </div>
+        </div>
+
+        <div class="card" tabindex="0" data-title="Dubai">
+            <img src="https://images.unsplash.com/photo-1491553895911-0055eca6402d?auto=format&fit=crop&w=800&q=60" alt="Dubai image" />
+            <div class="body">
+                <h3>Dubai</h3>
+                <p>Where modern skyline meets luxury.</p>
+            </div>
+        </div>
+
+        <div class="card" tabindex="0" data-title="Maldives">
+            <img src="https://images.unsplash.com/photo-1505761671935-60b3a7427bad?auto=format&fit=crop&w=800&q=60" alt="Maldives image" />
+            <div class="body">
+                <h3>Maldives</h3>
+                <p>Crystal clear waters & heavenly views.</p>
+            </div>
+        </div>
+
+        <div class="card" tabindex="0" data-title="Tokyo">
+            <img src="https://images.unsplash.com/photo-1549692520-acc6669e2f0c?auto=format&fit=crop&w=800&q=60" alt="Tokyo image" />
+            <div class="body">
+                <h3>Tokyo</h3>
+                <p>A vibrant city mixing tradition and futuristic life.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- DESTINATION MODAL -->
+    <div id="detailModal" role="dialog" aria-hidden="true" aria-labelledby="modalTitle">
+        <div class="modalCard" role="document">
+            <img id="modalImg" src="" alt="Destination image" />
+            <div class="content">
+                <h2 id="modalTitle"></h2>
+                <p id="modalDesc"></p>
+                <div class="actions">
+                    <button id="bookBtn">Book Now</button>
+                    <button id="closeBtn">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
 </body>
 </html>
