@@ -1,0 +1,93 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>Contact — WeGo</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" href="favicon.ico">
+</head>
+<body>
+    <header class="site-header">
+        <div class="container header-inner">
+            <a href="index.html" class="logo">WeGo</a>
+            <nav class="main-nav" aria-label="Primary">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="explore.html">Explore</a></li>
+                    <li><a class="active" href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+            <button class="menu-toggle" aria-expanded="false" aria-controls="primary-navigation">Menu</button>
+        </div>
+    </header>
+
+    <section class="page-hero">
+        <div class="container">
+            <h1>Contact Us</h1>
+            <p>Questions, feedback or partnership inquiries — we'd love to hear from you.</p>
+        </div>
+    </section>
+
+    <!-- Main Content -->
+    <main class="site-main container">
+        <section class="contact-grid">
+            <div class="contact-form">
+                <h2>Send a message</h2>
+                <form id="contactForm" action="#" method="post" novalidate>
+                    <label>
+                        <span>Name</span>
+                        <input type="text" name="name" required placeholder="Your name">
+                    </label>
+
+                    <label>
+                        <span>Email</span>
+                        <input type="email" name="email" required placeholder="you@example.com">
+                    </label>
+
+                    <label>
+                        <span>Subject</span>
+                        <input type="text" name="subject" placeholder="Subject">
+                    </label>
+
+                    <label>
+                        <span>Message</span>
+                        <textarea name="message" rows="6" required placeholder="Write your message..."></textarea>
+                    </label>
+
+                    <button type="submit" class="btn-primary">Send message</button>
+                </form>
+            </div>
+
+            <!-- Contact Details -->
+            <aside class="contact-info">
+                <h2>Contact Info</h2>
+                <p>Email: <a href="mailto:info@wego.example">info@wego.example</a></p>
+                <p>Phone: <a href="tel:+1234567890">+1 (234) 567-890</a></p>
+
+                <h3>Our Office</h3>
+                <p>123 Travel Ave<br>City, Country</p>
+
+            </aside>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <div class="container">
+            <p>&copy; <span id="year"></span> WeGo. All rights reserved.</p>
+            <nav class="footer-nav" aria-label="Footer">
+            </nav>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+    <script>
+        document.getElementById('year').textContent = new Date().getFullYear();
+        document.getElementById('contactForm').addEventListener('submit', function (e) {
+            e.preventDefault();
+            alert('Thank you! Your message has been prepared to send.');
+            this.reset();
+        });
+    </script>
+</body>
+</html>

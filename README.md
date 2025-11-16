@@ -1,4 +1,4 @@
-# 🌍 Travel Recommendation Website
+# 🌍 WeGo The Travel Recommendation Website
 
 🚧 Project Under Construction – Development Phase
 
