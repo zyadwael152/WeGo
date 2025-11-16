@@ -3,7 +3,7 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Destination Details - WeGo</title>
+        <title>Details - WeGo</title>
         <link rel="stylesheet" href="css/style.css">
     </head>
     
@@ -21,7 +21,6 @@
             </div>
         </nav>
         <main class="details-container">
-            <a href="index.html" class="back-link">&larr; Back to Home</a>
             <h1 class="details-title">Paris, France</h1>
             <section class="gallery-grid">
                 <img src="https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=800&q=60"
@@ -50,7 +49,14 @@
                 </aside>
             </div>
         </main>
-    
+    <footer class="site-footer">
+        <div class="container">
+            <p>&copy; <span id="year"></span> WeGo. All rights reserved.</p>
+        </div>
+    </footer>
+    <script>
+        document.getElementById('year').textContent = new Date().getFullYear();
+    </script>
         <script src="js/details.js"></script>
     </body>
     </html>

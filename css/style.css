@@ -331,3 +331,264 @@ DETAILS PAGE
         top: auto;
     }
 }
+
+/* 9. CONTACT PAGE  */
+
+/* Styles for the active link in the nav */
+nav .links a.active {
+    color: var(--main-color);
+    font-weight: 800;
+}
+
+/* Mobile Menu Button */
+.menu-toggle {
+    display: none;
+    /* Hidden on desktop */
+    background: var(--main-color);
+    border: none;
+    color: white;
+    padding: 8px 12px;
+    border-radius: 8px;
+    cursor: pointer;
+    font-weight: 600;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.menu-toggle:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 15px rgba(232, 172, 32, 0.4);
+}
+
+/* Contact Page Hero */
+.page-hero {
+    padding: 50px 20px;
+    background: var(--bg-light);
+    text-align: center;
+    overflow: hidden;
+    /* To contain animations */
+}
+
+.page-hero h1 {
+    font-size: 2.8rem;
+    color: var(--main-color);
+    margin: 0 0 10px 0;
+    animation: slideDown 0.8s ease-out 0.2s;
+    animation-fill-mode: backwards;
+    /* Starts hidden */
+}
+
+.page-hero p {
+    font-size: 1.1rem;
+    color: #555;
+    margin: 0;
+    animation: fadeIn 1s ease-out 0.5s;
+    animation-fill-mode: backwards;
+    /* Starts hidden */
+}
+
+/* Contact Main Content Card */
+.site-main {
+    max-width: 1100px;
+    margin: 30px auto;
+    padding: 30px 40px;
+    background: #ffffff;
+    border-radius: 16px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.07);
+    animation: fadeIn 0.8s ease-out 0.4s;
+    animation-fill-mode: backwards;
+}
+
+.contact-grid {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: 40px;
+}
+
+/* Contact Form Styles */
+.contact-form h2,
+.contact-info h2 {
+    font-size: 1.8rem;
+    font-weight: 700;
+    color: var(--text-dark);
+    margin-bottom: 20px;
+    border-bottom: 3px solid var(--main-color);
+    padding-bottom: 5px;
+    display: inline-block;
+}
+
+.contact-form label {
+    display: block;
+    margin-bottom: 20px;
+    /* Staggered animation for form fields */
+    opacity: 0;
+    transform: translateX(-20px);
+    animation: slideIn 0.5s ease-out forwards;
+}
+
+.contact-form label:nth-child(1) {
+    animation-delay: 0.5s;
+}
+
+.contact-form label:nth-child(2) {
+    animation-delay: 0.6s;
+}
+
+.contact-form label:nth-child(3) {
+    animation-delay: 0.7s;
+}
+
+.contact-form label:nth-child(4) {
+    animation-delay: 0.8s;
+}
+
+
+.contact-form span {
+    display: block;
+    font-weight: 600;
+    color: #555;
+    margin-bottom: 8px;
+}
+
+.contact-form input[type="text"],
+.contact-form input[type="email"],
+.contact-form textarea {
+    width: 100%;
+    padding: 14px;
+    border: 2px solid #ddd;
+    border-radius: 10px;
+    font-size: 1rem;
+    font-family: 'Poppins', sans-serif;
+    outline: none;
+    box-sizing: border-box;
+    /* Fixes padding issues */
+    transition: border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.contact-form input[type="text"]:focus,
+.contact-form input[type="email"]:focus,
+.contact-form textarea:focus {
+    border-color: var(--main-color);
+    box-shadow: 0 0 10px rgba(232, 172, 32, 0.3);
+    /* Animation for textbox */
+}
+
+.contact-form textarea {
+    resize: vertical;
+    min-height: 120px;
+}
+
+/* Form Button Style */
+.btn-primary {
+    background: var(--main-color);
+    border: none;
+    padding: 14px 24px;
+    border-radius: 10px;
+    font-size: 1.1rem;
+    color: white;
+    font-weight: 600;
+    cursor: pointer;
+    transition: transform 0.3s ease, box-shadow 0.3s ease, background-color 0.3s ease;
+    box-shadow: 0 4px 15px rgba(232, 172, 32, 0.4);
+    opacity: 0;
+    transform: translateY(20px);
+    animation: fadeIn 0.5s ease-out 1s forwards;
+    /* Animation for button */
+}
+
+.btn-primary:hover {
+    transform: translateY(-5px);
+    /* Animation for button */
+    box-shadow: 0 8px 25px rgba(232, 172, 32, 0.5);
+}
+
+.btn-primary:active {
+    transform: translateY(0);
+    box-shadow: 0 4px 15px rgba(232, 172, 32, 0.4);
+}
+
+/* Contact Info Sidebar */
+.contact-info {
+    background: var(--bg-light);
+    padding: 25px;
+    border-radius: 12px;
+    align-self: flex-start;
+    /* Keeps it aligned with the form */
+    animation: fadeIn 0.8s ease-out 0.8s;
+    animation-fill-mode: backwards;
+}
+
+.contact-info p {
+    font-size: 1.1rem;
+    color: #555;
+    line-height: 1.7;
+    margin-bottom: 15px;
+}
+
+.contact-info a {
+    color: var(--main-color);
+    text-decoration: none;
+    font-weight: 600;
+    transition: color 0.3s ease;
+    word-break: break-all;
+}
+
+.contact-info a:hover {
+    color: var(--text-dark);
+}
+
+.contact-info h3 {
+    font-size: 1.3rem;
+    margin-top: 25px;
+    margin-bottom: 10px;
+}
+
+/* Footer Style */
+.site-footer {
+    padding: 30px 20px;
+    text-align: center;
+    background: #fff;
+    border-top: 1px solid #eee;
+    margin-top: 40px;
+    color: #777;
+    animation: fadeIn 1s ease;
+}
+
+/* Shared "slideIn" Animation */
+@keyframes slideIn {
+    to {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+@media(max-width: 768px) {
+
+    /* Contact Page Grid */
+    .contact-grid {
+        grid-template-columns: 1fr;
+        gap: 30px;
+    }
+
+    .site-main {
+        margin: 15px;
+        padding: 20px;
+    }
+
+    .page-hero h1 {
+        font-size: 2.2rem;
+    }
+}
+
+@media(max-width: 600px) {
+
+    /* Global Navigation */
+    nav .links {
+        display: none;
+        /* Hide desktop links */
+    }
+
+    .menu-toggle {
+        display: block;
+        /* Show mobile button */
+    }
+}

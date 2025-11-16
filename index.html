@@ -43,7 +43,14 @@
 
     <section class="results" id="destination-grid">
         </section>
-    
+    <footer class="site-footer">
+        <div class="container">
+            <p>&copy; <span id="year"></span> WeGo. All rights reserved.</p>
+        </div>
+    </footer>
+    <script>
+        document.getElementById('year').textContent = new Date().getFullYear();
+    </script>
     <script src="js/api.js"></script>
     <script src="js/main.js" defer></script>
 </body>
