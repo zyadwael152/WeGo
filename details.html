@@ -1,7 +1,42 @@
 <!Doctype html>
 <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Details - WeGo</title>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;800&display=swap" rel="stylesheet">
+        
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="css/details.css">
+    </head>
+    
+    <body>
+        <nav>
+            <div class="brand">
+                <img alt="WeGo logo"
+                    src="data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='80' height='80' viewBox='0 0 24 24'><rect rx='6' width='24' height='24' fill='%23E8AC20'/><path d='M12 6l3 8-8 3 5-11z' fill='white'/></svg>" />
+                <h2>WeGo</h2>
+            </div>
+            <div class="links">
+                <a href="index.html">Home</a>
+                <a href="#">Explore</a>
+                <a href="#">Contact</a>
+            </div>
+        </nav>
+        <main class="details-container">
+            <h1 class="details-title">Paris, France</h1>
+            <section class="gallery-grid">
+                <img src="https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=800&q=60"
+                    alt="Main view of Paris" class="gallery-img-main">
+                <img src="https://images.unsplash.com/photo-1471619445258-5c9c9b13c34a?auto=format&fit=crop&w=400&q=60"
+                    alt="Eiffel Tower detail" class="gallery-img-side">
+                <img src="https://images.unsplash.com/photo-1499856871958-5b9627545d1a?auto=format&fit=crop&w=400&q=60"
+                    alt="Louvre Museum" class="gallery-img-side">
+            </section>
+    
+            <div class="details-layout">
 
-<head>
+  <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Details - WeGo</title>
@@ -9,9 +44,9 @@
 
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/details.css">
-</head>
+  </head>
 
-<body>
+ <body>
     <nav>
         <div class="brand">
             <img alt="WeGo logo"
@@ -47,6 +82,22 @@
             </aside>
         </div>
     </main>
+                <article class="details-content">
+                    <h2>About Paris</h2>
+                    <p>Paris, France's capital, is a major European city and a global center for art, fashion, gastronomy
+                        and culture. Its 19th-century cityscape is crisscrossed by wide boulevards and the River Seine.</p>
+                    <p>Beyond such landmarks as the Eiffel Tower and the 12th-century, Gothic Notre-Dame cathedral, the city
+                        is known for its cafe culture and designer boutiques along the Rue du Faubourg Saint-Honoré.</p>
+                </article>
+    
+                <aside class="details-sidebar">
+                    <h3>Location on Map</h3>
+                    <div class="map-placeholder">
+                        <p>Google Map will be here</p>
+                    </div>
+                </aside>
+            </div>
+        </main>
     <footer class="site-footer">
         <div class="container">
             <p>&copy; <span id="year"></span> WeGo. All rights reserved.</p>
@@ -57,6 +108,9 @@
     </script>
     <script src="js/api.js"></script>
     <script src="js/details.js"></script>
-</body>
+ </body>
 
+</html>
+        <script src="js/details.js"></script>
+    </body>
 </html>

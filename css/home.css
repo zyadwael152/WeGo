@@ -109,26 +109,9 @@
 }
 
 .card p {
-    margin: 0 0 12px 0;
+    margin: 0;
     color: #555;
     line-height: 1.5;
-}
-
-.view-more-btn {
-    display: inline-block;
-    background: var(--main-color);
-    color: white;
-    padding: 8px 16px;
-    border-radius: 6px;
-    text-decoration: none;
-    font-weight: 600;
-    font-size: 0.9rem;
-    transition: background 0.3s ease, transform 0.3s ease;
-}
-
-.view-more-btn:hover {
-    background: #d4a02a;
-    transform: translateY(-2px);
 }
 
 /* 5. MODAL (Homepage) */

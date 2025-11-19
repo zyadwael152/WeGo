@@ -1,3 +1,4 @@
+
 document.addEventListener('DOMContentLoaded', () => {
     loadDestinationDetails();
 });
@@ -131,3 +132,4 @@ async function fetchWikipediaDescription(destinationName) {
         return null;
     }
 }
+console.log("Hello DETAILS");
