@@ -1,0 +1,95 @@
+{
+  "Egypt": {
+    "cities": {
+      "Cairo": [
+        "The Egyptian Museum",
+        "Khan el-Khalili",
+        "Al-Azhar Park"
+      ],
+      "Giza": [
+        "Pyramids of Giza",
+        "Great Sphinx",
+        "Grand Egyptian Museum"
+      ],
+      "Luxor": [
+        "Karnak Temple",
+        "Valley of the Kings",
+        "Luxor Temple"
+      ],
+      "Aswan": [
+        "Philae Temple",
+        "The High Dam"
+      ],
+      "Alexandria": [ 
+        "Bibliotheca Alexandrina",
+        "Citadel of Qaitbay"
+      ]
+    }
+  },
+  "France": {
+    "cities": {
+      "Paris": [
+        "Eiffel Tower",
+        "Louvre Museum",
+        "Notre-Dame Cathedral"
+      ],
+      "Lyon": [
+        "Basilica of Notre-Dame de Fourvière",
+        "Vieux Lyon"
+      ],
+      "Nice": [
+        "Promenade des Anglais",
+        "Castle Hill"
+      ]
+    }
+  },
+  "Japan": {
+    "cities": {
+      "Tokyo": [
+        "Senso-ji",
+        "Tokyo Skytree",
+        "Shibuya Crossing"
+      ],
+      "Kyoto": [
+        "Kinkaku-ji",
+        "Fushimi Inari-taisha",
+        "Arashiyama Bamboo Grove"
+      ],
+      "Osaka": [
+        "Osaka Castle",
+        "Dotonbori"
+      ]
+    }
+  },
+  "United States": {
+    "cities": {
+      "New York": [
+        "Statue of Liberty",
+        "Central Park",
+        "Empire State Building"
+      ],
+      "Los Angeles": [
+        "Hollywood Sign",
+        "Griffith Observatory"
+      ],
+      "Chicago": []
+    }
+  },
+  "Italy": {
+    "cities": {
+      "Rome": [
+        "Colosseum",
+        "Trevi Fountain",
+        "Pantheon"
+      ],
+      "Venice": [
+        "St. Mark's Basilica",
+        "Rialto Bridge"
+      ],
+      "Florence": [
+        "Uffizi Gallery",
+        "Ponte Vecchio"
+      ]
+    }
+  }
+} 
