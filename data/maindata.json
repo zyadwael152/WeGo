@@ -4,25 +4,37 @@
       "Cairo": [
         "The Egyptian Museum",
         "Khan el-Khalili",
-        "Al-Azhar Park"
+        "Al-Azhar Park",
+        "Citadel of Saladin",
+        "Muhammad Ali Mosque"
       ],
       "Giza": [
         "Pyramids of Giza",
         "Great Sphinx",
-        "Grand Egyptian Museum"
+        "Grand Egyptian Museum",
+        "Pyramid of Menkaure",
+        "Solar Boat Museum"
       ],
       "Luxor": [
         "Karnak Temple",
         "Valley of the Kings",
-        "Luxor Temple"
+        "Luxor Temple",
+        "Mortuary Temple of Hatshepsut",
+        "Avenue of the Sphinxes"
       ],
       "Aswan": [
         "Philae Temple",
-        "The High Dam"
+        "The High Dam",
+        "Nubian Museum",
+        "Elephantine Island",
+        "Botanical Garden"
       ],
-      "Alexandria": [ 
+      "Alexandria": [
         "Bibliotheca Alexandrina",
-        "Citadel of Qaitbay"
+        "Citadel of Qaitbay",
+        "Catacombs of Kom el Shoqafa",
+        "Pompey's Pillar",
+        "Alexandria National Museum"
       ]
     }
   },
@@ -31,15 +43,37 @@
       "Paris": [
         "Eiffel Tower",
         "Louvre Museum",
-        "Notre-Dame Cathedral"
+        "Notre-Dame Cathedral",
+        "Arc de Triomphe",
+        "Sacré-Cœur"
       ],
       "Lyon": [
         "Basilica of Notre-Dame de Fourvière",
-        "Vieux Lyon"
+        "Vieux Lyon",
+        "Roman Theaters",
+        "Confluence Museum",
+        "Parc de la Tête d'Or"
       ],
       "Nice": [
         "Promenade des Anglais",
-        "Castle Hill"
+        "Castle Hill",
+        "Nice Old Town",
+        "Museum of Modern Art",
+        "Russian Orthodox Cathedral"
+      ],
+      "Marseille": [
+        "Basilica of Notre-Dame de la Garde",
+        "Château d'If",
+        "Vieux Port",
+        "Museum of Civilizations of Europe and the Mediterranean",
+        "Fort Saint-Jean"
+      ],
+      "Toulouse": [
+        "Basilica of Saint-Sernin",
+        "Capitole of Toulouse",
+        "Japanese Garden",
+        "Space City",
+        "Garonne River"
       ]
     }
   },
@@ -48,16 +82,37 @@
       "Tokyo": [
         "Senso-ji",
         "Tokyo Skytree",
-        "Shibuya Crossing"
+        "Shibuya Crossing",
+        "Imperial Palace",
+        "Meiji Shrine"
       ],
       "Kyoto": [
         "Kinkaku-ji",
         "Fushimi Inari-taisha",
-        "Arashiyama Bamboo Grove"
+        "Arashiyama Bamboo Grove",
+        "Kiyomizu-dera",
+        "Philosopher's Path"
       ],
       "Osaka": [
         "Osaka Castle",
-        "Dotonbori"
+        "Dotonbori",
+        "Shinsekai District",
+        "Kofuku-ji Temple",
+        "Osaka Museum of Natural History"
+      ],
+      "Yokohama": [
+        "Red Brick Warehouse",
+        "Yokohama Bay Bridge",
+        "Landmark Tower",
+        "Cosmo Clock 21",
+        "Yamashita Park"
+      ],
+      "Kobe": [
+        "Kobe Port Tower",
+        "Meriken Park",
+        "Kobe Harborland",
+        "Ike-no-Hone Park",
+        "Arima Hot Spring"
       ]
     }
   },
@@ -66,13 +121,38 @@
       "New York": [
         "Statue of Liberty",
         "Central Park",
-        "Empire State Building"
+        "Empire State Building",
+        "Times Square",
+        "Brooklyn Bridge"
       ],
       "Los Angeles": [
         "Hollywood Sign",
-        "Griffith Observatory"
+        "Griffith Observatory",
+        "Santa Monica Pier",
+        "Getty Center",
+        "Universal Studios"
       ],
-      "Chicago": []
+      "Chicago": [
+        "Willis Tower",
+        "Millennium Park",
+        "Art Institute of Chicago",
+        "Navy Pier",
+        "Cloud Gate"
+      ],
+      "San Francisco": [
+        "Golden Gate Bridge",
+        "Alcatraz Island",
+        "Cable Cars",
+        "Painted Ladies",
+        "Twin Peaks"
+      ],
+      "Miami": [
+        "Art Deco Historic District",
+        "Miami Beach",
+        "Wynwood Walls",
+        "Vizcaya Museum and Gardens",
+        "Everglades National Park"
+      ]
     }
   },
   "Italy": {
@@ -80,15 +160,2529 @@
       "Rome": [
         "Colosseum",
         "Trevi Fountain",
-        "Pantheon"
+        "Pantheon",
+        "Roman Forum",
+        "Vatican City"
       ],
       "Venice": [
         "St. Mark's Basilica",
-        "Rialto Bridge"
+        "Rialto Bridge",
+        "Grand Canal",
+        "Doge's Palace",
+        "Basilica di Santa Maria della Salute"
       ],
       "Florence": [
         "Uffizi Gallery",
-        "Ponte Vecchio"
+        "Ponte Vecchio",
+        "Florence Cathedral",
+        "Accademia Gallery",
+        "Boboli Gardens"
+      ],
+      "Milan": [
+        "Milan Cathedral",
+        "Scala Theatre",
+        "Sforza Castle",
+        "Galleria Vittorio Emanuele II",
+        "Leonardo da Vinci's The Last Supper"
+      ],
+      "Naples": [
+        "National Museum of Capodimonte",
+        "Naples Cathedral",
+        "San Gregorio Armeno",
+        "Royal Palace of Naples",
+        "Underground Naples"
+      ]
+    }
+  },
+  "Spain": {
+    "cities": {
+      "Barcelona": [
+        "Sagrada Familia",
+        "Park Güell",
+        "Casa Batlló",
+        "Gothic Quarter",
+        "Las Ramblas"
+      ],
+      "Madrid": [
+        "Prado Museum",
+        "Royal Palace of Madrid",
+        "Retiro Park",
+        "Reina Sofía Museum",
+        "Temple of Debod"
+      ],
+      "Valencia": [
+        "City of Arts and Sciences",
+        "Hemisfèric",
+        "Turia Gardens",
+        "Museum of Science",
+        "Valencia Cathedral"
+      ],
+      "Seville": [
+        "Cathedral of Seville",
+        "Alcázar Palace",
+        "Plaza de España",
+        "Triana District",
+        "Barrio Santa Cruz"
+      ],
+      "Granada": [
+        "Alhambra Palace",
+        "Albaicín District",
+        "Cathedral of Granada",
+        "Royal Chapel",
+        "Generalife Gardens"
+      ]
+    }
+  },
+  "Germany": {
+    "cities": {
+      "Berlin": [
+        "Brandenburg Gate",
+        "Berlin Wall Memorial",
+        "Reichstag Building",
+        "Museum Island",
+        "Alexander Platz"
+      ],
+      "Munich": [
+        "Marienplatz",
+        "Neuschwanstein Castle",
+        "English Garden",
+        "Church of Saint Peter",
+        "Nymphenburg Palace"
+      ],
+      "Hamburg": [
+        "Miniatur Wunderland",
+        "St. Michael's Church",
+        "Hamburg Port",
+        "Speicherstadt",
+        "Alster Lake"
+      ],
+      "Cologne": [
+        "Cologne Cathedral",
+        "Rhine River Walk",
+        "Museum Ludwig",
+        "Hohenzollern Bridge",
+        "Old Town"
+      ],
+      "Frankfurt": [
+        "Main Tower",
+        "Palmengarten",
+        "Iron Bridge",
+        "German Finance Museum",
+        "St. Paul's Church"
+      ]
+    }
+  },
+  "United Kingdom": {
+    "cities": {
+      "London": [
+        "Big Ben",
+        "Tower of London",
+        "Westminster Abbey",
+        "Buckingham Palace",
+        "Tower Bridge"
+      ],
+      "Edinburgh": [
+        "Edinburgh Castle",
+        "Royal Mile",
+        "Holyrood Palace",
+        "Prince Street Gardens",
+        "Scott Monument"
+      ],
+      "Oxford": [
+        "University of Oxford",
+        "Bodleian Library",
+        "Christ Church Cathedral",
+        "Ashmolean Museum",
+        "Radcliffe Camera"
+      ],
+      "Cambridge": [
+        "King's College Chapel",
+        "University of Cambridge",
+        "The Backs",
+        "Mathematical Bridge",
+        "Fitzwilliam Museum"
+      ],
+      "Bath": [
+        "Roman Baths",
+        "Bath Abbey",
+        "Royal Crescent",
+        "Circus",
+        "Pump Room"
+      ]
+    }
+  },
+  "Thailand": {
+    "cities": {
+      "Bangkok": [
+        "Grand Palace",
+        "Temple of the Emerald Buddha",
+        "Wat Pho",
+        "Floating Markets",
+        "Lumphini Park"
+      ],
+      "Chiang Mai": [
+        "Wat Chedi Luang",
+        "Doi Suthep",
+        "Sunday Walking Street",
+        "Elephant Nature Park",
+        "Old City Moat"
+      ],
+      "Phuket": [
+        "Phang Nga Bay",
+        "Big Buddha",
+        "Patong Beach",
+        "Karon Beach",
+        "Wat Chalong"
+      ],
+      "Krabi": [
+        "Railay Beach",
+        "Phi Phi Islands",
+        "Emerald Pool",
+        "Tiger Cave Temple",
+        "Four Islands Tour"
+      ],
+      "Pattaya": [
+        "Pattaya Beach",
+        "Sanctuary of Truth",
+        "Nong Nooch Tropical Botanical Garden",
+        "Underwater World",
+        "Buddha Mountain"
+      ]
+    }
+  },
+  "India": {
+    "cities": {
+      "Delhi": [
+        "India Gate",
+        "Red Fort",
+        "Jama Masjid",
+        "Raj Ghat",
+        "Chandni Chowk"
+      ],
+      "Mumbai": [
+        "Gateway of India",
+        "Taj Mahal Hotel",
+        "Marine Drive",
+        "Haji Ali Mosque",
+        "Siddhivinayak Temple"
+      ],
+      "Agra": [
+        "Taj Mahal",
+        "Agra Fort",
+        "Mehtab Bagh",
+        "Fatehpur Sikri",
+        "Itmad-ud-Daulah"
+      ],
+      "Bangalore": [
+        "Vidhana Soudha",
+        "Bangalore Palace",
+        "Lalbagh Garden",
+        "Cubbon Park",
+        "Iskcon Temple"
+      ],
+      "Jaipur": [
+        "City Palace",
+        "Hawa Mahal",
+        "Jantar Mantar",
+        "Albert Hall Museum",
+        "Govind Dev Ji Temple"
+      ]
+    }
+  },
+  "Brazil": {
+    "cities": {
+      "Rio de Janeiro": [
+        "Christ the Redeemer",
+        "Copacabana Beach",
+        "Ipanema Beach",
+        "Sugarloaf Mountain",
+        "Maracanã Stadium"
+      ],
+      "São Paulo": [
+        "São Paulo Museum of Art",
+        "Ibirapuera Park",
+        "Pinacoteca do Estado",
+        "Mercadão Market",
+        "Municipal Theater"
+      ],
+      "Salvador": [
+        "Pelourinho",
+        "Farol da Barra",
+        "Church of São Francisco",
+        "Mercado Modelo",
+        "Lacerda Elevator"
+      ],
+      "Recife": [
+        "Recife Antigo",
+        "Five Points District",
+        "Brennand Institute",
+        "Marco Zero",
+        "Peixoto Market"
+      ],
+      "Fortaleza": [
+        "Iracema Beach",
+        "Fuerte de Santiago",
+        "Central Market",
+        "Dragão do Mar Center",
+        "Meireles Beach"
+      ]
+    }
+  },
+  "Australia": {
+    "cities": {
+      "Sydney": [
+        "Sydney Opera House",
+        "Harbour Bridge",
+        "Bondi Beach",
+        "Blue Mountains",
+        "Taronga Zoo"
+      ],
+      "Melbourne": [
+        "Great Ocean Road",
+        "Twelve Apostles",
+        "Federation Square",
+        "National Gallery of Victoria",
+        "Royal Botanic Gardens"
+      ],
+      "Brisbane": [
+        "South Bank Parklands",
+        "Story Bridge",
+        "Lone Pine Koala Sanctuary",
+        "Gallery of Modern Art",
+        "City Botanic Gardens"
+      ],
+      "Perth": [
+        "Swan River",
+        "Fremantle Prison",
+        "Kings Park",
+        "Rottnest Island",
+        "Perth Mint"
+      ],
+      "Gold Coast": [
+        "Surfers Paradise",
+        "Currumbin Beach",
+        "Tamboram Rainforest",
+        "Southport Broadwater",
+        "Dream World"
+      ]
+    }
+  },
+  "Canada": {
+    "cities": {
+      "Toronto": [
+        "CN Tower",
+        "Niagara Falls",
+        "Royal Ontario Museum",
+        "St. Lawrence Market",
+        "Casa Loma"
+      ],
+      "Vancouver": [
+        "Stanley Park",
+        "Vancouver Art Gallery",
+        "Granville Island",
+        "Capilano Suspension Bridge",
+        "Canada Place"
+      ],
+      "Montreal": [
+        "Notre-Dame Basilica",
+        "Mount Royal",
+        "Jean-Talon Market",
+        "Underground City",
+        "Montreal Museum of Fine Arts"
+      ],
+      "Calgary": [
+        "Calgary Tower",
+        "Heritage Park Historical Village",
+        "Bow River",
+        "Glenbow Museum",
+        "Calgary Stampede Grounds"
+      ],
+      "Quebec City": [
+        "Old Quebec City",
+        "Montmorency Falls",
+        "Citadelle of Quebec",
+        "Île d'Orléans",
+        "Basilica-Cathedral of Notre-Dame"
+      ]
+    }
+  },
+  "Mexico": {
+    "cities": {
+      "Mexico City": [
+        "Templo Mayor",
+        "National Museum of Anthropology",
+        "Frida Kahlo Museum",
+        "Chapultepec Castle",
+        "Zócalo"
+      ],
+      "Cancún": [
+        "Cancún Beach",
+        "Xel-Há Park",
+        "Xcaret Park",
+        "Playa Delfines",
+        "Lagoon"
+      ],
+      "Playa del Carmen": [
+        "Fifth Avenue",
+        "Xcaret Park",
+        "Cenotes",
+        "Maya Ruins",
+        "Playacar"
+      ],
+      "Guadalajara": [
+        "Metropolitan Cathedral",
+        "Teatro Degollado",
+        "Government Palace",
+        "Hospicio Cabañas",
+        "Regional Museum of Guadalajara"
+      ],
+      "Monterrey": [
+        "Barrio Antiguo",
+        "Macroplaza",
+        "Cerro de la Silla",
+        "MARCO Museum",
+        "Barrio Viejo"
+      ]
+    }
+  },
+  "Greece": {
+    "cities": {
+      "Athens": [
+        "Acropolis",
+        "Parthenon",
+        "Temple of Zeus",
+        "Panathenaic Stadium",
+        "Acropolis Museum"
+      ],
+      "Mykonos": [
+        "Mykonos Town",
+        "Paradise Beach",
+        "Windmills",
+        "Little Venice",
+        "Agricultural Museum"
+      ],
+      "Santorini": [
+        "Caldera Views",
+        "Oia Village",
+        "Red Beach",
+        "Akrotiri Archaeological Site",
+        "Blue Domed Churches"
+      ],
+      "Rhodes": [
+        "Palace of the Grand Masters",
+        "Medieval Old Town",
+        "Lindos Acropolis",
+        "Symi Island",
+        "St. Paul's Bay"
+      ],
+      "Crete": [
+        "Minoan Palace of Knossos",
+        "Pink Beach",
+        "Samaria Gorge",
+        "Rethymno Old Town",
+        "Chania Harbor"
+      ]
+    }
+  },
+  "China": {
+    "cities": {
+      "Beijing": [
+        "Great Wall of China",
+        "Forbidden City",
+        "Temple of Heaven",
+        "Ming Tombs",
+        "Summer Palace"
+      ],
+      "Shanghai": [
+        "The Bund",
+        "Oriental Pearl Tower",
+        "Yu Garden",
+        "Shanghai Tower",
+        "City God Temple"
+      ],
+      "Xi'an": [
+        "Terracotta Army",
+        "City Wall",
+        "Giant Wild Goose Pagoda",
+        "Shaanxi History Museum",
+        "Bell Tower"
+      ],
+      "Guilin": [
+        "Karst Mountains",
+        "Li River",
+        "Elephant Trunk Hill",
+        "Reed Flute Cave",
+        "Moon Mountain"
+      ],
+      "Chengdu": [
+        "Giant Panda Base",
+        "Wuhou Shrine",
+        "Dujiang Weir",
+        "Qingyang Gong",
+        "Wide and Narrow Lanes"
+      ]
+    }
+  },
+  "South Korea": {
+    "cities": {
+      "Seoul": [
+        "Gyeongbokgung Palace",
+        "Namsan Tower",
+        "Myeongdong",
+        "Bukchon Hanok Village",
+        "Han River Park"
+      ],
+      "Busan": [
+        "Busan Tower",
+        "Haeundae Beach",
+        "Beomeosa Temple",
+        "Gamcheon Culture Village",
+        "Jagalchi Fish Market"
+      ],
+      "Incheon": [
+        "Incheon Bridge",
+        "Songdo Central Park",
+        "Korean Demilitarized Zone",
+        "Chinatown",
+        "Incheon Landing Operation Monument"
+      ],
+      "Daegu": [
+        "Yangnyeongpumarket",
+        "Seomun Market",
+        "Dongseongro Street",
+        "Apsan Park",
+        "National Museum of Korea"
+      ],
+      "Gwangju": [
+        "Asian Culture Complex",
+        "May 18 Democratic Uprising Park",
+        "Mudeungsan National Park",
+        "Gwangju Folk Museum",
+        "Jinwol-dong Village"
+      ]
+    }
+  },
+  "Turkey": {
+    "cities": {
+      "Istanbul": [
+        "Blue Mosque",
+        "Hagia Sophia",
+        "Topkapi Palace",
+        "Bosphorus Strait",
+        "Grand Bazaar"
+      ],
+      "Ankara": [
+        "Anıtkabir",
+        "Museum of Anatolian Civilizations",
+        "Temple of Augustus",
+        "Ankara Citadel",
+        "Kocatepe Mosque"
+      ],
+      "Izmir": [
+        "Alsancak District",
+        "Smyrna Agora",
+        "Konak Mosque",
+        "Clock Tower",
+        "Izmir National Fair"
+      ],
+      "Antalya": [
+        "Old Town",
+        "Hadrian's Gate",
+        "Duden Waterfall",
+        "Aspendos Theater",
+        "Konyaaltı Beach"
+      ],
+      "Cappadocia": [
+        "Fairy Chimneys",
+        "Cave Churches",
+        "Hot Air Balloon Rides",
+        "Underground Cities",
+        "Goreme Open Air Museum"
+      ]
+    }
+  },
+  "Vietnam": {
+    "cities": {
+      "Hanoi": [
+        "Hoan Kiem Lake",
+        "Temple of Literature",
+        "Ho Chi Minh Mausoleum",
+        "Old Quarter",
+        "St. Joseph's Cathedral"
+      ],
+      "Ho Chi Minh City": [
+        "Ben Thanh Market",
+        "War Remnants Museum",
+        "Reunification Palace",
+        "Bitexco Financial Tower",
+        "Saigon River"
+      ],
+      "Da Nang": [
+        "My Khe Beach",
+        "Marble Mountains",
+        "Han Market",
+        "Dragon Bridge",
+        "Son Tra Peninsula"
+      ],
+      "Hue": [
+        "Imperial Citadel",
+        "Tu Duc Tomb",
+        "Perfume River",
+        "Thien Mu Pagoda",
+        "Royal Tombs"
+      ],
+      "Halong Bay": [
+        "Halong Bay Cruise",
+        "Stalactite Cave",
+        "Cat Ba Island",
+        "Titov Island",
+        "Sundown Peak"
+      ]
+    }
+  },
+  "Indonesia": {
+    "cities": {
+      "Jakarta": [
+        "National Monument",
+        "Jakarta Cathedral",
+        "Kota Tua",
+        "Textile Museum",
+        "Istiqlal Mosque"
+      ],
+      "Bali": [
+        "Ubud Palace",
+        "Tegallalang Rice Terraces",
+        "Tanah Lot Temple",
+        "Mount Batur",
+        "Seminyak Beach"
+      ],
+      "Yogyakarta": [
+        "Borobudur Temple",
+        "Prambanan Temple",
+        "Rajapath",
+        "Water Castle",
+        "Mount Merapi"
+      ],
+      "Bandung": [
+        "Tangkuban Perahu",
+        "Kawah Putih",
+        "Lembang",
+        "Farm House",
+        "Dago Tea Plantations"
+      ],
+      "Surabaya": [
+        "House of Sampoerna",
+        "Red Bridge",
+        "Tugu Pahlawan",
+        "Submarine Monument",
+        "East Java Museum"
+      ]
+    }
+  },
+  "Philippines": {
+    "cities": {
+      "Manila": [
+        "Intramuros",
+        "Fort Santiago",
+        "Rizal Park",
+        "San Agustin Church",
+        "Manila Cathedral"
+      ],
+      "Cebu": [
+        "Cebu City Heritage",
+        "Santo Niño Church",
+        "Carbon Market",
+        "Magellan's Cross",
+        "Tops Lookout"
+      ],
+      "Davao": [
+        "People's Park",
+        "Apo Island",
+        "Eden Nature Park",
+        "Philippine Eagle Foundation",
+        "Crocodile Park"
+      ],
+      "Boracay": [
+        "White Sand Beach",
+        "Willy's Rock",
+        "Puka Beach",
+        "Bulabog Beach",
+        "Ariel's Point"
+      ],
+      "Palawan": [
+        "El Nido",
+        "Coron Island",
+        "Underground River",
+        "Bacuit Archipelago",
+        "Kayangan Lake"
+      ]
+    }
+  },
+  "Malaysia": {
+    "cities": {
+      "Kuala Lumpur": [
+        "Petronas Twin Towers",
+        "Menara Kuala Lumpur",
+        "Batu Caves",
+        "Merdeka Square",
+        "Islamic Arts Museum"
+      ],
+      "Penang": [
+        "Georgetown",
+        "Penang Hill",
+        "Fort Cornwallis",
+        "Cheong Fatt Tze Mansion",
+        "Kek Lok Si Temple"
+      ],
+      "Malacca": [
+        "Malacca Straits Mosque",
+        "A'Famosa Fort",
+        "Dutch Square",
+        "Jonker Street",
+        "St. Paul's Church"
+      ],
+      "Kota Kinabalu": [
+        "Mount Kinabalu",
+        "Kinabalu Park",
+        "Sabah Museum",
+        "Signal Hill",
+        "Manukan Island"
+      ],
+      "Kuching": [
+        "Sarawak Museum",
+        "Cat Museum",
+        "Main Bazaar",
+        "Fort Margherita",
+        "Astana Negeri"
+      ]
+    }
+  },
+  "Singapore": {
+    "cities": {
+      "Singapore": [
+        "Marina Bay Sands",
+        "Gardens by the Bay",
+        "Merlion Park",
+        "Singapore Flyer",
+        "Sentosa Island"
+      ],
+      "Orchard": [
+        "Orchard Road",
+        "ION Orchard",
+        "Ngee Ann City",
+        "Takashimaya",
+        "Dhoby Ghaut"
+      ],
+      "Chinatown": [
+        "Thian Hock Keng Temple",
+        "Singapore Chinese Museum",
+        "Maxwell Food Centre",
+        "Buddha Tooth Relic Temple",
+        "Eu Tong Sen Park"
+      ],
+      "Little India": [
+        "Sri Veeramakaliamman Temple",
+        "Tekka Market",
+        "Mustafa Centre",
+        "Indian Heritage Centre",
+        "Kampong Glam"
+      ],
+      "East Coast": [
+        "East Coast Park",
+        "Katong",
+        "East Coast Lagoon",
+        "Beachfront Promenade",
+        "Tanah Merah Coast"
+      ]
+    }
+  },
+  "Netherlands": {
+    "cities": {
+      "Amsterdam": [
+        "Canal Houses",
+        "Anne Frank House",
+        "Van Gogh Museum",
+        "Dam Square",
+        "Rijksmuseum"
+      ],
+      "Rotterdam": [
+        "Euromast Tower",
+        "Kinderdijk Windmills",
+        "Cube Houses",
+        "Ss Rotterdam",
+        "Maritime Museum"
+      ],
+      "Utrecht": [
+        "Dom Tower",
+        "Railway Museum",
+        "University Museum",
+        "Oudegracht Canal",
+        "Dom Church"
+      ],
+      "Haarlem": [
+        "Market Square",
+        "St. Bavo Cathedral",
+        "Teylers Museum",
+        "Corrie ten Boom House",
+        "Janneke Art"
+      ],
+      "Delft": [
+        "New Church",
+        "Old Church",
+        "Markt Square",
+        "Vermeer Center",
+        "Royal Delft"
+      ]
+    }
+  },
+  "Belgium": {
+    "cities": {
+      "Brussels": [
+        "Grand Place",
+        "Atomium",
+        "Belgian Comic Strip Center",
+        "Manneken Pis",
+        "Royal Palace"
+      ],
+      "Bruges": [
+        "Belfry Tower",
+        "St. John's Hospital",
+        "Lake of Love",
+        "Markt Square",
+        "Basilica of Holy Blood"
+      ],
+      "Antwerp": [
+        "Central Station",
+        "Cathedral of Our Lady",
+        "Rubens House",
+        "Meir Street",
+        "Museum aan de Stroom"
+      ],
+      "Ghent": [
+        "St. Bavo's Cathedral",
+        "Gravensteen Castle",
+        "Meatpacker District",
+        "Sint-Baafskathedraal",
+        "Three Towers"
+      ],
+      "Liege": [
+        "La Citadelle",
+        "Prince-Bishop's Palace",
+        "Liege Cathedral",
+        "Musée de la Wallonie",
+        "River Meuse"
+      ]
+    }
+  },
+  "Switzerland": {
+    "cities": {
+      "Zurich": [
+        "Zurich Old Town",
+        "Bahnhofstrasse",
+        "Lake Zurich",
+        "Swiss National Museum",
+        "Fraumünster Church"
+      ],
+      "Geneva": [
+        "Jet d'Eau",
+        "Old Town",
+        "Cathedral of St. Peter",
+        "United Nations Palace",
+        "Lake Geneva"
+      ],
+      "Lucerne": [
+        "Chapel Bridge",
+        "Water Tower",
+        "Lucerne Lake",
+        "Old Town",
+        "Mount Pilatus"
+      ],
+      "Interlaken": [
+        "Jungfrau Region",
+        "Harder Kulm",
+        "Lake Thun",
+        "Lake Brienz",
+        "Unterseen Old Town"
+      ],
+      "Bern": [
+        "Old Town",
+        "Bern Cathedral",
+        "Bear Park",
+        "Parliament Building",
+        "Aare River"
+      ]
+    }
+  },
+  "Austria": {
+    "cities": {
+      "Vienna": [
+        "Schönbrunn Palace",
+        "St. Stephen's Cathedral",
+        "Hofburg Palace",
+        "Belvedere Palace",
+        "St. Charles Church"
+      ],
+      "Salzburg": [
+        "Salzburg Cathedral",
+        "Hohensalzburg Fortress",
+        "Mirabell Palace",
+        "Sound of Music Tour",
+        "Mozart's Birthplace"
+      ],
+      "Innsbruck": [
+        "Goldenes Dachl",
+        "Hofkirche",
+        "Alpenzoo",
+        "Bergisel Ski Jump",
+        "Stubai Valley"
+      ],
+      "Hallstatt": [
+        "Hallstatt Salt Mine",
+        "Market Square",
+        "Lake Hallstatt",
+        "Hallstatt Museum",
+        "St. Michael's Church"
+      ],
+      "Linz": [
+        "Ars Electronica Center",
+        "Linz Castle",
+        "Mariendom Cathedral",
+        "Danube Tower",
+        "Hauptplatz Square"
+      ]
+    }
+  },
+  "Czech Republic": {
+    "cities": {
+      "Prague": [
+        "Charles Bridge",
+        "Prague Castle",
+        "St. Vitus Cathedral",
+        "Old Town Square",
+        "Jewish Quarter"
+      ],
+      "Brno": [
+        "Spilberk Castle",
+        "St. Peter and Paul Cathedral",
+        "Mendel University",
+        "Moravian Museum",
+        "Veleslavin Park"
+      ],
+      "Cesky Krumlov": [
+        "Cesky Krumlov Castle",
+        "Latran Street",
+        "Main Square",
+        "Church of St. Jitus",
+        "River Vltava"
+      ],
+      "Kutna Hora": [
+        "Sedlec Ossuary",
+        "Cathedral of Our Lady",
+        "St. James Church",
+        "Italian Court",
+        "Vlassky Dvur"
+      ],
+      "Plzen": [
+        "St. Bartholomew's Church",
+        "Plzen Brewery",
+        "West Bohemian Museum",
+        "Old Town Square",
+        "Budejovice Gate"
+      ]
+    }
+  },
+  "Hungary": {
+    "cities": {
+      "Budapest": [
+        "Buda Castle",
+        "Chain Bridge",
+        "Thermal Baths",
+        "Parliament Building",
+        "Danube River"
+      ],
+      "Debrecen": [
+        "Great Reformed Church",
+        "Déri Museum",
+        "Piac Street",
+        "Nagyerdei Park",
+        "St. Ana Church"
+      ],
+      "Szeged": [
+        "Szeged Cathedral",
+        "Dóm Square",
+        "Reök Palace",
+        "River Tisza",
+        "Votive Church"
+      ],
+      "Eger": [
+        "Eger Castle",
+        "Eger Cathedral",
+        "Thermal Baths",
+        "Minaret Tower",
+        "Wine Valley"
+      ],
+      "Pecs": [
+        "Cathedral Basilica",
+        "Early Christian Mausoleum",
+        "Janus Pannonius Museum",
+        "Mosque Church",
+        "Széchenyi Square"
+      ]
+    }
+  },
+  "Poland": {
+    "cities": {
+      "Warsaw": [
+        "Old Town Square",
+        "Royal Castle",
+        "Warsaw Uprising Museum",
+        "Palace of Culture and Science",
+        "Lazienki Park"
+      ],
+      "Krakow": [
+        "Wawel Castle",
+        "Main Market Square",
+        "St. Mary's Basilica",
+        "Wieliczka Salt Mine",
+        "Schindler's Factory"
+      ],
+      "Gdansk": [
+        "Mariacka Street",
+        "European Solidarity Centre",
+        "St. Mary's Church",
+        "Golden Gate",
+        "Motlawa River"
+      ],
+      "Wroclaw": [
+        "Market Square",
+        "Cathedral Island",
+        "Panorama of Racławice",
+        "Ostrów Tumski",
+        "Town Hall"
+      ],
+      "Poznan": [
+        "Old Market Square",
+        "Cathedral of St. Peter and Paul",
+        "Citadel",
+        "Poznan Town Hall",
+        "Lake Malta"
+      ]
+    }
+  },
+  "Portugal": {
+    "cities": {
+      "Lisbon": [
+        "Belém Tower",
+        "Jerónimos Monastery",
+        "Tejo Bridge",
+        "São Jorge Castle",
+        "Alfama District"
+      ],
+      "Porto": [
+        "Dom Luís Bridge",
+        "Livraria Lello",
+        "Ribeira District",
+        "Torre Clérigos",
+        "Crystal Palace Gardens"
+      ],
+      "Sintra": [
+        "Pena Palace",
+        "Quinta da Regaleira",
+        "Sintra National Palace",
+        "Castle of the Moors",
+        "Convent of the Capuchos"
+      ],
+      "Cascais": [
+        "Cascais Beach",
+        "Citadel of Cascais",
+        "Boca do Inferno",
+        "Guincho Beach",
+        "Marina"
+      ],
+      "Covilhã": [
+        "Serra da Estrela",
+        "University of Beira Interior",
+        "Wool Museum",
+        "King's Chapel",
+        "Fountain Alegre"
+      ]
+    }
+  },
+  "Russia": {
+    "cities": {
+      "Moscow": [
+        "Red Square",
+        "St. Basil's Cathedral",
+        "Kremlin",
+        "Lenin's Mausoleum",
+        "GUM Department Store"
+      ],
+      "Saint Petersburg": [
+        "Hermitage Museum",
+        "Winter Palace",
+        "Church of the Savior on Blood",
+        "Peter and Paul Fortress",
+        "Palace Square"
+      ],
+      "Sochi": [
+        "Sochi Beach",
+        "Olympic Stadium",
+        "Loo River",
+        "Arboretum",
+        "Snow Leopard Ski Resort"
+      ],
+      "Yekaterinburg": [
+        "Church on the Blood",
+        "Ipatyev House",
+        "Yeltsin Center",
+        "Sevastyanov House",
+        "City Pond"
+      ],
+      "Kazan": [
+        "Kul Sharif Mosque",
+        "Kazan Kremlin",
+        "Qolsharif Mosque",
+        "Bauman Street",
+        "Lake Kaban"
+      ]
+    }
+  },
+  "Argentina": {
+    "cities": {
+      "Buenos Aires": [
+        "La Boca",
+        "Teatro Colón",
+        "Casa Rosada",
+        "Recoleta Cemetery",
+        "San Telmo Market"
+      ],
+      "Mendoza": [
+        "Aconcagua",
+        "Wine Region",
+        "Maipú",
+        "Luján de Cuyo",
+        "General San Martín Park"
+      ],
+      "Córdoba": [
+        "Córdoba Cathedral",
+        "Jesuit Block",
+        "Jesuit Estancias",
+        "San Roque Church",
+        "Sarmiento Park"
+      ],
+      "La Plata": [
+        "Cathedral of La Plata",
+        "Museo de La Plata",
+        "Teatro Argentino",
+        "Paseo del Bosque",
+        "Diagonal 80"
+      ],
+      "Jujuy": [
+        "Serranías del Hornocal",
+        "Tilcara Fort",
+        "Purmamarca",
+        "Fourteen Colors Hill",
+        "Maimará Palette"
+      ]
+    }
+  },
+  "Peru": {
+    "cities": {
+      "Lima": [
+        "Plaza Mayor",
+        "Cathedral of Lima",
+        "Museum of the Nation",
+        "Larco Museum",
+        "Miraflores Boardwalk"
+      ],
+      "Cusco": [
+        "Plaza de Armas",
+        "Cusco Cathedral",
+        "Sacsayhuamán",
+        "Qorikancha",
+        "Sacred Valley"
+      ],
+      "Machu Picchu": [
+        "Machu Picchu Citadel",
+        "Huayna Picchu",
+        "Temple of the Sun",
+        "Sacred Plaza",
+        "Intihuatana Stone"
+      ],
+      "Arequipa": [
+        "Arequipa Cathedral",
+        "Colca Canyon",
+        "Monastery of Santa Catalina",
+        "Plaza de Armas",
+        "Mistico Lagunillas"
+      ],
+      "Puno": [
+        "Lake Titicaca",
+        "Uros Islands",
+        "Taquile Island",
+        "Yavari Ship Museum",
+        "Puno Plaza de Armas"
+      ]
+    }
+  },
+  "Colombia": {
+    "cities": {
+      "Bogotá": [
+        "Gold Museum",
+        "Monserrate",
+        "La Candelaria District",
+        "Plaza de Bolivar",
+        "Botero Museum"
+      ],
+      "Cartagena": [
+        "Walled Old City",
+        "San Felipe Fortress",
+        "Rosario Islands",
+        "Getsemani District",
+        "Cathedral Basilica"
+      ],
+      "Medellín": [
+        "Plaza Botero",
+        "La Comuna 13",
+        "Cable Cars",
+        "Flower Festival",
+        "Pueblo Paisa"
+      ],
+      "Santa Marta": [
+        "Lost City Trek",
+        "Tayrona National Park",
+        "El Rodadero Beach",
+        "Magdalena River",
+        "Park Archaeology"
+      ],
+      "Cali": [
+        "Cristo Rey",
+        "San Antonio District",
+        "Gato Negro Monument",
+        "Salsa Shows",
+        "Calima Archaeological Museum"
+      ]
+    }
+  },
+  "Chile": {
+    "cities": {
+      "Santiago": [
+        "La Moneda Palace",
+        "Plaza de Armas",
+        "San Cristóbal Hill",
+        "Central Market",
+        "Metropolitan Cathedral"
+      ],
+      "Atacama": [
+        "Atacama Desert",
+        "Valley of the Moon",
+        "El Tatio Geysers",
+        "Salt Flats",
+        "Flamingo Lake"
+      ],
+      "Valparaíso": [
+        "Funicular Railway",
+        "Cerro Alegre",
+        "Municipal Theater",
+        "Seaport",
+        "La Sebastiana"
+      ],
+      "Punta Arenas": [
+        "Pinguino Island",
+        "Punta Arenas Cemetery",
+        "Nao Victoria Museum",
+        "Regional Brazo Museum",
+        "Strait of Magellan"
+      ],
+      "Puerto Varas": [
+        "Osorno Volcano",
+        "Llanquihue Lake",
+        "Pelluco Beach",
+        "Puerto Montt",
+        "Alerce Costero National Park"
+      ]
+    }
+  },
+  "Ecuador": {
+    "cities": {
+      "Quito": [
+        "Historic Center",
+        "Basilica del Voto Nacional",
+        "Mitad del Mundo",
+        "Plaza de la Independencia",
+        "La Compañía Church"
+      ],
+      "Galapagos": [
+        "Charles Darwin Research Station",
+        "Galápagos Islands",
+        "Giant Tortoises",
+        "Blue-footed Boobies",
+        "Snorkeling"
+      ],
+      "Cuenca": [
+        "Cuenca Cathedral",
+        "Historic Center",
+        "Pumapungo Museum",
+        "El Vado",
+        "Ingapirca"
+      ],
+      "Baños": [
+        "Tungurahua Waterfall",
+        "Devil's Cauldron",
+        "Pastaza River",
+        "Adventure Sports",
+        "Cloud Forest"
+      ],
+      "Otavalo": [
+        "Otavalo Market",
+        "Cotacachi",
+        "Cuicocha Lake",
+        "Textile Weaving",
+        "Indigenous Culture"
+      ]
+    }
+  },
+  "New Zealand": {
+    "cities": {
+      "Auckland": [
+        "Sky Tower",
+        "Rangitoto Island",
+        "Auckland War Memorial Museum",
+        "Viaduct Harbour",
+        "Mission Bay"
+      ],
+      "Christchurch": [
+        "Canterbury Museum",
+        "Botanical Gardens",
+        "Christchurch Cathedral",
+        "Arts Centre",
+        "River Avon"
+      ],
+      "Queenstown": [
+        "Lake Wakatipu",
+        "Shotover Canyon",
+        "Bungy Jumping",
+        "Arrowtown",
+        "Skiing"
+      ],
+      "Wellington": [
+        "Te Papa Tongarewa Museum",
+        "Parliament Buildings",
+        "Cable Car",
+        "Cuba Street",
+        "Botanic Gardens"
+      ],
+      "Rotorua": [
+        "Geothermal Areas",
+        "Pohutu Geyser",
+        "Redwoods Visitor Centre",
+        "Lake Rotorua",
+        "Maori Arts and Crafts"
+      ]
+    }
+  },
+  "Norway": {
+    "cities": {
+      "Oslo": [
+        "Oslo Opera House",
+        "Viking Ship Museum",
+        "Vigeland Sculpture Park",
+        "Akershus Fortress",
+        "Holmenkollen Ski Jump"
+      ],
+      "Bergen": [
+        "Bryggen District",
+        "Fløibanen Funicular",
+        "Fish Market",
+        "Bergenhus Fortress",
+        "Mount Floyen"
+      ],
+      "Stavanger": [
+        "Stavanger Cathedral",
+        "Preikestolen",
+        "Lysefjord",
+        "Norwegian Petroleum Museum",
+        "Pulpit Rock"
+      ],
+      "Trondheim": [
+        "Nidaros Cathedral",
+        "Bakklandet District",
+        "Stiftsgarden Palace",
+        "Munkholmen Island",
+        "Kantarellen Roofed Market"
+      ],
+      "Tromsø": [
+        "Arctic Cathedral",
+        "Northern Lights",
+        "Arctic Botanical Garden",
+        "Polaria Aquarium",
+        "Midnight Sun"
+      ]
+    }
+  },
+  "Sweden": {
+    "cities": {
+      "Stockholm": [
+        "Gamla Stan",
+        "Vasa Museum",
+        "Royal Palace",
+        "Drottningholm Palace",
+        "Skansen Open-Air Museum"
+      ],
+      "Gothenburg": [
+        "Liseberg Amusement Park",
+        "Gothenburg Museum of Art",
+        "Kungsportsavenyen",
+        "Haga District",
+        "Maritime Museum"
+      ],
+      "Uppsala": [
+        "Uppsala Cathedral",
+        "Gustavianum Building",
+        "Botanical Garden",
+        "University of Uppsala",
+        "Old Uppsala"
+      ],
+      "Malmö": [
+        "Turning Torso",
+        "Malmö Castle",
+        "Stortorget Square",
+        "Ribersborg Beach",
+        "St. Peter's Church"
+      ],
+      "Lund": [
+        "Lund Cathedral",
+        "Lundagård",
+        "University of Lund",
+        "Botanical Gardens",
+        "Museum of Cultural History"
+      ]
+    }
+  },
+  "Denmark": {
+    "cities": {
+      "Copenhagen": [
+        "Tivoli Gardens",
+        "Nyhavn",
+        "Rosenborg Castle",
+        "Little Mermaid Statue",
+        "Amalienborg Palace"
+      ],
+      "Aarhus": [
+        "ARoS Art Museum",
+        "Cathedral of Aarhus",
+        "Den Gamle By",
+        "Aarhus Theater",
+        "Mosgård Museum"
+      ],
+      "Odense": [
+        "Hans Christian Andersen House",
+        "Odense Cathedral",
+        "Egeskov Castle",
+        "Carl Nielsen Museum",
+        "Fyn's Folk Museum"
+      ],
+      "Roskilde": [
+        "Roskilde Cathedral",
+        "Viking Ship Museum",
+        "Festival Grounds",
+        "Roskilde Museum",
+        "Frederiksborg Castle"
+      ],
+      "Ribe": [
+        "Ribe Cathedral",
+        "Ribe Viking Museum",
+        "Ribe Town Hall",
+        "Tonderslevsej",
+        "Medieval Streets"
+      ]
+    }
+  },
+  "Finland": {
+    "cities": {
+      "Helsinki": [
+        "Uspenski Cathedral",
+        "Market Square",
+        "Helsinki Cathedral",
+        "National Museum",
+        "Rock Church"
+      ],
+      "Tampere": [
+        "Moomin Museum",
+        "Tampere Cathedral",
+        "Pyynikki Park",
+        "Särkänniemi",
+        "Lenin Museum"
+      ],
+      "Turku": [
+        "Turku Castle",
+        "Cathedral of Turku",
+        "Museum of Art",
+        "Island Hopping",
+        "Pharmacy Museum"
+      ],
+      "Oulu": [
+        "Oulu Cathedral",
+        "Tietomaa Science Center",
+        "Ainola Park",
+        "5th Parallel Monument",
+        "Arctic Botanical Garden"
+      ],
+      "Rovaniemi": [
+        "Santa Claus Village",
+        "Arctic Circle",
+        "Arktikum Museum",
+        "Northern Lights",
+        "Snowmobile Safari"
+      ]
+    }
+  },
+  "Iceland": {
+    "cities": {
+      "Reykjavik": [
+        "Hallgrímskirkja Church",
+        "Blue Lagoon",
+        "Harpa Concert Hall",
+        "National Museum",
+        "Golden Circle"
+      ],
+      "Akureyri": [
+        "Akureyri Church",
+        "Botanical Gardens",
+        "Lake Mývatn",
+        "Goðafoss Waterfall",
+        "Skagaströnd"
+      ],
+      "Vik": [
+        "Black Sand Beach",
+        "Reynisdrangar",
+        "Skaftafell",
+        "Jökulsárlón Glacier Lagoon",
+        "Fjaðrárgljúfur Canyon"
+      ],
+      "Grundarfjörður": [
+        "Kirkjufell Mountain",
+        "Snæfellsjökull Glacier",
+        "Arnarstapi",
+        "Hellnar",
+        "Lónacanyon"
+      ],
+      "Húsavík": [
+        "Húsavík Whale Watching",
+        "Goðafoss Waterfall",
+        "Lake Mývatn",
+        "Dimmuborgir",
+        "Námafjall"
+      ]
+    }
+  },
+  "Ireland": {
+    "cities": {
+      "Dublin": [
+        "Trinity College",
+        "Book of Kells",
+        "St. Patrick's Cathedral",
+        "Dublin Castle",
+        "Guinness Storehouse"
+      ],
+      "Cork": [
+        "Cork Cathedral",
+        "English Market",
+        "Cork Butter Museum",
+        "Shandon Bells",
+        "Cork City Museum"
+      ],
+      "Galway": [
+        "Galway Cathedral",
+        "Galway Bay",
+        "Aran Islands",
+        "Latin Quarter",
+        "Salt Hill Beach"
+      ],
+      "Limerick": [
+        "King John's Castle",
+        "St. Mary's Cathedral",
+        "Hunt Museum",
+        "Treaty Stone",
+        "Limerick Museum"
+      ],
+      "Waterford": [
+        "Waterford Medieval Museum",
+        "Waterford Crystal Factory",
+        "Dunbrody Famine Ship",
+        "Cathedral of Waterford",
+        "Waterford City Museum"
+      ]
+    }
+  },
+  "Croatia": {
+    "cities": {
+      "Dubrovnik": [
+        "Dubrovnik Old Town",
+        "City Walls",
+        "Lovrijenac Fortress",
+        "Rector's Palace",
+        "Stradun Street"
+      ],
+      "Split": [
+        "Diocletian's Palace",
+        "Split Waterfront",
+        "Marjan Hill",
+        "Cathedral of Saint Domnius",
+        "Archaeological Museum"
+      ],
+      "Zagreb": [
+        "Ban Jelačić Square",
+        "Zagreb Cathedral",
+        "Mirogoj Cemetery",
+        "Museum of Broken Relationships",
+        "Upper Town"
+      ],
+      "Rovinj": [
+        "Rovinj Old Town",
+        "Church of Saint Euphemia",
+        "Adriatic Coast",
+        "Rovinj Harbor",
+        "Local Markets"
+      ]
+    }
+  },
+  "Slovakia": {
+    "cities": {
+      "Bratislava": [
+        "Bratislava Castle",
+        "St. Martin's Cathedral",
+        "Danube River",
+        "Old Town Square",
+        "UFO Observation Deck"
+      ],
+      "Košice": [
+        "Košice Cathedral",
+        "Peace Square",
+        "Čunovo Water Gate",
+        "Čunovo Park"
+      ],
+      "Banská Štiavnica": [
+        "Mining Museums",
+        "Church of the Assumption",
+        "Town Hall"
+      ]
+    }
+  },
+  "Slovenia": {
+    "cities": {
+      "Ljubljana": [
+        "Ljubljana Castle",
+        "Central Market",
+        "Dragon Bridge",
+        "Prešeren Square",
+        "National Museum"
+      ],
+      "Bled": [
+        "Lake Bled",
+        "Bled Island Church",
+        "Bled Castle",
+        "Alpine Surroundings"
+      ],
+      "Maribor": [
+        "Maribor Cathedral",
+        "Old Vine",
+        "Drava River Promenade"
+      ]
+    }
+  },
+  "Romania": {
+    "cities": {
+      "Bucharest": [
+        "Palace of Parliament",
+        "Revolution Square",
+        "Lipscani Old Town",
+        "Village Museum",
+        "Herastrau Park"
+      ],
+      "Brașov": [
+        "Black Church",
+        "Council Square",
+        "Tampa Fortress",
+        "Poiana Brașov Ski Resort"
+      ],
+      "Sibiu": [
+        "Large Square",
+        "Small Square",
+        "Sibiu Cathedral",
+        "Brukenthal Museum"
+      ],
+      "Cluj-Napoca": [
+        "Matthias Church",
+        "Unirii Square",
+        "Citadel",
+        "St. Michael's Church"
+      ]
+    }
+  },
+  "Bulgaria": {
+    "cities": {
+      "Sofia": [
+        "Alexander Nevsky Cathedral",
+        "Saint Sofia Church",
+        "National Museum",
+        "Vitosha Mountain",
+        "Women's Market"
+      ],
+      "Plovdiv": [
+        "Roman Amphitheater",
+        "Old Town",
+        "Nebet Tepe Fortress",
+        "Archaeological Museum"
+      ],
+      "Bansko": [
+        "Pirin Mountain",
+        "Ski Resort",
+        "Old Town",
+        "Local Monasteries"
+      ]
+    }
+  },
+  "Serbia": {
+    "cities": {
+      "Belgrade": [
+        "Kalemegdan Fortress",
+        "St. Sava Temple",
+        "Republic Square",
+        "Nikola Tesla Museum",
+        "Danube River"
+      ],
+      "Nis": [
+        "Fortress of Nis",
+        "Constantine the Great Museum",
+        "Red Cross Park"
+      ],
+      "Vranje": [
+        "Vranje Fortress",
+        "Town Square",
+        "Local Markets"
+      ]
+    }
+  },
+  "Bosnia and Herzegovina": {
+    "cities": {
+      "Mostar": [
+        "Stari Most Bridge",
+        "Mostar Old Town",
+        "Koski Mehmed Pasha Mosque",
+        "War Museum",
+        "Neretva River"
+      ],
+      "Sarajevo": [
+        "Baščaršija Bazaar",
+        "Gazi Husrev-beg Mosque",
+        "War Tunnel",
+        "Olympic Mountains",
+        "Latin Bridge"
+      ],
+      "Jajce": [
+        "Pliva Waterfall",
+        "Medieval Fortress",
+        "Jajce Cathedral"
+      ]
+    }
+  },
+  "Montenegro": {
+    "cities": {
+      "Kotor": [
+        "Bay of Kotor",
+        "Kotor Old Town",
+        "Our Lady of the Rocks",
+        "Fortress of San Giovanni",
+        "Maritime Museum"
+      ],
+      "Podgorica": [
+        "Morača River",
+        "Millennium Bridge",
+        "Danilo's Fortress",
+        "National Museum"
+      ],
+      "Budva": [
+        "Budva Old Town",
+        "Adriatic Beaches",
+        "Saint John's Fortress"
+      ]
+    }
+  },
+  "Albania": {
+    "cities": {
+      "Tirana": [
+        "Skanderbeg Square",
+        "Et'hem Bey Mosque",
+        "National Museum",
+        "Clock Tower",
+        "Dajti Mountain"
+      ],
+      "Durrës": [
+        "Roman Amphitheater",
+        "Durrës Beach",
+        "Durrës Port",
+        "Venetian Tower"
+      ],
+      "Gjirokastër": [
+        "Gjirokastër Castle",
+        "Old Bazaar",
+        "Stone City",
+        "Ali Pasha Museum"
+      ]
+    }
+  },
+  "North Macedonia": {
+    "cities": {
+      "Skopje": [
+        "Skopje Fortress",
+        "Alexander the Great Statue",
+        "Old Bazaar",
+        "Millennium Cross",
+        "Stone Bridge"
+      ],
+      "Ohrid": [
+        "Lake Ohrid",
+        "St. Naum Monastery",
+        "Old Town",
+        "Samuel Fortress"
+      ],
+      "Bitola": [
+        "Bitola Town Center",
+        "Heraclea Lyncestis",
+        "Shirok Sokak Street"
+      ]
+    }
+  },
+  "Moldova": {
+    "cities": {
+      "Chișinău": [
+        "Cathedral of Chișinău",
+        "Stephen the Great Monument",
+        "National Museum",
+        "Wine Cellars"
+      ],
+      "Orhei": [
+        "Orhei Vechi Monastery",
+        "Rock Formations",
+        "Dniester River"
+      ]
+    }
+  },
+  "Ukraine": {
+    "cities": {
+      "Kyiv": [
+        "St. Sophia Cathedral",
+        "Kyiv Pechersk Lavra",
+        "Independence Square",
+        "Shevchenko Park",
+        "Golden Gate"
+      ],
+      "Lviv": [
+        "Lviv Old Town",
+        "High Castle",
+        "Town Hall",
+        "Latin Cathedral",
+        "Market Square"
+      ],
+      "Odesa": [
+        "Odesa Theater",
+        "Potemkin Stairs",
+        "Odesa Beach",
+        "Vorontsov Palace"
+      ]
+    }
+  },
+  "Belarus": {
+    "cities": {
+      "Minsk": [
+        "Independence Square",
+        "National Library",
+        "St. Mary Magdalene Church",
+        "Palace of Republic"
+      ],
+      "Brest": [
+        "Brest Fortress",
+        "Museum of Radio",
+        "Church of the Savior"
+      ]
+    }
+  },
+  "Lithuania": {
+    "cities": {
+      "Vilnius": [
+        "Vilnius Old Town",
+        "Gediminas Tower",
+        "Vilnius Cathedral",
+        "Gates of Dawn",
+        "University of Vilnius"
+      ],
+      "Kaunas": [
+        "Kaunas Castle",
+        "Town Hall",
+        "Ninth Fort",
+        "Museum Square"
+      ]
+    }
+  },
+  "Latvia": {
+    "cities": {
+      "Riga": [
+        "Riga Old Town",
+        "House of the Blackheads",
+        "Riga Cathedral",
+        "Art Nouveau District",
+        "Freedom Monument"
+      ],
+      "Sigulda": [
+        "Sigulda Castle",
+        "Gauja Valley",
+        "Turaida Castle"
+      ]
+    }
+  },
+  "Estonia": {
+    "cities": {
+      "Tallinn": [
+        "Tallinn Old Town",
+        "Alexander Nevsky Cathedral",
+        "Toompea Castle",
+        "Town Hall Square",
+        "Kiek in de Kök Tower"
+      ],
+      "Tartu": [
+        "Tartu Town Hall",
+        "University of Tartu",
+        "St. John's Church",
+        "Emajõgi River"
+      ]
+    }
+  },
+  "Georgia": {
+    "cities": {
+      "Tbilisi": [
+        "Metekhi Church",
+        "Narikala Fortress",
+        "Shardeni Street",
+        "Holy Trinity Cathedral",
+        "Sulfur Baths"
+      ],
+      "Kutaisi": [
+        "Kutaisi Cathedral",
+        "Gelati Monastery",
+        "Motsameta Monastery"
+      ],
+      "Batumi": [
+        "Batumi Boulevard",
+        "Botanical Garden",
+        "Ali Pasha Mosque"
+      ]
+    }
+  },
+  "Armenia": {
+    "cities": {
+      "Yerevan": [
+        "Republic Square",
+        "Armenian Genocide Memorial",
+        "Cascade",
+        "St. Gregory Cathedral",
+        "Mount Ararat"
+      ],
+      "Geghard": [
+        "Geghard Monastery",
+        "Carved Khachkars"
+      ],
+      "Khor Virap": [
+        "Khor Virap Monastery",
+        "Mount Ararat Views"
+      ]
+    }
+  },
+  "Azerbaijan": {
+    "cities": {
+      "Baku": [
+        "Old City",
+        "Maiden Tower",
+        "Heydar Aliyev Center",
+        "Flame Towers",
+        "Carpet Museum"
+      ],
+      "Ganja": [
+        "Ganja City Center",
+        "Juma Mosque",
+        "City Park"
+      ]
+    }
+  },
+  "Hong Kong": {
+    "cities": {
+      "Hong Kong": [
+        "Victoria Peak",
+        "Star Ferry",
+        "Central District",
+        "Temple Street Night Market",
+        "Hong Kong Museum of Art"
+      ],
+      "Kowloon": [
+        "Kowloon Walled City Park",
+        "Nathan Road",
+        "Peak Tram"
+      ]
+    }
+  },
+  "Taiwan": {
+    "cities": {
+      "Taipei": [
+        "Taipei 101",
+        "Chiang Kai-shek Memorial Hall",
+        "Jiufen Old Street",
+        "Taipei National Palace Museum",
+        "Elephant Mountain"
+      ],
+      "Taichung": [
+        "Rainbow Village",
+        "Miyahara Department Store",
+        "Miyahara Botanical Garden"
+      ]
+    }
+  },
+  "Myanmar": {
+    "cities": {
+      "Yangon": [
+        "Shwedagon Pagoda",
+        "Sule Pagoda",
+        "Bogyoke Market",
+        "River Yangon"
+      ],
+      "Bagan": [
+        "Bagan Temples",
+        "Sunset View",
+        "Shwesandaw Pagoda"
+      ],
+      "Mandalay": [
+        "Mandalay Palace",
+        "Kuthodaw Pagoda",
+        "Irrawaddy River"
+      ]
+    }
+  },
+  "Cambodia": {
+    "cities": {
+      "Siem Reap": [
+        "Angkor Wat",
+        "Bayon Temple",
+        "Tonle Sap Lake",
+        "Floating Villages",
+        "Angkor Archaeological Park"
+      ],
+      "Phnom Penh": [
+        "Royal Palace",
+        "Silver Pagoda",
+        "National Museum",
+        "Killing Fields"
+      ]
+    }
+  },
+  "Laos": {
+    "cities": {
+      "Vientiane": [
+        "That Luang",
+        "Wat Xieng Khuan",
+        "Pathoumvong Park",
+        "Night Market"
+      ],
+      "Luang Prabang": [
+        "Luang Prabang Old Town",
+        "Kuang Si Waterfalls",
+        "Royal Palace Museum",
+        "Night Bazaar"
+      ]
+    }
+  },
+  "Pakistan": {
+    "cities": {
+      "Islamabad": [
+        "Faisal Mosque",
+        "Margalla Hills",
+        "Lok Virsa Museum",
+        "Shakarparian Park"
+      ],
+      "Lahore": [
+        "Badshahi Mosque",
+        "Lahore Fort",
+        "Shalimar Gardens",
+        "Wazir Khan Mosque"
+      ],
+      "Karachi": [
+        "Clifton Beach",
+        "Frere Hall",
+        "National Museum"
+      ]
+    }
+  },
+  "Nepal": {
+    "cities": {
+      "Kathmandu": [
+        "Pashupatinath Temple",
+        "Boudhanath Stupa",
+        "Durbar Square",
+        "Swayambhunath Monastery",
+        "Thamel Market"
+      ],
+      "Pokhara": [
+        "Fewa Lake",
+        "Annapurna Mountains",
+        "Sarangkot Viewpoint",
+        "Amar Narayan Temple"
+      ],
+      "Bhaktapur": [
+        "Bhaktapur Durbar Square",
+        "Nyatapola Temple",
+        "Pottery Square"
+      ]
+    }
+  },
+  "Sri Lanka": {
+    "cities": {
+      "Colombo": [
+        "Galle Face Hotel",
+        "Colombo Fort",
+        "Gangaramaya Temple",
+        "Old Parliament Building"
+      ],
+      "Kandy": [
+        "Temple of the Tooth",
+        "Kandy Lake",
+        "Peradeniya Royal Botanical Garden",
+        "Sacred Hill"
+      ],
+      "Galle": [
+        "Galle Fort",
+        "Galle Lighthouse",
+        "Unawatuna Beach"
+      ]
+    }
+  },
+  "Bangladesh": {
+    "cities": {
+      "Dhaka": [
+        "Lalbagh Fort",
+        "Ahsan Manzil",
+        "National Museum",
+        "Old Dhaka"
+      ],
+      "Chittagong": [
+        "Chittagong Port",
+        "Foy's Lake",
+        "Buddhist Temple"
+      ]
+    }
+  },
+  "Mongolia": {
+    "cities": {
+      "Ulaanbaatar": [
+        "Gandan Monastery",
+        "Bogd Khan Palace",
+        "Sukhbaatar Square",
+        "National Museum"
+      ],
+      "Gobi Desert": [
+        "Desert Landscape",
+        "Dinosaur Fossils",
+        "Nomadic Culture"
+      ]
+    }
+  },
+  "United Arab Emirates": {
+    "cities": {
+      "Dubai": [
+        "Burj Khalifa",
+        "Dubai Mall",
+        "Palm Jumeirah",
+        "Dubai Beach",
+        "Gold Souk"
+      ],
+      "Abu Dhabi": [
+        "Sheikh Zayed Grand Mosque",
+        "Louvre Abu Dhabi",
+        "Emirates Palace",
+        "Corniche Beach"
+      ],
+      "Sharjah": [
+        "Sharjah Museum of Islamic Civilization",
+        "Corniche",
+        "Blue Souk"
+      ]
+    }
+  },
+  "Fiji": {
+    "cities": {
+      "Suva": [
+        "Suva Municipal Market",
+        "Fiji Museum",
+        "Parliament House"
+      ],
+      "Nadi": [
+        "Nadi International Airport",
+        "Denarau Island",
+        "Nadi Beach"
+      ]
+    }
+  },
+  "Samoa": {
+    "cities": {
+      "Apia": [
+        "Robert Louis Stevenson Home",
+        "Samoa Cultural Center",
+        "To Sua Ocean Trench"
+      ]
+    }
+  },
+  "Tonga": {
+    "cities": {
+      "Nuku'alofa": [
+        "Royal Palace",
+        "Tonga National Museum",
+        "Ha'amonga 'a Maui Trilithon"
+      ]
+    }
+  },
+  "Costa Rica": {
+    "cities": {
+      "San José": [
+        "Costa Rica Museum",
+        "Central Market",
+        "Metropolitan Cathedral"
+      ],
+      "Arenal": [
+        "Arenal Volcano",
+        "Arenal Lake",
+        "Hot Springs"
+      ],
+      "Manuel Antonio": [
+        "Manuel Antonio National Park",
+        "Beaches",
+        "Rainforest"
+      ]
+    }
+  },
+  "Panama": {
+    "cities": {
+      "Panama City": [
+        "Panama Canal",
+        "Casco Viejo",
+        "Panama Viejo Ruins",
+        "Metropolitan Cathedral"
+      ],
+      "Bocas del Toro": [
+        "Caribbean Beaches",
+        "Coral Reefs",
+        "Island Hopping"
+      ]
+    }
+  },
+  "Belize": {
+    "cities": {
+      "Belmopan": [
+        "Market Square",
+        "National Park",
+        "Xunantunich Mayan Ruins"
+      ],
+      "Ambergris Caye": [
+        "Great Barrier Reef",
+        "Beach Paradise",
+        "Snorkeling"
+      ]
+    }
+  },
+  "Guatemala": {
+    "cities": {
+      "Antigua Guatemala": [
+        "Antigua Cathedral",
+        "Palacio de los Capitanes Generales",
+        "Convent of Santa Clara"
+      ],
+      "Chichicastenango": [
+        "Indigenous Market",
+        "Santo Tomás Church",
+        "Mayan Traditions"
+      ]
+    }
+  },
+  "Honduras": {
+    "cities": {
+      "Tegucigalpa": [
+        "National Museum",
+        "Cathedral Basilica",
+        "Toncontín International Airport"
+      ],
+      "Copán": [
+        "Copán Mayan Ruins",
+        "Archaeological Museum"
+      ]
+    }
+  },
+  "El Salvador": {
+    "cities": {
+      "San Salvador": [
+        "National Palace",
+        "Metropolitan Cathedral",
+        "Zona Rosa"
+      ],
+      "Santa Ana": [
+        "Santa Ana Cathedral",
+        "Lake Coatepeque",
+        "Izalco Volcano"
+      ]
+    }
+  },
+  "Nicaragua": {
+    "cities": {
+      "Managua": [
+        "Cathedral Metropolitana",
+        "Palacio Nacional",
+        "Lake Managua"
+      ],
+      "Granada": [
+        "Granada Old Town",
+        "Lake Nicaragua",
+        "San Francisco Church"
+      ]
+    }
+  },
+  "Cuba": {
+    "cities": {
+      "Havana": [
+        "Old Havana",
+        "El Capitolio",
+        "Malecón Seawall",
+        "Revolution Square",
+        "Hemingway House"
+      ],
+      "Trinidad": [
+        "Trinidad Old Town",
+        "Topes de Collantes",
+        "Colonial Architecture"
+      ],
+      "Santiago de Cuba": [
+        "San Pedro Fortress",
+        "Revolution Museum"
+      ]
+    }
+  },
+  "Dominican Republic": {
+    "cities": {
+      "Santo Domingo": [
+        "Ozama Fortress",
+        "National Pantheon",
+        "Colón Cathedral",
+        "Colonial Zone"
+      ],
+      "Punta Cana": [
+        "Punta Cana Beach",
+        "Caribbean Resorts",
+        "Coral Reefs"
+      ]
+    }
+  },
+  "Haiti": {
+    "cities": {
+      "Port-au-Prince": [
+        "Iron Market",
+        "National Palace",
+        "Musée du Panthéon National Haïtien"
+      ],
+      "Cap-Haïtien": [
+        "Citadelle la Ferrière",
+        "Sans-Souci Palace"
+      ]
+    }
+  },
+  "Jamaica": {
+    "cities": {
+      "Kingston": [
+        "National Heroes Park",
+        "Bob Marley Museum",
+        "Hope Zoo"
+      ],
+      "Montego Bay": [
+        "Montego Bay Beach",
+        "Doctor's Cave Beach",
+        "Hip Strip"
+      ]
+    }
+  },
+  "Bahamas": {
+    "cities": {
+      "Nassau": [
+        "Nassau Straw Market",
+        "Atlantis Resort",
+        "Paradise Island",
+        "Queen's Staircase"
+      ]
+    }
+  },
+  "South Africa": {
+    "cities": {
+      "Cape Town": [
+        "Table Mountain",
+        "Cape of Good Hope",
+        "Robben Island",
+        "District Six Museum",
+        "V&A Waterfront"
+      ],
+      "Johannesburg": [
+        "Apartheid Museum",
+        "Soweto",
+        "Maropeng Visitor Centre",
+        "South African Museum"
+      ],
+      "Durban": [
+        "Golden Mile Beach",
+        "Moses Mabhida Stadium",
+        "uShaka Marine World"
+      ]
+    }
+  },
+  "Kenya": {
+    "cities": {
+      "Nairobi": [
+        "Nairobi National Park",
+        "Giraffe Centre",
+        "Karen Blixen Museum",
+        "David Sheldrick Wildlife Trust"
+      ],
+      "Mombasa": [
+        "Fort Jesus",
+        "Mombasa Old Town",
+        "Mombasa Beach",
+        "Swahili Culture"
+      ],
+      "Masai Mara": [
+        "Masai Mara National Reserve",
+        "Wildlife Safari",
+        "Big Five"
+      ]
+    }
+  },
+  "Uganda": {
+    "cities": {
+      "Kampala": [
+        "Kasubi Tombs",
+        "Uganda National Museum",
+        "Kabaka Palace"
+      ],
+      "Fort Portal": [
+        "Kibale National Park",
+        "Chimpanzee Tracking",
+        "Crater Lake"
+      ]
+    }
+  },
+  "Tanzania": {
+    "cities": {
+      "Dar es Salaam": [
+        "National Museum",
+        "Dar es Salaam Beach",
+        "Village Museum"
+      ],
+      "Zanzibar": [
+        "Stone Town",
+        "Zanzibar Spice Markets",
+        "Nungwi Beach",
+        "Prison Island"
+      ],
+      "Arusha": [
+        "Mount Kilimanjaro",
+        "Arusha National Park"
+      ]
+    }
+  },
+  "Rwanda": {
+    "cities": {
+      "Kigali": [
+        "Genocide Memorial",
+        "Kigali Serena Hotel",
+        "National Museum"
+      ],
+      "Volcanoes National Park": [
+        "Mountain Gorilla Trekking",
+        "Virunga Mountains"
+      ]
+    }
+  },
+  "Morocco": {
+    "cities": {
+      "Marrakech": [
+        "Jemaa el-Fnaa Square",
+        "Koutoubia Mosque",
+        "Bahia Palace",
+        "Atlas Mountains",
+        "Medina Bazaar"
+      ],
+      "Fes": [
+        "Fes Medina",
+        "Al Quaraouiyine University",
+        "Leather Tanneries",
+        "Royal Palace"
+      ],
+      "Casablanca": [
+        "Hassan II Mosque",
+        "Corniche",
+        "Royal Palace",
+        "Old Medina"
+      ],
+      "Chefchaouen": [
+        "Blue City",
+        "Rif Mountains",
+        "Kasbah Museum"
+      ]
+    }
+  },
+  "Tunisia": {
+    "cities": {
+      "Tunis": [
+        "Bardo Museum",
+        "Medina of Tunis",
+        "Zitouna Mosque"
+      ],
+      "Carthage": [
+        "Carthage Ruins",
+        "Archaeological Museum",
+        "Ancient History"
+      ],
+      "Djerba": [
+        "Djerba Beach",
+        "Ghriba Synagogue",
+        "Coastal Town"
+      ]
+    }
+  },
+  "Algeria": {
+    "cities": {
+      "Algiers": [
+        "Kasbah of Algiers",
+        "Janissaries Mosque",
+        "National Museum"
+      ],
+      "Timgad": [
+        "Roman Ruins",
+        "Ancient City",
+        "Archaeological Site"
+      ]
+    }
+  },
+  "Ethiopia": {
+    "cities": {
+      "Addis Ababa": [
+        "St. George's Cathedral",
+        "National Museum",
+        "Trinity Cathedral"
+      ],
+      "Lalibela": [
+        "Lalibela Rock Churches",
+        "Religious Site",
+        "UNESCO Heritage"
       ]
     }
   }
