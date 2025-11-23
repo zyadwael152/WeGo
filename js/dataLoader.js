@@ -5,7 +5,7 @@
  */
 export async function loadTravelData() {
   try{
-    const res = await fetch('/data/maindata.json');
+    const res = await fetch('data/maindata.json');
     if (!res.ok) 
       throw new Error(`Failed to load travel data: ${res.status} ${res.statusText}`);
     
@@ -26,7 +26,7 @@ export async function loadTravelData() {
  */
 export async function loadCitiesCountries(){
   try{
-    const res = await fetch('/data/cities-countries.json');
+    const res = await fetch('data/cities-countries.json');
     if (!res.ok) 
       throw new Error(`Failed to load cities-countries data: ${res.status} ${res.statusText}`);
     
@@ -65,10 +65,3 @@ export async function initializeAppData(){
     };
   }
 }
-
-// Export the main functions for use in other modules
-export default {
-  loadTravelData,
-  loadCitiesCountries,
-  initializeAppData
-};
