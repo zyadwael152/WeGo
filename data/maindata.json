@@ -10,7 +10,7 @@
       ],
       "Giza": [
         "Pyramids of Giza",
-        "Great Sphinx",
+        "Pharaonic Village",
         "Grand Egyptian Museum",
         "Pyramid of Menkaure",
         "Solar Boat Museum"
@@ -208,7 +208,7 @@
         "Royal Palace of Madrid",
         "Retiro Park",
         "Reina Sofía Museum",
-        "Temple of Debod"
+        "Santiago Bernabéu Stadium"
       ],
       "Valencia": [
         "City of Arts and Sciences",
@@ -302,12 +302,12 @@
         "Mathematical Bridge",
         "Fitzwilliam Museum"
       ],
-      "Bath": [
-        "Roman Baths",
-        "Bath Abbey",
-        "Royal Crescent",
-        "Circus",
-        "Pump Room"
+      "Manchester": [
+        "Manchester Cathedral",
+        "Old Trafford",
+        "The Lowry",
+        "Manchester Museum",
+        "John Rylands Library"
       ]
     }
   },

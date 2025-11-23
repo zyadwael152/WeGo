@@ -40,23 +40,78 @@
             <input type="text" id="search-input" placeholder="Search destinations... e.g. Paris, Dubai" />
             <button id="search-btn">Search</button>
         </div>
+        
+        <div class="trending-pills">
+            <span class="pill-label">Trending:</span>
+            <button class="pill" data-destination="Giza">🏛️ Giza</button>
+            <button class="pill" data-destination="Paris">🗼 Paris</button>
+            <button class="pill" data-destination="Tokyo">🗾 Tokyo</button>
+            <button class="pill" data-destination="New York">🗽 New York</button>
+            <button class="pill" data-destination="Dubai">🏙️ Dubai</button>
+            <button class="pill" data-destination="Rio de Janeiro">🏖️ Rio de Janeiro</button>
+        </div>
+        
     </section>
 
-    <section class="results" id="destination-grid">
-        <div class="card">
-            <img src="assets/0.jpg" alt="Sample Destination" loading="lazy">
-            <div class="body">
-                <h3>Sample Destination</h3>
-                <p>This is a sample destination description. Click View More to see details.</p>
-                <a href="details.html?destination=Sample%20Destination" class="view-more-btn">View More</a>
+    <section class="inspire-section">
+        <h2 class="inspire-header">Feeling Adventurous?</h2>
+        <button id="inspire-btn" class="inspire-me-btn">
+            <span class="inspire-icon">✨</span>
+            <span>Inspire Me</span>
+        </button>
+    </section>
+
+    <hr class="section-divider" />
+
+    <section class="carousel-section">
+        <h2 class="section-heading" id="results-heading">Featured Destinations</h2>
+        <section class="results" id="destination-grid" style="display: none;"></section>
+        <div id="carousel-wrapper">
+            <div class="carousel-container">
+                <button class="carousel-btn prev" id="carousel-prev">‹</button>
+                <div class="carousel-content" id="carousel-content">
+                    <div class="carousel-slide">
+                        <img src="assets/0.jpg" alt="Loading..." class="carousel-image">
+                        <div class="carousel-info">
+                            <h3 class="carousel-title">Loading...</h3>
+                            <p class="carousel-fact">Loading amazing facts...</p>
+                        </div>
+                    </div>
+                </div>
+                <button class="carousel-btn next" id="carousel-next">›</button>
+            </div>
+            <div class="carousel-indicators" id="carousel-indicators"></div>
+        </div>
+    </section>
+    <hr class="section-divider" />
+
+    <section class="why-wego-section">
+        <h2 class="section-heading">Why Travelers Love WeGo</h2>
+        <div class="why-wego-grid">
+            <div class="why-card">
+                <div class="why-icon">🌍</div>
+                <h3>50+ Cities Explored</h3>
+                <p>Discover amazing destinations across the globe</p>
+            </div>
+            <div class="why-card">
+                <div class="why-icon">🗺️</div>
+                <h3>Hand-picked Spots Only</h3>
+                <p>Carefully curated locations just for you</p>
+            </div>
+            <div class="why-card">
+                <div class="why-icon">✨</div>
+                <h3>100% Free & Student-made</h3>
+                <p>Created with passion by students, for travelers</p>
             </div>
         </div>
     </section>
+
     <footer class="site-footer">
         <div class="container">
             <p>&copy; <span id="year"></span> WeGo. All rights reserved.</p>
         </div>
     </footer>
+    
     <script>
         document.getElementById('year').textContent = new Date().getFullYear();
     </script>

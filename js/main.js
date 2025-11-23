@@ -5,6 +5,19 @@ import { searchJSON } from './datahandler.js';
 let mainData;
 let validLocations;
 
+// ==================== CAROUSEL DATA ====================
+const carouselCities = [
+    { name: 'Paris', fact: 'The Eiffel Tower was originally intended to be a temporary structure for the 1889 World Fair!' },
+    { name: 'Tokyo', fact: 'Tokyo has more Michelin-starred restaurants than any other city in the world!' },
+    { name: 'New York', fact: 'Central Park appears in more than 350 movies, making it one of the most filmed locations!' },
+    { name: 'Rio de Janeiro', fact: 'Christ the Redeemer statue was struck by lightning and lost a finger in 2014!' },
+    { name: 'Barcelona', fact: 'Gaudí\'s Sagrada Familia has been under construction since 1882 and counting!' },
+    { name: 'Cairo', fact: 'The Great Pyramid of Giza was the tallest man-made structure for over 3,800 years!' }
+];
+
+let currentSlide = 0;
+let carouselInterval;
+
 // === MAIN INITIALIZATION ===
 document.addEventListener('DOMContentLoaded', async () => {
     
@@ -40,6 +53,9 @@ document.addEventListener('DOMContentLoaded', async () => {
     } else {
         // --- HOME PAGE ---
         setupSearchListener();
+        setupTrendingPills();
+        setupInspireMeButton();
+        await initializeCarousel();
         
         const urlParams = new URLSearchParams(window.location.search);
         const searchParam = urlParams.get('search');
@@ -48,11 +64,142 @@ document.addEventListener('DOMContentLoaded', async () => {
             const searchInput = document.getElementById('search-input');
             if(searchInput) searchInput.value = searchParam;
             performSearch(searchParam);
-        } else {
-            renderDefaultDestinations();
         }
     }
 });
+
+// ==================== TRENDING PILLS FUNCTIONALITY ====================
+function setupTrendingPills() {
+    const pills = document.querySelectorAll('.pill');
+    pills.forEach(pill => {
+        pill.addEventListener('click', () => {
+            const destination = pill.getAttribute('data-destination');
+            window.location.href = `results.html?search=${encodeURIComponent(destination)}`;
+        });
+    });
+}
+
+// ==================== INSPIRE ME BUTTON ====================
+function setupInspireMeButton() {
+    const inspireBtn = document.getElementById('inspire-btn');
+    if (!inspireBtn) return;
+
+    inspireBtn.addEventListener('click', () => {
+        // Get all cities from mainData
+        const allCities = [];
+        for (const country in mainData) {
+            if (mainData[country].cities) {
+                allCities.push(...Object.keys(mainData[country].cities));
+            }
+        }
+
+        if (allCities.length > 0) {
+            // Pick random city
+            const randomCity = allCities[Math.floor(Math.random() * allCities.length)];
+            
+            // Add fun animation before redirect
+            inspireBtn.textContent = '✨ Inspiring...';
+            inspireBtn.style.transform = 'scale(0.95)';
+            
+            setTimeout(() => {
+                window.location.href = `results.html?search=${encodeURIComponent(randomCity)}`;
+            }, 500);
+        }
+    });
+}
+
+// ==================== CAROUSEL FUNCTIONALITY ====================
+async function initializeCarousel() {
+    const carouselContent = document.getElementById('carousel-content');
+    const indicators = document.getElementById('carousel-indicators');
+    
+    if (!carouselContent || !indicators) return;
+
+    // Clear loading state
+    carouselContent.innerHTML = '';
+
+    // Create slides
+    for (let i = 0; i < carouselCities.length; i++) {
+        const city = carouselCities[i];
+        const imageUrl = await fetchUnsplashImage(city.name);
+        
+        const slide = document.createElement('div');
+        slide.className = `carousel-slide ${i === 0 ? 'active' : ''}`;
+        slide.innerHTML = `
+            <img src="${imageUrl}" alt="${city.name}" class="carousel-image">
+            <div class="carousel-info">
+                <h3 class="carousel-title">${city.name}</h3>
+                <p class="carousel-fact">💡 ${city.fact}</p>
+            </div>
+        `;
+        carouselContent.appendChild(slide);
+
+        // Create indicator
+        const indicator = document.createElement('div');
+        indicator.className = `indicator ${i === 0 ? 'active' : ''}`;
+        indicator.addEventListener('click', () => goToSlide(i));
+        indicators.appendChild(indicator);
+    }
+
+    // Setup navigation buttons
+    const prevBtn = document.getElementById('carousel-prev');
+    const nextBtn = document.getElementById('carousel-next');
+
+    if (prevBtn) prevBtn.addEventListener('click', () => changeSlide(-1));
+    if (nextBtn) nextBtn.addEventListener('click', () => changeSlide(1));
+
+    // Auto-play carousel
+    startCarouselAutoPlay();
+}
+
+function changeSlide(direction) {
+    const slides = document.querySelectorAll('.carousel-slide');
+    const indicators = document.querySelectorAll('.indicator');
+    
+    if (slides.length === 0) return;
+
+    // Remove active class
+    slides[currentSlide].classList.remove('active');
+    indicators[currentSlide].classList.remove('active');
+
+    // Calculate new slide index
+    currentSlide = (currentSlide + direction + slides.length) % slides.length;
+
+    // Add active class
+    slides[currentSlide].classList.add('active');
+    indicators[currentSlide].classList.add('active');
+
+    // Reset auto-play
+    resetCarouselAutoPlay();
+}
+
+function goToSlide(index) {
+    const slides = document.querySelectorAll('.carousel-slide');
+    const indicators = document.querySelectorAll('.indicator');
+    
+    if (slides.length === 0) return;
+
+    slides[currentSlide].classList.remove('active');
+    indicators[currentSlide].classList.remove('active');
+
+    currentSlide = index;
+
+    slides[currentSlide].classList.add('active');
+    indicators[currentSlide].classList.add('active');
+
+    resetCarouselAutoPlay();
+}
+
+function startCarouselAutoPlay() {
+    carouselInterval = setInterval(() => {
+        changeSlide(1);
+    }, 5000); // Change every 5 seconds
+}
+
+function resetCarouselAutoPlay() {
+    clearInterval(carouselInterval);
+    startCarouselAutoPlay();
+}
 
 // =========================================
 // 🔍 SEARCH LOGIC (Shared)
@@ -60,7 +207,17 @@ document.addEventListener('DOMContentLoaded', async () => {
 
 async function performSearch(keyword) {
     const gridContainer = document.getElementById('destination-grid');
+    const carouselWrapper = document.getElementById('carousel-wrapper');
+    const resultsHeading = document.getElementById('results-heading');
+    
     if(!gridContainer) return;
+
+    // Hide carousel, show results grid
+    if(carouselWrapper) carouselWrapper.style.display = 'none';
+    gridContainer.style.display = 'grid';
+    
+    // Update heading
+    if(resultsHeading) resultsHeading.textContent = `Search Results for "${keyword}"`;
 
     gridContainer.innerHTML = '<p class="loader">Searching...</p>';
 
@@ -98,6 +255,7 @@ function handleHomeSearch(inputElement) {
 async function displaySearchResults(results, type) {
     const gridContainer = document.getElementById('destination-grid');
     gridContainer.innerHTML = '';
+    gridContainer.style.display = 'grid';
 
     // Helper to process data
     const processCard = async (item) => {
@@ -241,34 +399,4 @@ function createExploreCard(container, data) {
         </div>
     `;
     container.appendChild(card);
-}
-
-// =========================================
-// 🏠 DEFAULT HOME RENDER
-// =========================================
-
-async function renderDefaultDestinations(){
-    const gridContainer = document.getElementById('destination-grid');
-    if (!gridContainer) return; 
-
-    try{
-        const defaultCities = ['Paris', 'Tokyo', 'New York', 'Rio de Janeiro', 'Barcelona', 'Cairo'];
-        gridContainer.innerHTML = '';
-        
-        const allCards = await Promise.all(
-            defaultCities.map(async (city) =>{
-                const imageUrl = await fetchUnsplashImage(city);
-                const description = await fetchWikipediaDescription(city);
-                return { city, imageUrl, description };
-            })
-        );
-        
-        allCards.forEach(({ city, imageUrl, description }) => {
-            createCard(gridContainer, city, description, imageUrl);
-        });
-
-    } catch (error){
-        console.error('Failed to load default destinations:', error);
-        gridContainer.innerHTML = '<p>Error loading destinations.</p>';
-    }
 }
