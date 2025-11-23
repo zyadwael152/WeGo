@@ -1,17 +1,35 @@
-document.addEventListener('DOMContentLoaded', () => {
-    renderDefaultDestinations();
+import { UNSPLASH_KEY, fetchUnsplashImage, fetchWikipediaDescription } from './api.js';
+import { initializeAppData } from './dataLoader.js';
+import { searchJSON } from './datahandler.js';
+
+let mainData;
+let validLocations;
+let locationsLoadedPromise;
+
+document.addEventListener('DOMContentLoaded', async () => {
+    const appData = await initializeAppData();
+    if(appData.initialized) {
+        mainData = appData.travelData;
+        validLocations = appData.citiesCountries;
+        console.log("App data initialized");
+    } else {
+        console.error("App data failed to initialize");
+        showGridStatus('Error loading application data. Please try again later.', 'error');
+    }
+
+    const searchCity = sessionStorage.getItem('searchCity');
+    if (searchCity) {
+        document.getElementById('search-input').value = searchCity;
+        sessionStorage.removeItem('searchCity');
+        handleSearch();
+    } else {
+        renderDefaultDestinations();
+    }
     setupSearchListener();
-    locationsLoadedPromise = loadValidLocations();
 });
 
-let validLocations = {
-    cities: [],
-    countries: []
-};
 
-const wikiCache = new Map();
 let currentUnsplashController = null;
-let locationsLoadedPromise = null;
 let searchTimeout = null;
 
 /**
@@ -45,31 +63,12 @@ function showGridStatus(message, type = 'info') {
     gridContainer.innerHTML = `<p style="text-align: center; color: ${color}; padding: 40px; font-size: 16px;">${message}</p>`;
 }
 
-/**
- * @function loadValidLocations
- * Loads cities and countries from JSON file to validate user search input
- */
-async function loadValidLocations(){
-    try{
-        const response = await fetch('data/cities-countries.json');
-        if (!response.ok){
-            throw new Error(`HTTP error! Status: ${response.status}`);
-        }
-        validLocations = await response.json();
-        console.log('Valid locations loaded:', validLocations);
-    } 
-    catch (error){
-        console.error('Failed to load valid locations:', error);
-    }
-}
 
 /**
  * @function renderDefaultDestinations 
  * Loads and displays 6 popular destinations from Unsplash on page load
  */
-
 async function renderDefaultDestinations(){
-
     const gridContainer = document.getElementById('destination-grid');
 
     if (!gridContainer){
@@ -143,190 +142,82 @@ function setupSearchListener() {
 async function handleSearch(){
     const searchInput = document.getElementById('search-input');
     const keyword = searchInput.value.trim();
-    const gridContainer = document.getElementById('destination-grid');
     
     if (!keyword){
         showGridStatus('Please enter a search keyword', 'warning');
         return;
     }
     
-    if (!/^[a-zA-Z\s\-]+$/.test(keyword)){
-        showGridStatus('Please enter a valid city or country name', 'warning');
-        return;
-    }
-    const normalizedKeyword = keyword.toLowerCase().trim();
-    
-    if (locationsLoadedPromise) await locationsLoadedPromise;
-
-    // Validate keyword is a real city or country
-    const isValidLocation = validLocations.cities.some(city => 
-        city.toLowerCase() === normalizedKeyword
-    ) || validLocations.countries.some(country => 
-        country.toLowerCase() === normalizedKeyword
-    );
-    
-    if (!isValidLocation){
-        showGridStatus("This isn't a city or a country", 'error');
-        searchInput.value = '';
-        return;
-    }
-    
     showGridStatus('Searching…', 'info');
-    try{
-        if (currentUnsplashController){
-            currentUnsplashController.abort();
-        }
-        currentUnsplashController = new AbortController();
-        const signal = currentUnsplashController.signal;
-        
-        const response = await fetch(
-            `https://api.unsplash.com/search/photos?query=${encodeURIComponent(keyword)}&client_id=${UNSPLASH_KEY}&per_page=6`,{ signal }
-        );
-        
-        if (response.status === 429){
-            const retryAfter = response.headers.get('Retry-After') || 'a few moments';
-            console.warn('Unsplash API rate limit reached');
-            showGridStatus(`API limit reached. Try again after ${retryAfter}. Please try again later.`, 'warning');
-            return;
-        }
-        
-        if (response.status >= 500){
-            console.warn('Unsplash API server error:', response.status);
-            showGridStatus('Service temporarily unavailable. Please try again later.', 'warning');
-            return;
-        }
-        
-        if (!response.ok) throw new Error(`HTTP error! Status: ${response.status}`);
-        
-        const data = await response.json();
-        const photos = data.results || [];
-        
-        if (photos.length === 0){
-            showGridStatus('No results found for your search.', 'info');
-            return;
-        }
-        
-        displayUnsplashResults(photos, keyword);
-    } 
-    catch (error){
-        if (error.name === 'AbortError'){
-            console.log('Previous search cancelled');
-            return;
-        }
-        
-        console.error('Failed to fetch data:', error);
-        
-        if (error.message.includes('Failed to fetch')) showGridStatus('Network error. Please check your connection.', 'error');
-        else showGridStatus('Error searching images. Please try again later.', 'error');
+
+    const searchResult = await searchJSON(keyword, mainData);
+
+    if (!searchResult || searchResult.results.length === 0) {
+        showGridStatus('No results found for your search.', 'info');
+        return;
     }
-    finally{ currentUnsplashController = null; }
+
+    displaySearchResults(searchResult.results, searchResult.type);
 }
 
-/**
- * @function displayUnsplashResults
- * Displays Unsplash results with fetched Wikipedia descriptions
- */
-async function displayUnsplashResults(unsplashPhotos, keyword) {
+async function displaySearchResults(results, type) {
     const gridContainer = document.getElementById('destination-grid');
     gridContainer.innerHTML = '';
-    
-    const combinedResults = unsplashPhotos.map(photo => ({
-        url: photo.urls.small,
-        title: keyword,
-        description: 'Photo from Unsplash',
-        wikiName: keyword
-    }));
-    
-    // Fetch Wikipedia descriptions for all results in parallel (with caching)
-    const resultsWithDescriptions = await Promise.all(
-        combinedResults.map(async (result) => {
-            const wikiDesc = await fetchWikipediaDescription(result.wikiName);
-            return{
-                ...result,
-                description: wikiDesc || result.description
-            };
-        })
-    );
-    
-    resultsWithDescriptions.forEach(result => {
-        const card = document.createElement('div');
-        card.className = 'card';
-        
-        const cardContent = `
-            <img src="${result.url}" alt="${result.title}" loading="lazy" style="object-fit: cover; height: 200px; width: 100%;">
-            <div class="body">
-                <h3>${result.title}</h3>
-                <p>${result.description}</p>
-                <a href="details.html?destination=${encodeURIComponent(result.title)}" class="view-more-btn">View More</a>
-            </div>
-        `;
-        card.innerHTML = cardContent;
-        gridContainer.appendChild(card);
-    });
-}
 
-/**
- * @function fetchUnsplashImage
- * Fetches a single random image for a destination from Unsplash API
- * @param {string} destination - Name of the destination
- * @returns {string} - URL of the image or placeholder if not found
- */
-async function fetchUnsplashImage(destination) {
-    try{
-        const response = await fetch(
-            `https://api.unsplash.com/search/photos?query=${encodeURIComponent(destination)}&client_id=${UNSPLASH_KEY}&per_page=1`
+    if (type === 'country') {
+        const allCardsData = await Promise.all(
+            results.map(async (city) => {
+                const imageUrl = await fetchUnsplashImage(city.name);
+                const description = await fetchWikipediaDescription(city.name);
+                return {
+                    title: city.name,
+                    description: description || `A beautiful city in ${city.country}.`,
+                    imageUrl: imageUrl,
+                };
+            })
         );
-        
-        if (!response.ok){
-            console.warn(`Failed to fetch image for ${destination}: ${response.status}`);
-            return 'assets/0.jpg'; // Fallback to placeholder
-        }
-        
-        const data = await response.json();
-        if (data.results && data.results.length > 0)
-            return data.results[0].urls.small;
-        
-        return 'assets/0.jpg'; // Fallback if no results
-    } 
-    catch (error){
-        console.error(`Error fetching image for ${destination}:`, error);
-        return 'assets/0.jpg'; // Fallback on error
-    }
-}
 
-/**
- * @function fetchWikipediaDescription
- * Fetches destination description from Wikipedia API with caching
- * @param {string} destinationName - Name of the destination to fetch info for
- * @returns {string|null} - Truncated description (150 chars) or null if not found
- */
-async function fetchWikipediaDescription(destinationName) {
-    try{
-        const cacheKey = destinationName.toLowerCase();
-        if (wikiCache.has(cacheKey)) return wikiCache.get(cacheKey);
-        
-        const response = await fetch(
-            `https://en.wikipedia.org/api/rest_v1/page/summary/${encodeURIComponent(destinationName)}`
+        allCardsData.forEach(cardData => {
+            const card = document.createElement('div');
+            card.className = 'card';
+
+            const cardContent = `
+                <img src="${cardData.imageUrl}" alt="${cardData.title}" loading="lazy" style="object-fit: cover; height: 200px; width: 100%;">
+                <div class="body">
+                    <h3>${cardData.title}</h3>
+                    <p>${cardData.description}</p>
+                    <a href="details.html?destination=${encodeURIComponent(cardData.title)}" class="view-more-btn">View More</a>
+                </div>
+            `;
+            card.innerHTML = cardContent;
+            gridContainer.appendChild(card);
+        });
+    } else {
+        const allCardsData = await Promise.all(
+            results.map(async (place) => {
+                const imageUrl = await fetchUnsplashImage(place.name);
+                return {
+                    title: place.name,
+                    description: place.description,
+                    imageUrl: imageUrl,
+                };
+            })
         );
-        
-        if (!response.ok){
-            console.warn(`Data fetch failed for "${destinationName}": ${response.status}`);
-            wikiCache.set(cacheKey, null);
-            return null;
-        }
-        
-        const data = await response.json();
-        if (data.extract){
-            const truncatedDesc = data.extract.length > 150 ? data.extract.substring(0, 150) + '...' : data.extract;
-            wikiCache.set(cacheKey, truncatedDesc);
-            return truncatedDesc;
-        }
-        
-        wikiCache.set(cacheKey, null);
-        return null;
-    } 
-    catch (error){
-        console.error(`Error fetching data for "${destinationName}":`, error);
-        return null;
+
+        allCardsData.forEach(cardData => {
+            const card = document.createElement('div');
+            card.className = 'card';
+
+            const cardContent = `
+                <img src="${cardData.imageUrl}" alt="${cardData.title}" loading="lazy" style="object-fit: cover; height: 200px; width: 100%;">
+                <div class="body">
+                    <h3>${cardData.title}</h3>
+                    <p>${cardData.description}</p>
+                    <a href="details.html?destination=${encodeURIComponent(cardData.title)}" class="view-more-btn">View More</a>
+                </div>
+            `;
+            card.innerHTML = cardContent;
+            gridContainer.appendChild(card);
+        });
     }
 }

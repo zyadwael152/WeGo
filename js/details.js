@@ -1,3 +1,5 @@
+import { UNSPLASH_KEY } from './api.js';
+
 document.addEventListener('DOMContentLoaded', async () => {
     const params = new URLSearchParams(window.location.search);
     const destination = params.get('destination');
