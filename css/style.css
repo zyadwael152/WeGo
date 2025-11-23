@@ -44,7 +44,7 @@ span {
     justify-content: center;
     align-items: center;
     z-index: 1000;
-    animation: hideIntro 0.8s ease 3.2s forwards;
+    animation: hideIntro 1.69s ease 1.69s forwards;
 }
 
 #introContent {

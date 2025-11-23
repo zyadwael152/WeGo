@@ -4,9 +4,11 @@ import { searchJSON } from './datahandler.js';
 
 let mainData;
 let validLocations;
-let locationsLoadedPromise;
 
+// === MAIN INITIALIZATION ===
 document.addEventListener('DOMContentLoaded', async () => {
+    
+    // 1. Load Data Globally
     const appData = await initializeAppData();
     if(appData.initialized) {
         mainData = appData.travelData;
@@ -14,74 +16,245 @@ document.addEventListener('DOMContentLoaded', async () => {
         console.log("App data initialized");
     } else {
         console.error("App data failed to initialize");
-        showGridStatus('Error loading application data. Please try again later.', 'error');
+        return;
     }
 
-    const searchCity = sessionStorage.getItem('searchCity');
-    if (searchCity) {
-        document.getElementById('search-input').value = searchCity;
-        sessionStorage.removeItem('searchCity');
-        handleSearch();
+    // 2. Detect Page
+    const path = window.location.pathname;
+
+    if (path.includes('explore.html')) {
+        // --- EXPLORE PAGE ---
+        renderExplorePage();
+    
+    } else if (path.includes('results.html')) {
+        // --- RESULTS PAGE ---
+        const urlParams = new URLSearchParams(window.location.search);
+        const searchParam = urlParams.get('search');
+        
+        if (searchParam) {
+            const queryText = document.getElementById('query-text');
+            if(queryText) queryText.textContent = `"${searchParam}"`;
+            performSearch(searchParam);
+        }
+
     } else {
-        renderDefaultDestinations();
+        // --- HOME PAGE ---
+        setupSearchListener();
+        
+        const urlParams = new URLSearchParams(window.location.search);
+        const searchParam = urlParams.get('search');
+        
+        if (searchParam) {
+            const searchInput = document.getElementById('search-input');
+            if(searchInput) searchInput.value = searchParam;
+            performSearch(searchParam);
+        } else {
+            renderDefaultDestinations();
+        }
     }
-    setupSearchListener();
 });
 
+// =========================================
+// 🔍 SEARCH LOGIC (Shared)
+// =========================================
 
-let currentUnsplashController = null;
-let searchTimeout = null;
-
-/**
- * @function debounce
- * Delays function execution to prevent rapid-fire calls (e.g., during search)
- * @param {Function} fn - Function to debounce
- * @param {number} wait - Delay in milliseconds (default: 300ms)
- */
-function debounce(fn, wait = 300){
-    return (...args) => {
-        clearTimeout(searchTimeout);
-        searchTimeout = setTimeout(() => fn(...args), wait);
-    };
-}
-
-/**
- * @function showGridStatus
- * Displays a color-coded status message in the destination grid area
- * @param {string} message - Message to display
- * @param {string} type - Type of message: 'info' (gray), 'warning' (orange), 'error' (red), 'success' (green)
- */
-function showGridStatus(message, type = 'info') {
+async function performSearch(keyword) {
     const gridContainer = document.getElementById('destination-grid');
-    const colorMap = {
-        'info': 'gray',
-        'warning': 'orange',
-        'error': 'red',
-        'success': 'green'
-    };
-    const color = colorMap[type] || colorMap['info'];
-    gridContainer.innerHTML = `<p style="text-align: center; color: ${color}; padding: 40px; font-size: 16px;">${message}</p>`;
+    if(!gridContainer) return;
+
+    gridContainer.innerHTML = '<p class="loader">Searching...</p>';
+
+    const searchResult = await searchJSON(keyword, mainData);
+
+    if (!searchResult || searchResult.results.length === 0) {
+        gridContainer.innerHTML = '<p class="loader">No results found.</p>';
+        return;
+    }
+
+    displaySearchResults(searchResult.results, searchResult.type);
 }
 
+function setupSearchListener() {
+    const searchBtn = document.getElementById('search-btn');
+    const searchInput = document.getElementById('search-input');
+    
+    if (!searchBtn || !searchInput) return;
+    
+    searchBtn.addEventListener('click', () => handleHomeSearch(searchInput));
+    searchInput.addEventListener('keypress', (e) => {
+        if (e.key === 'Enter') handleHomeSearch(searchInput);
+    });
+}
+
+function handleHomeSearch(inputElement) {
+    const keyword = inputElement.value.trim();
+    if (!keyword) {
+        alert('Please enter a search keyword');
+        return;
+    }
+    performSearch(keyword);
+}
+
+async function displaySearchResults(results, type) {
+    const gridContainer = document.getElementById('destination-grid');
+    gridContainer.innerHTML = '';
+
+    // Helper to process data
+    const processCard = async (item) => {
+        // 1. Fetch Image
+        const imageUrl = await fetchUnsplashImage(item.name);
+        
+        // 2. Fetch Real Description from Wikipedia
+        const wikiDesc = await fetchWikipediaDescription(item.name);
+        let description = wikiDesc;
+
+        // 3. Fallback if Wikipedia has no data
+        if (!description) {
+            if (type === 'country') {
+                description = `Explore the beautiful city of ${item.name} in ${item.country}.`;
+            } else {
+                description = `Located in ${item.city}, ${item.country}`;
+            }
+        }
+
+        return {
+            title: item.name,
+            description: description,
+            imageUrl: imageUrl
+        };
+    };
+
+    const allCardsData = await Promise.all(results.map(processCard));
+
+    allCardsData.forEach(data => {
+        createCard(gridContainer, data.title, data.description, data.imageUrl);
+    });
+}
 
 /**
- * @function renderDefaultDestinations 
- * Loads and displays 6 popular destinations from Unsplash on page load
+ * Creates a standard card that links to DETAILS.HTML
  */
+function createCard(container, title, desc, imgUrl) {
+    const card = document.createElement('div');
+    card.className = 'card';
+
+    const cardContent = `
+        <img src="${imgUrl}" alt="${title}" loading="lazy" style="object-fit: cover; height: 200px; width: 100%;">
+        <div class="body">
+            <h3>${title}</h3>
+            <p>${desc || 'Discover this amazing destination.'}</p>
+            <a href="details.html?destination=${encodeURIComponent(title)}" class="view-more-btn">View More</a>
+        </div>
+    `;
+    card.innerHTML = cardContent;
+    container.appendChild(card);
+}
+
+// =========================================
+// 🌍 EXPLORE PAGE LOGIC
+// =========================================
+
+async function renderExplorePage() {
+    if (!mainData) return;
+
+    // A. Countries
+    const countriesContainer = document.getElementById('explore-countries');
+    if(countriesContainer) {
+        countriesContainer.innerHTML = '';
+        const countriesList = Object.keys(mainData).slice(0, 10);
+        for (const country of countriesList) {
+            const subCities = Object.keys(mainData[country].cities).slice(0, 3); 
+            const imageUrl = await fetchUnsplashImage(country);
+            
+            createExploreCard(countriesContainer, {
+                title: country,
+                image: imageUrl,
+                listItems: subCities,
+                btnText: `Explore ${country}`,
+                link: `results.html?search=${encodeURIComponent(country)}`
+            });
+        }
+    }
+
+    // B. Cities
+    const citiesContainer = document.getElementById('explore-cities');
+    if(citiesContainer) {
+        citiesContainer.innerHTML = '';
+        let cityCount = 0;
+        outerLoop: for (const country in mainData) {
+            for (const city in mainData[country].cities) {
+                if (cityCount >= 10) break outerLoop;
+                const places = mainData[country].cities[city].slice(0, 3);
+                const imageUrl = await fetchUnsplashImage(city);
+
+                createExploreCard(citiesContainer, {
+                    title: city,
+                    image: imageUrl,
+                    listItems: places,
+                    btnText: `Visit ${city}`,
+                    link: `results.html?search=${encodeURIComponent(city)}`
+                });
+                cityCount++;
+            }
+        }
+    }
+
+    // C. Places
+    const placesContainer = document.getElementById('explore-places');
+    if(placesContainer) {
+        placesContainer.innerHTML = '';
+        let placeCount = 0;
+        outerLoopPlaces: for (const country in mainData) {
+            for (const city in mainData[country].cities) {
+                const places = mainData[country].cities[city];
+                for (const place of places) {
+                    if (placeCount >= 10) break outerLoopPlaces;
+                    const imageUrl = await fetchUnsplashImage(place);
+                    
+                    createExploreCard(placesContainer, {
+                        title: place,
+                        image: imageUrl,
+                        listItems: [`${city}, ${country}`],
+                        btnText: 'View Details',
+                        link: `details.html?destination=${encodeURIComponent(place)}`
+                    });
+                    placeCount++;
+                }
+            }
+        }
+    }
+}
+
+function createExploreCard(container, data) {
+    const card = document.createElement('div');
+    card.className = 'explore-card';
+    const listHTML = data.listItems.map(item => `<li>${item}</li>`).join('');
+
+    card.innerHTML = `
+        <div class="card-image-container">
+            <img src="${data.image}" alt="${data.title}" loading="lazy">
+            <div class="card-overlay-title">${data.title}</div>
+        </div>
+        <div class="card-content">
+            <ul class="sub-list">${listHTML}</ul>
+            <a href="${data.link}" class="action-btn">${data.btnText}</a>
+        </div>
+    `;
+    container.appendChild(card);
+}
+
+// =========================================
+// 🏠 DEFAULT HOME RENDER
+// =========================================
+
 async function renderDefaultDestinations(){
     const gridContainer = document.getElementById('destination-grid');
-
-    if (!gridContainer){
-        console.error("Error: Could not find element with id 'destination-grid'");
-        return; 
-    }
+    if (!gridContainer) return; 
 
     try{
         const defaultCities = ['Paris', 'Tokyo', 'New York', 'Rio de Janeiro', 'Barcelona', 'Cairo'];
-        
         gridContainer.innerHTML = '';
         
-        // Fetch images for each default city
         const allCards = await Promise.all(
             defaultCities.map(async (city) =>{
                 const imageUrl = await fetchUnsplashImage(city);
@@ -91,133 +264,11 @@ async function renderDefaultDestinations(){
         );
         
         allCards.forEach(({ city, imageUrl, description }) => {
-            const card = document.createElement('div');
-            card.className = 'card';
-
-            const cardContent = `
-                <img src="${imageUrl}" alt="${city}" loading="lazy" style="object-fit: cover; height: 200px; width: 100%;">
-                <div class="body">
-                    <h3>${city}</h3>
-                    <p>${description || 'Discover this amazing destination.'}</p>
-                    <a href="details.html?destination=${encodeURIComponent(city)}" class="view-more-btn">View More</a>
-                </div>
-            `;
-            card.innerHTML = cardContent;
-            gridContainer.appendChild(card);
+            createCard(gridContainer, city, description, imageUrl);
         });
 
-    } 
-    catch (error){
+    } catch (error){
         console.error('Failed to load default destinations:', error);
-        showGridStatus('Error loading destinations. Please try again later.', 'error');
-    }
-}
-
-/**
- * @function setupSearchListener
- * Attaches event listeners to search button and input field for search triggering
- */
-function setupSearchListener() {
-    const searchBtn = document.getElementById('search-btn');
-    const searchInput = document.getElementById('search-input');
-    
-    if (!searchBtn || !searchInput){
-        console.error("Error: Could not find search button or input element");
-        return;
-    }
-    
-    // Trigger search on button click or Enter key press
-    searchBtn.addEventListener('click', handleSearch);
-    searchInput.addEventListener('keypress', (e) => {
-        if (e.key === 'Enter') {
-            handleSearch();
-        }
-    });
-}
-
-/**
- * @function handleSearch
- * Main search handler: validates input, fetches Unsplash data with descriptions
- */
-async function handleSearch(){
-    const searchInput = document.getElementById('search-input');
-    const keyword = searchInput.value.trim();
-    
-    if (!keyword){
-        showGridStatus('Please enter a search keyword', 'warning');
-        return;
-    }
-    
-    showGridStatus('Searching…', 'info');
-
-    const searchResult = await searchJSON(keyword, mainData);
-
-    if (!searchResult || searchResult.results.length === 0) {
-        showGridStatus('No results found for your search.', 'info');
-        return;
-    }
-
-    displaySearchResults(searchResult.results, searchResult.type);
-}
-
-async function displaySearchResults(results, type) {
-    const gridContainer = document.getElementById('destination-grid');
-    gridContainer.innerHTML = '';
-
-    if (type === 'country') {
-        const allCardsData = await Promise.all(
-            results.map(async (city) => {
-                const imageUrl = await fetchUnsplashImage(city.name);
-                const description = await fetchWikipediaDescription(city.name);
-                return {
-                    title: city.name,
-                    description: description || `A beautiful city in ${city.country}.`,
-                    imageUrl: imageUrl,
-                };
-            })
-        );
-
-        allCardsData.forEach(cardData => {
-            const card = document.createElement('div');
-            card.className = 'card';
-
-            const cardContent = `
-                <img src="${cardData.imageUrl}" alt="${cardData.title}" loading="lazy" style="object-fit: cover; height: 200px; width: 100%;">
-                <div class="body">
-                    <h3>${cardData.title}</h3>
-                    <p>${cardData.description}</p>
-                    <a href="details.html?destination=${encodeURIComponent(cardData.title)}" class="view-more-btn">View More</a>
-                </div>
-            `;
-            card.innerHTML = cardContent;
-            gridContainer.appendChild(card);
-        });
-    } else {
-        const allCardsData = await Promise.all(
-            results.map(async (place) => {
-                const imageUrl = await fetchUnsplashImage(place.name);
-                return {
-                    title: place.name,
-                    description: place.description,
-                    imageUrl: imageUrl,
-                };
-            })
-        );
-
-        allCardsData.forEach(cardData => {
-            const card = document.createElement('div');
-            card.className = 'card';
-
-            const cardContent = `
-                <img src="${cardData.imageUrl}" alt="${cardData.title}" loading="lazy" style="object-fit: cover; height: 200px; width: 100%;">
-                <div class="body">
-                    <h3>${cardData.title}</h3>
-                    <p>${cardData.description}</p>
-                    <a href="details.html?destination=${encodeURIComponent(cardData.title)}" class="view-more-btn">View More</a>
-                </div>
-            `;
-            card.innerHTML = cardContent;
-            gridContainer.appendChild(card);
-        });
+        gridContainer.innerHTML = '<p>Error loading destinations.</p>';
     }
 }

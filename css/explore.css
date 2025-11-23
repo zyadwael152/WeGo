@@ -1,0 +1,290 @@
+/* =========================================
+   EXPLORE PAGE STYLING
+   ========================================= */
+
+/* --- Header --- */
+.explore-header {
+    background: linear-gradient(135deg, var(--main-color), #ff9f43);
+    padding: 100px 20px 80px;
+    /* Increased padding for impact */
+    text-align: center;
+    color: white;
+    margin-bottom: 60px;
+    border-radius: 0 0 50px 50px;
+    box-shadow: 0 10px 30px rgba(232, 172, 32, 0.25);
+    animation: headerSlideDown 1s cubic-bezier(0.2, 0.8, 0.2, 1);
+    position: relative;
+    overflow: hidden;
+}
+
+/* Subtle background pattern for header */
+.explore-header::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-image: radial-gradient(rgba(255, 255, 255, 0.2) 2px, transparent 2px);
+    background-size: 30px 30px;
+    opacity: 0.3;
+}
+
+.explore-header h1 {
+    font-size: 3.5rem;
+    font-weight: 800;
+    margin: 0 0 15px 0;
+    text-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+    letter-spacing: -1px;
+}
+
+.explore-header p {
+    font-size: 1.3rem;
+    opacity: 0.95;
+    font-weight: 500;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+/* --- Sections --- */
+.explore-section {
+    margin-bottom: 80px;
+    padding: 0 20px;
+    /* Safety padding for small screens */
+}
+
+.section-title {
+    font-size: 2.2rem;
+    font-weight: 700;
+    margin-bottom: 40px;
+    position: relative;
+    padding-left: 25px;
+    color: var(--text-dark);
+    opacity: 0;
+    /* Start hidden for scroll animation */
+    animation: fadeInSection 0.8s ease-out forwards;
+}
+
+/* Fancy left border accent */
+.section-title::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    height: 70%;
+    width: 6px;
+    background: var(--main-color);
+    border-radius: 4px;
+    box-shadow: 2px 2px 10px rgba(232, 172, 32, 0.3);
+}
+
+/* --- Grid Layout --- */
+.explore-grid {
+    display: grid;
+    /* Responsive grid: cards are min 320px wide */
+    grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+    gap: 35px;
+}
+
+.loader {
+    font-size: 1.3rem;
+    color: #888;
+    grid-column: 1 / -1;
+    text-align: center;
+    padding: 60px;
+    font-style: italic;
+}
+
+/* --- Card Design (The Star of the Show) --- */
+.explore-card {
+    background: white;
+    border-radius: 20px;
+    overflow: hidden;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.06);
+    transition: transform 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275),
+        box-shadow 0.4s ease;
+    opacity: 0;
+    animation: fadeInUpCard 0.6s ease forwards;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    border: 1px solid rgba(0, 0, 0, 0.03);
+}
+
+.explore-card:hover {
+    transform: translateY(-12px);
+    box-shadow: 0 20px 45px rgba(0, 0, 0, 0.12);
+}
+
+/* Image Area */
+.card-image-container {
+    height: 220px;
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+}
+
+.card-image-container img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 0.8s ease;
+}
+
+/* Smooth zoom effect on hover */
+.explore-card:hover .card-image-container img {
+    transform: scale(1.15);
+}
+
+/* Gradient Overlay for Title */
+.card-overlay-title {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    /* Better gradient for readability */
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.85) 0%, rgba(0, 0, 0, 0.5) 60%, transparent 100%);
+    color: white;
+    padding: 30px 20px 15px;
+    font-size: 1.6rem;
+    font-weight: 700;
+    text-shadow: 0 2px 4px rgba(0, 0, 0, 0.4);
+    letter-spacing: 0.5px;
+}
+
+/* Content Area */
+.card-content {
+    padding: 25px;
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    background-color: #fff;
+}
+
+/* Sub-list (Cities/Places) */
+.sub-list {
+    list-style: none;
+    padding: 0;
+    margin: 0 0 25px 0;
+}
+
+.sub-list li {
+    padding: 10px 0;
+    border-bottom: 1px dashed #eee;
+    color: #666;
+    font-size: 1rem;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+    transition: color 0.3s, padding-left 0.3s;
+}
+
+/* Hover effect for list items */
+.explore-card:hover .sub-list li:hover {
+    color: var(--main-color);
+    padding-left: 5px;
+}
+
+.sub-list li::before {
+    content: '➤';
+    /* Cooler arrow */
+    color: var(--main-color);
+    margin-right: 12px;
+    font-size: 0.8rem;
+    opacity: 0.7;
+}
+
+.sub-list li:last-child {
+    border-bottom: none;
+}
+
+/* --- Action Button (Fantastic Style) --- */
+.action-btn {
+    margin-top: auto;
+    background: var(--main-color);
+    color: white;
+    text-align: center;
+    padding: 14px;
+    border-radius: 12px;
+    text-decoration: none;
+    font-weight: 700;
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
+    font-size: 0.9rem;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 15px rgba(232, 172, 32, 0.3);
+    position: relative;
+    overflow: hidden;
+    z-index: 1;
+}
+
+/* Button Hover Effect: Darkens slightly and lifts */
+.action-btn:hover {
+    background: #d49b1d;
+    transform: translateY(-2px);
+    box-shadow: 0 6px 20px rgba(232, 172, 32, 0.4);
+}
+
+/* Button Active Effect: Presses down */
+.action-btn:active {
+    transform: translateY(1px);
+    box-shadow: 0 2px 10px rgba(232, 172, 32, 0.3);
+}
+
+/* --- Keyframe Animations --- */
+
+/* Header Slide Down */
+@keyframes headerSlideDown {
+    from {
+        opacity: 0;
+        transform: translateY(-50px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* Section Fade In */
+@keyframes fadeInSection {
+    to {
+        opacity: 1;
+    }
+}
+
+/* Card Fade In & Up */
+@keyframes fadeInUpCard {
+    from {
+        opacity: 0;
+        transform: translateY(40px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* --- Responsive Adjustments --- */
+@media (max-width: 768px) {
+    .explore-header {
+        padding: 60px 20px 50px;
+        border-radius: 0 0 30px 30px;
+    }
+
+    .explore-header h1 {
+        font-size: 2.5rem;
+    }
+
+    .explore-grid {
+        grid-template-columns: 1fr;
+        /* Single column on mobile */
+        gap: 25px;
+    }
+
+    .card-image-container {
+        height: 200px;
+    }
+}
