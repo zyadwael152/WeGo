@@ -232,14 +232,22 @@ nav .links a.active {
 /* 10. GLOBAL RESPONSIVE */
 @media(max-width: 600px) {
 
-    /* Global Navigation */
-    nav .links {
-        display: none;
-        /* Hide desktop links */
+    /* Stack the logo and menu vertically */
+    nav {
+        flex-direction: column;
+        gap: 15px;
     }
 
+    /* FORCE the links to appear */
+    nav .links {
+        display: flex;
+        gap: 80px;
+        font-size: 0.9rem;
+        justify-content: center;
+    }
+
+    /* Hide the mobile button (hamburger) since you aren't using it yet */
     .menu-toggle {
-        display: block;
-        /* Show mobile button */
+        display: none;
     }
 }

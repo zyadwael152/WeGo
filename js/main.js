@@ -5,6 +5,15 @@ import { searchJSON } from './datahandler.js';
 let mainData;
 let validLocations;
 
+// ==================== CURATED LISTS (TOP 10) ====================
+const TOP_COUNTRIES = ["France", "Italy", "Japan", "United States", "Egypt", "Spain", "United Kingdom", "Brazil", "Australia", "Greece"];
+const TOP_CITIES = ["Paris", "London", "New York", "Tokyo", "Dubai", "Rome", "Barcelona", "Rio de Janeiro", "Bangkok", "Istanbul"];
+const TOP_PLACES = [
+    "Eiffel Tower", "Pyramids of Giza", "Statue of Liberty", "Colosseum", 
+    "Taj Mahal", "Great Wall of China", "Machu Picchu", "Burj Khalifa", 
+    "Sydney Opera House", "Christ the Redeemer"
+];
+
 // ==================== CAROUSEL DATA ====================
 const carouselCities = [
     { name: 'Paris', fact: 'The Eiffel Tower was originally intended to be a temporary structure for the 1889 World Fair!' },
@@ -309,19 +318,23 @@ function createCard(container, title, desc, imgUrl) {
 }
 
 // =========================================
-// 🌍 EXPLORE PAGE LOGIC
+// 🌍 EXPLORE PAGE LOGIC (UPDATED)
 // =========================================
 
 async function renderExplorePage() {
     if (!mainData) return;
 
-    // A. Countries
+    // A. Top 10 Countries (Curated)
     const countriesContainer = document.getElementById('explore-countries');
     if(countriesContainer) {
         countriesContainer.innerHTML = '';
-        const countriesList = Object.keys(mainData).slice(0, 10);
-        for (const country of countriesList) {
-            const subCities = Object.keys(mainData[country].cities).slice(0, 3); 
+        
+        for (const country of TOP_COUNTRIES) {
+            // Only show if country exists in our data
+            if (!mainData[country]) continue;
+
+            const citiesObj = mainData[country].cities;
+            const subCities = Object.keys(citiesObj).slice(0, 3); 
             const imageUrl = await fetchUnsplashImage(country);
             
             createExploreCard(countriesContainer, {
@@ -334,53 +347,74 @@ async function renderExplorePage() {
         }
     }
 
-    // B. Cities
+    // B. Top 10 Cities (Curated)
     const citiesContainer = document.getElementById('explore-cities');
     if(citiesContainer) {
         citiesContainer.innerHTML = '';
-        let cityCount = 0;
-        outerLoop: for (const country in mainData) {
-            for (const city in mainData[country].cities) {
-                if (cityCount >= 10) break outerLoop;
-                const places = mainData[country].cities[city].slice(0, 3);
-                const imageUrl = await fetchUnsplashImage(city);
+        
+        for (const city of TOP_CITIES) {
+            // Find which country this city belongs to
+            const parentCountry = findCountryForCity(city);
+            if (!parentCountry) continue;
 
-                createExploreCard(citiesContainer, {
-                    title: city,
-                    image: imageUrl,
-                    listItems: places,
-                    btnText: `Visit ${city}`,
-                    link: `results.html?search=${encodeURIComponent(city)}`
-                });
-                cityCount++;
-            }
+            const places = mainData[parentCountry].cities[city].slice(0, 3);
+            const imageUrl = await fetchUnsplashImage(city);
+
+            createExploreCard(citiesContainer, {
+                title: city,
+                image: imageUrl,
+                listItems: places,
+                btnText: `Visit ${city}`,
+                link: `results.html?search=${encodeURIComponent(city)}`
+            });
         }
     }
 
-    // C. Places
+    // C. Top 10 Places (Curated)
     const placesContainer = document.getElementById('explore-places');
     if(placesContainer) {
         placesContainer.innerHTML = '';
-        let placeCount = 0;
-        outerLoopPlaces: for (const country in mainData) {
-            for (const city in mainData[country].cities) {
-                const places = mainData[country].cities[city];
-                for (const place of places) {
-                    if (placeCount >= 10) break outerLoopPlaces;
-                    const imageUrl = await fetchUnsplashImage(place);
-                    
-                    createExploreCard(placesContainer, {
-                        title: place,
-                        image: imageUrl,
-                        listItems: [`${city}, ${country}`],
-                        btnText: 'View Details',
-                        link: `details.html?destination=${encodeURIComponent(place)}`
-                    });
-                    placeCount++;
-                }
+        
+        for (const place of TOP_PLACES) {
+            const locationInfo = findLocationForPlace(place);
+            if (!locationInfo) continue;
+
+            const imageUrl = await fetchUnsplashImage(place);
+            
+            createExploreCard(placesContainer, {
+                title: place,
+                image: imageUrl,
+                listItems: [`${locationInfo.city}, ${locationInfo.country}`],
+                btnText: 'View Details',
+                link: `details.html?destination=${encodeURIComponent(place)}`
+            });
+        }
+    }
+}
+
+// --- Helper Functions for Data Lookup ---
+
+function findCountryForCity(targetCity) {
+    for (const country in mainData) {
+        if (mainData[country].cities && mainData[country].cities[targetCity]) {
+            return country;
+        }
+    }
+    return null;
+}
+
+function findLocationForPlace(targetPlace) {
+    for (const country in mainData) {
+        const cities = mainData[country].cities;
+        for (const city in cities) {
+            const places = cities[city];
+            // Check if place exists in array (includes partial match logic if needed)
+            if (places.includes(targetPlace) || places.some(p => p.includes(targetPlace))) {
+                return { city, country };
             }
         }
     }
+    return null;
 }
 
 function createExploreCard(container, data) {
