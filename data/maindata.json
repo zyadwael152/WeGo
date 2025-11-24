@@ -2,39 +2,99 @@
   "Egypt": {
     "cities": {
       "Cairo": [
-        "The Egyptian Museum",
-        "Khan el-Khalili",
-        "Al-Azhar Park",
-        "Citadel of Saladin",
-        "Muhammad Ali Mosque"
-      ],
-      "Giza": [
-        "Pyramids of Giza",
-        "Pharaonic Village",
-        "Grand Egyptian Museum",
-        "Pyramid of Menkaure",
-        "Solar Boat Museum"
-      ],
-      "Luxor": [
-        "Karnak Temple",
-        "Valley of the Kings",
-        "Luxor Temple",
-        "Mortuary Temple of Hatshepsut",
-        "Avenue of the Sphinxes"
-      ],
-      "Aswan": [
-        "Philae Temple",
-        "The High Dam",
-        "Nubian Museum",
-        "Elephantine Island",
-        "Botanical Garden"
-      ],
-      "Alexandria": [
-        "Bibliotheca Alexandrina",
-        "Citadel of Qaitbay",
-        "Catacombs of Kom el Shoqafa",
-        "Pompey's Pillar",
-        "Alexandria National Museum"
+      "Khan el-Khalili",
+      "Al-Azhar Park",
+      "Citadel of Saladin",
+      "Muhammad Ali Mosque",
+      "Coptic Cairo",
+      "Sultan Hassan Mosque",
+      "Cairo Tower"
+    ],
+    "Giza": [
+      "Pyramids of Giza",
+      "Pharaonic Village",
+      "Grand Egyptian Museum",
+      "Pyramid of Menkaure"
+    ],
+    "Luxor": [
+      "Karnak Temple",
+      "Valley of the Kings",
+      "Luxor Temple",
+      "Mortuary Temple of Hatshepsut",
+      "Valley of the Queens",
+      "Medinet Habu",
+      "Luxor Museum"
+    ],
+    "Aswan": [
+      "Nubian Museum",
+      "Elephantine Island",
+      "Botanical Garden",
+      "Tombs of the Nobles",
+      "Unfinished Obelisk"
+    ],
+    "Alexandria": [
+      "Bibliotheca Alexandrina",
+      "Citadel of Qaitbay",
+      "Catacombs of Kom el Shoqafa",
+      "Pompey's Pillar",
+      "Alexandria National Museum",
+      "Montaza Palace",
+      "Stanley Bridge",
+      "Abu al-Abbas al-Mursi Mosque"
+    ],
+    "Red Sea Governorate": [
+      "Hurghada",
+      "Sharm el-Sheikh",
+      "Dahab",
+      "Ras Mohammed National Park",
+      "Giftun Island",
+      "El Gouna"
+    ],
+    "South Sinai": [
+      "St. Catherine's Monastery",
+      "Mount Sinai",
+      "Colored Canyon",
+      "Nuweiba"
+    ],
+    "Matrouh": [
+      "Siwa Oasis",
+      "Marsa Matrouh",
+      "Cleopatra's Bath",
+      "The Oracle Temple"
+    ],
+    "New Valley": [
+      "Bahariya Oasis",
+      "Farafra Oasis (White Desert)",
+      "Dakhla Oasis",
+      "Kharga Oasis"
+    ],
+    "Ismailia": [
+      "Ismailia Museum",
+      "Lake Timsah",
+      "De Lesseps Statue"
+    ],
+    "Port Said": [
+      "Port Said National Museum",
+      "Suez Canal Authority Building",
+      "Martyrs' Memorial"
+    ],
+    "Faiyum": [
+      "Wadi El Rayan",
+      "Qarun Lake",
+      "Wadi El Hitan (Valley of the Whales)",
+      "Faiyum Oasis"
+    ]
+  }
+},
+  "Maldives": {
+    "cities": {
+      "Kaafu Atoll": [
+    "Banana Reef",
+    "Villingili Island"
+  ],
+  "Alif Atoll": [
+    "Hanifaru Bay",
+    "Manta Point"
       ]
     }
   },
@@ -106,13 +166,6 @@
         "Landmark Tower",
         "Cosmo Clock 21",
         "Yamashita Park"
-      ],
-      "Kobe": [
-        "Kobe Port Tower",
-        "Meriken Park",
-        "Kobe Harborland",
-        "Ike-no-Hone Park",
-        "Arima Hot Spring"
       ]
     }
   },

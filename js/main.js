@@ -11,8 +11,8 @@ const carouselCities = [
     { name: 'Tokyo', fact: 'Tokyo has more Michelin-starred restaurants than any other city in the world!' },
     { name: 'New York', fact: 'Central Park appears in more than 350 movies, making it one of the most filmed locations!' },
     { name: 'Rio de Janeiro', fact: 'Christ the Redeemer statue was struck by lightning and lost a finger in 2014!' },
-    { name: 'Barcelona', fact: 'Gaudí\'s Sagrada Familia has been under construction since 1882 and counting!' },
-    { name: 'Cairo', fact: 'The Great Pyramid of Giza was the tallest man-made structure for over 3,800 years!' }
+    { name: 'Barcelona', fact: "Gaudí's Sagrada Familia has been under construction since 1882 and counting!" },
+    { name: 'Cairo', fact: 'Cairo has the oldest subway system in Africa, opening in 1987.' }
 ];
 
 let currentSlide = 0;
