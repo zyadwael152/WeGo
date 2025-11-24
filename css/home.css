@@ -34,7 +34,7 @@
     /* === THE BLUR SETTINGS === */
     filter: blur(5px);
     /* Adjust this number to make it more/less blurry */
-    transform: scale(1.1);
+    transform: scale(1);
     /* Zooms in slightly to hide white blurred edges */
     z-index: -1;
     /* Puts this layer BEHIND the text */
