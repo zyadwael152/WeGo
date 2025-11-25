@@ -2,2741 +2,754 @@
   "Egypt": {
     "cities": {
       "Cairo": [
-      "Khan el-Khalili",
-      "Al-Azhar Park",
-      "Citadel of Saladin",
-      "Muhammad Ali Mosque",
-      "Coptic Cairo",
-      "Sultan Hassan Mosque",
-      "Cairo Tower"
-    ],
-    "Giza": [
-      "Pyramids of Giza",
-      "Pharaonic Village",
-      "Grand Egyptian Museum",
-      "Pyramid of Menkaure"
-    ],
-    "Luxor": [
-      "Karnak Temple",
-      "Valley of the Kings",
-      "Luxor Temple",
-      "Mortuary Temple of Hatshepsut",
-      "Valley of the Queens",
-      "Medinet Habu",
-      "Luxor Museum"
-    ],
-    "Aswan": [
-      "Nubian Museum",
-      "Elephantine Island",
-      "Botanical Garden",
-      "Tombs of the Nobles",
-      "Unfinished Obelisk"
-    ],
-    "Alexandria": [
-      "Bibliotheca Alexandrina",
-      "Citadel of Qaitbay",
-      "Catacombs of Kom el Shoqafa",
-      "Pompey's Pillar",
-      "Alexandria National Museum",
-      "Montaza Palace",
-      "Stanley Bridge",
-      "Abu al-Abbas al-Mursi Mosque"
-    ],
-    "Red Sea Governorate": [
-      "Hurghada",
-      "Sharm el-Sheikh",
-      "Dahab",
-      "Ras Mohammed National Park",
-      "Giftun Island",
-      "El Gouna"
-    ],
-    "South Sinai": [
-      "St. Catherine's Monastery",
-      "Mount Sinai",
-      "Colored Canyon",
-      "Nuweiba"
-    ],
-    "Matrouh": [
-      "Siwa Oasis",
-      "Marsa Matrouh",
-      "Cleopatra's Bath",
-      "The Oracle Temple"
-    ],
-    "New Valley": [
-      "Bahariya Oasis",
-      "Farafra Oasis (White Desert)",
-      "Dakhla Oasis",
-      "Kharga Oasis"
-    ],
-    "Ismailia": [
-      "Ismailia Museum",
-      "Lake Timsah",
-      "De Lesseps Statue"
-    ],
-    "Port Said": [
-      "Port Said National Museum",
-      "Suez Canal Authority Building",
-      "Martyrs' Memorial"
-    ],
-    "Faiyum": [
-      "Wadi El Rayan",
-      "Qarun Lake",
-      "Wadi El Hitan (Valley of the Whales)",
-      "Faiyum Oasis"
-    ]
-  }
-},
-  "Maldives": {
-    "cities": {
-      "Kaafu Atoll": [
-    "Banana Reef",
-    "Villingili Island"
-  ],
-  "Alif Atoll": [
-    "Hanifaru Bay",
-    "Manta Point"
-      ]
-    }
-  },
-  "France": {
-    "cities": {
-      "Paris": [
-        "Eiffel Tower",
-        "Louvre Museum",
-        "Notre-Dame Cathedral",
-        "Arc de Triomphe",
-        "Sacré-Cœur"
-      ],
-      "Lyon": [
-        "Basilica of Notre-Dame de Fourvière",
-        "Vieux Lyon",
-        "Roman Theaters",
-        "Confluence Museum",
-        "Parc de la Tête d'Or"
-      ],
-      "Nice": [
-        "Promenade des Anglais",
-        "Castle Hill",
-        "Nice Old Town",
-        "Museum of Modern Art",
-        "Russian Orthodox Cathedral"
-      ],
-      "Marseille": [
-        "Basilica of Notre-Dame de la Garde",
-        "Château d'If",
-        "Vieux Port",
-        "Museum of Civilizations of Europe and the Mediterranean",
-        "Fort Saint-Jean"
-      ],
-      "Toulouse": [
-        "Basilica of Saint-Sernin",
-        "Capitole of Toulouse",
-        "Japanese Garden",
-        "Space City",
-        "Garonne River"
-      ]
-    }
-  },
-  "Japan": {
-    "cities": {
-      "Tokyo": [
-        "Senso-ji",
-        "Tokyo Skytree",
-        "Shibuya Crossing",
-        "Imperial Palace",
-        "Meiji Shrine"
-      ],
-      "Kyoto": [
-        "Kinkaku-ji",
-        "Fushimi Inari-taisha",
-        "Arashiyama Bamboo Grove",
-        "Kiyomizu-dera",
-        "Philosopher's Path"
-      ],
-      "Osaka": [
-        "Osaka Castle",
-        "Dotonbori",
-        "Shinsekai District",
-        "Kofuku-ji Temple",
-        "Osaka Museum of Natural History"
-      ],
-      "Yokohama": [
-        "Red Brick Warehouse",
-        "Yokohama Bay Bridge",
-        "Landmark Tower",
-        "Cosmo Clock 21",
-        "Yamashita Park"
-      ]
-    }
-  },
-  "United States": {
-    "cities": {
-      "New York": [
-        "Statue of Liberty",
-        "Central Park",
-        "Empire State Building",
-        "Times Square",
-        "Brooklyn Bridge"
-      ],
-      "Los Angeles": [
-        "Hollywood Sign",
-        "Griffith Observatory",
-        "Santa Monica Pier",
-        "Getty Center",
-        "Universal Studios"
-      ],
-      "Chicago": [
-        "Willis Tower",
-        "Millennium Park",
-        "Art Institute of Chicago",
-        "Navy Pier",
-        "Cloud Gate"
-      ],
-      "San Francisco": [
-        "Golden Gate Bridge",
-        "Alcatraz Island",
-        "Cable Cars",
-        "Painted Ladies",
-        "Twin Peaks"
-      ],
-      "Miami": [
-        "Art Deco Historic District",
-        "Miami Beach",
-        "Wynwood Walls",
-        "Vizcaya Museum and Gardens",
-        "Everglades National Park"
-      ]
-    }
-  },
-  "Italy": {
-    "cities": {
-      "Rome": [
-        "Colosseum",
-        "Trevi Fountain",
-        "Pantheon",
-        "Roman Forum",
-        "Vatican City"
-      ],
-      "Venice": [
-        "St. Mark's Basilica",
-        "Rialto Bridge",
-        "Grand Canal",
-        "Doge's Palace",
-        "Basilica di Santa Maria della Salute"
-      ],
-      "Florence": [
-        "Uffizi Gallery",
-        "Ponte Vecchio",
-        "Florence Cathedral",
-        "Accademia Gallery",
-        "Boboli Gardens"
-      ],
-      "Milan": [
-        "Milan Cathedral",
-        "Scala Theatre",
-        "Sforza Castle",
-        "Galleria Vittorio Emanuele II",
-        "Leonardo da Vinci's The Last Supper"
-      ],
-      "Naples": [
-        "National Museum of Capodimonte",
-        "Naples Cathedral",
-        "San Gregorio Armeno",
-        "Royal Palace of Naples",
-        "Underground Naples"
-      ]
-    }
-  },
-  "Spain": {
-    "cities": {
-      "Barcelona": [
-        "Sagrada Familia",
-        "Park Güell",
-        "Casa Batlló",
-        "Gothic Quarter",
-        "Las Ramblas"
-      ],
-      "Madrid": [
-        "Prado Museum",
-        "Royal Palace of Madrid",
-        "Retiro Park",
-        "Reina Sofía Museum",
-        "Santiago Bernabéu Stadium"
-      ],
-      "Valencia": [
-        "City of Arts and Sciences",
-        "Hemisfèric",
-        "Turia Gardens",
-        "Museum of Science",
-        "Valencia Cathedral"
-      ],
-      "Seville": [
-        "Cathedral of Seville",
-        "Alcázar Palace",
-        "Plaza de España",
-        "Triana District",
-        "Barrio Santa Cruz"
-      ],
-      "Granada": [
-        "Alhambra Palace",
-        "Albaicín District",
-        "Cathedral of Granada",
-        "Royal Chapel",
-        "Generalife Gardens"
-      ]
-    }
-  },
-  "Germany": {
-    "cities": {
-      "Berlin": [
-        "Brandenburg Gate",
-        "Berlin Wall Memorial",
-        "Reichstag Building",
-        "Museum Island",
-        "Alexander Platz"
-      ],
-      "Munich": [
-        "Marienplatz",
-        "Neuschwanstein Castle",
-        "English Garden",
-        "Church of Saint Peter",
-        "Nymphenburg Palace"
-      ],
-      "Hamburg": [
-        "Miniatur Wunderland",
-        "St. Michael's Church",
-        "Hamburg Port",
-        "Speicherstadt",
-        "Alster Lake"
-      ],
-      "Cologne": [
-        "Cologne Cathedral",
-        "Rhine River Walk",
-        "Museum Ludwig",
-        "Hohenzollern Bridge",
-        "Old Town"
-      ],
-      "Frankfurt": [
-        "Main Tower",
-        "Palmengarten",
-        "Iron Bridge",
-        "German Finance Museum",
-        "St. Paul's Church"
-      ]
-    }
-  },
-  "United Kingdom": {
-    "cities": {
-      "London": [
-        "Big Ben",
-        "Tower of London",
-        "Westminster Abbey",
-        "Buckingham Palace",
-        "Tower Bridge"
-      ],
-      "Edinburgh": [
-        "Edinburgh Castle",
-        "Royal Mile",
-        "Holyrood Palace",
-        "Prince Street Gardens",
-        "Scott Monument"
-      ],
-      "Oxford": [
-        "University of Oxford",
-        "Bodleian Library",
-        "Christ Church Cathedral",
-        "Ashmolean Museum",
-        "Radcliffe Camera"
-      ],
-      "Cambridge": [
-        "King's College Chapel",
-        "University of Cambridge",
-        "The Backs",
-        "Mathematical Bridge",
-        "Fitzwilliam Museum"
-      ],
-      "Manchester": [
-        "Manchester Cathedral",
-        "Old Trafford",
-        "The Lowry",
-        "Manchester Museum",
-        "John Rylands Library"
-      ]
-    }
-  },
-  "Thailand": {
-    "cities": {
-      "Bangkok": [
-        "Grand Palace",
-        "Temple of the Emerald Buddha",
-        "Wat Pho",
-        "Floating Markets",
-        "Lumphini Park"
-      ],
-      "Chiang Mai": [
-        "Wat Chedi Luang",
-        "Doi Suthep",
-        "Sunday Walking Street",
-        "Elephant Nature Park",
-        "Old City Moat"
-      ],
-      "Phuket": [
-        "Phang Nga Bay",
-        "Big Buddha",
-        "Patong Beach",
-        "Karon Beach",
-        "Wat Chalong"
-      ],
-      "Krabi": [
-        "Railay Beach",
-        "Phi Phi Islands",
-        "Emerald Pool",
-        "Tiger Cave Temple",
-        "Four Islands Tour"
-      ],
-      "Pattaya": [
-        "Pattaya Beach",
-        "Sanctuary of Truth",
-        "Nong Nooch Tropical Botanical Garden",
-        "Underwater World",
-        "Buddha Mountain"
-      ]
-    }
-  },
-  "India": {
-    "cities": {
-      "Delhi": [
-        "India Gate",
-        "Red Fort",
-        "Jama Masjid",
-        "Raj Ghat",
-        "Chandni Chowk"
-      ],
-      "Mumbai": [
-        "Gateway of India",
-        "Taj Mahal Hotel",
-        "Marine Drive",
-        "Haji Ali Mosque",
-        "Siddhivinayak Temple"
-      ],
-      "Agra": [
-        "Taj Mahal",
-        "Agra Fort",
-        "Mehtab Bagh",
-        "Fatehpur Sikri",
-        "Itmad-ud-Daulah"
-      ],
-      "Bangalore": [
-        "Vidhana Soudha",
-        "Bangalore Palace",
-        "Lalbagh Garden",
-        "Cubbon Park",
-        "Iskcon Temple"
-      ],
-      "Jaipur": [
-        "City Palace",
-        "Hawa Mahal",
-        "Jantar Mantar",
-        "Albert Hall Museum",
-        "Govind Dev Ji Temple"
-      ]
-    }
-  },
-  "Brazil": {
-    "cities": {
-      "Rio de Janeiro": [
-        "Christ the Redeemer",
-        "Copacabana Beach",
-        "Ipanema Beach",
-        "Sugarloaf Mountain",
-        "Maracanã Stadium"
-      ],
-      "São Paulo": [
-        "São Paulo Museum of Art",
-        "Ibirapuera Park",
-        "Pinacoteca do Estado",
-        "Mercadão Market",
-        "Municipal Theater"
-      ],
-      "Salvador": [
-        "Pelourinho",
-        "Farol da Barra",
-        "Church of São Francisco",
-        "Mercado Modelo",
-        "Lacerda Elevator"
-      ],
-      "Recife": [
-        "Recife Antigo",
-        "Five Points District",
-        "Brennand Institute",
-        "Marco Zero",
-        "Peixoto Market"
-      ],
-      "Fortaleza": [
-        "Iracema Beach",
-        "Fuerte de Santiago",
-        "Central Market",
-        "Dragão do Mar Center",
-        "Meireles Beach"
-      ]
-    }
-  },
-  "Australia": {
-    "cities": {
-      "Sydney": [
-        "Sydney Opera House",
-        "Harbour Bridge",
-        "Bondi Beach",
-        "Blue Mountains",
-        "Taronga Zoo"
-      ],
-      "Melbourne": [
-        "Great Ocean Road",
-        "Twelve Apostles",
-        "Federation Square",
-        "National Gallery of Victoria",
-        "Royal Botanic Gardens"
-      ],
-      "Brisbane": [
-        "South Bank Parklands",
-        "Story Bridge",
-        "Lone Pine Koala Sanctuary",
-        "Gallery of Modern Art",
-        "City Botanic Gardens"
-      ],
-      "Perth": [
-        "Swan River",
-        "Fremantle Prison",
-        "Kings Park",
-        "Rottnest Island",
-        "Perth Mint"
-      ],
-      "Gold Coast": [
-        "Surfers Paradise",
-        "Currumbin Beach",
-        "Tamboram Rainforest",
-        "Southport Broadwater",
-        "Dream World"
-      ]
-    }
-  },
-  "Canada": {
-    "cities": {
-      "Toronto": [
-        "CN Tower",
-        "Niagara Falls",
-        "Royal Ontario Museum",
-        "St. Lawrence Market",
-        "Casa Loma"
-      ],
-      "Vancouver": [
-        "Stanley Park",
-        "Vancouver Art Gallery",
-        "Granville Island",
-        "Capilano Suspension Bridge",
-        "Canada Place"
-      ],
-      "Montreal": [
-        "Notre-Dame Basilica",
-        "Mount Royal",
-        "Jean-Talon Market",
-        "Underground City",
-        "Montreal Museum of Fine Arts"
-      ],
-      "Calgary": [
-        "Calgary Tower",
-        "Heritage Park Historical Village",
-        "Bow River",
-        "Glenbow Museum",
-        "Calgary Stampede Grounds"
-      ],
-      "Quebec City": [
-        "Old Quebec City",
-        "Montmorency Falls",
-        "Citadelle of Quebec",
-        "Île d'Orléans",
-        "Basilica-Cathedral of Notre-Dame"
-      ]
-    }
-  },
-  "Mexico": {
-    "cities": {
-      "Mexico City": [
-        "Templo Mayor",
-        "National Museum of Anthropology",
-        "Frida Kahlo Museum",
-        "Chapultepec Castle",
-        "Zócalo"
-      ],
-      "Cancún": [
-        "Cancún Beach",
-        "Xel-Há Park",
-        "Xcaret Park",
-        "Playa Delfines",
-        "Lagoon"
-      ],
-      "Playa del Carmen": [
-        "Fifth Avenue",
-        "Xcaret Park",
-        "Cenotes",
-        "Maya Ruins",
-        "Playacar"
-      ],
-      "Guadalajara": [
-        "Metropolitan Cathedral",
-        "Teatro Degollado",
-        "Government Palace",
-        "Hospicio Cabañas",
-        "Regional Museum of Guadalajara"
-      ],
-      "Monterrey": [
-        "Barrio Antiguo",
-        "Macroplaza",
-        "Cerro de la Silla",
-        "MARCO Museum",
-        "Barrio Viejo"
-      ]
-    }
-  },
-  "Greece": {
-    "cities": {
-      "Athens": [
-        "Acropolis",
-        "Parthenon",
-        "Temple of Zeus",
-        "Panathenaic Stadium",
-        "Acropolis Museum"
-      ],
-      "Mykonos": [
-        "Mykonos Town",
-        "Paradise Beach",
-        "Windmills",
-        "Little Venice",
-        "Agricultural Museum"
-      ],
-      "Santorini": [
-        "Caldera Views",
-        "Oia Village",
-        "Red Beach",
-        "Akrotiri Archaeological Site",
-        "Blue Domed Churches"
-      ],
-      "Rhodes": [
-        "Palace of the Grand Masters",
-        "Medieval Old Town",
-        "Lindos Acropolis",
-        "Symi Island",
-        "St. Paul's Bay"
-      ],
-      "Crete": [
-        "Minoan Palace of Knossos",
-        "Pink Beach",
-        "Samaria Gorge",
-        "Rethymno Old Town",
-        "Chania Harbor"
-      ]
-    }
-  },
-  "China": {
-    "cities": {
-      "Beijing": [
-        "Great Wall of China",
-        "Forbidden City",
-        "Temple of Heaven",
-        "Ming Tombs",
-        "Summer Palace"
-      ],
-      "Shanghai": [
-        "The Bund",
-        "Oriental Pearl Tower",
-        "Yu Garden",
-        "Shanghai Tower",
-        "City God Temple"
-      ],
-      "Xi'an": [
-        "Terracotta Army",
-        "City Wall",
-        "Giant Wild Goose Pagoda",
-        "Shaanxi History Museum",
-        "Bell Tower"
-      ],
-      "Guilin": [
-        "Karst Mountains",
-        "Li River",
-        "Elephant Trunk Hill",
-        "Reed Flute Cave",
-        "Moon Mountain"
-      ],
-      "Chengdu": [
-        "Giant Panda Base",
-        "Wuhou Shrine",
-        "Dujiang Weir",
-        "Qingyang Gong",
-        "Wide and Narrow Lanes"
-      ]
-    }
-  },
-  "South Korea": {
-    "cities": {
-      "Seoul": [
-        "Gyeongbokgung Palace",
-        "Namsan Tower",
-        "Myeongdong",
-        "Bukchon Hanok Village",
-        "Han River Park"
-      ],
-      "Busan": [
-        "Busan Tower",
-        "Haeundae Beach",
-        "Beomeosa Temple",
-        "Gamcheon Culture Village",
-        "Jagalchi Fish Market"
-      ],
-      "Incheon": [
-        "Incheon Bridge",
-        "Songdo Central Park",
-        "Korean Demilitarized Zone",
-        "Chinatown",
-        "Incheon Landing Operation Monument"
-      ],
-      "Daegu": [
-        "Yangnyeongpumarket",
-        "Seomun Market",
-        "Dongseongro Street",
-        "Apsan Park",
-        "National Museum of Korea"
-      ],
-      "Gwangju": [
-        "Asian Culture Complex",
-        "May 18 Democratic Uprising Park",
-        "Mudeungsan National Park",
-        "Gwangju Folk Museum",
-        "Jinwol-dong Village"
-      ]
-    }
-  },
-  "Turkey": {
-    "cities": {
-      "Istanbul": [
-        "Blue Mosque",
-        "Hagia Sophia",
-        "Topkapi Palace",
-        "Bosphorus Strait",
-        "Grand Bazaar"
-      ],
-      "Ankara": [
-        "Anıtkabir",
-        "Museum of Anatolian Civilizations",
-        "Temple of Augustus",
-        "Ankara Citadel",
-        "Kocatepe Mosque"
-      ],
-      "Izmir": [
-        "Alsancak District",
-        "Smyrna Agora",
-        "Konak Mosque",
-        "Clock Tower",
-        "Izmir National Fair"
-      ],
-      "Antalya": [
-        "Old Town",
-        "Hadrian's Gate",
-        "Duden Waterfall",
-        "Aspendos Theater",
-        "Konyaaltı Beach"
-      ],
-      "Cappadocia": [
-        "Fairy Chimneys",
-        "Cave Churches",
-        "Hot Air Balloon Rides",
-        "Underground Cities",
-        "Goreme Open Air Museum"
-      ]
-    }
-  },
-  "Vietnam": {
-    "cities": {
-      "Hanoi": [
-        "Hoan Kiem Lake",
-        "Temple of Literature",
-        "Ho Chi Minh Mausoleum",
-        "Old Quarter",
-        "St. Joseph's Cathedral"
-      ],
-      "Ho Chi Minh City": [
-        "Ben Thanh Market",
-        "War Remnants Museum",
-        "Reunification Palace",
-        "Bitexco Financial Tower",
-        "Saigon River"
-      ],
-      "Da Nang": [
-        "My Khe Beach",
-        "Marble Mountains",
-        "Han Market",
-        "Dragon Bridge",
-        "Son Tra Peninsula"
-      ],
-      "Hue": [
-        "Imperial Citadel",
-        "Tu Duc Tomb",
-        "Perfume River",
-        "Thien Mu Pagoda",
-        "Royal Tombs"
-      ],
-      "Halong Bay": [
-        "Halong Bay Cruise",
-        "Stalactite Cave",
-        "Cat Ba Island",
-        "Titov Island",
-        "Sundown Peak"
-      ]
-    }
-  },
-  "Indonesia": {
-    "cities": {
-      "Jakarta": [
-        "National Monument",
-        "Jakarta Cathedral",
-        "Kota Tua",
-        "Textile Museum",
-        "Istiqlal Mosque"
-      ],
-      "Bali": [
-        "Ubud Palace",
-        "Tegallalang Rice Terraces",
-        "Tanah Lot Temple",
-        "Mount Batur",
-        "Seminyak Beach"
-      ],
-      "Yogyakarta": [
-        "Borobudur Temple",
-        "Prambanan Temple",
-        "Rajapath",
-        "Water Castle",
-        "Mount Merapi"
-      ],
-      "Bandung": [
-        "Tangkuban Perahu",
-        "Kawah Putih",
-        "Lembang",
-        "Farm House",
-        "Dago Tea Plantations"
-      ],
-      "Surabaya": [
-        "House of Sampoerna",
-        "Red Bridge",
-        "Tugu Pahlawan",
-        "Submarine Monument",
-        "East Java Museum"
-      ]
-    }
-  },
-  "Philippines": {
-    "cities": {
-      "Manila": [
-        "Intramuros",
-        "Fort Santiago",
-        "Rizal Park",
-        "San Agustin Church",
-        "Manila Cathedral"
-      ],
-      "Cebu": [
-        "Cebu City Heritage",
-        "Santo Niño Church",
-        "Carbon Market",
-        "Magellan's Cross",
-        "Tops Lookout"
-      ],
-      "Davao": [
-        "People's Park",
-        "Apo Island",
-        "Eden Nature Park",
-        "Philippine Eagle Foundation",
-        "Crocodile Park"
-      ],
-      "Boracay": [
-        "White Sand Beach",
-        "Willy's Rock",
-        "Puka Beach",
-        "Bulabog Beach",
-        "Ariel's Point"
-      ],
-      "Palawan": [
-        "El Nido",
-        "Coron Island",
-        "Underground River",
-        "Bacuit Archipelago",
-        "Kayangan Lake"
-      ]
-    }
-  },
-  "Malaysia": {
-    "cities": {
-      "Kuala Lumpur": [
-        "Petronas Twin Towers",
-        "Menara Kuala Lumpur",
-        "Batu Caves",
-        "Merdeka Square",
-        "Islamic Arts Museum"
-      ],
-      "Penang": [
-        "Georgetown",
-        "Penang Hill",
-        "Fort Cornwallis",
-        "Cheong Fatt Tze Mansion",
-        "Kek Lok Si Temple"
-      ],
-      "Malacca": [
-        "Malacca Straits Mosque",
-        "A'Famosa Fort",
-        "Dutch Square",
-        "Jonker Street",
-        "St. Paul's Church"
-      ],
-      "Kota Kinabalu": [
-        "Mount Kinabalu",
-        "Kinabalu Park",
-        "Sabah Museum",
-        "Signal Hill",
-        "Manukan Island"
-      ],
-      "Kuching": [
-        "Sarawak Museum",
-        "Cat Museum",
-        "Main Bazaar",
-        "Fort Margherita",
-        "Astana Negeri"
-      ]
-    }
-  },
-  "Singapore": {
-    "cities": {
-      "Singapore": [
-        "Marina Bay Sands",
-        "Gardens by the Bay",
-        "Merlion Park",
-        "Singapore Flyer",
-        "Sentosa Island"
-      ],
-      "Orchard": [
-        "Orchard Road",
-        "ION Orchard",
-        "Ngee Ann City",
-        "Takashimaya",
-        "Dhoby Ghaut"
-      ],
-      "Chinatown": [
-        "Thian Hock Keng Temple",
-        "Singapore Chinese Museum",
-        "Maxwell Food Centre",
-        "Buddha Tooth Relic Temple",
-        "Eu Tong Sen Park"
-      ],
-      "Little India": [
-        "Sri Veeramakaliamman Temple",
-        "Tekka Market",
-        "Mustafa Centre",
-        "Indian Heritage Centre",
-        "Kampong Glam"
-      ],
-      "East Coast": [
-        "East Coast Park",
-        "Katong",
-        "East Coast Lagoon",
-        "Beachfront Promenade",
-        "Tanah Merah Coast"
-      ]
-    }
-  },
-  "Netherlands": {
-    "cities": {
-      "Amsterdam": [
-        "Canal Houses",
-        "Anne Frank House",
-        "Van Gogh Museum",
-        "Dam Square",
-        "Rijksmuseum"
-      ],
-      "Rotterdam": [
-        "Euromast Tower",
-        "Kinderdijk Windmills",
-        "Cube Houses",
-        "Ss Rotterdam",
-        "Maritime Museum"
-      ],
-      "Utrecht": [
-        "Dom Tower",
-        "Railway Museum",
-        "University Museum",
-        "Oudegracht Canal",
-        "Dom Church"
-      ],
-      "Haarlem": [
-        "Market Square",
-        "St. Bavo Cathedral",
-        "Teylers Museum",
-        "Corrie ten Boom House",
-        "Janneke Art"
-      ],
-      "Delft": [
-        "New Church",
-        "Old Church",
-        "Markt Square",
-        "Vermeer Center",
-        "Royal Delft"
-      ]
-    }
-  },
-  "Belgium": {
-    "cities": {
-      "Brussels": [
-        "Grand Place",
-        "Atomium",
-        "Belgian Comic Strip Center",
-        "Manneken Pis",
-        "Royal Palace"
-      ],
-      "Bruges": [
-        "Belfry Tower",
-        "St. John's Hospital",
-        "Lake of Love",
-        "Markt Square",
-        "Basilica of Holy Blood"
-      ],
-      "Antwerp": [
-        "Central Station",
-        "Cathedral of Our Lady",
-        "Rubens House",
-        "Meir Street",
-        "Museum aan de Stroom"
-      ],
-      "Ghent": [
-        "St. Bavo's Cathedral",
-        "Gravensteen Castle",
-        "Meatpacker District",
-        "Sint-Baafskathedraal",
-        "Three Towers"
-      ],
-      "Liege": [
-        "La Citadelle",
-        "Prince-Bishop's Palace",
-        "Liege Cathedral",
-        "Musée de la Wallonie",
-        "River Meuse"
-      ]
-    }
-  },
-  "Switzerland": {
-    "cities": {
-      "Zurich": [
-        "Zurich Old Town",
-        "Bahnhofstrasse",
-        "Lake Zurich",
-        "Swiss National Museum",
-        "Fraumünster Church"
-      ],
-      "Geneva": [
-        "Jet d'Eau",
-        "Old Town",
-        "Cathedral of St. Peter",
-        "United Nations Palace",
-        "Lake Geneva"
-      ],
-      "Lucerne": [
-        "Chapel Bridge",
-        "Water Tower",
-        "Lucerne Lake",
-        "Old Town",
-        "Mount Pilatus"
-      ],
-      "Interlaken": [
-        "Jungfrau Region",
-        "Harder Kulm",
-        "Lake Thun",
-        "Lake Brienz",
-        "Unterseen Old Town"
-      ],
-      "Bern": [
-        "Old Town",
-        "Bern Cathedral",
-        "Bear Park",
-        "Parliament Building",
-        "Aare River"
-      ]
-    }
-  },
-  "Austria": {
-    "cities": {
-      "Vienna": [
-        "Schönbrunn Palace",
-        "St. Stephen's Cathedral",
-        "Hofburg Palace",
-        "Belvedere Palace",
-        "St. Charles Church"
-      ],
-      "Salzburg": [
-        "Salzburg Cathedral",
-        "Hohensalzburg Fortress",
-        "Mirabell Palace",
-        "Sound of Music Tour",
-        "Mozart's Birthplace"
-      ],
-      "Innsbruck": [
-        "Goldenes Dachl",
-        "Hofkirche",
-        "Alpenzoo",
-        "Bergisel Ski Jump",
-        "Stubai Valley"
-      ],
-      "Hallstatt": [
-        "Hallstatt Salt Mine",
-        "Market Square",
-        "Lake Hallstatt",
-        "Hallstatt Museum",
-        "St. Michael's Church"
-      ],
-      "Linz": [
-        "Ars Electronica Center",
-        "Linz Castle",
-        "Mariendom Cathedral",
-        "Danube Tower",
-        "Hauptplatz Square"
-      ]
-    }
-  },
-  "Czech Republic": {
-    "cities": {
-      "Prague": [
-        "Charles Bridge",
-        "Prague Castle",
-        "St. Vitus Cathedral",
-        "Old Town Square",
-        "Jewish Quarter"
-      ],
-      "Brno": [
-        "Spilberk Castle",
-        "St. Peter and Paul Cathedral",
-        "Mendel University",
-        "Moravian Museum",
-        "Veleslavin Park"
-      ],
-      "Cesky Krumlov": [
-        "Cesky Krumlov Castle",
-        "Latran Street",
-        "Main Square",
-        "Church of St. Jitus",
-        "River Vltava"
-      ],
-      "Kutna Hora": [
-        "Sedlec Ossuary",
-        "Cathedral of Our Lady",
-        "St. James Church",
-        "Italian Court",
-        "Vlassky Dvur"
-      ],
-      "Plzen": [
-        "St. Bartholomew's Church",
-        "Plzen Brewery",
-        "West Bohemian Museum",
-        "Old Town Square",
-        "Budejovice Gate"
-      ]
-    }
-  },
-  "Hungary": {
-    "cities": {
-      "Budapest": [
-        "Buda Castle",
-        "Chain Bridge",
-        "Thermal Baths",
-        "Parliament Building",
-        "Danube River"
-      ],
-      "Debrecen": [
-        "Great Reformed Church",
-        "Déri Museum",
-        "Piac Street",
-        "Nagyerdei Park",
-        "St. Ana Church"
-      ],
-      "Szeged": [
-        "Szeged Cathedral",
-        "Dóm Square",
-        "Reök Palace",
-        "River Tisza",
-        "Votive Church"
-      ],
-      "Eger": [
-        "Eger Castle",
-        "Eger Cathedral",
-        "Thermal Baths",
-        "Minaret Tower",
-        "Wine Valley"
-      ],
-      "Pecs": [
-        "Cathedral Basilica",
-        "Early Christian Mausoleum",
-        "Janus Pannonius Museum",
-        "Mosque Church",
-        "Széchenyi Square"
-      ]
-    }
-  },
-  "Poland": {
-    "cities": {
-      "Warsaw": [
-        "Old Town Square",
-        "Royal Castle",
-        "Warsaw Uprising Museum",
-        "Palace of Culture and Science",
-        "Lazienki Park"
-      ],
-      "Krakow": [
-        "Wawel Castle",
-        "Main Market Square",
-        "St. Mary's Basilica",
-        "Wieliczka Salt Mine",
-        "Schindler's Factory"
-      ],
-      "Gdansk": [
-        "Mariacka Street",
-        "European Solidarity Centre",
-        "St. Mary's Church",
-        "Golden Gate",
-        "Motlawa River"
-      ],
-      "Wroclaw": [
-        "Market Square",
-        "Cathedral Island",
-        "Panorama of Racławice",
-        "Ostrów Tumski",
-        "Town Hall"
-      ],
-      "Poznan": [
-        "Old Market Square",
-        "Cathedral of St. Peter and Paul",
-        "Citadel",
-        "Poznan Town Hall",
-        "Lake Malta"
-      ]
-    }
-  },
-  "Portugal": {
-    "cities": {
-      "Lisbon": [
-        "Belém Tower",
-        "Jerónimos Monastery",
-        "Tejo Bridge",
-        "São Jorge Castle",
-        "Alfama District"
-      ],
-      "Porto": [
-        "Dom Luís Bridge",
-        "Livraria Lello",
-        "Ribeira District",
-        "Torre Clérigos",
-        "Crystal Palace Gardens"
-      ],
-      "Sintra": [
-        "Pena Palace",
-        "Quinta da Regaleira",
-        "Sintra National Palace",
-        "Castle of the Moors",
-        "Convent of the Capuchos"
-      ],
-      "Cascais": [
-        "Cascais Beach",
-        "Citadel of Cascais",
-        "Boca do Inferno",
-        "Guincho Beach",
-        "Marina"
-      ],
-      "Covilhã": [
-        "Serra da Estrela",
-        "University of Beira Interior",
-        "Wool Museum",
-        "King's Chapel",
-        "Fountain Alegre"
-      ]
-    }
-  },
-  "Russia": {
-    "cities": {
-      "Moscow": [
-        "Red Square",
-        "St. Basil's Cathedral",
-        "Kremlin",
-        "Lenin's Mausoleum",
-        "GUM Department Store"
-      ],
-      "Saint Petersburg": [
-        "Hermitage Museum",
-        "Winter Palace",
-        "Church of the Savior on Blood",
-        "Peter and Paul Fortress",
-        "Palace Square"
-      ],
-      "Sochi": [
-        "Sochi Beach",
-        "Olympic Stadium",
-        "Loo River",
-        "Arboretum",
-        "Snow Leopard Ski Resort"
-      ],
-      "Yekaterinburg": [
-        "Church on the Blood",
-        "Ipatyev House",
-        "Yeltsin Center",
-        "Sevastyanov House",
-        "City Pond"
-      ],
-      "Kazan": [
-        "Kul Sharif Mosque",
-        "Kazan Kremlin",
-        "Qolsharif Mosque",
-        "Bauman Street",
-        "Lake Kaban"
-      ]
-    }
-  },
-  "Argentina": {
-    "cities": {
-      "Buenos Aires": [
-        "La Boca",
-        "Teatro Colón",
-        "Casa Rosada",
-        "Recoleta Cemetery",
-        "San Telmo Market"
-      ],
-      "Mendoza": [
-        "Aconcagua",
-        "Wine Region",
-        "Maipú",
-        "Luján de Cuyo",
-        "General San Martín Park"
-      ],
-      "Córdoba": [
-        "Córdoba Cathedral",
-        "Jesuit Block",
-        "Jesuit Estancias",
-        "San Roque Church",
-        "Sarmiento Park"
-      ],
-      "La Plata": [
-        "Cathedral of La Plata",
-        "Museo de La Plata",
-        "Teatro Argentino",
-        "Paseo del Bosque",
-        "Diagonal 80"
-      ],
-      "Jujuy": [
-        "Serranías del Hornocal",
-        "Tilcara Fort",
-        "Purmamarca",
-        "Fourteen Colors Hill",
-        "Maimará Palette"
-      ]
-    }
-  },
-  "Peru": {
-    "cities": {
-      "Lima": [
-        "Plaza Mayor",
-        "Cathedral of Lima",
-        "Museum of the Nation",
-        "Larco Museum",
-        "Miraflores Boardwalk"
-      ],
-      "Cusco": [
-        "Plaza de Armas",
-        "Cusco Cathedral",
-        "Sacsayhuamán",
-        "Qorikancha",
-        "Sacred Valley"
-      ],
-      "Machu Picchu": [
-        "Machu Picchu Citadel",
-        "Huayna Picchu",
-        "Temple of the Sun",
-        "Sacred Plaza",
-        "Intihuatana Stone"
-      ],
-      "Arequipa": [
-        "Arequipa Cathedral",
-        "Colca Canyon",
-        "Monastery of Santa Catalina",
-        "Plaza de Armas",
-        "Mistico Lagunillas"
-      ],
-      "Puno": [
-        "Lake Titicaca",
-        "Uros Islands",
-        "Taquile Island",
-        "Yavari Ship Museum",
-        "Puno Plaza de Armas"
-      ]
-    }
-  },
-  "Colombia": {
-    "cities": {
-      "Bogotá": [
-        "Gold Museum",
-        "Monserrate",
-        "La Candelaria District",
-        "Plaza de Bolivar",
-        "Botero Museum"
-      ],
-      "Cartagena": [
-        "Walled Old City",
-        "San Felipe Fortress",
-        "Rosario Islands",
-        "Getsemani District",
-        "Cathedral Basilica"
-      ],
-      "Medellín": [
-        "Plaza Botero",
-        "La Comuna 13",
-        "Cable Cars",
-        "Flower Festival",
-        "Pueblo Paisa"
-      ],
-      "Santa Marta": [
-        "Lost City Trek",
-        "Tayrona National Park",
-        "El Rodadero Beach",
-        "Magdalena River",
-        "Park Archaeology"
-      ],
-      "Cali": [
-        "Cristo Rey",
-        "San Antonio District",
-        "Gato Negro Monument",
-        "Salsa Shows",
-        "Calima Archaeological Museum"
-      ]
-    }
-  },
-  "Chile": {
-    "cities": {
-      "Santiago": [
-        "La Moneda Palace",
-        "Plaza de Armas",
-        "San Cristóbal Hill",
-        "Central Market",
-        "Metropolitan Cathedral"
-      ],
-      "Atacama": [
-        "Atacama Desert",
-        "Valley of the Moon",
-        "El Tatio Geysers",
-        "Salt Flats",
-        "Flamingo Lake"
-      ],
-      "Valparaíso": [
-        "Funicular Railway",
-        "Cerro Alegre",
-        "Municipal Theater",
-        "Seaport",
-        "La Sebastiana"
-      ],
-      "Punta Arenas": [
-        "Pinguino Island",
-        "Punta Arenas Cemetery",
-        "Nao Victoria Museum",
-        "Regional Brazo Museum",
-        "Strait of Magellan"
-      ],
-      "Puerto Varas": [
-        "Osorno Volcano",
-        "Llanquihue Lake",
-        "Pelluco Beach",
-        "Puerto Montt",
-        "Alerce Costero National Park"
-      ]
-    }
-  },
-  "Ecuador": {
-    "cities": {
-      "Quito": [
-        "Historic Center",
-        "Basilica del Voto Nacional",
-        "Mitad del Mundo",
-        "Plaza de la Independencia",
-        "La Compañía Church"
-      ],
-      "Galapagos": [
-        "Charles Darwin Research Station",
-        "Galápagos Islands",
-        "Giant Tortoises",
-        "Blue-footed Boobies",
-        "Snorkeling"
-      ],
-      "Cuenca": [
-        "Cuenca Cathedral",
-        "Historic Center",
-        "Pumapungo Museum",
-        "El Vado",
-        "Ingapirca"
-      ],
-      "Baños": [
-        "Tungurahua Waterfall",
-        "Devil's Cauldron",
-        "Pastaza River",
-        "Adventure Sports",
-        "Cloud Forest"
-      ],
-      "Otavalo": [
-        "Otavalo Market",
-        "Cotacachi",
-        "Cuicocha Lake",
-        "Textile Weaving",
-        "Indigenous Culture"
-      ]
-    }
-  },
-  "New Zealand": {
-    "cities": {
-      "Auckland": [
-        "Sky Tower",
-        "Rangitoto Island",
-        "Auckland War Memorial Museum",
-        "Viaduct Harbour",
-        "Mission Bay"
-      ],
-      "Christchurch": [
-        "Canterbury Museum",
-        "Botanical Gardens",
-        "Christchurch Cathedral",
-        "Arts Centre",
-        "River Avon"
-      ],
-      "Queenstown": [
-        "Lake Wakatipu",
-        "Shotover Canyon",
-        "Bungy Jumping",
-        "Arrowtown",
-        "Skiing"
-      ],
-      "Wellington": [
-        "Te Papa Tongarewa Museum",
-        "Parliament Buildings",
-        "Cable Car",
-        "Cuba Street",
-        "Botanic Gardens"
-      ],
-      "Rotorua": [
-        "Geothermal Areas",
-        "Pohutu Geyser",
-        "Redwoods Visitor Centre",
-        "Lake Rotorua",
-        "Maori Arts and Crafts"
-      ]
-    }
-  },
-  "Norway": {
-    "cities": {
-      "Oslo": [
-        "Oslo Opera House",
-        "Viking Ship Museum",
-        "Vigeland Sculpture Park",
-        "Akershus Fortress",
-        "Holmenkollen Ski Jump"
-      ],
-      "Bergen": [
-        "Bryggen District",
-        "Fløibanen Funicular",
-        "Fish Market",
-        "Bergenhus Fortress",
-        "Mount Floyen"
-      ],
-      "Stavanger": [
-        "Stavanger Cathedral",
-        "Preikestolen",
-        "Lysefjord",
-        "Norwegian Petroleum Museum",
-        "Pulpit Rock"
-      ],
-      "Trondheim": [
-        "Nidaros Cathedral",
-        "Bakklandet District",
-        "Stiftsgarden Palace",
-        "Munkholmen Island",
-        "Kantarellen Roofed Market"
-      ],
-      "Tromsø": [
-        "Arctic Cathedral",
-        "Northern Lights",
-        "Arctic Botanical Garden",
-        "Polaria Aquarium",
-        "Midnight Sun"
-      ]
-    }
-  },
-  "Sweden": {
-    "cities": {
-      "Stockholm": [
-        "Gamla Stan",
-        "Vasa Museum",
-        "Royal Palace",
-        "Drottningholm Palace",
-        "Skansen Open-Air Museum"
-      ],
-      "Gothenburg": [
-        "Liseberg Amusement Park",
-        "Gothenburg Museum of Art",
-        "Kungsportsavenyen",
-        "Haga District",
-        "Maritime Museum"
-      ],
-      "Uppsala": [
-        "Uppsala Cathedral",
-        "Gustavianum Building",
-        "Botanical Garden",
-        "University of Uppsala",
-        "Old Uppsala"
-      ],
-      "Malmö": [
-        "Turning Torso",
-        "Malmö Castle",
-        "Stortorget Square",
-        "Ribersborg Beach",
-        "St. Peter's Church"
-      ],
-      "Lund": [
-        "Lund Cathedral",
-        "Lundagård",
-        "University of Lund",
-        "Botanical Gardens",
-        "Museum of Cultural History"
-      ]
-    }
-  },
-  "Denmark": {
-    "cities": {
-      "Copenhagen": [
-        "Tivoli Gardens",
-        "Nyhavn",
-        "Rosenborg Castle",
-        "Little Mermaid Statue",
-        "Amalienborg Palace"
-      ],
-      "Aarhus": [
-        "ARoS Art Museum",
-        "Cathedral of Aarhus",
-        "Den Gamle By",
-        "Aarhus Theater",
-        "Mosgård Museum"
-      ],
-      "Odense": [
-        "Hans Christian Andersen House",
-        "Odense Cathedral",
-        "Egeskov Castle",
-        "Carl Nielsen Museum",
-        "Fyn's Folk Museum"
-      ],
-      "Roskilde": [
-        "Roskilde Cathedral",
-        "Viking Ship Museum",
-        "Festival Grounds",
-        "Roskilde Museum",
-        "Frederiksborg Castle"
-      ],
-      "Ribe": [
-        "Ribe Cathedral",
-        "Ribe Viking Museum",
-        "Ribe Town Hall",
-        "Tonderslevsej",
-        "Medieval Streets"
-      ]
-    }
-  },
-  "Finland": {
-    "cities": {
-      "Helsinki": [
-        "Uspenski Cathedral",
-        "Market Square",
-        "Helsinki Cathedral",
-        "National Museum",
-        "Rock Church"
-      ],
-      "Tampere": [
-        "Moomin Museum",
-        "Tampere Cathedral",
-        "Pyynikki Park",
-        "Särkänniemi",
-        "Lenin Museum"
-      ],
-      "Turku": [
-        "Turku Castle",
-        "Cathedral of Turku",
-        "Museum of Art",
-        "Island Hopping",
-        "Pharmacy Museum"
-      ],
-      "Oulu": [
-        "Oulu Cathedral",
-        "Tietomaa Science Center",
-        "Ainola Park",
-        "5th Parallel Monument",
-        "Arctic Botanical Garden"
-      ],
-      "Rovaniemi": [
-        "Santa Claus Village",
-        "Arctic Circle",
-        "Arktikum Museum",
-        "Northern Lights",
-        "Snowmobile Safari"
-      ]
-    }
-  },
-  "Iceland": {
-    "cities": {
-      "Reykjavik": [
-        "Hallgrímskirkja Church",
-        "Blue Lagoon",
-        "Harpa Concert Hall",
-        "National Museum",
-        "Golden Circle"
-      ],
-      "Akureyri": [
-        "Akureyri Church",
-        "Botanical Gardens",
-        "Lake Mývatn",
-        "Goðafoss Waterfall",
-        "Skagaströnd"
-      ],
-      "Vik": [
-        "Black Sand Beach",
-        "Reynisdrangar",
-        "Skaftafell",
-        "Jökulsárlón Glacier Lagoon",
-        "Fjaðrárgljúfur Canyon"
-      ],
-      "Grundarfjörður": [
-        "Kirkjufell Mountain",
-        "Snæfellsjökull Glacier",
-        "Arnarstapi",
-        "Hellnar",
-        "Lónacanyon"
-      ],
-      "Húsavík": [
-        "Húsavík Whale Watching",
-        "Goðafoss Waterfall",
-        "Lake Mývatn",
-        "Dimmuborgir",
-        "Námafjall"
-      ]
-    }
-  },
-  "Ireland": {
-    "cities": {
-      "Dublin": [
-        "Trinity College",
-        "Book of Kells",
-        "St. Patrick's Cathedral",
-        "Dublin Castle",
-        "Guinness Storehouse"
-      ],
-      "Cork": [
-        "Cork Cathedral",
-        "English Market",
-        "Cork Butter Museum",
-        "Shandon Bells",
-        "Cork City Museum"
-      ],
-      "Galway": [
-        "Galway Cathedral",
-        "Galway Bay",
-        "Aran Islands",
-        "Latin Quarter",
-        "Salt Hill Beach"
-      ],
-      "Limerick": [
-        "King John's Castle",
-        "St. Mary's Cathedral",
-        "Hunt Museum",
-        "Treaty Stone",
-        "Limerick Museum"
-      ],
-      "Waterford": [
-        "Waterford Medieval Museum",
-        "Waterford Crystal Factory",
-        "Dunbrody Famine Ship",
-        "Cathedral of Waterford",
-        "Waterford City Museum"
-      ]
-    }
-  },
-  "Croatia": {
-    "cities": {
-      "Dubrovnik": [
-        "Dubrovnik Old Town",
-        "City Walls",
-        "Lovrijenac Fortress",
-        "Rector's Palace",
-        "Stradun Street"
-      ],
-      "Split": [
-        "Diocletian's Palace",
-        "Split Waterfront",
-        "Marjan Hill",
-        "Cathedral of Saint Domnius",
-        "Archaeological Museum"
-      ],
-      "Zagreb": [
-        "Ban Jelačić Square",
-        "Zagreb Cathedral",
-        "Mirogoj Cemetery",
-        "Museum of Broken Relationships",
-        "Upper Town"
-      ],
-      "Rovinj": [
-        "Rovinj Old Town",
-        "Church of Saint Euphemia",
-        "Adriatic Coast",
-        "Rovinj Harbor",
-        "Local Markets"
-      ]
-    }
-  },
-  "Slovakia": {
-    "cities": {
-      "Bratislava": [
-        "Bratislava Castle",
-        "St. Martin's Cathedral",
-        "Danube River",
-        "Old Town Square",
-        "UFO Observation Deck"
-      ],
-      "Košice": [
-        "Košice Cathedral",
-        "Peace Square",
-        "Čunovo Water Gate",
-        "Čunovo Park"
-      ],
-      "Banská Štiavnica": [
-        "Mining Museums",
-        "Church of the Assumption",
-        "Town Hall"
-      ]
-    }
-  },
-  "Slovenia": {
-    "cities": {
-      "Ljubljana": [
-        "Ljubljana Castle",
-        "Central Market",
-        "Dragon Bridge",
-        "Prešeren Square",
-        "National Museum"
-      ],
-      "Bled": [
-        "Lake Bled",
-        "Bled Island Church",
-        "Bled Castle",
-        "Alpine Surroundings"
-      ],
-      "Maribor": [
-        "Maribor Cathedral",
-        "Old Vine",
-        "Drava River Promenade"
-      ]
-    }
-  },
-  "Romania": {
-    "cities": {
-      "Bucharest": [
-        "Palace of Parliament",
-        "Revolution Square",
-        "Lipscani Old Town",
-        "Village Museum",
-        "Herastrau Park"
-      ],
-      "Brașov": [
-        "Black Church",
-        "Council Square",
-        "Tampa Fortress",
-        "Poiana Brașov Ski Resort"
-      ],
-      "Sibiu": [
-        "Large Square",
-        "Small Square",
-        "Sibiu Cathedral",
-        "Brukenthal Museum"
-      ],
-      "Cluj-Napoca": [
-        "Matthias Church",
-        "Unirii Square",
-        "Citadel",
-        "St. Michael's Church"
-      ]
-    }
-  },
-  "Bulgaria": {
-    "cities": {
-      "Sofia": [
-        "Alexander Nevsky Cathedral",
-        "Saint Sofia Church",
-        "National Museum",
-        "Vitosha Mountain",
-        "Women's Market"
-      ],
-      "Plovdiv": [
-        "Roman Amphitheater",
-        "Old Town",
-        "Nebet Tepe Fortress",
-        "Archaeological Museum"
-      ],
-      "Bansko": [
-        "Pirin Mountain",
-        "Ski Resort",
-        "Old Town",
-        "Local Monasteries"
-      ]
-    }
-  },
-  "Serbia": {
-    "cities": {
-      "Belgrade": [
-        "Kalemegdan Fortress",
-        "St. Sava Temple",
-        "Republic Square",
-        "Nikola Tesla Museum",
-        "Danube River"
-      ],
-      "Nis": [
-        "Fortress of Nis",
-        "Constantine the Great Museum",
-        "Red Cross Park"
-      ],
-      "Vranje": [
-        "Vranje Fortress",
-        "Town Square",
-        "Local Markets"
-      ]
-    }
-  },
-  "Bosnia and Herzegovina": {
-    "cities": {
-      "Mostar": [
-        "Stari Most Bridge",
-        "Mostar Old Town",
-        "Koski Mehmed Pasha Mosque",
-        "War Museum",
-        "Neretva River"
-      ],
-      "Sarajevo": [
-        "Baščaršija Bazaar",
-        "Gazi Husrev-beg Mosque",
-        "War Tunnel",
-        "Olympic Mountains",
-        "Latin Bridge"
-      ],
-      "Jajce": [
-        "Pliva Waterfall",
-        "Medieval Fortress",
-        "Jajce Cathedral"
-      ]
-    }
-  },
-  "Montenegro": {
-    "cities": {
-      "Kotor": [
-        "Bay of Kotor",
-        "Kotor Old Town",
-        "Our Lady of the Rocks",
-        "Fortress of San Giovanni",
-        "Maritime Museum"
-      ],
-      "Podgorica": [
-        "Morača River",
-        "Millennium Bridge",
-        "Danilo's Fortress",
-        "National Museum"
-      ],
-      "Budva": [
-        "Budva Old Town",
-        "Adriatic Beaches",
-        "Saint John's Fortress"
-      ]
-    }
-  },
-  "Albania": {
-    "cities": {
-      "Tirana": [
-        "Skanderbeg Square",
-        "Et'hem Bey Mosque",
-        "National Museum",
-        "Clock Tower",
-        "Dajti Mountain"
-      ],
-      "Durrës": [
-        "Roman Amphitheater",
-        "Durrës Beach",
-        "Durrës Port",
-        "Venetian Tower"
-      ],
-      "Gjirokastër": [
-        "Gjirokastër Castle",
-        "Old Bazaar",
-        "Stone City",
-        "Ali Pasha Museum"
-      ]
-    }
-  },
-  "North Macedonia": {
-    "cities": {
-      "Skopje": [
-        "Skopje Fortress",
-        "Alexander the Great Statue",
-        "Old Bazaar",
-        "Millennium Cross",
-        "Stone Bridge"
-      ],
-      "Ohrid": [
-        "Lake Ohrid",
-        "St. Naum Monastery",
-        "Old Town",
-        "Samuel Fortress"
-      ],
-      "Bitola": [
-        "Bitola Town Center",
-        "Heraclea Lyncestis",
-        "Shirok Sokak Street"
-      ]
-    }
-  },
-  "Moldova": {
-    "cities": {
-      "Chișinău": [
-        "Cathedral of Chișinău",
-        "Stephen the Great Monument",
-        "National Museum",
-        "Wine Cellars"
-      ],
-      "Orhei": [
-        "Orhei Vechi Monastery",
-        "Rock Formations",
-        "Dniester River"
-      ]
-    }
-  },
-  "Ukraine": {
-    "cities": {
-      "Kyiv": [
-        "St. Sophia Cathedral",
-        "Kyiv Pechersk Lavra",
-        "Independence Square",
-        "Shevchenko Park",
-        "Golden Gate"
-      ],
-      "Lviv": [
-        "Lviv Old Town",
-        "High Castle",
-        "Town Hall",
-        "Latin Cathedral",
-        "Market Square"
-      ],
-      "Odesa": [
-        "Odesa Theater",
-        "Potemkin Stairs",
-        "Odesa Beach",
-        "Vorontsov Palace"
-      ]
-    }
-  },
-  "Belarus": {
-    "cities": {
-      "Minsk": [
-        "Independence Square",
-        "National Library",
-        "St. Mary Magdalene Church",
-        "Palace of Republic"
-      ],
-      "Brest": [
-        "Brest Fortress",
-        "Museum of Radio",
-        "Church of the Savior"
-      ]
-    }
-  },
-  "Lithuania": {
-    "cities": {
-      "Vilnius": [
-        "Vilnius Old Town",
-        "Gediminas Tower",
-        "Vilnius Cathedral",
-        "Gates of Dawn",
-        "University of Vilnius"
-      ],
-      "Kaunas": [
-        "Kaunas Castle",
-        "Town Hall",
-        "Ninth Fort",
-        "Museum Square"
-      ]
-    }
-  },
-  "Latvia": {
-    "cities": {
-      "Riga": [
-        "Riga Old Town",
-        "House of the Blackheads",
-        "Riga Cathedral",
-        "Art Nouveau District",
-        "Freedom Monument"
-      ],
-      "Sigulda": [
-        "Sigulda Castle",
-        "Gauja Valley",
-        "Turaida Castle"
-      ]
-    }
-  },
-  "Estonia": {
-    "cities": {
-      "Tallinn": [
-        "Tallinn Old Town",
-        "Alexander Nevsky Cathedral",
-        "Toompea Castle",
-        "Town Hall Square",
-        "Kiek in de Kök Tower"
-      ],
-      "Tartu": [
-        "Tartu Town Hall",
-        "University of Tartu",
-        "St. John's Church",
-        "Emajõgi River"
-      ]
-    }
-  },
-  "Georgia": {
-    "cities": {
-      "Tbilisi": [
-        "Metekhi Church",
-        "Narikala Fortress",
-        "Shardeni Street",
-        "Holy Trinity Cathedral",
-        "Sulfur Baths"
-      ],
-      "Kutaisi": [
-        "Kutaisi Cathedral",
-        "Gelati Monastery",
-        "Motsameta Monastery"
-      ],
-      "Batumi": [
-        "Batumi Boulevard",
-        "Botanical Garden",
-        "Ali Pasha Mosque"
-      ]
-    }
-  },
-  "Armenia": {
-    "cities": {
-      "Yerevan": [
-        "Republic Square",
-        "Armenian Genocide Memorial",
-        "Cascade",
-        "St. Gregory Cathedral",
-        "Mount Ararat"
-      ],
-      "Geghard": [
-        "Geghard Monastery",
-        "Carved Khachkars"
-      ],
-      "Khor Virap": [
-        "Khor Virap Monastery",
-        "Mount Ararat Views"
-      ]
-    }
-  },
-  "Azerbaijan": {
-    "cities": {
-      "Baku": [
-        "Old City",
-        "Maiden Tower",
-        "Heydar Aliyev Center",
-        "Flame Towers",
-        "Carpet Museum"
-      ],
-      "Ganja": [
-        "Ganja City Center",
-        "Juma Mosque",
-        "City Park"
-      ]
-    }
-  },
-  "Hong Kong": {
-    "cities": {
-      "Hong Kong": [
-        "Victoria Peak",
-        "Star Ferry",
-        "Central District",
-        "Temple Street Night Market",
-        "Hong Kong Museum of Art"
-      ],
-      "Kowloon": [
-        "Kowloon Walled City Park",
-        "Nathan Road",
-        "Peak Tram"
-      ]
-    }
-  },
-  "Taiwan": {
-    "cities": {
-      "Taipei": [
-        "Taipei 101",
-        "Chiang Kai-shek Memorial Hall",
-        "Jiufen Old Street",
-        "Taipei National Palace Museum",
-        "Elephant Mountain"
-      ],
-      "Taichung": [
-        "Rainbow Village",
-        "Miyahara Department Store",
-        "Miyahara Botanical Garden"
-      ]
-    }
-  },
-  "Myanmar": {
-    "cities": {
-      "Yangon": [
-        "Shwedagon Pagoda",
-        "Sule Pagoda",
-        "Bogyoke Market",
-        "River Yangon"
-      ],
-      "Bagan": [
-        "Bagan Temples",
-        "Sunset View",
-        "Shwesandaw Pagoda"
-      ],
-      "Mandalay": [
-        "Mandalay Palace",
-        "Kuthodaw Pagoda",
-        "Irrawaddy River"
-      ]
-    }
-  },
-  "Cambodia": {
-    "cities": {
-      "Siem Reap": [
-        "Angkor Wat",
-        "Bayon Temple",
-        "Tonle Sap Lake",
-        "Floating Villages",
-        "Angkor Archaeological Park"
-      ],
-      "Phnom Penh": [
-        "Royal Palace",
-        "Silver Pagoda",
-        "National Museum",
-        "Killing Fields"
-      ]
-    }
-  },
-  "Laos": {
-    "cities": {
-      "Vientiane": [
-        "That Luang",
-        "Wat Xieng Khuan",
-        "Pathoumvong Park",
-        "Night Market"
-      ],
-      "Luang Prabang": [
-        "Luang Prabang Old Town",
-        "Kuang Si Waterfalls",
-        "Royal Palace Museum",
-        "Night Bazaar"
-      ]
-    }
-  },
-  "Pakistan": {
-    "cities": {
-      "Islamabad": [
-        "Faisal Mosque",
-        "Margalla Hills",
-        "Lok Virsa Museum",
-        "Shakarparian Park"
-      ],
-      "Lahore": [
-        "Badshahi Mosque",
-        "Lahore Fort",
-        "Shalimar Gardens",
-        "Wazir Khan Mosque"
-      ],
-      "Karachi": [
-        "Clifton Beach",
-        "Frere Hall",
-        "National Museum"
-      ]
-    }
-  },
-  "Nepal": {
-    "cities": {
-      "Kathmandu": [
-        "Pashupatinath Temple",
-        "Boudhanath Stupa",
-        "Durbar Square",
-        "Swayambhunath Monastery",
-        "Thamel Market"
-      ],
-      "Pokhara": [
-        "Fewa Lake",
-        "Annapurna Mountains",
-        "Sarangkot Viewpoint",
-        "Amar Narayan Temple"
-      ],
-      "Bhaktapur": [
-        "Bhaktapur Durbar Square",
-        "Nyatapola Temple",
-        "Pottery Square"
-      ]
-    }
-  },
-  "Sri Lanka": {
-    "cities": {
-      "Colombo": [
-        "Galle Face Hotel",
-        "Colombo Fort",
-        "Gangaramaya Temple",
-        "Old Parliament Building"
-      ],
-      "Kandy": [
-        "Temple of the Tooth",
-        "Kandy Lake",
-        "Peradeniya Royal Botanical Garden",
-        "Sacred Hill"
-      ],
-      "Galle": [
-        "Galle Fort",
-        "Galle Lighthouse",
-        "Unawatuna Beach"
-      ]
-    }
-  },
-  "Bangladesh": {
-    "cities": {
-      "Dhaka": [
-        "Lalbagh Fort",
-        "Ahsan Manzil",
-        "National Museum",
-        "Old Dhaka"
-      ],
-      "Chittagong": [
-        "Chittagong Port",
-        "Foy's Lake",
-        "Buddhist Temple"
-      ]
-    }
-  },
-  "Mongolia": {
-    "cities": {
-      "Ulaanbaatar": [
-        "Gandan Monastery",
-        "Bogd Khan Palace",
-        "Sukhbaatar Square",
-        "National Museum"
-      ],
-      "Gobi Desert": [
-        "Desert Landscape",
-        "Dinosaur Fossils",
-        "Nomadic Culture"
+        { "name": "Khan el-Khalili", "imageSearch": "Khan el-Khalili bazaar Cairo", "description": "A famous historic bazaar and souq in the center of Cairo, known for its vibrant atmosphere.", "mapEmbed": "https://maps.google.com/maps?q=Khan+el-Khalili+Cairo&output=embed" },
+        { "name": "Al-Azhar Park", "imageSearch": "Al-Azhar Park Cairo landscape", "description": "A lush green urban oasis in the heart of Cairo offering panoramic views of the Citadel.", "mapEmbed": "https://maps.google.com/maps?q=Al-Azhar+Park+Cairo&output=embed" },
+        { "name": "Citadel of Saladin", "imageSearch": "Citadel of Saladin Cairo", "description": "A medieval Islamic fortification located on Mokattam hill, famous for its museums.", "mapEmbed": "https://maps.google.com/maps?q=Citadel+of+Saladin+Cairo&output=embed" },
+        { "name": "Mosque of Muhammad Ali", "imageSearch": "Mosque of Muhammad Ali Cairo interior", "description": "The iconic Alabaster Mosque that dominates the Cairo skyline.", "mapEmbed": "https://maps.google.com/maps?q=Mosque+of+Muhammad+Ali+Cairo&output=embed" },
+        { "name": "Cairo Tower", "imageSearch": "Cairo Tower night", "description": "A free-standing concrete tower offering the best panoramic views of Cairo.", "mapEmbed": "https://maps.google.com/maps?q=Cairo+Tower&output=embed" },
+        { "name": "The Hanging Church", "imageSearch": "The Hanging Church Coptic Cairo", "description": "One of the oldest churches in Egypt, built on top of the Babylon Fortress gatehouse.", "mapEmbed": "https://maps.google.com/maps?q=Citadel+of+Saladin+Cairo&t=&z=13&ie=UTF8&iwloc=&output=embed0" },
+        { "name": "Sultan Hassan Mosque", "imageSearch": "Mosque-Madrassa of Sultan Hassan", "description": "A massive Mamluk-era mosque and madrassa, considered one of the finest examples of Islamic architecture.", "mapEmbed": "https://maps.google.com/maps?q=Citadel+of+Saladin+Cairo&t=&z=13&ie=UTF8&iwloc=&output=embed1" }
+      ],
+      "Giza": [
+        { "name": "Giza Pyramid Complex", "imageSearch": "Great Pyramids of Giza", "description": "Home to the Great Pyramids, the last remaining Wonder of the Ancient World.", "mapEmbed": "https://maps.google.com/maps?q=Giza+Necropolis&output=embed" },
+        { "name": "Great Sphinx of Giza", "imageSearch": "Great Sphinx of Giza front view", "description": "A colossal limestone statue of a reclining sphinx.", "mapEmbed": "https://maps.google.com/maps?q=Great+Sphinx+of+Giza&output=embed" },
+        { "name": "Grand Egyptian Museum", "imageSearch": "Grand Egyptian Museum Giza", "description": "The largest archaeological museum in the world dedicated to a single civilization.", "mapEmbed": "https://maps.google.com/maps?q=Grand+Egyptian+Museum&output=embed" }
+      ],
+      "Luxor": [
+        { "name": "Karnak Temple", "imageSearch": "Karnak Temple columns", "description": "A vast mix of decayed temples, chapels, and pylons.", "mapEmbed": "https://maps.google.com/maps?q=Karnak+Temple&output=embed" },
+        { "name": "Valley of the Kings", "imageSearch": "Valley of the Kings Egypt", "description": "The burial site of New Kingdom pharaohs carved into the desert rock.", "mapEmbed": "https://maps.google.com/maps?q=Valley+of+the+Kings&output=embed" },
+        { "name": "Luxor Temple", "imageSearch": "Luxor Temple night", "description": "A large Ancient Egyptian temple complex located on the east bank of the Nile.", "mapEmbed": "https://maps.google.com/maps?q=Luxor+Temple&output=embed" },
+        { "name": "Colossi of Memnon", "imageSearch": "Colossi of Memnon Luxor", "description": "Two massive stone statues of the Pharaoh Amenhotep III, standing guard at the entrance of his ruined temple.", "mapEmbed": "https://maps.google.com/maps?q=Citadel+of+Saladin+Cairo&t=&z=13&ie=UTF8&iwloc=&output=embed3" }
+      ],
+      "Matrouh": [
+        { "name": "Cleopatra's Bath", "imageSearch": "Cleopatra's Bath Marsa Matrouh", "description": "A famous natural pool where Queen Cleopatra is said to have bathed.", "mapEmbed": "https://maps.google.com/maps?q=Cleopatra+Bath+Marsa+Matrouh&output=embed" },
+        { "name": "Agiba Beach", "imageSearch": "Agiba Beach Marsa Matrouh", "description": "Famous for its stunning blue waters and limestone caves.", "mapEmbed": "https://maps.google.com/maps?q=Agiba+Beach+Marsa+Matrouh&output=embed" },
+        { "name": "Siwa Oasis", "imageSearch": "Siwa Oasis landscape", "description": "An urban oasis known for its distinct culture and salt lakes.", "mapEmbed": "https://maps.google.com/maps?q=Siwa+Oasis&output=embed" },
+        { "name": "Rommel's Cave Museum", "imageSearch": "Rommel's Cave Museum Matrouh", "description": "A cave used by German Field Marshal Erwin Rommel as his headquarters during WWII.", "mapEmbed": "https://maps.google.com/maps?q=Citadel+of+Saladin+Cairo&t=&z=13&ie=UTF8&iwloc=&output=embed4" }
+      ],
+      "Red Sea": [
+        { "name": "Hurghada Marina", "imageSearch": "Hurghada Marina yachts", "description": "A modern marina lined with restaurants and shops.", "mapEmbed": "https://maps.google.com/maps?q=Hurghada+Marina&output=embed" },
+        { "name": "Ras Mohammed", "imageSearch": "Ras Mohammed National Park", "description": "World-renowned for its coral reefs and diving spots.", "mapEmbed": "https://maps.google.com/maps?q=Ras+Mohammed+National+Park&output=embed" },
+        { "name": "Giftun Island", "imageSearch": "Giftun Island Mahmya", "description": "A popular day-trip destination known for its sandy beaches and clear waters.", "mapEmbed": "https://maps.google.com/maps?q=Citadel+of+Saladin+Cairo&t=&z=13&ie=UTF8&iwloc=&output=embed5" }
+      ],
+      "Alexandria": [
+        { "name": "Bibliotheca Alexandrina", "imageSearch": "Bibliotheca Alexandrina exterior", "description": "A major library and cultural center commemorating the ancient Library of Alexandria.", "mapEmbed": "https://maps.google.com/maps?q=Bibliotheca+Alexandrina&t=&z=13&ie=UTF8&iwloc=&output=embed" },
+        { "name": "Citadel of Qaitbay", "imageSearch": "Citadel of Qaitbay Alexandria", "description": "A 15th-century defensive fortress located on the Mediterranean coast.", "mapEmbed": "https://maps.google.com/maps?q=Citadel+of+Qaitbay&t=&z=13&ie=UTF8&iwloc=&output=embed" },
+        { "name": "Montaza Palace", "imageSearch": "Montaza Palace Alexandria gardens", "description": "A palace, museum and extensive gardens in the Montaza district of Alexandria.", "mapEmbed": "https://maps.google.com/maps?q=Citadel+of+Saladin+Cairo&t=&z=13&ie=UTF8&iwloc=&output=embed6" }
+      ],
+      "Aswan": [
+        { "name": "Philae Temple", "imageSearch": "Philae Temple Aswan", "description": "A beautiful island temple complex dedicated to the goddess Isis.", "mapEmbed": "https://maps.google.com/maps?q=Philae+Temple&t=&z=13&ie=UTF8&iwloc=&output=embed" },
+        { "name": "Nubian Village", "imageSearch": "Nubian Village Aswan colorful houses", "description": "A colorful village along the Nile known for painted houses and spices.", "mapEmbed": "https://maps.google.com/maps?q=Nubian+Village+Aswan&t=&z=13&ie=UTF8&iwloc=&output=embed" },
+        { "name": "High Dam", "imageSearch": "Aswan High Dam view", "description": "An embankment dam built across the Nile in Aswan, creating Lake Nasser.", "mapEmbed": "https://maps.google.com/maps?q=Citadel+of+Saladin+Cairo&t=&z=13&ie=UTF8&iwloc=&output=embed7" }
       ]
     }
   },
   "United Arab Emirates": {
     "cities": {
       "Dubai": [
-        "Burj Khalifa",
-        "Dubai Mall",
-        "Palm Jumeirah",
-        "Dubai Beach",
-        "Gold Souk"
+        { "name": "Burj Khalifa", "imageSearch": "Burj Khalifa Dubai skyline", "description": "The world's tallest building, offering breathtaking views.", "mapEmbed": "https://maps.google.com/maps?q=Burj+Khalifa&output=embed" },
+        { "name": "The Dubai Mall", "imageSearch": "Dubai Mall interior", "description": "One of the world's largest shopping malls.", "mapEmbed": "https://maps.google.com/maps?q=The+Dubai+Mall&output=embed" },
+        { "name": "Palm Jumeirah", "imageSearch": "Palm Jumeirah aerial", "description": "A tree-shaped artificial archipelago.", "mapEmbed": "https://maps.google.com/maps?q=Palm+Jumeirah&output=embed" },
+        { "name": "Dubai Miracle Garden", "imageSearch": "Dubai Miracle Garden flowers", "description": "The world's largest natural flower garden featuring over 50 million flowers.", "mapEmbed": "https://maps.google.com/maps?q=Citadel+of+Saladin+Cairo&t=&z=13&ie=UTF8&iwloc=&output=embed8" }
       ],
       "Abu Dhabi": [
-        "Sheikh Zayed Grand Mosque",
-        "Louvre Abu Dhabi",
-        "Emirates Palace",
-        "Corniche Beach"
-      ],
-      "Sharjah": [
-        "Sharjah Museum of Islamic Civilization",
-        "Corniche",
-        "Blue Souk"
+        { "name": "Sheikh Zayed Grand Mosque", "imageSearch": "Sheikh Zayed Grand Mosque", "description": "One of the world's largest mosques, featuring 82 domes.", "mapEmbed": "https://maps.google.com/maps?q=Sheikh+Zayed+Grand+Mosque&output=embed" },
+        { "name": "Louvre Abu Dhabi", "imageSearch": "Louvre Abu Dhabi architecture", "description": "An art museum famous for its 'rain of light' dome.", "mapEmbed": "https://maps.google.com/maps?q=Louvre+Abu+Dhabi&output=embed" },
+        { "name": "Emirates Palace", "imageSearch": "Emirates Palace Abu Dhabi", "description": "A luxury five-star hotel known for its gold interior and grand architecture.", "mapEmbed": "https://maps.google.com/maps?q=Citadel+of+Saladin+Cairo&t=&z=13&ie=UTF8&iwloc=&output=embed9" }
       ]
     }
   },
-  "Fiji": {
+  "Saudi Arabia": {
     "cities": {
-      "Suva": [
-        "Suva Municipal Market",
-        "Fiji Museum",
-        "Parliament House"
+      "Riyadh": [
+        { "name": "Kingdom Centre", "imageSearch": "Kingdom Centre Tower Riyadh", "description": "A 99-story skyscraper featuring a skybridge.", "mapEmbed": "https://maps.google.com/maps?q=Kingdom+Centre+Riyadh&output=embed" },
+        { "name": "Diriyah", "imageSearch": "Diriyah historic district", "description": "The birthplace of the first Saudi state.", "mapEmbed": "https://maps.google.com/maps?q=Diriyah&output=embed" },
+        { "name": "Masmak Fortress", "imageSearch": "Masmak Fortress Riyadh", "description": "A clay and mud-brick fort that played a major role in the unification of Saudi Arabia.", "mapEmbed": "https://maps.google.com/maps?q=Mosque+of+Muhammad+Ali+Cairo&t=&z=13&ie=UTF8&iwloc=&output=embed0" }
       ],
-      "Nadi": [
-        "Nadi International Airport",
-        "Denarau Island",
-        "Nadi Beach"
+      "Al Ula": [
+        { "name": "Hegra", "imageSearch": "Hegra Al Ula tomb", "description": "An ancient Nabatean city carved into sandstone.", "mapEmbed": "https://maps.google.com/maps?q=Hegra+Al+Ula&output=embed" },
+        { "name": "Elephant Rock", "imageSearch": "Elephant Rock Al Ula", "description": "A massive natural sandstone rock formation.", "mapEmbed": "https://maps.google.com/maps?q=Elephant+Rock+Al+Ula&output=embed" },
+        { "name": "Old Town AlUla", "imageSearch": "AlUla Old Town mud houses", "description": "An ancient city made of mud-brick houses, inhabited for centuries.", "mapEmbed": "https://maps.google.com/maps?q=Mosque+of+Muhammad+Ali+Cairo&t=&z=13&ie=UTF8&iwloc=&output=embed1" }
       ]
     }
   },
-  "Samoa": {
+  "Jordan": {
     "cities": {
-      "Apia": [
-        "Robert Louis Stevenson Home",
-        "Samoa Cultural Center",
-        "To Sua Ocean Trench"
+      "Petra": [
+        { "name": "The Treasury", "imageSearch": "Petra Jordan Treasury", "description": "The most elaborate temple in the ancient city of Petra.", "mapEmbed": "https://maps.google.com/maps?q=The+Treasury+Petra&output=embed" },
+        { "name": "The Monastery", "imageSearch": "Petra Monastery hike", "description": "A massive monument carved out of rock.", "mapEmbed": "https://maps.google.com/maps?q=Ad+Deir&output=embed" },
+        { "name": "The Siq", "imageSearch": "The Siq Petra canyon", "description": "The main entrance to the ancient city of Petra, a dim, narrow gorge.", "mapEmbed": "https://maps.google.com/maps?q=Mosque+of+Muhammad+Ali+Cairo&t=&z=13&ie=UTF8&iwloc=&output=embed2" }
+      ],
+      "Amman": [
+        { "name": "Amman Citadel", "imageSearch": "Amman Citadel ruins", "description": "A historical site at the center of downtown Amman.", "mapEmbed": "https://maps.google.com/maps?q=Amman+Citadel&output=embed" },
+        { "name": "Roman Theatre", "imageSearch": "Roman Theatre Amman", "description": "A 6,000-seat, 2nd-century Roman theatre.", "mapEmbed": "https://maps.google.com/maps?q=Roman+Theatre+Amman&output=embed" },
+        { "name": "Rainbow Street", "imageSearch": "Rainbow Street Amman", "description": "A popular street in Jabal Amman, full of cafes, restaurants, and shops.", "mapEmbed": "https://maps.google.com/maps?q=Mosque+of+Muhammad+Ali+Cairo&t=&z=13&ie=UTF8&iwloc=&output=embed3" }
+      ],
+      "Dead Sea": [
+        { "name": "Dead Sea Beach", "imageSearch": "Dead Sea floating Jordan", "description": "The lowest point on Earth, famous for its hyper-saline water.", "mapEmbed": "https://maps.google.com/maps?q=Dead+Sea+Jordan&output=embed" }
       ]
     }
   },
-  "Tonga": {
+  "France": {
     "cities": {
-      "Nuku'alofa": [
-        "Royal Palace",
-        "Tonga National Museum",
-        "Ha'amonga 'a Maui Trilithon"
+      "Paris": [
+        { "name": "Eiffel Tower", "imageSearch": "Eiffel Tower Paris", "description": "The most iconic symbol of France, an iron lattice tower.", "mapEmbed": "https://maps.google.com/maps?q=Eiffel+Tower&output=embed" },
+        { "name": "Louvre Museum", "imageSearch": "Louvre Museum pyramid", "description": "The world's largest art museum.", "mapEmbed": "https://maps.google.com/maps?q=Louvre+Museum&output=embed" },
+        { "name": "Arc de Triomphe", "imageSearch": "Arc de Triomphe Paris", "description": "One of the most famous monuments in Paris.", "mapEmbed": "https://maps.google.com/maps?q=Arc+de+Triomphe&output=embed" },
+        { "name": "Musée d'Orsay", "imageSearch": "Musée d'Orsay interior", "description": "A museum housed in a Beaux-Arts railway station, holding mainly French art.", "mapEmbed": "https://maps.google.com/maps?q=Mosque+of+Muhammad+Ali+Cairo&t=&z=13&ie=UTF8&iwloc=&output=embed4" }
+      ],
+      "Nice": [
+        { "name": "Promenade des Anglais", "imageSearch": "Promenade des Anglais Nice", "description": "A celebrated promenade along the Mediterranean.", "mapEmbed": "https://maps.google.com/maps?q=Promenade+des+Anglais&output=embed" },
+        { "name": "Castle Hill", "imageSearch": "Castle Hill Nice waterfall", "description": "A hilltop park offering the best panoramic views of Nice.", "mapEmbed": "https://maps.google.com/maps?q=Castle+Hill+Nice&t=&z=13&ie=UTF8&iwloc=&output=embed" },
+        { "name": "Vieux Nice", "imageSearch": "Vieux Nice streets", "description": "The charming and colorful old town of Nice.", "mapEmbed": "https://maps.google.com/maps?q=Mosque+of+Muhammad+Ali+Cairo&t=&z=13&ie=UTF8&iwloc=&output=embed5" }
+      ],
+      "Lyon": [
+        { "name": "Basilica of Notre-Dame", "imageSearch": "Basilica Notre Dame Fourvière Lyon", "description": "A minor basilica built with private funds.", "mapEmbed": "https://maps.google.com/maps?q=Basilica+of+Notre-Dame+de+Fourvière&output=embed" },
+        { "name": "Vieux Lyon", "imageSearch": "Vieux Lyon streets", "description": "The city's oldest district, a Renaissance area.", "mapEmbed": "https://maps.google.com/maps?q=Vieux+Lyon&output=embed" },
+        { "name": "Musée des Confluences", "imageSearch": "Musée des Confluences Lyon", "description": "A science center and anthropology museum with futuristic architecture.", "mapEmbed": "https://maps.google.com/maps?q=Mosque+of+Muhammad+Ali+Cairo&t=&z=13&ie=UTF8&iwloc=&output=embed6" }
       ]
     }
   },
-  "Costa Rica": {
+  "Italy": {
     "cities": {
-      "San José": [
-        "Costa Rica Museum",
-        "Central Market",
-        "Metropolitan Cathedral"
+      "Rome": [
+        { "name": "Colosseum", "imageSearch": "Colosseum Rome", "description": "The largest amphitheatre ever built.", "mapEmbed": "https://maps.google.com/maps?q=Colosseum+Rome&output=embed" },
+        { "name": "Trevi Fountain", "imageSearch": "Trevi Fountain Rome", "description": "The largest Baroque fountain in Rome.", "mapEmbed": "https://maps.google.com/maps?q=Trevi+Fountain&output=embed" },
+        { "name": "Vatican City", "imageSearch": "St. Peter's Basilica Vatican", "description": "Headquarters of the Roman Catholic Church.", "mapEmbed": "https://maps.google.com/maps?q=Vatican+City&output=embed" },
+        { "name": "Spanish Steps", "imageSearch": "Spanish Steps Rome", "description": "A famous set of steps climbing a steep slope between the Piazza di Spagna and Trinità dei Monti.", "mapEmbed": "https://maps.google.com/maps?q=Mosque+of+Muhammad+Ali+Cairo&t=&z=13&ie=UTF8&iwloc=&output=embed7" }
       ],
-      "Arenal": [
-        "Arenal Volcano",
-        "Arenal Lake",
-        "Hot Springs"
+      "Venice": [
+        { "name": "St Mark's Basilica", "imageSearch": "St Mark's Basilica Venice", "description": "The cathedral church of Venice.", "mapEmbed": "https://maps.google.com/maps?q=St+Mark's+Basilica&output=embed" },
+        { "name": "Rialto Bridge", "imageSearch": "Rialto Bridge Grand Canal", "description": "The oldest bridge spanning the Grand Canal.", "mapEmbed": "https://maps.google.com/maps?q=Rialto+Bridge&output=embed" },
+        { "name": "Burano", "imageSearch": "Burano island colorful houses", "description": "An island famous for its lace work and brightly colored homes.", "mapEmbed": "https://maps.google.com/maps?q=Mosque+of+Muhammad+Ali+Cairo&t=&z=13&ie=UTF8&iwloc=&output=embed8" }
       ],
-      "Manuel Antonio": [
-        "Manuel Antonio National Park",
-        "Beaches",
-        "Rainforest"
+      "Milan": [
+        { "name": "Duomo di Milano", "imageSearch": "Duomo di Milano cathedral", "description": "A vast Gothic cathedral known for its intricate facade.", "mapEmbed": "https://maps.google.com/maps?q=Duomo+di+Milano&output=embed" },
+        { "name": "Galleria Vittorio Emanuele II", "imageSearch": "Galleria Vittorio Emanuele II", "description": "One of the world's oldest shopping malls.", "mapEmbed": "https://maps.google.com/maps?q=Galleria+Vittorio+Emanuele+II&output=embed" },
+        { "name": "Sforza Castle", "imageSearch": "Sforza Castle Milan", "description": "A historic fortress housing several of the city's museums and art collections.", "mapEmbed": "https://maps.google.com/maps?q=Mosque+of+Muhammad+Ali+Cairo&t=&z=13&ie=UTF8&iwloc=&output=embed9" }
+      ],
+      "Naples": [
+        { "name": "Pompeii", "imageSearch": "Pompeii ruins", "description": "An ancient Roman city preserved under volcanic ash.", "mapEmbed": "https://maps.google.com/maps?q=Pompeii&output=embed" },
+        { "name": "Mount Vesuvius", "imageSearch": "Mount Vesuvius volcano", "description": "The only active volcano on mainland Europe.", "mapEmbed": "https://maps.google.com/maps?q=Mount+Vesuvius&output=embed" },
+        { "name": "Castel dell'Ovo", "imageSearch": "Castel dell'Ovo Naples", "description": "The oldest standing fortification in Naples, located on the former island of Megaride.", "mapEmbed": "https://maps.google.com/maps?q=Cairo+Tower&t=&z=13&ie=UTF8&iwloc=&output=embed0" }
       ]
     }
   },
-  "Panama": {
+  "United States": {
     "cities": {
-      "Panama City": [
-        "Panama Canal",
-        "Casco Viejo",
-        "Panama Viejo Ruins",
-        "Metropolitan Cathedral"
+      "New York": [
+        { "name": "Statue of Liberty", "imageSearch": "Statue of Liberty NY", "description": "A colossal sculpture on Liberty Island.", "mapEmbed": "https://maps.google.com/maps?q=Statue+of+Liberty&output=embed" },
+        { "name": "Central Park", "imageSearch": "Central Park New York aerial", "description": "A massive urban park in Manhattan.", "mapEmbed": "https://maps.google.com/maps?q=Central+Park+NY&output=embed" },
+        { "name": "Brooklyn Bridge", "imageSearch": "Brooklyn Bridge sunset", "description": "A hybrid cable-stayed/suspension bridge connecting Manhattan and Brooklyn.", "mapEmbed": "https://maps.google.com/maps?q=Cairo+Tower&t=&z=13&ie=UTF8&iwloc=&output=embed1" }
       ],
-      "Bocas del Toro": [
-        "Caribbean Beaches",
-        "Coral Reefs",
-        "Island Hopping"
+      "Los Angeles": [
+        { "name": "Hollywood Sign", "imageSearch": "Hollywood Sign hills", "description": "An American landmark overlooking Hollywood.", "mapEmbed": "https://maps.google.com/maps?q=Hollywood+Sign&output=embed" },
+        { "name": "Santa Monica Pier", "imageSearch": "Santa Monica Pier sunset", "description": "A large double-jointed pier famous for its amusement park.", "mapEmbed": "https://maps.google.com/maps?q=Santa+Monica+Pier&output=embed" },
+        { "name": "Griffith Observatory", "imageSearch": "Griffith Observatory view", "description": "An observatory offering iconic views of the LA Basin and the Hollywood Sign.", "mapEmbed": "https://maps.google.com/maps?q=Cairo+Tower&t=&z=13&ie=UTF8&iwloc=&output=embed2" }
+      ],
+      "Las Vegas": [
+        { "name": "The Strip", "imageSearch": "Las Vegas Strip night", "description": "Known for its concentration of resort hotels and casinos.", "mapEmbed": "https://maps.google.com/maps?q=Las+Vegas+Strip&output=embed" },
+        { "name": "Bellagio Fountains", "imageSearch": "Bellagio Fountains", "description": "A magnificent water show choreographed to music.", "mapEmbed": "https://maps.google.com/maps?q=Bellagio+Fountains&output=embed" },
+        { "name": "The Venetian", "imageSearch": "The Venetian Las Vegas canals", "description": "A luxury hotel and casino resort featuring indoor canals and gondolas.", "mapEmbed": "https://maps.google.com/maps?q=Cairo+Tower&t=&z=13&ie=UTF8&iwloc=&output=embed3" }
+      ],
+      "Chicago": [
+        { "name": "Cloud Gate", "imageSearch": "Cloud Gate Chicago Bean", "description": "A public sculpture in Millennium Park, nicknamed 'The Bean'.", "mapEmbed": "https://maps.google.com/maps?q=Cloud+Gate+Chicago&output=embed" },
+        { "name": "Willis Tower", "imageSearch": "Willis Tower Skydeck", "description": "Famous for its glass-bottomed Skydeck ledge.", "mapEmbed": "https://maps.google.com/maps?q=Willis+Tower&output=embed" },
+        { "name": "Navy Pier", "imageSearch": "Navy Pier Chicago", "description": "A 3,300-foot-long pier on the shoreline of Lake Michigan.", "mapEmbed": "https://maps.google.com/maps?q=Cairo+Tower&t=&z=13&ie=UTF8&iwloc=&output=embed4" }
+      ],
+      "Miami": [
+        { "name": "South Beach", "imageSearch": "South Beach Miami Art Deco", "description": "Famous for its beaches and the glamorous scene.", "mapEmbed": "https://maps.google.com/maps?q=South+Beach+Miami&output=embed" },
+        { "name": "Wynwood Walls", "imageSearch": "Wynwood Walls street art", "description": "A unique outdoor museum featuring huge colorful street murals.", "mapEmbed": "https://maps.google.com/maps?q=Wynwood+Walls&output=embed" },
+        { "name": "Vizcaya Museum", "imageSearch": "Vizcaya Museum and Gardens", "description": "A breathtaking villa and estate on Biscayne Bay.", "mapEmbed": "https://maps.google.com/maps?q=Cairo+Tower&t=&z=13&ie=UTF8&iwloc=&output=embed5" }
       ]
     }
   },
-  "Belize": {
+  "United Kingdom": {
     "cities": {
-      "Belmopan": [
-        "Market Square",
-        "National Park",
-        "Xunantunich Mayan Ruins"
+      "London": [
+        { "name": "Big Ben", "imageSearch": "Big Ben London clock", "description": "The nickname for the Great Bell of the clock at the Palace of Westminster.", "mapEmbed": "https://maps.google.com/maps?q=Big+Ben&output=embed" },
+        { "name": "Tower Bridge", "imageSearch": "Tower Bridge London", "description": "A combined bascule and suspension bridge in London.", "mapEmbed": "https://maps.google.com/maps?q=Tower+Bridge&output=embed" },
+        { "name": "The Shard", "imageSearch": "The Shard London skyline", "description": "A 72-storey skyscraper, the tallest building in the United Kingdom.", "mapEmbed": "https://maps.google.com/maps?q=Cairo+Tower&t=&z=13&ie=UTF8&iwloc=&output=embed6" }
       ],
-      "Ambergris Caye": [
-        "Great Barrier Reef",
-        "Beach Paradise",
-        "Snorkeling"
+      "Edinburgh": [
+        { "name": "Edinburgh Castle", "imageSearch": "Edinburgh Castle hill", "description": "A historic fortress which dominates the skyline of Edinburgh.", "mapEmbed": "https://maps.google.com/maps?q=Edinburgh+Castle&output=embed" },
+        { "name": "Palace of Holyroodhouse", "imageSearch": "Palace of Holyroodhouse", "description": "The official residence of the British monarch in Scotland.", "mapEmbed": "https://maps.google.com/maps?q=Cairo+Tower&t=&z=13&ie=UTF8&iwloc=&output=embed7" }
+      ],
+      "Manchester": [
+        { "name": "Old Trafford", "imageSearch": "Old Trafford Stadium", "description": "The home of Manchester United Football Club.", "mapEmbed": "https://maps.google.com/maps?q=Old+Trafford&output=embed" },
+        { "name": "Science and Industry Museum", "imageSearch": "Science and Industry Museum Manchester", "description": "A museum devoted to the development of science, technology and industry.", "mapEmbed": "https://maps.google.com/maps?q=Cairo+Tower&t=&z=13&ie=UTF8&iwloc=&output=embed8" }
       ]
     }
   },
-  "Guatemala": {
+  "Japan": {
     "cities": {
-      "Antigua Guatemala": [
-        "Antigua Cathedral",
-        "Palacio de los Capitanes Generales",
-        "Convent of Santa Clara"
+      "Tokyo": [
+        { "name": "Senso-ji", "imageSearch": "Senso-ji Temple Tokyo", "description": "Tokyo's oldest temple, dedicated to Kannon.", "mapEmbed": "https://maps.google.com/maps?q=Senso-ji&output=embed" },
+        { "name": "Shibuya Crossing", "imageSearch": "Shibuya Crossing busy", "description": "A famous scramble crossing.", "mapEmbed": "https://maps.google.com/maps?q=Shibuya+Crossing&output=embed" },
+        { "name": "Tokyo Tower", "imageSearch": "Tokyo Tower night", "description": "A communications and observation tower in the Shiba-koen district.", "mapEmbed": "https://maps.google.com/maps?q=Cairo+Tower&t=&z=13&ie=UTF8&iwloc=&output=embed9" }
       ],
-      "Chichicastenango": [
-        "Indigenous Market",
-        "Santo Tomás Church",
-        "Mayan Traditions"
+      "Kyoto": [
+        { "name": "Fushimi Inari-taisha", "imageSearch": "Fushimi Inari torii gates", "description": "A shrine famous for its thousands of vermilion torii gates.", "mapEmbed": "https://maps.google.com/maps?q=Fushimi+Inari-taisha&output=embed" },
+        { "name": "Gion District", "imageSearch": "Gion Kyoto Geisha", "description": "Kyoto's most famous geisha district.", "mapEmbed": "https://maps.google.com/maps?q=Giza+Pyramid+Complex&t=&z=13&ie=UTF8&iwloc=&output=embed0" }
+      ],
+      "Osaka": [
+        { "name": "Osaka Castle", "imageSearch": "Osaka Castle cherry blossoms", "description": "A famous landmark that played a major role in the unification of Japan.", "mapEmbed": "https://maps.google.com/maps?q=Osaka+Castle&output=embed" },
+        { "name": "Universal Studios Japan", "imageSearch": "Universal Studios Japan globe", "description": "A theme park with world-class entertainment and attractions.", "mapEmbed": "https://maps.google.com/maps?q=Giza+Pyramid+Complex&t=&z=13&ie=UTF8&iwloc=&output=embed1" }
+      ],
+      "Nara": [
+        { "name": "Nara Park", "imageSearch": "Nara Park deer", "description": "Famous for its free-roaming deer.", "mapEmbed": "https://maps.google.com/maps?q=Nara+Park&output=embed" },
+        { "name": "Kasuga-taisha", "imageSearch": "Kasuga Taisha shrine lanterns", "description": "A Shinto shrine famous for its many bronze and stone lanterns.", "mapEmbed": "https://maps.google.com/maps?q=Giza+Pyramid+Complex&t=&z=13&ie=UTF8&iwloc=&output=embed2" }
       ]
     }
   },
-  "Honduras": {
+  "Spain": {
     "cities": {
-      "Tegucigalpa": [
-        "National Museum",
-        "Cathedral Basilica",
-        "Toncontín International Airport"
+      "Barcelona": [
+        { "name": "Sagrada Família", "imageSearch": "Sagrada Familia exterior", "description": "A large unfinished minor basilica designed by Antoni Gaudí.", "mapEmbed": "https://maps.google.com/maps?q=Sagrada+Familia&output=embed" },
+        { "name": "La Boqueria Market", "imageSearch": "La Boqueria Market Barcelona food", "description": "A large public market in the Ciutat Vella district of Barcelona.", "mapEmbed": "https://maps.google.com/maps?q=Giza+Pyramid+Complex&t=&z=13&ie=UTF8&iwloc=&output=embed3" }
       ],
-      "Copán": [
-        "Copán Mayan Ruins",
-        "Archaeological Museum"
+      "Madrid": [
+        { "name": "Royal Palace of Madrid", "imageSearch": "Royal Palace of Madrid exterior", "description": "The official residence of the Spanish Royal Family.", "mapEmbed": "https://maps.google.com/maps?q=Royal+Palace+of+Madrid&output=embed" },
+        { "name": "Plaza Mayor", "imageSearch": "Plaza Mayor Madrid", "description": "A major public space in the heart of Madrid.", "mapEmbed": "https://maps.google.com/maps?q=Giza+Pyramid+Complex&t=&z=13&ie=UTF8&iwloc=&output=embed4" }
       ]
     }
   },
-  "El Salvador": {
+  "Germany": {
     "cities": {
-      "San Salvador": [
-        "National Palace",
-        "Metropolitan Cathedral",
-        "Zona Rosa"
+      "Berlin": [
+        { "name": "Brandenburg Gate", "imageSearch": "Brandenburg Gate Berlin", "description": "An 18th-century neoclassical monument.", "mapEmbed": "https://maps.google.com/maps?q=Brandenburg+Gate&output=embed" },
+        { "name": "Museum Island", "imageSearch": "Museum Island Berlin", "description": "A magnificent complex of five internationally significant museums.", "mapEmbed": "https://maps.google.com/maps?q=Giza+Pyramid+Complex&t=&z=13&ie=UTF8&iwloc=&output=embed5" }
       ],
-      "Santa Ana": [
-        "Santa Ana Cathedral",
-        "Lake Coatepeque",
-        "Izalco Volcano"
+      "Munich": [
+        { "name": "Marienplatz", "imageSearch": "Marienplatz Munich", "description": "A central square in the city centre of Munich.", "mapEmbed": "https://maps.google.com/maps?q=Marienplatz&output=embed" },
+        { "name": "BMW Museum", "imageSearch": "BMW Museum Munich", "description": "An automobile museum of BMW history.", "mapEmbed": "https://maps.google.com/maps?q=Giza+Pyramid+Complex&t=&z=13&ie=UTF8&iwloc=&output=embed6" }
       ]
     }
   },
-  "Nicaragua": {
+  "China": {
     "cities": {
-      "Managua": [
-        "Cathedral Metropolitana",
-        "Palacio Nacional",
-        "Lake Managua"
+      "Beijing": [
+        { "name": "Great Wall of China", "imageSearch": "Great Wall of China Mutianyu", "description": "A series of fortifications built across the historical northern borders.", "mapEmbed": "https://maps.google.com/maps?q=Great+Wall+of+China+Mutianyu&output=embed" },
+        { "name": "Summer Palace", "imageSearch": "Summer Palace Beijing", "description": "A vast ensemble of lakes, gardens and palaces.", "mapEmbed": "https://maps.google.com/maps?q=Giza+Pyramid+Complex&t=&z=13&ie=UTF8&iwloc=&output=embed7" }
       ],
-      "Granada": [
-        "Granada Old Town",
-        "Lake Nicaragua",
-        "San Francisco Church"
+      "Shanghai": [
+        { "name": "The Bund", "imageSearch": "The Bund Shanghai skyline", "description": "A waterfront area offering spectacular views of the Pudong skyline.", "mapEmbed": "https://maps.google.com/maps?q=The+Bund+Shanghai&output=embed" },
+        { "name": "Yu Garden", "imageSearch": "Yu Garden Shanghai", "description": "An extensive Chinese garden located beside the City God Temple.", "mapEmbed": "https://maps.google.com/maps?q=Giza+Pyramid+Complex&t=&z=13&ie=UTF8&iwloc=&output=embed8" }
       ]
     }
   },
-  "Cuba": {
+  "Australia": {
     "cities": {
-      "Havana": [
-        "Old Havana",
-        "El Capitolio",
-        "Malecón Seawall",
-        "Revolution Square",
-        "Hemingway House"
+      "Sydney": [
+        { "name": "Sydney Opera House", "imageSearch": "Sydney Opera House harbor", "description": "A multi-venue performing arts centre famous for its shell-like design.", "mapEmbed": "https://maps.google.com/maps?q=Sydney+Opera+House&output=embed" },
+        { "name": "Darling Harbour", "imageSearch": "Darling Harbour Sydney", "description": "A harbour adjacent to the city centre of Sydney, known for recreation and dining.", "mapEmbed": "https://maps.google.com/maps?q=Giza+Pyramid+Complex&t=&z=13&ie=UTF8&iwloc=&output=embed9" }
       ],
-      "Trinidad": [
-        "Trinidad Old Town",
-        "Topes de Collantes",
-        "Colonial Architecture"
-      ],
-      "Santiago de Cuba": [
-        "San Pedro Fortress",
-        "Revolution Museum"
+      "Queensland": [
+        { "name": "Great Barrier Reef", "imageSearch": "Great Barrier Reef aerial", "description": "The world's largest coral reef system.", "mapEmbed": "https://maps.google.com/maps?q=Great+Barrier+Reef&output=embed" },
+        { "name": "Daintree Rainforest", "imageSearch": "Daintree Rainforest", "description": "A tropical rainforest on the north east coast of Queensland, the oldest in the world.", "mapEmbed": "https://maps.google.com/maps?q=Great+Sphinx+of+Giza&t=&z=13&ie=UTF8&iwloc=&output=embed0" }
       ]
     }
   },
-  "Dominican Republic": {
+  "Brazil": {
     "cities": {
-      "Santo Domingo": [
-        "Ozama Fortress",
-        "National Pantheon",
-        "Colón Cathedral",
-        "Colonial Zone"
+      "Rio de Janeiro": [
+        { "name": "Christ the Redeemer", "imageSearch": "Christ the Redeemer statue Rio", "description": "An Art Deco statue of Jesus Christ.", "mapEmbed": "https://maps.google.com/maps?q=Christ+the+Redeemer+Rio&output=embed" },
+        { "name": "Selarón Steps", "imageSearch": "Selaron Steps Rio", "description": "A set of world-famous steps covered in colorful tiles.", "mapEmbed": "https://maps.google.com/maps?q=Great+Sphinx+of+Giza&t=&z=13&ie=UTF8&iwloc=&output=embed1" }
       ],
-      "Punta Cana": [
-        "Punta Cana Beach",
-        "Caribbean Resorts",
-        "Coral Reefs"
+      "Foz do Iguacu": [
+        { "name": "Iguazu Falls", "imageSearch": "Iguazu Falls Brazil side", "description": "The largest waterfall system in the world.", "mapEmbed": "https://maps.google.com/maps?q=Iguazu+Falls&output=embed" },
+        { "name": "Bird Park", "imageSearch": "Parque das Aves Foz", "description": "A privately owned zoological park, located near the Iguazu Falls.", "mapEmbed": "https://maps.google.com/maps?q=Great+Sphinx+of+Giza&t=&z=13&ie=UTF8&iwloc=&output=embed2" }
       ]
     }
   },
-  "Haiti": {
+  "Canada": {
     "cities": {
-      "Port-au-Prince": [
-        "Iron Market",
-        "National Palace",
-        "Musée du Panthéon National Haïtien"
+      "Toronto": [
+        { "name": "CN Tower", "imageSearch": "CN Tower Toronto skyline", "description": "A communications and observation tower.", "mapEmbed": "https://maps.google.com/maps?q=CN+Tower&output=embed" },
+        { "name": "Distillery District", "imageSearch": "Distillery District Toronto", "description": "A commercial and residential district containing numerous cafés, restaurants, and shops.", "mapEmbed": "https://maps.google.com/maps?q=Great+Sphinx+of+Giza&t=&z=13&ie=UTF8&iwloc=&output=embed3" }
       ],
-      "Cap-Haïtien": [
-        "Citadelle la Ferrière",
-        "Sans-Souci Palace"
+      "Banff": [
+        { "name": "Lake Louise", "imageSearch": "Lake Louise Banff turquoise", "description": "A glacial lake within Banff National Park.", "mapEmbed": "https://maps.google.com/maps?q=Lake+Louise+Banff&output=embed" },
+        { "name": "Banff Gondola", "imageSearch": "Banff Gondola view", "description": "A cable car offering sweeping views of the six mountain ranges.", "mapEmbed": "https://maps.google.com/maps?q=Great+Sphinx+of+Giza&t=&z=13&ie=UTF8&iwloc=&output=embed4" }
       ]
     }
   },
-  "Jamaica": {
+  "Turkey": {
     "cities": {
-      "Kingston": [
-        "National Heroes Park",
-        "Bob Marley Museum",
-        "Hope Zoo"
+      "Istanbul": [
+        { "name": "Hagia Sophia", "imageSearch": "Hagia Sophia Istanbul exterior", "description": "A Late Antique place of worship in Istanbul.", "mapEmbed": "https://maps.google.com/maps?q=Hagia+Sophia&output=embed" },
+        { "name": "Basilica Cistern", "imageSearch": "Basilica Cistern Istanbul", "description": "The largest of several hundred ancient cisterns that lie beneath the city of Istanbul.", "mapEmbed": "https://maps.google.com/maps?q=Great+Sphinx+of+Giza&t=&z=13&ie=UTF8&iwloc=&output=embed5" }
       ],
-      "Montego Bay": [
-        "Montego Bay Beach",
-        "Doctor's Cave Beach",
-        "Hip Strip"
+      "Cappadocia": [
+        { "name": "Fairy Chimneys", "imageSearch": "Cappadocia hot air balloons", "description": "Unique rock formations famous for hot air balloon rides.", "mapEmbed": "https://maps.google.com/maps?q=Goreme+National+Park&output=embed" },
+        { "name": "Uchisar Castle", "imageSearch": "Uchisar Castle Cappadocia", "description": "A rock-cut castle located at the highest point in Cappadocia.", "mapEmbed": "https://maps.google.com/maps?q=Great+Sphinx+of+Giza&t=&z=13&ie=UTF8&iwloc=&output=embed6" }
       ]
     }
   },
-  "Bahamas": {
+  "India": {
     "cities": {
-      "Nassau": [
-        "Nassau Straw Market",
-        "Atlantis Resort",
-        "Paradise Island",
-        "Queen's Staircase"
+      "Agra": [
+        { "name": "Taj Mahal", "imageSearch": "Taj Mahal Agra view", "description": "An ivory-white marble mausoleum.", "mapEmbed": "https://maps.google.com/maps?q=Taj+Mahal&output=embed" },
+        { "name": "Mehtab Bagh", "imageSearch": "Mehtab Bagh Agra", "description": "A charbagh complex located north of the Taj Mahal complex.", "mapEmbed": "https://maps.google.com/maps?q=Great+Sphinx+of+Giza&t=&z=13&ie=UTF8&iwloc=&output=embed7" }
+      ],
+      "Jaipur": [
+        { "name": "Hawa Mahal", "imageSearch": "Hawa Mahal Palace of Winds", "description": "The 'Palace of Winds', known for its intricate pink sandstone lattice windows.", "mapEmbed": "https://maps.google.com/maps?q=Hawa+Mahal&output=embed" },
+        { "name": "City Palace", "imageSearch": "City Palace Jaipur", "description": "A palace complex in Jaipur, which includes the Chandra Mahal and Mubarak Mahal palaces.", "mapEmbed": "https://maps.google.com/maps?q=Great+Sphinx+of+Giza&t=&z=13&ie=UTF8&iwloc=&output=embed8" }
+      ],
+      "Delhi": [
+        { "name": "India Gate", "imageSearch": "India Gate New Delhi", "description": "A war memorial located astride the Rajpath in New Delhi.", "mapEmbed": "https://maps.google.com/maps?q=India+Gate&t=&z=13&ie=UTF8&iwloc=&output=embed" },
+        { "name": "Humayun's Tomb", "imageSearch": "Humayun's Tomb Delhi", "description": "The tomb of the Mughal Emperor Humayun in Delhi, India.", "mapEmbed": "https://maps.google.com/maps?q=Great+Sphinx+of+Giza&t=&z=13&ie=UTF8&iwloc=&output=embed9" }
+      ]
+    }
+  },
+  "Thailand": {
+    "cities": {
+      "Bangkok": [
+        { "name": "The Grand Palace", "imageSearch": "Grand Palace Bangkok", "description": "A complex of buildings that has been the official residence of the Kings of Siam.", "mapEmbed": "https://maps.google.com/maps?q=Grand+Palace+Bangkok&output=embed" },
+        { "name": "Chatuchak Market", "imageSearch": "Chatuchak Weekend Market", "description": "The largest market in Thailand.", "mapEmbed": "https://maps.google.com/maps?q=Grand+Egyptian+Museum&t=&z=13&ie=UTF8&iwloc=&output=embed0" }
+      ],
+      "Phuket": [
+        { "name": "Patong Beach", "imageSearch": "Patong Beach Phuket", "description": "The main tourist resort on Phuket.", "mapEmbed": "https://maps.google.com/maps?q=Patong+Beach&output=embed" },
+        { "name": "Old Phuket Town", "imageSearch": "Old Phuket Town architecture", "description": "A historic area with Sino-Portuguese architecture and colorful buildings.", "mapEmbed": "https://maps.google.com/maps?q=Grand+Egyptian+Museum&t=&z=13&ie=UTF8&iwloc=&output=embed1" }
+      ]
+    }
+  },
+  "Russia": {
+    "cities": {
+      "Moscow": [
+        { "name": "Red Square", "imageSearch": "Red Square Moscow", "description": "A city square in Moscow separating the Kremlin from the historic merchant quarter.", "mapEmbed": "https://maps.google.com/maps?q=Red+Square&output=embed" },
+        { "name": "St. Basil's Cathedral", "imageSearch": "St. Basil's Cathedral Moscow", "description": "A church in Red Square known for its colorful onion domes.", "mapEmbed": "https://maps.google.com/maps?q=Grand+Egyptian+Museum&t=&z=13&ie=UTF8&iwloc=&output=embed2" }
+      ],
+      "Saint Petersburg": [
+        { "name": "Hermitage Museum", "imageSearch": "Hermitage Museum Winter Palace", "description": "One of the largest and oldest museums in the world.", "mapEmbed": "https://maps.google.com/maps?q=Hermitage+Museum&output=embed" },
+        { "name": "Peterhof Palace", "imageSearch": "Peterhof Palace fountains", "description": "A series of palaces and gardens, often referred to as the 'Russian Versailles'.", "mapEmbed": "https://maps.google.com/maps?q=Grand+Egyptian+Museum&t=&z=13&ie=UTF8&iwloc=&output=embed3" }
       ]
     }
   },
   "South Africa": {
     "cities": {
       "Cape Town": [
-        "Table Mountain",
-        "Cape of Good Hope",
-        "Robben Island",
-        "District Six Museum",
-        "V&A Waterfront"
-      ],
-      "Johannesburg": [
-        "Apartheid Museum",
-        "Soweto",
-        "Maropeng Visitor Centre",
-        "South African Museum"
-      ],
-      "Durban": [
-        "Golden Mile Beach",
-        "Moses Mabhida Stadium",
-        "uShaka Marine World"
+        { "name": "Table Mountain", "imageSearch": "Table Mountain Cape Town view", "description": "A flat-topped mountain forming a prominent landmark.", "mapEmbed": "https://maps.google.com/maps?q=Table+Mountain+Cape+Town&output=embed" },
+        { "name": "Kirstenbosch Gardens", "imageSearch": "Kirstenbosch National Botanical Garden", "description": "A famous botanical garden nestled at the eastern foot of Table Mountain.", "mapEmbed": "https://maps.google.com/maps?q=Grand+Egyptian+Museum&t=&z=13&ie=UTF8&iwloc=&output=embed4" }
       ]
     }
   },
-  "Kenya": {
+  "Romania": {
     "cities": {
-      "Nairobi": [
-        "Nairobi National Park",
-        "Giraffe Centre",
-        "Karen Blixen Museum",
-        "David Sheldrick Wildlife Trust"
+      "Sibiu": [
+        { "name": "Grand Square", "imageSearch": "Sibiu Main Square Romania", "description": "The historic center of Sibiu.", "mapEmbed": "https://maps.google.com/maps?q=Grand+Square+Sibiu&output=embed" },
+        { "name": "ASTRA Museum", "imageSearch": "ASTRA National Museum Complex", "description": "One of the largest open-air museums in Europe.", "mapEmbed": "https://maps.google.com/maps?q=Grand+Egyptian+Museum&t=&z=13&ie=UTF8&iwloc=&output=embed5" }
       ],
-      "Mombasa": [
-        "Fort Jesus",
-        "Mombasa Old Town",
-        "Mombasa Beach",
-        "Swahili Culture"
-      ],
-      "Masai Mara": [
-        "Masai Mara National Reserve",
-        "Wildlife Safari",
-        "Big Five"
+      "Bucharest": [
+        { "name": "Palace of the Parliament", "imageSearch": "Palace of the Parliament Bucharest", "description": "The heaviest building in the world.", "mapEmbed": "https://maps.google.com/maps?q=Palace+of+the+Parliament+Bucharest&output=embed" },
+        { "name": "Romanian Athenaeum", "imageSearch": "Romanian Athenaeum concert hall", "description": "A concert hall in the center of Bucharest and a landmark of the city.", "mapEmbed": "https://maps.google.com/maps?q=Grand+Egyptian+Museum&t=&z=13&ie=UTF8&iwloc=&output=embed6" }
       ]
     }
   },
-  "Uganda": {
+  "Greece": {
     "cities": {
-      "Kampala": [
-        "Kasubi Tombs",
-        "Uganda National Museum",
-        "Kabaka Palace"
+      "Athens": [
+        { "name": "Acropolis of Athens", "imageSearch": "Acropolis Parthenon Athens", "description": "An ancient citadel on a rocky outcrop.", "mapEmbed": "https://maps.google.com/maps?q=Acropolis+of+Athens&output=embed" },
+        { "name": "Syntagma Square", "imageSearch": "Syntagma Square Athens parliament", "description": "The central square of Athens, located in front of the Old Royal Palace.", "mapEmbed": "https://maps.google.com/maps?q=Grand+Egyptian+Museum&t=&z=13&ie=UTF8&iwloc=&output=embed7" }
       ],
-      "Fort Portal": [
-        "Kibale National Park",
-        "Chimpanzee Tracking",
-        "Crater Lake"
+      "Santorini": [
+        { "name": "Oia", "imageSearch": "Oia Santorini sunset", "description": "A coastal town famous for its whitewashed houses.", "mapEmbed": "https://maps.google.com/maps?q=Oia+Santorini&output=embed" },
+        { "name": "Fira", "imageSearch": "Fira Santorini view", "description": "The capital of Santorini, perched on the edge of the high caldera.", "mapEmbed": "https://maps.google.com/maps?q=Grand+Egyptian+Museum&t=&z=13&ie=UTF8&iwloc=&output=embed8" }
       ]
     }
   },
-  "Tanzania": {
+  "Argentina": {
     "cities": {
-      "Dar es Salaam": [
-        "National Museum",
-        "Dar es Salaam Beach",
-        "Village Museum"
+      "Buenos Aires": [
+        { "name": "Obelisco", "imageSearch": "Obelisco Buenos Aires", "description": "A national historic monument.", "mapEmbed": "https://maps.google.com/maps?q=Obelisco+Buenos+Aires&output=embed" },
+        { "name": "Recoleta Cemetery", "imageSearch": "Recoleta Cemetery Buenos Aires", "description": "A cemetery containing the graves of notable people, including Eva Perón.", "mapEmbed": "https://maps.google.com/maps?q=Grand+Egyptian+Museum&t=&z=13&ie=UTF8&iwloc=&output=embed9" }
       ],
-      "Zanzibar": [
-        "Stone Town",
-        "Zanzibar Spice Markets",
-        "Nungwi Beach",
-        "Prison Island"
-      ],
-      "Arusha": [
-        "Mount Kilimanjaro",
-        "Arusha National Park"
+      "Patagonia": [
+        { "name": "Perito Moreno Glacier", "imageSearch": "Perito Moreno Glacier", "description": "A massive glacier in Los Glaciares National Park.", "mapEmbed": "https://maps.google.com/maps?q=Perito+Moreno+Glacier&output=embed" },
+        { "name": "Mount Fitz Roy", "imageSearch": "Mount Fitz Roy trek", "description": "A mountain located near El Chaltén, famous for hiking.", "mapEmbed": "https://maps.google.com/maps?q=Karnak+Temple+Luxor&t=&z=13&ie=UTF8&iwloc=&output=embed0" }
       ]
     }
   },
-  "Rwanda": {
+  "Switzerland": {
     "cities": {
-      "Kigali": [
-        "Genocide Memorial",
-        "Kigali Serena Hotel",
-        "National Museum"
+      "Zurich": [
+        { "name": "Lake Zurich", "imageSearch": "Lake Zurich Switzerland", "description": "A lake offering swimming, boating and picnicking.", "mapEmbed": "https://maps.google.com/maps?q=Lake+Zurich&output=embed" },
+        { "name": "Grossmünster", "imageSearch": "Grossmunster Zurich", "description": "A Romanesque-style Protestant church in Zurich.", "mapEmbed": "https://maps.google.com/maps?q=Karnak+Temple+Luxor&t=&z=13&ie=UTF8&iwloc=&output=embed1" }
       ],
-      "Volcanoes National Park": [
-        "Mountain Gorilla Trekking",
-        "Virunga Mountains"
+      "Zermatt": [
+        { "name": "Matterhorn", "imageSearch": "Matterhorn mountain", "description": "A mountain of the Alps, known for its distinct pyramid shape.", "mapEmbed": "https://maps.google.com/maps?q=Matterhorn&output=embed" },
+        { "name": "Gornergrat", "imageSearch": "Gornergrat railway view", "description": "A rocky ridge of the Pennine Alps, offering views of the Matterhorn.", "mapEmbed": "https://maps.google.com/maps?q=Karnak+Temple+Luxor&t=&z=13&ie=UTF8&iwloc=&output=embed2" }
+      ]
+    }
+  },
+  "Peru": {
+    "cities": {
+      "Cusco": [
+        { "name": "Machu Picchu", "imageSearch": "Machu Picchu Peru", "description": "A 15th-century Inca citadel set high in the Andes Mountains.", "mapEmbed": "https://maps.google.com/maps?q=Machu+Picchu&t=&z=13&ie=UTF8&iwloc=&output=embed" },
+        { "name": "Qorikancha", "imageSearch": "Qorikancha temple Cusco", "description": "The most important temple in the Inca Empire.", "mapEmbed": "https://maps.google.com/maps?q=Karnak+Temple+Luxor&t=&z=13&ie=UTF8&iwloc=&output=embed3" }
+      ],
+      "Lima": [
+        { "name": "Miraflores", "imageSearch": "Miraflores Lima coast", "description": "An upscale district known for its shopping and beaches.", "mapEmbed": "https://maps.google.com/maps?q=Miraflores+Lima&t=&z=13&ie=UTF8&iwloc=&output=embed" },
+        { "name": "Larco Museum", "imageSearch": "Larco Museum Lima", "description": "A privately owned museum of pre-Columbian art.", "mapEmbed": "https://maps.google.com/maps?q=Karnak+Temple+Luxor&t=&z=13&ie=UTF8&iwloc=&output=embed4" }
       ]
     }
   },
   "Morocco": {
     "cities": {
       "Marrakech": [
-        "Jemaa el-Fnaa Square",
-        "Koutoubia Mosque",
-        "Bahia Palace",
-        "Atlas Mountains",
-        "Medina Bazaar"
-      ],
-      "Fes": [
-        "Fes Medina",
-        "Al Quaraouiyine University",
-        "Leather Tanneries",
-        "Royal Palace"
-      ],
-      "Casablanca": [
-        "Hassan II Mosque",
-        "Corniche",
-        "Royal Palace",
-        "Old Medina"
+        { "name": "Jemaa el-Fnaa", "imageSearch": "Jemaa el-Fnaa market night", "description": "A famous square and market place.", "mapEmbed": "https://maps.google.com/maps?q=Jemaa+el-Fnaa&output=embed" },
+        { "name": "Koutoubia Mosque", "imageSearch": "Koutoubia Mosque Marrakech", "description": "The largest mosque in Marrakesh.", "mapEmbed": "https://maps.google.com/maps?q=Karnak+Temple+Luxor&t=&z=13&ie=UTF8&iwloc=&output=embed5" }
       ],
       "Chefchaouen": [
-        "Blue City",
-        "Rif Mountains",
-        "Kasbah Museum"
+        { "name": "Medina", "imageSearch": "Chefchaouen blue streets", "description": "The old town famous for its blue-rinsed buildings.", "mapEmbed": "https://maps.google.com/maps?q=Chefchaouen+Medina&output=embed" },
+        { "name": "Spanish Mosque", "imageSearch": "Spanish Mosque Chefchaouen", "description": "A mosque on a hill overlooking the blue city.", "mapEmbed": "https://maps.google.com/maps?q=Karnak+Temple+Luxor&t=&z=13&ie=UTF8&iwloc=&output=embed6" }
       ]
     }
   },
-  "Tunisia": {
+  "Portugal": {
     "cities": {
-      "Tunis": [
-        "Bardo Museum",
-        "Medina of Tunis",
-        "Zitouna Mosque"
+      "Lisbon": [
+        { "name": "Belém Tower", "imageSearch": "Belem Tower Lisbon", "description": "A 16th-century fortification located in Lisbon.", "mapEmbed": "https://maps.google.com/maps?q=Belem+Tower&output=embed" },
+        { "name": "Praça do Comércio", "imageSearch": "Praca do Comercio Lisbon", "description": "A large, harbour-facing plaza in Portugal's capital.", "mapEmbed": "https://maps.google.com/maps?q=Karnak+Temple+Luxor&t=&z=13&ie=UTF8&iwloc=&output=embed7" }
       ],
-      "Carthage": [
-        "Carthage Ruins",
-        "Archaeological Museum",
-        "Ancient History"
-      ],
-      "Djerba": [
-        "Djerba Beach",
-        "Ghriba Synagogue",
-        "Coastal Town"
+      "Sintra": [
+        { "name": "Pena Palace", "imageSearch": "Pena Palace Sintra", "description": "A Romanticist castle that stands on the top of a hill.", "mapEmbed": "https://maps.google.com/maps?q=Pena+Palace&output=embed" },
+        { "name": "Castelo dos Mouros", "imageSearch": "Castle of the Moors Sintra", "description": "A hilltop medieval castle.", "mapEmbed": "https://maps.google.com/maps?q=Karnak+Temple+Luxor&t=&z=13&ie=UTF8&iwloc=&output=embed8" }
       ]
     }
   },
-  "Algeria": {
+  "Czech Republic": {
     "cities": {
-      "Algiers": [
-        "Kasbah of Algiers",
-        "Janissaries Mosque",
-        "National Museum"
+      "Prague": [
+        { "name": "Charles Bridge", "imageSearch": "Charles Bridge Prague", "description": "A medieval stone arch bridge that crosses the Vltava river.", "mapEmbed": "https://maps.google.com/maps?q=Charles+Bridge&output=embed" },
+        { "name": "Old Town Hall", "imageSearch": "Old Town Hall Prague Astronomical Clock", "description": "Famous for its medieval Astronomical Clock.", "mapEmbed": "https://maps.google.com/maps?q=Karnak+Temple+Luxor&t=&z=13&ie=UTF8&iwloc=&output=embed9" }
+      ]
+    }
+  },
+  "Hungary": {
+    "cities": {
+      "Budapest": [
+        { "name": "Parliament Building", "imageSearch": "Hungarian Parliament Building", "description": "A notable landmark of Hungary.", "mapEmbed": "https://maps.google.com/maps?q=Hungarian+Parliament+Building&output=embed" },
+        { "name": "Buda Castle", "imageSearch": "Buda Castle view", "description": "The historical castle and palace complex of the Hungarian kings.", "mapEmbed": "https://maps.google.com/maps?q=Valley+of+the+Kings&t=&z=13&ie=UTF8&iwloc=&output=embed0" }
+      ]
+    }
+  },
+  "Croatia": {
+    "cities": {
+      "Dubrovnik": [
+        { "name": "City Walls", "imageSearch": "Dubrovnik City Walls", "description": "A series of defensive stone walls surrounding the city.", "mapEmbed": "https://maps.google.com/maps?q=Dubrovnik+City+Walls&output=embed" },
+        { "name": "Lovrijenac", "imageSearch": "Lovrijenac Fortress Dubrovnik", "description": "A fortress and theater outside the western wall of the city.", "mapEmbed": "https://maps.google.com/maps?q=Valley+of+the+Kings&t=&z=13&ie=UTF8&iwloc=&output=embed1" }
       ],
-      "Timgad": [
-        "Roman Ruins",
-        "Ancient City",
-        "Archaeological Site"
+      "Split": [
+        { "name": "Diocletian's Palace", "imageSearch": "Diocletian's Palace Split", "description": "An ancient palace built for the Roman emperor Diocletian.", "mapEmbed": "https://maps.google.com/maps?q=Diocletian's+Palace&output=embed" },
+        { "name": "Marjan Hill", "imageSearch": "Marjan Hill Split view", "description": "A hill on the peninsula of the city of Split, covered in a dense pine forest.", "mapEmbed": "https://maps.google.com/maps?q=Valley+of+the+Kings&t=&z=13&ie=UTF8&iwloc=&output=embed2" }
+      ]
+    }
+  },
+  "Netherlands": {
+    "cities": {
+      "Amsterdam": [
+        { "name": "Rijksmuseum", "imageSearch": "Rijksmuseum Amsterdam", "description": "A Dutch national museum dedicated to arts and history.", "mapEmbed": "https://maps.google.com/maps?q=Rijksmuseum&t=&z=13&ie=UTF8&iwloc=&output=embed" },
+        { "name": "Jordaan", "imageSearch": "Jordaan Amsterdam canals", "description": "A district famous for its beautiful houses, nice restaurants and original shops.", "mapEmbed": "https://maps.google.com/maps?q=Valley+of+the+Kings&t=&z=13&ie=UTF8&iwloc=&output=embed3" }
+      ]
+    }
+  },
+  "Belgium": {
+    "cities": {
+      "Brussels": [
+        { "name": "Grand Place", "imageSearch": "Grand Place Brussels", "description": "The central square of Brussels.", "mapEmbed": "https://maps.google.com/maps?q=Grand+Place+Brussels&output=embed" },
+        { "name": "Royal Palace", "imageSearch": "Royal Palace of Brussels", "description": "The official palace of the King and Queen of the Belgians.", "mapEmbed": "https://maps.google.com/maps?q=Valley+of+the+Kings&t=&z=13&ie=UTF8&iwloc=&output=embed4" }
+      ],
+      "Bruges": [
+        { "name": "Belfry of Bruges", "imageSearch": "Belfry of Bruges", "description": "A medieval bell tower in the center of Bruges.", "mapEmbed": "https://maps.google.com/maps?q=Belfry+of+Bruges&output=embed" },
+        { "name": "Lake of Love", "imageSearch": "Minnewater Park Bruges", "description": "A romantic park with a lake and swans.", "mapEmbed": "https://maps.google.com/maps?q=Valley+of+the+Kings&t=&z=13&ie=UTF8&iwloc=&output=embed5" }
+      ]
+    }
+  },
+  "Taiwan": {
+    "cities": {
+      "Taipei": [
+        { "name": "Taipei 101", "imageSearch": "Taipei 101", "description": "A landmark supertall skyscraper.", "mapEmbed": "https://maps.google.com/maps?q=Taipei+101&output=embed" },
+        { "name": "Elephant Mountain", "imageSearch": "Elephant Mountain Taipei view", "description": "A hiking trail offering the best views of Taipei 101.", "mapEmbed": "https://maps.google.com/maps?q=Valley+of+the+Kings&t=&z=13&ie=UTF8&iwloc=&output=embed6" }
+      ],
+      "Jiufen": [
+        { "name": "Jiufen Old Street", "imageSearch": "Jiufen Old Street lanterns", "description": "A mountain area known for its maze of lanes and alleyways.", "mapEmbed": "https://maps.google.com/maps?q=Jiufen+Old+Street&output=embed" },
+        { "name": "Golden Waterfall", "imageSearch": "Golden Waterfall Taiwan", "description": "A waterfall famous for its golden color due to heavy metal elements.", "mapEmbed": "https://maps.google.com/maps?q=Valley+of+the+Kings&t=&z=13&ie=UTF8&iwloc=&output=embed7" }
+      ]
+    }
+  },
+  "Mongolia": {
+    "cities": {
+      "Ulaanbaatar": [
+        { "name": "Gandan Monastery", "imageSearch": "Gandan Monastery Ulaanbaatar", "description": "A Tibetan-style Buddhist monastery.", "mapEmbed": "https://maps.google.com/maps?q=Gandan+Monastery&output=embed" },
+        { "name": "Sukhbaatar Square", "imageSearch": "Sukhbaatar Square Ulaanbaatar", "description": "The central square of Mongolia's capital.", "mapEmbed": "https://maps.google.com/maps?q=Valley+of+the+Kings&t=&z=13&ie=UTF8&iwloc=&output=embed8" }
+      ]
+    }
+  },
+  "Nepal": {
+    "cities": {
+      "Kathmandu": [
+        { "name": "Boudhanath Stupa", "imageSearch": "Boudhanath Stupa Kathmandu", "description": "One of the largest spherical stupas in Nepal.", "mapEmbed": "https://maps.google.com/maps?q=Boudhanath+Stupa&output=embed" },
+        { "name": "Durbar Square", "imageSearch": "Kathmandu Durbar Square", "description": "The plaza in front of the old royal palace.", "mapEmbed": "https://maps.google.com/maps?q=Valley+of+the+Kings&t=&z=13&ie=UTF8&iwloc=&output=embed9" }
+      ]
+    }
+  },
+  "Pakistan": {
+    "cities": {
+      "Islamabad": [
+        { "name": "Faisal Mosque", "imageSearch": "Faisal Mosque Islamabad", "description": "The largest mosque in Pakistan.", "mapEmbed": "https://maps.google.com/maps?q=Faisal+Mosque&output=embed" },
+        { "name": "Pakistan Monument", "imageSearch": "Pakistan Monument Islamabad", "description": "A national monument and heritage museum.", "mapEmbed": "https://maps.google.com/maps?q=Luxor+Temple&t=&z=13&ie=UTF8&iwloc=&output=embed0" }
+      ]
+    }
+  },
+  "Sri Lanka": {
+    "cities": {
+      "Colombo": [
+        { "name": "Gangaramaya Temple", "imageSearch": "Gangaramaya Temple Colombo", "description": "One of the most important Buddhist temples in Colombo.", "mapEmbed": "https://maps.google.com/maps?q=Gangaramaya+Temple&output=embed" },
+        { "name": "Lotus Tower", "imageSearch": "Lotus Tower Colombo", "description": "A tower that is the tallest self-supported structure in South Asia.", "mapEmbed": "https://maps.google.com/maps?q=Luxor+Temple&t=&z=13&ie=UTF8&iwloc=&output=embed1" }
+      ],
+      "Sigiriya": [
+        { "name": "Sigiriya Rock Fortress", "imageSearch": "Sigiriya Rock Fortress", "description": "An ancient rock fortress.", "mapEmbed": "https://maps.google.com/maps?q=Sigiriya&output=embed" },
+        { "name": "Pidurangala Rock", "imageSearch": "Pidurangala Rock view", "description": "A massive rock formation offering views of Sigiriya.", "mapEmbed": "https://maps.google.com/maps?q=Luxor+Temple&t=&z=13&ie=UTF8&iwloc=&output=embed2" }
+      ]
+    }
+  },
+  "Kenya": {
+    "cities": {
+      "Nairobi": [
+        { "name": "Nairobi National Park", "imageSearch": "Nairobi National Park", "description": "A national park just 7km south of Nairobi.", "mapEmbed": "https://maps.google.com/maps?q=Nairobi+National+Park&output=embed" },
+        { "name": "Karen Blixen Museum", "imageSearch": "Karen Blixen Museum Nairobi", "description": "The former African home of the Danish author.", "mapEmbed": "https://maps.google.com/maps?q=Luxor+Temple&t=&z=13&ie=UTF8&iwloc=&output=embed3" }
+      ],
+      "Masai Mara": [
+        { "name": "Masai Mara Reserve", "imageSearch": "Masai Mara safari", "description": "A large game reserve in Narok.", "mapEmbed": "https://maps.google.com/maps?q=Masai+Mara&output=embed" },
+        { "name": "Mara River", "imageSearch": "Mara River crossing", "description": "A river famous for the wildebeest migration crossing.", "mapEmbed": "https://maps.google.com/maps?q=Luxor+Temple&t=&z=13&ie=UTF8&iwloc=&output=embed4" }
+      ]
+    }
+  },
+  "Tanzania": {
+    "cities": {
+      "Zanzibar": [
+        { "name": "Stone Town", "imageSearch": "Stone Town Zanzibar", "description": "The old part of Zanzibar City.", "mapEmbed": "https://maps.google.com/maps?q=Stone+Town+Zanzibar&output=embed" },
+        { "name": "Prison Island", "imageSearch": "Prison Island Zanzibar tortoises", "description": "An island famous for its giant tortoises.", "mapEmbed": "https://maps.google.com/maps?q=Luxor+Temple&t=&z=13&ie=UTF8&iwloc=&output=embed5" }
+      ],
+      "Arusha": [
+        { "name": "Mount Kilimanjaro", "imageSearch": "Mount Kilimanjaro", "description": "The highest mountain in Africa.", "mapEmbed": "https://maps.google.com/maps?q=Mount+Kilimanjaro&output=embed" },
+        { "name": "Arusha National Park", "imageSearch": "Arusha National Park giraffe", "description": "A gem of varied ecosystems and spectacular views of Mt. Meru.", "mapEmbed": "https://maps.google.com/maps?q=Luxor+Temple&t=&z=13&ie=UTF8&iwloc=&output=embed6" }
+      ]
+    }
+  },
+  "Uganda": {
+    "cities": {
+      "Kampala": [
+        { "name": "Kasubi Tombs", "imageSearch": "Kasubi Tombs Kampala", "description": "The site of the burial grounds for four kabakas.", "mapEmbed": "https://maps.google.com/maps?q=Kasubi+Tombs&output=embed" },
+        { "name": "Uganda Museum", "imageSearch": "Uganda Museum Kampala", "description": "A museum displaying Uganda's cultural heritage.", "mapEmbed": "https://maps.google.com/maps?q=Luxor+Temple&t=&z=13&ie=UTF8&iwloc=&output=embed7" }
+      ]
+    }
+  },
+  "Rwanda": {
+    "cities": {
+      "Kigali": [
+        { "name": "Kigali Genocide Memorial", "imageSearch": "Kigali Genocide Memorial", "description": "Commemorates the 1994 Rwandan genocide.", "mapEmbed": "https://maps.google.com/maps?q=Kigali+Genocide+Memorial&output=embed" },
+        { "name": "Inema Art Center", "imageSearch": "Inema Art Center Kigali", "description": "A collective of Rwandan creative artists.", "mapEmbed": "https://maps.google.com/maps?q=Luxor+Temple&t=&z=13&ie=UTF8&iwloc=&output=embed8" }
       ]
     }
   },
   "Ethiopia": {
     "cities": {
       "Addis Ababa": [
-        "St. George's Cathedral",
-        "National Museum",
-        "Trinity Cathedral"
+        { "name": "National Museum", "imageSearch": "National Museum of Ethiopia", "description": "Houses the nation's artistic treasures.", "mapEmbed": "https://maps.google.com/maps?q=National+Museum+of+Ethiopia&output=embed" },
+        { "name": "Holy Trinity Cathedral", "imageSearch": "Holy Trinity Cathedral Addis Ababa", "description": "The highest ranking Orthodox cathedral in Addis Ababa.", "mapEmbed": "https://maps.google.com/maps?q=Luxor+Temple&t=&z=13&ie=UTF8&iwloc=&output=embed9" }
       ],
       "Lalibela": [
-        "Lalibela Rock Churches",
-        "Religious Site",
-        "UNESCO Heritage"
+        { "name": "Rock-Hewn Churches", "imageSearch": "Lalibela rock churches", "description": "11 medieval monolithic cave churches.", "mapEmbed": "https://maps.google.com/maps?q=Rock-Hewn+Churches+Lalibela&output=embed" },
+        { "name": "Church of St. George", "imageSearch": "Church of St. George Lalibela", "description": "The most famous and best preserved of the rock-hewn churches.", "mapEmbed": "https://maps.google.com/maps?q=Bibliotheca+Alexandrina&t=&z=13&ie=UTF8&iwloc=&output=embed0" }
+      ]
+    }
+  },
+  "Tunisia": {
+    "cities": {
+      "Tunis": [
+        { "name": "Medina of Tunis", "imageSearch": "Medina of Tunis", "description": "A UNESCO World Heritage Site.", "mapEmbed": "https://maps.google.com/maps?q=Medina+of+Tunis&output=embed" },
+        { "name": "Bardo Museum", "imageSearch": "Bardo Museum Tunis", "description": "One of the most important museums in the Mediterranean region.", "mapEmbed": "https://maps.google.com/maps?q=Bibliotheca+Alexandrina&t=&z=13&ie=UTF8&iwloc=&output=embed1" }
+      ],
+      "Carthage": [
+        { "name": "Carthage Ruins", "imageSearch": "Carthage ruins Tunisia", "description": "The archaeological site of the ancient city of Carthage.", "mapEmbed": "https://maps.google.com/maps?q=Carthage+Ruins&output=embed" },
+        { "name": "Byrsa Hill", "imageSearch": "Byrsa Hill Carthage", "description": "The walled citadel of ancient Carthage.", "mapEmbed": "https://maps.google.com/maps?q=Bibliotheca+Alexandrina&t=&z=13&ie=UTF8&iwloc=&output=embed2" }
+      ]
+    }
+  },
+  "Algeria": {
+    "cities": {
+      "Algiers": [
+        { "name": "Casbah of Algiers", "imageSearch": "Casbah of Algiers", "description": "A unique medina type of city.", "mapEmbed": "https://maps.google.com/maps?q=Casbah+of+Algiers&output=embed" },
+        { "name": "Notre Dame d'Afrique", "imageSearch": "Notre Dame d'Afrique Algiers", "description": "A Roman Catholic basilica overlooking the Bay of Algiers.", "mapEmbed": "https://maps.google.com/maps?q=Bibliotheca+Alexandrina&t=&z=13&ie=UTF8&iwloc=&output=embed3" }
+      ]
+    }
+  },
+  "Indonesia": {
+    "cities": {
+      "Bali": [
+        { "name": "Ubud Monkey Forest", "imageSearch": "Sacred Monkey Forest Ubud", "description": "A nature reserve and Hindu temple complex.", "mapEmbed": "https://maps.google.com/maps?q=Ubud+Monkey+Forest&output=embed" },
+        { "name": "Tanah Lot", "imageSearch": "Tanah Lot Temple sunset", "description": "A rock formation home to the ancient Hindu pilgrimage temple.", "mapEmbed": "https://maps.google.com/maps?q=Tanah+Lot&output=embed" }
+      ],
+      "Jakarta": [
+        { "name": "National Monument", "imageSearch": "Monas Jakarta", "description": "A tower in the center of Merdeka Square.", "mapEmbed": "https://maps.google.com/maps?q=Bibliotheca+Alexandrina&t=&z=13&ie=UTF8&iwloc=&output=embed4" },
+        { "name": "Istiqlal Mosque", "imageSearch": "Istiqlal Mosque Jakarta", "description": "The largest mosque in Southeast Asia.", "mapEmbed": "https://maps.google.com/maps?q=Bibliotheca+Alexandrina&t=&z=13&ie=UTF8&iwloc=&output=embed5" }
+      ]
+    }
+  },
+  "Vietnam": {
+    "cities": {
+      "Hanoi": [
+        { "name": "Ha Long Bay", "imageSearch": "Ha Long Bay boats", "description": "Known for its emerald waters and limestone islands.", "mapEmbed": "https://maps.google.com/maps?q=Ha+Long+Bay&output=embed" },
+        { "name": "Old Quarter", "imageSearch": "Hanoi Old Quarter", "description": "The historic soul of Hanoi.", "mapEmbed": "https://maps.google.com/maps?q=Bibliotheca+Alexandrina&t=&z=13&ie=UTF8&iwloc=&output=embed6" }
+      ]
+    }
+  },
+  "Philippines": {
+    "cities": {
+      "Manila": [
+        { "name": "Intramuros", "imageSearch": "Intramuros Manila", "description": "The historic walled area within the city.", "mapEmbed": "https://maps.google.com/maps?q=Intramuros&output=embed" },
+        { "name": "Rizal Park", "imageSearch": "Rizal Park Manila", "description": "A historic urban park in the Philippines.", "mapEmbed": "https://maps.google.com/maps?q=Bibliotheca+Alexandrina&t=&z=13&ie=UTF8&iwloc=&output=embed7" }
+      ],
+      "Boracay": [
+        { "name": "White Beach", "imageSearch": "White Beach Boracay", "description": "Famous for its powdery white sand.", "mapEmbed": "https://maps.google.com/maps?q=White+Beach+Boracay&output=embed" }
+      ]
+    }
+  },
+  "Malaysia": {
+    "cities": {
+      "Kuala Lumpur": [
+        { "name": "Petronas Towers", "imageSearch": "Petronas Twin Towers", "description": "Twin skyscrapers that dominate the skyline.", "mapEmbed": "https://maps.google.com/maps?q=Petronas+Towers&output=embed" },
+        { "name": "Batu Caves", "imageSearch": "Batu Caves Malaysia", "description": "A limestone hill that has a series of caves and cave temples.", "mapEmbed": "https://maps.google.com/maps?q=Bibliotheca+Alexandrina&t=&z=13&ie=UTF8&iwloc=&output=embed8" }
+      ]
+    }
+  },
+  "Singapore": {
+    "cities": {
+      "Singapore": [
+        { "name": "Marina Bay Sands", "imageSearch": "Marina Bay Sands infinity pool", "description": "An integrated resort fronting Marina Bay.", "mapEmbed": "https://maps.google.com/maps?q=Marina+Bay+Sands&output=embed" },
+        { "name": "Gardens by the Bay", "imageSearch": "Supertree Grove Gardens by the Bay", "description": "A nature park spanning 101 hectares.", "mapEmbed": "https://maps.google.com/maps?q=Gardens+by+the+Bay&output=embed" }
+      ]
+    }
+  },
+  "Maldives": {
+    "cities": {
+      "Male": [
+        { "name": "Grand Friday Mosque", "imageSearch": "Grand Friday Mosque Male", "description": "The biggest mosque in the Maldives.", "mapEmbed": "https://maps.google.com/maps?q=Grand+Friday+Mosque+Male&output=embed" },
+        { "name": "Male Fish Market", "imageSearch": "Male Fish Market Maldives", "description": "The commercial heart of the island.", "mapEmbed": "https://maps.google.com/maps?q=Bibliotheca+Alexandrina&t=&z=13&ie=UTF8&iwloc=&output=embed9" }
+      ]
+    }
+  },
+  "Chile": {
+    "cities": {
+      "Santiago": [
+        { "name": "Costanera Center", "imageSearch": "Costanera Center Santiago", "description": "Includes the tallest building in South America.", "mapEmbed": "https://maps.google.com/maps?q=Costanera+Center&output=embed" },
+        { "name": "San Cristobal Hill", "imageSearch": "Cerro San Cristobal Santiago", "description": "A hill in northern Santiago with beautiful views.", "mapEmbed": "https://maps.google.com/maps?q=Citadel+of+Qaitbay&t=&z=13&ie=UTF8&iwloc=&output=embed0" }
+      ],
+      "Atacama": [
+        { "name": "Moon Valley", "imageSearch": "Valle de la Luna Atacama", "description": "Stone and sand formations which look similar to the moon.", "mapEmbed": "https://maps.google.com/maps?q=Valle+de+la+Luna+Chile&output=embed" }
+      ]
+    }
+  },
+  "Colombia": {
+    "cities": {
+      "Bogota": [
+        { "name": "Monserrate", "imageSearch": "Monserrate Bogota", "description": "A mountain that dominates the city center.", "mapEmbed": "https://maps.google.com/maps?q=Monserrate&output=embed" },
+        { "name": "Gold Museum", "imageSearch": "Gold Museum Bogota", "description": "Displays an extraordinary selection of pre-Hispanic gold work.", "mapEmbed": "https://maps.google.com/maps?q=Citadel+of+Qaitbay&t=&z=13&ie=UTF8&iwloc=&output=embed1" }
+      ],
+      "Cartagena": [
+        { "name": "Walled City", "imageSearch": "Cartagena Walled City", "description": "A colonial walled city and fortress.", "mapEmbed": "https://maps.google.com/maps?q=Walled+City+of+Cartagena&output=embed" }
+      ]
+    }
+  },
+  "New Zealand": {
+    "cities": {
+      "Auckland": [
+        { "name": "Sky Tower", "imageSearch": "Sky Tower Auckland", "description": "The tallest freestanding structure in the Southern Hemisphere.", "mapEmbed": "https://maps.google.com/maps?q=Sky+Tower+Auckland&output=embed" },
+        { "name": "Mount Eden", "imageSearch": "Mount Eden Auckland", "description": "A dormant volcano offering 360-degree views.", "mapEmbed": "https://maps.google.com/maps?q=Citadel+of+Qaitbay&t=&z=13&ie=UTF8&iwloc=&output=embed2" }
+      ],
+      "Queenstown": [
+        { "name": "Milford Sound", "imageSearch": "Milford Sound fjord", "description": "A fiord known for towering Mitre Peak.", "mapEmbed": "https://maps.google.com/maps?q=Milford+Sound&output=embed" }
+      ]
+    }
+  },
+  "Norway": {
+    "cities": {
+      "Oslo": [
+        { "name": "Vigeland Park", "imageSearch": "Vigeland Sculpture Park", "description": "The world's largest sculpture park made by a single artist.", "mapEmbed": "https://maps.google.com/maps?q=Vigeland+Park&output=embed" },
+        { "name": "Oslo Opera House", "imageSearch": "Oslo Opera House", "description": "Home of the Norwegian National Opera and Ballet.", "mapEmbed": "https://maps.google.com/maps?q=Citadel+of+Qaitbay&t=&z=13&ie=UTF8&iwloc=&output=embed3" }
+      ]
+    }
+  },
+  "Sweden": {
+    "cities": {
+      "Stockholm": [
+        { "name": "Gamla Stan", "imageSearch": "Gamla Stan Stockholm", "description": "The old town of Stockholm.", "mapEmbed": "https://maps.google.com/maps?q=Gamla+Stan&output=embed" },
+        { "name": "Vasa Museum", "imageSearch": "Vasa Museum ship", "description": "Displays the only almost fully intact 17th-century ship.", "mapEmbed": "https://maps.google.com/maps?q=Vasa+Museum&output=embed" }
+      ]
+    }
+  },
+  "Denmark": {
+    "cities": {
+      "Copenhagen": [
+        { "name": "Nyhavn", "imageSearch": "Nyhavn Copenhagen", "description": "A 17th-century waterfront district.", "mapEmbed": "https://maps.google.com/maps?q=Nyhavn&output=embed" },
+        { "name": "Tivoli Gardens", "imageSearch": "Tivoli Gardens Copenhagen", "description": "A famous amusement park and pleasure garden.", "mapEmbed": "https://maps.google.com/maps?q=Tivoli+Gardens&output=embed" }
+      ]
+    }
+  },
+  "Finland": {
+    "cities": {
+      "Helsinki": [
+        { "name": "Helsinki Cathedral", "imageSearch": "Helsinki Cathedral white", "description": "The Finnish Evangelical Lutheran cathedral.", "mapEmbed": "https://maps.google.com/maps?q=Helsinki+Cathedral&output=embed" },
+        { "name": "Suomenlinna", "imageSearch": "Suomenlinna fortress", "description": "An inhabited sea fortress built on six islands.", "mapEmbed": "https://maps.google.com/maps?q=Citadel+of+Qaitbay&t=&z=13&ie=UTF8&iwloc=&output=embed4" }
+      ]
+    }
+  },
+  "Ireland": {
+    "cities": {
+      "Dublin": [
+        { "name": "Guinness Storehouse", "imageSearch": "Guinness Storehouse", "description": "Tells the story of Guinness.", "mapEmbed": "https://maps.google.com/maps?q=Guinness+Storehouse&output=embed" },
+        { "name": "Trinity College", "imageSearch": "Trinity College Dublin library", "description": "Ireland's oldest university.", "mapEmbed": "https://maps.google.com/maps?q=Citadel+of+Qaitbay&t=&z=13&ie=UTF8&iwloc=&output=embed5" }
+      ],
+      "Galway": [
+        { "name": "Cliffs of Moher", "imageSearch": "Cliffs of Moher Ireland", "description": "Sea cliffs located at the southwestern edge of the Burren region.", "mapEmbed": "https://maps.google.com/maps?q=Cliffs+of+Moher&output=embed" }
+      ]
+    }
+  },
+  "Austria": {
+    "cities": {
+      "Vienna": [
+        { "name": "Schönbrunn Palace", "imageSearch": "Schonbrunn Palace", "description": "The main summer residence of the Habsburg rulers.", "mapEmbed": "https://maps.google.com/maps?q=Schonbrunn+Palace&output=embed" },
+        { "name": "St. Stephen's Cathedral", "imageSearch": "St Stephens Cathedral Vienna", "description": "The mother church of the Roman Catholic Archdiocese of Vienna.", "mapEmbed": "https://maps.google.com/maps?q=Citadel+of+Qaitbay&t=&z=13&ie=UTF8&iwloc=&output=embed6" }
+      ],
+      "Hallstatt": [
+        { "name": "Hallstatt Old Town", "imageSearch": "Hallstatt village lake", "description": "A village known for its 16th-century Alpine houses.", "mapEmbed": "https://maps.google.com/maps?q=Hallstatt&output=embed" }
+      ]
+    }
+  },
+  "Poland": {
+    "cities": {
+      "Krakow": [
+        { "name": "Main Market Square", "imageSearch": "Main Market Square Krakow", "description": "The main square of the Old Town of Kraków.", "mapEmbed": "https://maps.google.com/maps?q=Main+Market+Square+Krakow&output=embed" },
+        { "name": "Wawel Royal Castle", "imageSearch": "Wawel Castle Krakow", "description": "A castle residency built at the behest of King Casimir III the Great.", "mapEmbed": "https://maps.google.com/maps?q=Citadel+of+Qaitbay&t=&z=13&ie=UTF8&iwloc=&output=embed7" }
+      ]
+    }
+  },
+  "Ukraine": {
+    "cities": {
+      "Kyiv": [
+        { "name": "St. Sophia Cathedral", "imageSearch": "St Sophia Cathedral Kyiv", "description": "An outstanding architectural monument.", "mapEmbed": "https://maps.google.com/maps?q=St.+Sophia+Cathedral+Kyiv&output=embed" },
+        { "name": "Kyiv Pechersk Lavra", "imageSearch": "Kyiv Pechersk Lavra", "description": "A historic Orthodox Christian monastery.", "mapEmbed": "https://maps.google.com/maps?q=Citadel+of+Qaitbay&t=&z=13&ie=UTF8&iwloc=&output=embed8" }
+      ]
+    }
+  },
+  "Belarus": {
+    "cities": {
+      "Minsk": [
+        { "name": "National Library", "imageSearch": "National Library of Belarus", "description": "The biggest library in the Republic of Belarus.", "mapEmbed": "https://maps.google.com/maps?q=National+Library+of+Belarus&output=embed" },
+        { "name": "Victory Square", "imageSearch": "Victory Square Minsk", "description": "A key landmark in the center of Minsk.", "mapEmbed": "https://maps.google.com/maps?q=Citadel+of+Qaitbay&t=&z=13&ie=UTF8&iwloc=&output=embed9" }
       ]
     }
   }
-} 
+}

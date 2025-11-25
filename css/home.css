@@ -1,5 +1,4 @@
 /* ==================== HERO SECTION ==================== */
-/* ==================== HERO SECTION ==================== */
 .hero {
     min-height: 70vh;
     /* We need relative positioning here so the ::before element knows where to go */
@@ -34,7 +33,7 @@
     /* === THE BLUR SETTINGS === */
     filter: blur(5px);
     /* Adjust this number to make it more/less blurry */
-    transform: scale(1);
+    transform: scale(1.16);
     /* Zooms in slightly to hide white blurred edges */
     z-index: -1;
     /* Puts this layer BEHIND the text */
@@ -241,7 +240,7 @@
 
 .results {
     padding: 0;
-    display: grid;
+    display: grid !important;
     grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
     gap: 22px;
     max-width: 1200px;

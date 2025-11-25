@@ -14,7 +14,7 @@ let searchTimeout = null;
 const TOP_COUNTRIES = ["France", "Italy", "Japan", "United States", "Egypt", "Spain", "United Kingdom", "Brazil", "Australia", "Greece"];
 const TOP_CITIES = ["Paris", "London", "New York", "Tokyo", "Dubai", "Rome", "Barcelona", "Rio de Janeiro", "Bangkok", "Istanbul"];
 const TOP_PLACES = [
-    "Eiffel Tower", "Pyramids of Giza", "Statue of Liberty", "Colosseum", 
+    "Eiffel Tower", "Great Sphinx of Giza", "Statue of Liberty", "Colosseum", 
     "Taj Mahal", "Great Wall of China", "Machu Picchu", "Burj Khalifa", 
     "Sydney Opera House", "Christ the Redeemer"
 ];
@@ -378,19 +378,26 @@ async function displaySearchResults(results, type, signal) {
     // Helper to process data in parallel
     const processCard = async (item) => {
         try {
-            // 1. Fetch Image (Pass signal for abort)
+            // 1. Fetch Image
             const imageUrl = await fetchUnsplashImage(item.name, signal);
             
-            // 2. Fetch Real Description from Wikipedia
-            const wikiDesc = await fetchWikipediaDescription(item.name);
-            let description = wikiDesc;
+            // 2. PRIORITY 1: Try Wikipedia Description
+            let description = await fetchWikipediaDescription(item.name);
 
-            // 3. Fallback description logic
+            // 3. PRIORITY 2: If Wiki failed, try JSON 'description' property
+            // (This exists for Places in your new JSON, but not usually for Cities/Countries)
+            if (!description && item.description) {
+                description = item.description;
+            }
+
+            // 4. PRIORITY 3: Generic Fallback
             if (!description) {
                 if (type === 'country') {
-                    description = `Explore the beautiful city of ${item.name} in ${item.country}.`;
+                    description = `Explore the beautiful country of ${item.name}.`;
+                } else if (type === 'city') {
+                    description = `Explore the beautiful city of ${item.name}, ${item.country}.`;
                 } else {
-                    description = `Located in ${item.city}, ${item.country}`;
+                    description = `Located in ${item.city}, ${item.country}.`;
                 }
             }
 
@@ -401,22 +408,19 @@ async function displaySearchResults(results, type, signal) {
             };
         } catch (err) {
             if (err.name === 'AbortError') throw err;
-            return null; // Skip if error (shouldn't happen due to fallbacks)
+            return null;
         }
     };
 
-    // Execute all API calls concurrently
     const allCardsData = await Promise.all(results.map(processCard));
 
-    // Clear loading status
     gridContainer.innerHTML = ''; 
 
-    // Render valid cards
-    let hascontent = false;
+    let hasContent = false;
     allCardsData.forEach(data => {
         if(data) {
             createCard(gridContainer, data.title, data.description, data.imageUrl);
-             hascontent = true;
+            hasContent = true;
         }
     });
 }
@@ -473,9 +477,10 @@ async function renderExplorePage() {
             const parentCountry = findCountryForCity(city);
             if (!parentCountry) continue;
 
-            const places = mainData[parentCountry].cities[city].slice(0, 3);
+            const rawPlaces = mainData[parentCountry].cities[city].slice(0, 3);
+            const places = rawPlaces.map(p => (typeof p === 'object' ? p.name : p));
+            
             const imageUrl = await fetchUnsplashImage(city);
-
             createExploreCard(citiesContainer, {
                 title: city,
                 image: imageUrl,
@@ -523,7 +528,14 @@ function findLocationForPlace(targetPlace) {
         const cities = mainData[country].cities;
         for (const city in cities) {
             const places = cities[city];
-            if (places.includes(targetPlace) || places.some(p => p.includes(targetPlace))) {
+            
+            // FIX: handle both Strings and Objects safely
+            const found = places.some(p => {
+                const pName = (typeof p === 'object') ? p.name : p;
+                return pName === targetPlace || pName.includes(targetPlace);
+            });
+
+            if (found) {
                 return { city, country };
             }
         }

@@ -1,11 +1,9 @@
 export function searchJSON(keyword, mainData) {
-    if (!keyword || typeof keyword !== 'string') {
-        return null;
-    }
+    if (!keyword || typeof keyword !== 'string') return null;
+    
     const trimmedKeyword = keyword.trim();
-    if (trimmedKeyword === '') {
-        return null;
-    }
+    if (trimmedKeyword === '') return null;
+    
     const lowerCaseKeyword = trimmedKeyword.toLowerCase();
 
     if (!mainData) {
@@ -17,7 +15,13 @@ export function searchJSON(keyword, mainData) {
     for (const countryName in mainData) {
         if (countryName.toLowerCase() === lowerCaseKeyword) {
             const citiesInCountry = Object.keys(mainData[countryName].cities);
-            return { type: "country", results: citiesInCountry.map(cityName => ({ name: cityName, country: countryName })) };
+            return { 
+                type: "country", 
+                results: citiesInCountry.map(cityName => ({ 
+                    name: cityName, 
+                    country: countryName 
+                })) 
+            };
         }
     }
 
@@ -26,12 +30,24 @@ export function searchJSON(keyword, mainData) {
         if (mainData[countryName].cities) {
             for (const cityName in mainData[countryName].cities) {
                 if (cityName.toLowerCase() === lowerCaseKeyword) {
-                    const placesInCity = mainData[countryName].cities[cityName].map(placeName => ({
-                        name: placeName,
-                        city: cityName,
-                        country: countryName
-                    }));
-                    return { type: "city", results: placesInCity };
+                    const placesList = mainData[countryName].cities[cityName];
+                    
+                    // HANDLE MIXED DATA (Strings vs Objects)
+                    const normalizedPlaces = placesList.map(place => {
+                        if (typeof place === 'object') {
+                            return {
+                                name: place.name,
+                                city: cityName,
+                                country: countryName,
+                                // Pass custom data along if needed
+                                customDesc: place.description,
+                                customImage: place.imageSearch
+                            };
+                        }
+                        return { name: place, city: cityName, country: countryName };
+                    });
+
+                    return { type: "city", results: normalizedPlaces };
                 }
             }
         }
@@ -42,7 +58,11 @@ export function searchJSON(keyword, mainData) {
         if (mainData[countryName].cities) {
             for (const cityName in mainData[countryName].cities) {
                 const places = mainData[countryName].cities[cityName];
-                for (const placeName of places) {
+                
+                for (const place of places) {
+                    // Normalize the name whether it's an object or string
+                    const placeName = (typeof place === 'object') ? place.name : place;
+
                     if (placeName.toLowerCase() === lowerCaseKeyword) {
                         return {
                             type: "place",
@@ -50,6 +70,8 @@ export function searchJSON(keyword, mainData) {
                                 name: placeName,
                                 city: cityName,
                                 country: countryName,
+                                // Pass object data if available
+                                ...(typeof place === 'object' ? place : {})
                             }]
                         };
                     }
