@@ -60,41 +60,71 @@ async function loadDestinationImages(query) {
     }
 }
 
-// Fetch destination info and showing data from Wikipedia API
+// Fetch destination info with a fallback search mechanism
 async function loadDestinationInfo(query) {
-    const url = `https://en.wikipedia.org/api/rest_v1/page/summary/${encodeURIComponent(query)}`;
-
-    const res = await fetch(url);
-    if (!res.ok) throw new Error('Wikipedia API error');
-
-    const data = await res.json();
-
     const contentDiv = document.querySelector('.details-content p');
-    if (data.extract && contentDiv) {
-        contentDiv.innerText = data.extract;
+    
+    try {
+        // 1. Try fetching exact match first
+        let url = `https://en.wikipedia.org/api/rest_v1/page/summary/${encodeURIComponent(query)}`;
+        let res = await fetch(url);
 
-        if (data.content_urls && data.content_urls.desktop) {
-            const wikiLink = document.createElement('a');
-            wikiLink.href = data.content_urls.desktop.page;
-            wikiLink.target = "_blank";
-            wikiLink.textContent = " Read more on Wikipedia";
-            wikiLink.style.color = "var(--main-color)";
-            wikiLink.style.fontWeight = "600";
-            wikiLink.style.textDecoration = "none";
-            wikiLink.style.display = "block";
-            wikiLink.style.marginTop = "10px";
-            contentDiv.appendChild(wikiLink);
+        // 2. If 404 (Not Found), try searching for the closest Wikipedia article
+        if (res.status === 404) {
+            console.log(`Exact match not found for "${query}", searching...`);
+            
+            // Use Wikipedia Search API to find the best matching title
+            const searchUrl = `https://en.wikipedia.org/w/api.php?action=opensearch&search=${encodeURIComponent(query)}&limit=1&format=json&origin=*`;
+            const searchRes = await fetch(searchUrl);
+            const searchData = await searchRes.json();
+            
+            // searchData format: [searchTerm, [titles], [descriptions], [urls]]
+            if (searchData[1] && searchData[1].length > 0) {
+                const bestMatchTitle = searchData[1][0];
+                console.log(`Found best match: ${bestMatchTitle}`);
+                
+                // Retry fetching summary with the new found title
+                url = `https://en.wikipedia.org/api/rest_v1/page/summary/${encodeURIComponent(bestMatchTitle)}`;
+                res = await fetch(url);
+            }
         }
+
+        if (!res.ok) throw new Error('Wikipedia API error');
+
+        const data = await res.json();
+
+        if (data.extract && contentDiv) {
+            contentDiv.innerText = data.extract;
+
+            if (data.content_urls && data.content_urls.desktop) {
+                const wikiLink = document.createElement('a');
+                wikiLink.href = data.content_urls.desktop.page;
+                wikiLink.target = "_blank";
+                wikiLink.textContent = " Read more on Wikipedia";
+                wikiLink.style.color = "var(--main-color)";
+                wikiLink.style.fontWeight = "600";
+                wikiLink.style.textDecoration = "none";
+                wikiLink.style.display = "block";
+                wikiLink.style.marginTop = "10px";
+                contentDiv.appendChild(wikiLink);
+            }
+        } else {
+            if(contentDiv) contentDiv.textContent = `Explore the amazing ${query}. Valid Wikipedia article not found.`;
+        }
+    } catch (error) {
+        console.error("Wiki Error:", error);
+        if(contentDiv) contentDiv.textContent = `Discover the beauty of ${query}. (Info currently unavailable)`;
     }
 }
 
-async function embedGoogleMap(query) {
+function embedGoogleMap(query) {
     const mapPlaceholder = document.querySelector('.map-placeholder');
     if (!mapPlaceholder) return;
 
-    
     const encodedQuery = encodeURIComponent(query);
-    const mapUrl = `https://maps.google.com/maps?q=${encodedQuery}&output=embed`;
+    
+    // FIXED: Corrected domain and template literal syntax (${encodedQuery})
+    const mapUrl = `https://maps.google.com/maps?q=${encodedQuery}&t=&z=13&ie=UTF8&iwloc=&output=embed`;
 
     const iframe = document.createElement('iframe');
     iframe.src = mapUrl;
