@@ -422,7 +422,7 @@
     "cities": {
       "Prague": [
         { "name": "Charles Bridge", "imageSearch": "Charles Bridge Prague", "description": "A medieval stone arch bridge that crosses the Vltava river.", "mapEmbed": "https://maps.google.com/maps?q=Charles+Bridge&output=embed" },
-        { "name": "Old Town Hall", "imageSearch": "Old Town Hall Prague Astronomical Clock", "description": "Famous for its medieval Astronomical Clock.", "mapEmbed": "https://maps.google.com/maps?q=Karnak+Temple+Luxor&t=&z=13&ie=UTF8&iwloc=&output=embed9" }
+        { "name": "Old Town Hall (Prague)", "imageSearch": "Old Town Hall Prague Astronomical Clock", "description": "Famous for its medieval Astronomical Clock.", "mapEmbed": "https://maps.google.com/maps?q=Karnak+Temple+Luxor&t=&z=13&ie=UTF8&iwloc=&output=embed9" }
       ]
     }
   },

@@ -65,7 +65,7 @@
 
 /* --- Results Grid --- */
 .results {
-    display: grid;
+    display: grid !important;
     grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
     gap: 30px;
     padding-bottom: 60px;

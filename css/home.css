@@ -645,3 +645,20 @@
         margin-top: 20px;
     }
 }
+/* ==================== SEARCH RESULTS ANIMATION ==================== */
+@keyframes fadeInUp {
+    from {
+        opacity: 0;
+        transform: translateY(40px) scale(1.2);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0) scale(1);
+    }
+}
+
+.card {
+    /* This makes the card invisible initially until the animation starts */
+    animation: fadeInUp 1s cubic-bezier(0.2, 0.8, 0.2, 1) backwards;
+}

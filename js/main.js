@@ -64,7 +64,6 @@ function showGridStatus(message, type = 'info') {
 
 // ==================== MAIN INITIALIZATION ====================
 document.addEventListener('DOMContentLoaded', async () => {
-    
     // 1. Load Data Globally
     const appData = await initializeAppData();
     if(appData.initialized) {
@@ -104,15 +103,31 @@ document.addEventListener('DOMContentLoaded', async () => {
         setupInspireMeButton();
         await initializeCarousel();
         
-        // Handle query params on home page if redirected
-        const urlParams = new URLSearchParams(window.location.search);
-        const searchParam = urlParams.get('search');
-        
-        if (searchParam) {
-            const searchInput = document.getElementById('search-input');
-            if(searchInput) searchInput.value = searchParam;
-            performSearch(searchParam);
+        // 1. Check if the user hit "Refresh"
+        const navigationEntries = performance.getEntriesByType("navigation");
+        const isReload = navigationEntries.length > 0 && navigationEntries[0].type === 'reload';
+
+        if (isReload) {
+            // IF REFRESH: Clean the URL, stop the search, and let the original Home page load
+            window.history.replaceState({}, document.title, window.location.pathname);
+            
+        } else {
+            // IF BACK BUTTON or NORMAL LOAD: Check for search params
+            const urlParams = new URLSearchParams(window.location.search);
+            const searchParam = urlParams.get('search');
+            
+            if (searchParam) {
+                // Hide intro animation immediately so we see results fast
+                const introDiv = document.getElementById('intro');
+                if (introDiv) introDiv.style.display = 'none';
+
+                // Fill input and run search
+                const searchInput = document.getElementById('search-input');
+                if(searchInput) searchInput.value = searchParam;
+                performSearch(searchParam);
+            }
         }
+        // ============================================================
     }
 });
 
@@ -280,6 +295,7 @@ function handleHomeSearch(inputElement) {
          // Optional: redirect to results page
          // window.location.href = `results.html?search=${encodeURIComponent(keyword)}`;
          // OR perform in-place search (Version 1 style):
+         window.history.pushState({}, '', `?search=${encodeURIComponent(keyword)}`);
          performSearch(keyword);
     } else {
          performSearch(keyword);
@@ -300,8 +316,10 @@ async function performSearch(keyword) {
     // 1. UI RESET
     if(carouselWrapper) carouselWrapper.style.display = 'none';
     gridContainer.style.display = 'grid'; // Ensure grid layout
-    if(resultsHeading) resultsHeading.textContent = `Search Results for "${keyword}"`;
-    
+if(resultsHeading) {
+        resultsHeading.textContent = `Search Results for "${keyword}"`;
+        resultsHeading.scrollIntoView({ behavior: 'smooth', block: 'start' });
+    }    
     // 2. INPUT VALIDATION (From Version 1)
     if (!keyword) {
         showGridStatus('Please enter a search keyword', 'warning');
@@ -417,18 +435,19 @@ async function displaySearchResults(results, type, signal) {
     gridContainer.innerHTML = ''; 
 
     let hasContent = false;
-    allCardsData.forEach(data => {
+    // Pass the 'index' to createCard to calculate the delay
+    allCardsData.forEach((data, index) => { 
         if(data) {
-            createCard(gridContainer, data.title, data.description, data.imageUrl);
+            createCard(gridContainer, data.title, data.description, data.imageUrl, index);
             hasContent = true;
         }
     });
 }
 
-function createCard(container, title, desc, imgUrl) {
+function createCard(container, title, desc, imgUrl, index = 0) {
     const card = document.createElement('div');
     card.className = 'card';
-
+    card.style.animationDelay = `${index * 0.15}s`;
     const cardContent = `
         <img src="${imgUrl}" alt="${title}" loading="lazy" style="object-fit: cover; height: 200px; width: 100%;">
         <div class="body">

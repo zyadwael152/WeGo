@@ -2,6 +2,13 @@ import { UNSPLASH_KEY } from './api.js';
 import { loadTravelData } from './dataLoader.js';
 
 document.addEventListener('DOMContentLoaded', async () => {
+    const backBtn = document.getElementById('back-btn');
+    if (backBtn) {
+        backBtn.addEventListener('click', (e) => {
+            e.preventDefault();
+            window.history.back();
+        });
+    }
     const params = new URLSearchParams(window.location.search);
     const destination = params.get('destination');
 
