@@ -270,10 +270,6 @@ function setupSearchListener() {
     
     if (!searchBtn || !searchInput) return;
     
-    // Apply Debounce from Version 1 logic if typing live results, 
-    // but since this redirects or performs full search, direct event is fine.
-    // However, we apply validation before submission.
-    
     searchBtn.addEventListener('click', () => handleHomeSearch(searchInput));
     searchInput.addEventListener('keypress', (e) => {
         if (e.key === 'Enter') handleHomeSearch(searchInput);
@@ -283,18 +279,12 @@ function setupSearchListener() {
 function handleHomeSearch(inputElement) {
     const keyword = inputElement.value.trim();
     if (!keyword) {
-        // Using alert here as per Version 2, but could be replaced with status msg
         alert('Please enter a search keyword'); 
         return;
     }
     
-    // If we are on home page, perform search here.
-    // If on home page and want to redirect:
     const path = window.location.pathname;
     if (!path.includes('results.html')) {
-         // Optional: redirect to results page
-         // window.location.href = `results.html?search=${encodeURIComponent(keyword)}`;
-         // OR perform in-place search (Version 1 style):
          window.history.pushState({}, '', `?search=${encodeURIComponent(keyword)}`);
          performSearch(keyword);
     } else {
@@ -316,7 +306,7 @@ async function performSearch(keyword) {
     // 1. UI RESET
     if(carouselWrapper) carouselWrapper.style.display = 'none';
     gridContainer.style.display = 'grid'; // Ensure grid layout
-if(resultsHeading) {
+    if(resultsHeading) {
         resultsHeading.textContent = `Search Results for "${keyword}"`;
         resultsHeading.scrollIntoView({ behavior: 'smooth', block: 'start' });
     }    
@@ -334,7 +324,6 @@ if(resultsHeading) {
     const normalizedKeyword = keyword.toLowerCase().trim();
 
     // 3. LOGICAL VALIDATION (Using validLocations from JSON)
-    // Check if it's a real place before searching internal data
     if (validLocations && validLocations.cities && validLocations.countries) {
         const isValidLocation = validLocations.cities.some(city => 
             city.toLowerCase() === normalizedKeyword
@@ -343,9 +332,7 @@ if(resultsHeading) {
         );
 
         if (!isValidLocation) {
-            // It might be a specific place (landmark) inside mainData, so we double check mainData below
-            // But if it's garbage text, we warn user.
-            // We proceed cautiously.
+            // It might be a specific place (landmark) inside mainData
         }
     }
 
@@ -363,8 +350,6 @@ if(resultsHeading) {
         const searchResult = await searchJSON(keyword, mainData);
 
         if (!searchResult || searchResult.results.length === 0) {
-            // Fallback: If not in our JSON, check if it's a valid city in lists
-            // If it is valid but not in our JSON, show specific message
             const isValidButNoData = validLocations.cities.some(c => c.toLowerCase() === normalizedKeyword);
             
             if (isValidButNoData) {
@@ -403,7 +388,6 @@ async function displaySearchResults(results, type, signal) {
             let description = await fetchWikipediaDescription(item.name);
 
             // 3. PRIORITY 2: If Wiki failed, try JSON 'description' property
-            // (This exists for Places in your new JSON, but not usually for Cities/Countries)
             if (!description && item.description) {
                 description = item.description;
             }
@@ -435,7 +419,6 @@ async function displaySearchResults(results, type, signal) {
     gridContainer.innerHTML = ''; 
 
     let hasContent = false;
-    // Pass the 'index' to createCard to calculate the delay
     allCardsData.forEach((data, index) => { 
         if(data) {
             createCard(gridContainer, data.title, data.description, data.imageUrl, index);
@@ -496,8 +479,14 @@ async function renderExplorePage() {
             const parentCountry = findCountryForCity(city);
             if (!parentCountry) continue;
 
-            const rawPlaces = mainData[parentCountry].cities[city].slice(0, 3);
-            const places = rawPlaces.map(p => (typeof p === 'object' ? p.name : p));
+            // Get the city object which contains places
+            const cityObj = mainData[parentCountry].cities[city];
+            
+            // Get places from the city object
+            let places = [];
+            if (cityObj.places && Array.isArray(cityObj.places)) {
+                places = cityObj.places.slice(0, 3).map(p => (typeof p === 'object' ? p.name : p));
+            }
             
             const imageUrl = await fetchUnsplashImage(city);
             createExploreCard(citiesContainer, {
@@ -546,9 +535,11 @@ function findLocationForPlace(targetPlace) {
     for (const country in mainData) {
         const cities = mainData[country].cities;
         for (const city in cities) {
-            const places = cities[city];
+            const cityObj = cities[city];
             
-            // FIX: handle both Strings and Objects safely
+            // Access places array from the city object
+            const places = cityObj.places || [];
+            
             const found = places.some(p => {
                 const pName = (typeof p === 'object') ? p.name : p;
                 return pName === targetPlace || pName.includes(targetPlace);

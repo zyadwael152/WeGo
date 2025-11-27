@@ -5,6 +5,7 @@ const wikiCache = new Map();
 /**
  * @function fetchUnsplashImage
  * Fetches a single random image for a destination from Unsplash API
+ * Falls back to placeholder if API fails
  * @param {string} destination - Name of the destination
  * @param {AbortSignal} [signal] - Optional signal to cancel request
  * @returns {string} - URL of the image or placeholder if not found
@@ -69,4 +70,43 @@ export async function fetchWikipediaDescription(destinationName) {
         console.error(`Error fetching data for "${destinationName}":`, error);
         return null;
     }
+}
+
+/**
+ * @function getImageSearchTerm
+ * Extracts the custom image search term from local JSON data if available
+ * @param {Object} itemData - The item data object containing optional imageSearch property
+ * @returns {string|null} - The custom image search term or null
+ */
+export function getImageSearchTerm(itemData) {
+    if (itemData && typeof itemData === 'object' && itemData.imageSearch) {
+        return itemData.imageSearch;
+    }
+    return null;
+}
+
+/**
+ * @function getLocalDescription
+ * Retrieves the local description from JSON data if available
+ * @param {Object} itemData - The item data object containing optional description property
+ * @returns {string|null} - The local description or null
+ */
+export function getLocalDescription(itemData) {
+    if (itemData && typeof itemData === 'object' && itemData.description) {
+        return itemData.description;
+    }
+    return null;
+}
+
+/**
+ * @function getLocalMapEmbed
+ * Retrieves the local map embed URL from JSON data (always prioritized over API)
+ * @param {Object} itemData - The item data object containing optional mapEmbed property
+ * @returns {string|null} - The map embed URL or null
+ */
+export function getLocalMapEmbed(itemData) {
+    if (itemData && typeof itemData === 'object' && itemData.mapEmbed) {
+        return itemData.mapEmbed;
+    }
+    return null;
 }

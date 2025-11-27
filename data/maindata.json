@@ -1,217 +1,763 @@
 {
   "Egypt": {
     "cities": {
-      "Cairo": [
-        { "name": "Khan el-Khalili", "imageSearch": "Khan el-Khalili bazaar Cairo", "description": "A famous historic bazaar and souq in the center of Cairo, known for its vibrant atmosphere.", "mapEmbed": "https://maps.google.com/maps?q=Khan+el-Khalili+Cairo&output=embed" },
-        { "name": "Al-Azhar Park", "imageSearch": "Al-Azhar Park Cairo landscape", "description": "A lush green urban oasis in the heart of Cairo offering panoramic views of the Citadel.", "mapEmbed": "https://maps.google.com/maps?q=Al-Azhar+Park+Cairo&output=embed" },
-        { "name": "Citadel of Saladin", "imageSearch": "Citadel of Saladin Cairo", "description": "A medieval Islamic fortification located on Mokattam hill, famous for its museums.", "mapEmbed": "https://maps.google.com/maps?q=Citadel+of+Saladin+Cairo&output=embed" },
-        { "name": "Mosque of Muhammad Ali", "imageSearch": "Mosque of Muhammad Ali Cairo interior", "description": "The iconic Alabaster Mosque that dominates the Cairo skyline.", "mapEmbed": "https://maps.google.com/maps?q=Mosque+of+Muhammad+Ali+Cairo&output=embed" },
-        { "name": "Cairo Tower", "imageSearch": "Cairo Tower night", "description": "A free-standing concrete tower offering the best panoramic views of Cairo.", "mapEmbed": "https://maps.google.com/maps?q=Cairo+Tower&output=embed" },
-        { "name": "The Hanging Church", "imageSearch": "The Hanging Church Coptic Cairo", "description": "One of the oldest churches in Egypt, built on top of the Babylon Fortress gatehouse.", "mapEmbed": "https://maps.google.com/maps?q=Citadel+of+Saladin+Cairo&t=&z=13&ie=UTF8&iwloc=&output=embed0" },
-        { "name": "Sultan Hassan Mosque", "imageSearch": "Mosque-Madrassa of Sultan Hassan", "description": "A massive Mamluk-era mosque and madrassa, considered one of the finest examples of Islamic architecture.", "mapEmbed": "https://maps.google.com/maps?q=Citadel+of+Saladin+Cairo&t=&z=13&ie=UTF8&iwloc=&output=embed1" }
-      ],
-      "Giza": [
-        { "name": "Giza Pyramid Complex", "imageSearch": "Great Pyramids of Giza", "description": "Home to the Great Pyramids, the last remaining Wonder of the Ancient World.", "mapEmbed": "https://maps.google.com/maps?q=Giza+Necropolis&output=embed" },
-        { "name": "Great Sphinx of Giza", "imageSearch": "Great Sphinx of Giza front view", "description": "A colossal limestone statue of a reclining sphinx.", "mapEmbed": "https://maps.google.com/maps?q=Great+Sphinx+of+Giza&output=embed" },
-        { "name": "Grand Egyptian Museum", "imageSearch": "Grand Egyptian Museum Giza", "description": "The largest archaeological museum in the world dedicated to a single civilization.", "mapEmbed": "https://maps.google.com/maps?q=Grand+Egyptian+Museum&output=embed" }
-      ],
-      "Luxor": [
-        { "name": "Karnak Temple", "imageSearch": "Karnak Temple columns", "description": "A vast mix of decayed temples, chapels, and pylons.", "mapEmbed": "https://maps.google.com/maps?q=Karnak+Temple&output=embed" },
-        { "name": "Valley of the Kings", "imageSearch": "Valley of the Kings Egypt", "description": "The burial site of New Kingdom pharaohs carved into the desert rock.", "mapEmbed": "https://maps.google.com/maps?q=Valley+of+the+Kings&output=embed" },
-        { "name": "Luxor Temple", "imageSearch": "Luxor Temple night", "description": "A large Ancient Egyptian temple complex located on the east bank of the Nile.", "mapEmbed": "https://maps.google.com/maps?q=Luxor+Temple&output=embed" },
-        { "name": "Colossi of Memnon", "imageSearch": "Colossi of Memnon Luxor", "description": "Two massive stone statues of the Pharaoh Amenhotep III, standing guard at the entrance of his ruined temple.", "mapEmbed": "https://maps.google.com/maps?q=Citadel+of+Saladin+Cairo&t=&z=13&ie=UTF8&iwloc=&output=embed3" }
-      ],
-      "Matrouh": [
-        { "name": "Cleopatra's Bath", "imageSearch": "Cleopatra's Bath Marsa Matrouh", "description": "A famous natural pool where Queen Cleopatra is said to have bathed.", "mapEmbed": "https://maps.google.com/maps?q=Cleopatra+Bath+Marsa+Matrouh&output=embed" },
-        { "name": "Agiba Beach", "imageSearch": "Agiba Beach Marsa Matrouh", "description": "Famous for its stunning blue waters and limestone caves.", "mapEmbed": "https://maps.google.com/maps?q=Agiba+Beach+Marsa+Matrouh&output=embed" },
-        { "name": "Siwa Oasis", "imageSearch": "Siwa Oasis landscape", "description": "An urban oasis known for its distinct culture and salt lakes.", "mapEmbed": "https://maps.google.com/maps?q=Siwa+Oasis&output=embed" },
-        { "name": "Rommel's Cave Museum", "imageSearch": "Rommel's Cave Museum Matrouh", "description": "A cave used by German Field Marshal Erwin Rommel as his headquarters during WWII.", "mapEmbed": "https://maps.google.com/maps?q=Citadel+of+Saladin+Cairo&t=&z=13&ie=UTF8&iwloc=&output=embed4" }
-      ],
-      "Red Sea": [
-        { "name": "Hurghada Marina", "imageSearch": "Hurghada Marina yachts", "description": "A modern marina lined with restaurants and shops.", "mapEmbed": "https://maps.google.com/maps?q=Hurghada+Marina&output=embed" },
-        { "name": "Ras Mohammed", "imageSearch": "Ras Mohammed National Park", "description": "World-renowned for its coral reefs and diving spots.", "mapEmbed": "https://maps.google.com/maps?q=Ras+Mohammed+National+Park&output=embed" },
-        { "name": "Giftun Island", "imageSearch": "Giftun Island Mahmya", "description": "A popular day-trip destination known for its sandy beaches and clear waters.", "mapEmbed": "https://maps.google.com/maps?q=Citadel+of+Saladin+Cairo&t=&z=13&ie=UTF8&iwloc=&output=embed5" }
-      ],
-      "Alexandria": [
-        { "name": "Bibliotheca Alexandrina", "imageSearch": "Bibliotheca Alexandrina exterior", "description": "A major library and cultural center commemorating the ancient Library of Alexandria.", "mapEmbed": "https://maps.google.com/maps?q=Bibliotheca+Alexandrina&t=&z=13&ie=UTF8&iwloc=&output=embed" },
-        { "name": "Citadel of Qaitbay", "imageSearch": "Citadel of Qaitbay Alexandria", "description": "A 15th-century defensive fortress located on the Mediterranean coast.", "mapEmbed": "https://maps.google.com/maps?q=Citadel+of+Qaitbay&t=&z=13&ie=UTF8&iwloc=&output=embed" },
-        { "name": "Montaza Palace", "imageSearch": "Montaza Palace Alexandria gardens", "description": "A palace, museum and extensive gardens in the Montaza district of Alexandria.", "mapEmbed": "https://maps.google.com/maps?q=Citadel+of+Saladin+Cairo&t=&z=13&ie=UTF8&iwloc=&output=embed6" }
-      ],
-      "Aswan": [
-        { "name": "Philae Temple", "imageSearch": "Philae Temple Aswan", "description": "A beautiful island temple complex dedicated to the goddess Isis.", "mapEmbed": "https://maps.google.com/maps?q=Philae+Temple&t=&z=13&ie=UTF8&iwloc=&output=embed" },
-        { "name": "Nubian Village", "imageSearch": "Nubian Village Aswan colorful houses", "description": "A colorful village along the Nile known for painted houses and spices.", "mapEmbed": "https://maps.google.com/maps?q=Nubian+Village+Aswan&t=&z=13&ie=UTF8&iwloc=&output=embed" },
-        { "name": "High Dam", "imageSearch": "Aswan High Dam view", "description": "An embankment dam built across the Nile in Aswan, creating Lake Nasser.", "mapEmbed": "https://maps.google.com/maps?q=Citadel+of+Saladin+Cairo&t=&z=13&ie=UTF8&iwloc=&output=embed7" }
-      ]
-    }
-  },
+      "Cairo": {
+        "images": ["https://images.unsplash.com/photo-1561778498-2d8ef2ade19e?q=80&w=673&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D", "https://plus.unsplash.com/premium_photo-1697729991402-87543e50f3ad?q=80&w=1114&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D", "https://images.unsplash.com/photo-1720400995876-506098f4c238?q=80&w=872&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"],
+        "imageSearch": "Cairo Egypt City",
+        "description": "Cairo, the 'City of a Thousand Minarets,' is a vibrant metropolis where ancient history and modern life collide. As the largest city in the Arab world, it buzzes with energy amidst Pharaonic, Coptic, and Islamic landmarks.",
+        "wiki": "Cairo",
+        "mapEmbed": "https://maps.google.com/maps?q=Cairo+Egypt&output=embed",
+        "places": [
+          {
+            "name": "Khan el-Khalili",
+            "images": ["https://images.unsplash.com/photo-1710211288826-b7df3ab71588?q=80&w=964&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D", "https://images.unsplash.com/photo-1707173149172-bb18066e52d0?q=80&w=873&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D", "https://images.unsplash.com/photo-1710211288908-85757461216e?q=80&w=435&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"],
+            "imageSearch": "Khan el-Khalili Cairo",
+            "description": "A bustling medieval bazaar dating back to 1382, where narrow alleyways overflow with spices, lanterns, jewelry, and traditional crafts. The air fills with scents of perfumes and the sounds of merchants bargaining.",
+            "wiki": "Khan el-Khalili",
+            "mapEmbed": "https://maps.google.com/maps?q=Khan+el-Khalili+Cairo&output=embed"
+          },
+          {
+            "name": "Cairo Tower",
+            "images": ["https://images.unsplash.com/photo-1678805628935-f8e1842b53a7?q=80&w=428&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D", "https://images.unsplash.com/photo-1701714581061-43f365d5e9b8?q=80&w=417&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D", "https://images.unsplash.com/photo-1648315873594-11b7fd827c16?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTJ8fENhaXJvJTIwVG93ZXJ8ZW58MHx8MHx8fDA%3D"],
+            "imageSearch": "Cairo Tower",
+            "description": "Standing 187 meters tall, this iconic lotus-shaped tower offers panoramic 360-degree views of greater Cairo. A modernist landmark providing the best vantage point to appreciate the city's vast expanse.",
+            "wiki": "Cairo Tower",
+            "mapEmbed": "https://maps.google.com/maps?q=Cairo+Tower&output=embed"
+          },
+          {
+            "name": "Citadel of Saladin",
+            "images": ["https://www.annees-de-pelerinage.com/wp-content/uploads/2018/08/Mosque-of-Muhammad-Ali-cairo-citadel-egypt.jpg", "https://english.news.cn/20240219/a030e470c95246119b204748464b83b7/20240219a030e470c95246119b204748464b83b7_CcrbeeE007007_20240219_CBMFN0A002.jpg", "https://upload.wikimedia.org/wikipedia/commons/thumb/7/75/Citadel_of_Saladin_2.jpg/1280px-Citadel_of_Saladin_2.jpg"],
+            "imageSearch": "Citadel of Saladin Cairo",
+            "description": "A magnificent Islamic fortification overlooking Cairo from the Mokattam Hills. This medieval fortress served as Egypt's seat of government for nearly 700 years and houses stunning mosques and museums.",
+            "wiki": "Cairo Citadel",
+            "mapEmbed": "https://maps.google.com/maps?q=Citadel+of+Saladin+Cairo&output=embed"
+          },
+          {
+            "name": "Al-Azhar Mosque",
+            "images": ["https://sis.gov.eg/media/238389/%D8%AC%D8%A7%D9%85%D8%B9-%D8%A7%D9%84%D8%A3%D8%B2%D9%87%D8%B11.jpg", "https://res.cloudinary.com/ddjuftfy2/image/upload/f_webp,c_fill,q_auto/memphis/large/1100393828_Al-Azhar%20Mosque2.jpg", "https://www.egypttoursportal.com/images/2018/10/Architecture-of-Al-Azhar-Mosque-Egypt-Tours-Portal.jpg"],
+            "imageSearch": "Al-Azhar Mosque Cairo",
+            "description": "One of the oldest universities in the world, founded in 970 AD. This architectural masterpiece represents the epicenter of Islamic learning and features beautiful courtyards and prayer halls.",
+            "wiki": "Al-Azhar Mosque",
+            "mapEmbed": "https://maps.google.com/maps?q=Al+Azhar+Mosque+Cairo&output=embed"
+          },
+          {
+            "name": "Mosque of Muhammad Ali",
+            "images": ["https://egymonuments.gov.eg//media/1126/dsc_0143-2.jpg?anchor=center&mode=crop&width=1200&height=630&rnd=133300936160000000", "https://upload.wikimedia.org/wikipedia/commons/4/49/%D8%AC%D8%A7%D9%85%D8%B9_%D9%85%D8%AD%D9%85%D8%AF_%D8%B9%D9%84%D9%8A.JPG", "https://www.tripsavvy.com/thmb/dc_3dnEDmXumnCJxYyespskDjRY=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/GettyImages-5426989211-a54dbc7f8cb7450e9878c0d3db6f282d.jpg"],
+            "imageSearch": "Mosque of Muhammad Ali Cairo",
+            "description": "Known as the Alabaster Mosque, this Ottoman-era masterpiece dominates the Cairo skyline. Its twin minarets and massive dome create one of the most recognizable silhouettes in the city.",
+            "wiki": "Mosque of Muhammad Ali",
+            "mapEmbed": "https://maps.google.com/maps?q=Mosque+of+Muhammad+Ali+Cairo&output=embed"
+          }
+        ]
+      },
+      "Giza": {
+        "images": ["https://static01.nyt.com/images/2018/06/01/us/15pyramidsgiza-2/14pyramidsgiza-2-videoSixteenByNineJumbo1600.jpg", "https://www.touristegypt.com/wp-content/uploads/2023/03/giza-pyramids-cairo-egypt-with-palm.jpg", "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcScGrezzJCEbn0C8ssSoocBobEvR2u8e4GyVg&s"],
+        "imageSearch": "Giza Egypt",
+        "description": "The gateway to ancient Egypt's most iconic monuments, where the desert plateau hosts the legendary Pyramids and Sphinx that have captivated travelers for millennia.",
+        "wiki": "Giza",
+        "mapEmbed": "https://maps.google.com/maps?q=Giza+Egypt&output=embed",
+        "places": [
+          {
+            "name": "Great Pyramid of Giza",
+            "images": ["https://images.unsplash.com/photo-1636020833674-e88ba3c3b1bf?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D", "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR7l3KoLoyKnAsyguaV-dTi_npVj52h9cZRNg&s", "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ6V_E6ThV08we20soq56PpokNlZHsy3XRgTA&s"],
+            "imageSearch": "Great Pyramid of Giza",
+            "description": "The sole surviving wonder of the ancient world, built as a tomb for Pharaoh Khufu around 2560 BC. This engineering marvel stood as the tallest man-made structure for over 3,800 years.",
+            "wiki": "Great Pyramid of Giza",
+            "mapEmbed": "https://maps.google.com/maps?q=Great+Pyramid+of+Giza&output=embed"
+          },
+          {
+            "name": "Grand Egyptian Museum",
+            "images": ["https://media-cdn.tripadvisor.com/media/attractions-splice-spp-674x446/10/7f/5a/b9.jpg", "https://cdn-imgix.headout.com/media/images/b128495488af842fa92f5f6e42e4ec15-28558-cairo-cairo-tutankhamun-exhibition---grand-egyptian-museum-08.jpg?auto=format&q=90&crop=faces&fit=crop", "https://media.tacdn.com/media/attractions-splice-spp-674x446/14/ce/4b/c8.jpg"],
+            "imageSearch": "Grand Egyptian Museum Giza",
+            "description": "The world's largest archaeological museum, housing over 100,000 artifacts including the complete Tutankhamun collection. A state-of-the-art facility showcasing Egypt's priceless heritage.",
+            "wiki": "Grand Egyptian Museum",
+            "mapEmbed": "https://maps.google.com/maps?q=Grand+Egyptian+Museum+Giza&output=embed"
+          },
+          {
+            "name": "Great Sphinx",
+            "images": ["https://cdn.britannica.com/85/99185-050-E1110E5C/Great-Sphinx-Giza-Egypt.jpg", "https://plus.unsplash.com/premium_photo-1694475367746-526db5575bb4?fm=jpg&q=60&w=3000&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8c3BoaW54fGVufDB8fDB8fHww", "https://www.egypttoursportal.com/images/2017/11/The-Great-Sphinx-Egypt-Tours-Portal-1-e1511900988420.jpg"],
+            "imageSearch": "Great Sphinx of Giza",
+            "description": "The mythical creature with a lion's body and human head, carved from a single limestone outcrop. This enigmatic guardian of the Giza Plateau has watched over the pyramids for 4,500 years.",
+            "wiki": "Great Sphinx of Giza",
+            "mapEmbed": "https://maps.google.com/maps?q=Great+Sphinx+of+Giza&output=embed"
+          },
+          {
+            "name": "Solar Boat Museum",
+            "images": ["https://upload.wikimedia.org/wikipedia/commons/4/45/Cairo_-_Pharaons_funeral_ships_museum_outdoors.JPG", "https://res.cloudinary.com/ddjuftfy2/image/upload/f_webp,c_fill,q_auto/memphis/large/263751851_Khufu%20Solar%20Boat.jpg", "https://d3rr2gvhjw0wwy.cloudfront.net/uploads/mandators/41668/cms/562940/940x500-1-50-9432e95f141cea599a3b19010bc7e6c9.jpg"],
+            "imageSearch": "Solar Boat Museum Giza",
+            "description": "Home to a perfectly reconstructed cedarwood boat buried near the Great Pyramid for Pharaoh Khufu's journey to the afterlife. An incredible preservation of ancient Egyptian maritime technology.",
+            "wiki": "Khufu ship",
+            "mapEmbed": "https://maps.google.com/maps?q=Solar+Boat+Museum+Giza&output=embed"
+          }
+        ]
+      },
+      "Luxor": {
+        "images": ["https://upload.wikimedia.org/wikipedia/commons/6/66/Luxor_11.jpg", "https://blogs.realestate.gov.eg/wp-content/uploads/2024/10/Luxor-City-Guide5.jpg", "https://s7d9.scene7.com/is/image/viking/Karnak-Temple-Nile-River-Luxor:5x2-widest?wid=1440&hei=576"],
+        "imageSearch": "Luxor Egypt",
+        "description": "Often called the world's greatest open-air museum, this city stands on the site of ancient Thebes, featuring the most spectacular concentration of Pharaonic monuments in Egypt.",
+        "wiki": "Luxor",
+        "mapEmbed": "https://maps.google.com/maps?q=Luxor+Egypt&output=embed",
+        "places": [
+          {
+            "name": "Karnak Temple",
+            "images": ["https://d3rr2gvhjw0wwy.cloudfront.net/uploads/mandators/49581/file-manager/karnak-temple.jpg", "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTYelimJ6L5Qhfdo0mH_5RnyrFlrxF0fNxfQA&s", "https://cdn.britannica.com/19/153419-050-5FF57DFE/Ruins-statues-Karnak-Egypt.jpg"],
+            "imageSearch": "Karnak Temple Luxor",
+            "description": "A vast temple complex that took over 2,000 years to build, featuring the magnificent Great Hypostyle Hall with 134 massive columns. The largest religious building ever constructed.",
+            "wiki": "Karnak",
+            "mapEmbed": "https://maps.google.com/maps?q=Karnak+Temple+Luxor&output=embed"
+          },
+          {
+            "name": "Valley of the Kings",
+            "images": ["https://imagedelivery.net/1AkWDvw1F7luzpOSXoOCTw/7e42c669-f4f8-4c13-e160-f393ecd76b00/w=1024", "https://egyptescapes.com/wp-content/uploads/2022/04/AdobeStock_276788225.jpg", "https://egyptunitedtours.com/wp-content/uploads/2024/11/Luxor-and-the-Valley-of-the-Kings.jpg"],
+            "imageSearch": "Valley of the Kings Luxor",
+            "description": "The burial ground of pharaohs and powerful nobles for nearly 500 years, containing 63 magnificent tombs including Tutankhamun's famous discovery in 1922.",
+            "wiki": "Valley of the Kings",
+            "mapEmbed": "https://maps.google.com/maps?q=Valley+of+the+Kings+Luxor&output=embed"
+          },
+          {
+            "name": "Luxor Temple",
+            "images": ["https://egyptplanners.com/wp-content/uploads/2024/08/Very-beautiful-picture-of-Luxor-Temple.jpg", "https://talesfromthelens.com/wp-content/uploads/2025/05/wide-view-luxor-temple-entrance-night.jpg", "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQlcImmcXuYgFeAMjIF5sXEqk0zL2ZdI3X7cw&s"],
+            "imageSearch": "Luxor Temple",
+            "description": "A majestic temple complex on the east bank of the Nile, famously connected to Karnak by the Avenue of Sphinxes. Particularly stunning when illuminated at night.",
+            "wiki": "Luxor Temple",
+            "mapEmbed": "https://maps.google.com/maps?q=Luxor+Temple&output=embed"
+          },
+          {
+            "name": "Hatshepsut Temple",
+            "images": ["https://egymonuments.gov.eg//media/1252/dsc_0423-2.jpg?center=0.54166666666666663,0.46721311475409838&mode=crop&width=1200&height=630&rnd=133813295670000000", "https://d3rr2gvhjw0wwy.cloudfront.net/uploads/activity_headers/324432/2000x2000-0-70-4880c7bbcc0821c699c954fd17286148.jpg", "https://www.wendywutours.com/resource/upload/2139/hatshepsut-ban.jpg.webp"],
+            "imageSearch": "Hatshepsut Temple Luxor",
+            "description": "A stunning terraced mortuary temple built into limestone cliffs, dedicated to Queen Hatshepsut - one of Egypt's most successful female pharaohs.",
+            "wiki": "Mortuary Temple of Hatshepsut",
+            "mapEmbed": "https://maps.google.com/maps?q=Hatshepsut+Temple+Luxor&output=embed"
+          }
+        ]
+      },
+      "Aswan": {
+        "images": ["https://upload.wikimedia.org/wikipedia/commons/thumb/0/06/Panoramic_view_of_Aswan%2C_Egypt.jpg/1200px-Panoramic_view_of_Aswan%2C_Egypt.jpg", "https://www.earthtrekkers.com/wp-content/uploads/2020/05/Things-to-do-in-Aswan.jpg", "https://www.privatetoursinegypt.com/upload/Aswan-City.jpg"],
+        "imageSearch": "Aswan Egypt",
+        "description": "A tranquil Nile-side city known for its beautiful islands, Nubian culture, and spectacular sunsets. The gateway to monumental temples and the engineering marvel of the High Dam.",
+        "wiki": "Aswan",
+        "mapEmbed": "https://maps.google.com/maps?q=Aswan+Egypt&output=embed",
+        "places": [
+          {
+            "name": "Abu Simbel",
+            "images": ["https://www.luxorandaswan.com/images/16587130480shutterstock-397432201.webp", "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTmBY037LqWlI3fLW59NB-bksShcqPsKWNYww&s", "https://www.traveltoegypt.net/front/images/blog/AbuSimbel2.jpg"],
+            "imageSearch": "Abu Simbel Temples",
+            "description": "The magnificent rock-cut temples of Ramses II, relocated to save them from Lake Nasser's rising waters. Famous for the sun illuminating the inner sanctuary twice yearly.",
+            "wiki": "Abu Simbel",
+            "mapEmbed": "https://maps.google.com/maps?q=Abu+Simbel+Egypt&output=embed"
+          },
+          {
+            "name": "Philae Temple",
+            "images": ["https://www.tripsavvy.com/thmb/xcoXfqdk2NI1ZtiAOLrU393tb1I=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/GettyImages-500053303-5c80e80b46e0fb0001a5f168.jpg", "https://www.luxorandaswan.com/images/1658714824003.jpg", "https://www.egiptoexclusivo.com/wp-content/uploads/2023/06/templo-fachada-philae.jpg"],
+            "imageSearch": "Philae Temple Aswan",
+            "description": "The beautiful island temple dedicated to goddess Isis, featuring exquisite Ptolemaic architecture. Rescued and relocated after the Aswan Dam's construction.",
+            "wiki": "Philae",
+            "mapEmbed": "https://maps.google.com/maps?q=Philae+Temple+Aswan&output=embed"
+          },
+          {
+            "name": "Aswan High Dam",
+            "images": ["https://cdn.britannica.com/34/76234-050-6176AC39/Aswan-High-Dam-Egypt.jpg", "https://visitegypt.com/wp-content/uploads/2024/11/where-is-aswan-dam-located.webp", "https://www.thoughtco.com/thmb/mW3eUtSgQc0akxeHEYSeNalUy4M=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/GettyImages-97842951-5bb3de7346e0fb0026161a5a.jpg"],
+            "imageSearch": "Aswan High Dam",
+            "description": "An engineering masterpiece that created Lake Nasser and transformed Egypt's agriculture. One of the largest embankment dams in the world.",
+            "wiki": "Aswan Dam",
+            "mapEmbed": "https://maps.google.com/maps?q=Aswan+High+Dam&output=embed"
+          },
+          {
+            "name": "Nubian Village",
+            "images": ["https://www.egiptoexclusivo.com/wp-content/uploads/2023/05/AdobeStock_470140759_Editorial_Use_Only-scaled.jpeg", "https://www.egiptoexclusivo.com/wp-content/uploads/2023/06/destino-nubia.jpg", "https://mlrhpz8jmuut.i.optimole.com/cb:w8qn.502d1/w:auto/h:auto/q:mauto/f:best/ig:avif/id:d36c5d5b4d35b3a28fea550d579929d2/https://www.egypttoursplus.com/Nubian-Village-Elephantine-Island-Aswan.jpg"],
+            "imageSearch": "Nubian Village Aswan",
+            "description": "Vibrant communities along the Nile banks known for colorful houses, rich traditions, and warm hospitality. A living testament to Nubian culture and heritage.",
+            "wiki": "Nubians",
+            "mapEmbed": "https://maps.google.com/maps?q=Nubian+Village+Aswan&output=embed"
+          }
+        ]
+      },
+      "Alexandria": {
+        "images": ["https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQourr9iHZWpWbbCLJPXhwv1DhmpUe6SrMf5Q&s", "https://visitegypt.com/wp-content/uploads/2025/03/alexandria-egypt-historical-sites.webp", "https://www.osiristours.com/wp-content/uploads/2016/06/Alexandria-9-e1488051126787.jpg"],
+        "imageSearch": "Alexandria Egypt",
+        "description": "The Mediterranean jewel founded by Alexander the Great, once home to the legendary Library and Lighthouse. A city where Greco-Roman history meets coastal charm.",
+        "wiki": "Alexandria",
+        "mapEmbed": "https://maps.google.com/maps?q=Alexandria+Egypt&output=embed",
+        "places": [
+          {
+            "name": "Bibliotheca Alexandrina",
+            "images": ["https://images.squarespace-cdn.com/content/v1/5f56423f4aca615934476295/98584dd2-e85e-46f3-97ac-496fd0443828/Untitled.jpg", "https://images.dailynewsegypt.com/2022/02/620a537af3e819096394422e_570x.jpg", "https://arquitecturaviva.com/assets/uploads/obras/40325/av_imagen.webp"],
+            "imageSearch": "Bibliotheca Alexandrina",
+            "description": "A stunning modern revival of the ancient Library of Alexandria, featuring innovative architecture and housing millions of books in a magnificent cultural center.",
+            "wiki": "Bibliotheca Alexandrina",
+            "mapEmbed": "https://maps.google.com/maps?q=Bibliotheca+Alexandrina&output=embed"
+          },
+          {
+            "name": "Qaitbay Citadel",
+            "images": ["https://iegypttravels.com/storage/posts/p1yntdqpL13O0eWEIBqBdUd8dZKC6htpCBifhRI8.jpg", "https://www.egypttoursportal.com/images/2025/06/Role-of-Qaitbay-Egypt-Tours-Portal.jpg", "https://d3rr2gvhjw0wwy.cloudfront.net/uploads/activity_headers/324704/2000x2000-0-70-c500a9f30e10c891216783beeb586423.jpg"],
+            "imageSearch": "Qaitbay Citadel Alexandria",
+            "description": "A 15th-century defensive fortress built on the exact site of the ancient Lighthouse of Alexandria, offering panoramic Mediterranean views from its ramparts.",
+            "wiki": "Citadel of Qaitbay",
+            "mapEmbed": "https://maps.google.com/maps?q=Qaitbay+Citadel+Alexandria&output=embed"
+          },
+          {
+            "name": "Montaza Palace",
+            "images": ["https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS49YBbpZMJvbCfvLAnhq_Sl3osA6xCYOV1iw&s", "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTHmqLxX8mFSvIOvmSNN9LI5U70a-qwqeEnYQ&s", "https://res.cloudinary.com/ddjuftfy2/image/upload/f_webp,c_fill,q_auto/memphis/xlarge/1647213057_Montazah%20palace.jpg"],
+            "imageSearch": "Montaza Palace Alexandria",
+            "description": "A beautiful royal palace complex with lush gardens stretching along the Mediterranean coast. The perfect blend of Ottoman and Florentine architectural styles.",
+            "wiki": "Montaza Palace",
+            "mapEmbed": "https://maps.google.com/maps?q=Montaza+Palace+Alexandria&output=embed"
+          },
+          {
+            "name": "Pompey's Pillar",
+            "images": ["https://assets.telegraphindia.com/telegraph/2023/Feb/1675500361_8-pompey_s-pillar-with-sphinx.jpg", "https://upload.wikimedia.org/wikipedia/commons/b/be/AlexSarapeionPompeysPillar.jpg", "https://www.cleopatraegypttours.com/wp-content/uploads/2018/08/Pompeys-Pillar-1.jpg"],
+            "imageSearch": "Pompey's Pillar Alexandria",
+            "description": "A massive 25-meter red granite column rising from ancient ruins, representing one of the largest monolithic columns ever erected in the ancient world.",
+            "wiki": "Pompey's Pillar",
+            "mapEmbed": "https://maps.google.com/maps?q=Pompey's+Pillar+Alexandria&output=embed"
+          }
+        ]
+      },
+      "Sharm El Sheikh": {
+        "images": ["https://lp-cms-production.imgix.net/2019-06/GettyImages-140533581_large.jpg?auto=format,compress&q=72&w=1095&fit=crop&crop=faces,edges", "https://mediaim.expedia.com/destination/1/944d610146b9f28ad3ed349ad09f2fd1.jpg?impolicy=fcrop&w=450&h=280&q=medium", "https://res.klook.com/image/upload/w_750,h_469,c_fill,q_85/w_80,x_15,y_15,g_south_west,l_Klook_water_br_trans_yhcmh3/activities/jphe44pthghb735rphfl.jpg"],
+        "imageSearch": "Sharm El Sheikh Egypt",
+        "description": "Egypt's premier Red Sea resort, famous for crystal-clear waters, vibrant coral reefs, and year-round sunshine. A paradise for divers and beach lovers alike.",
+        "wiki": "Sharm El Sheikh",
+        "mapEmbed": "https://maps.google.com/maps?q=Sharm+El+Sheikh+Egypt&output=embed",
+        "places": [
+          {
+            "name": "Ras Mohammed National Park",
+            "images": ["https://www.emperordivers.com/wp-content/uploads/2024/03/Jackfish-Alley-by-Scott-Johnson-1024x684.jpg", "https://nationalparksassociation.org/wp-content/uploads/2024/02/Ras-Muhammad-National-Park-cliffs-along-the-coastline.jpg", "https://cdn.getyourguide.com/img/location/59526071c24f2.jpeg/68.jpg"],
+            "imageSearch": "Ras Mohammed National Park",
+            "description": "World-renowned marine protected area at the southern tip of Sinai, offering some of the planet's most spectacular coral reefs and diverse marine life.",
+            "wiki": "Ras Muhammad National Park",
+            "mapEmbed": "https://maps.google.com/maps?q=Ras+Mohammed+National+Park&output=embed"
+          },
+          {
+            "name": "Naama Bay",
+            "images": ["https://upload.wikimedia.org/wikipedia/commons/thumb/5/51/Naama_Bay_R01.jpg/1200px-Naama_Bay_R01.jpg", "https://www.egypttoursportal.com/images/2024/03/Naama-Bay-Sharm-El-Sheikh-Egypt-Tours-Portal.jpg", "https://www.egypttoursportal.com/images/2024/03/History-of-Naama-Bay-Egypt-Tours-Portal.jpg"],
+            "imageSearch": "Naama Bay Sharm El Sheikh",
+            "description": "The heart of Sharm's tourism, featuring a beautiful sandy beach, luxury resorts, and vibrant nightlife. The perfect base for Red Sea adventures.",
+            "wiki": "Naama Bay",
+            "mapEmbed": "https://maps.google.com/maps?q=Naama+Bay+Sharm+El+Sheikh&output=embed"
+          }
+        ]
+      },
+      "Hurghada": {
+        "images": ["https://images.unsplash.com/photo-1722264219947-725d4e20ef23?fm=jpg&q=60&w=3000&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8aHVyZ2hhZGF8ZW58MHx8MHx8fDA%3D", "https://www.egypttoursportal.com/images/2017/11/Hurghada-Egypt-City-Egypt-Tours-Portal.jpg", "https://www.scubadore-hurghada.com/wp-content/uploads/2025/08/hurghada-beach-1920x960.webp"],
+        "imageSearch": "Hurghada Egypt",
+        "description": "A bustling Red Sea resort town transformed from fishing village to diving mecca, offering endless beaches, water sports, and access to pristine marine ecosystems.",
+        "wiki": "Hurghada",
+        "mapEmbed": "https://maps.google.com/maps?q=Hurghada+Egypt&output=embed",
+        "places": [
+          {
+            "name": "Giftun Island",
+            "images": ["https://i0.wp.com/egypttimetravel.com/wp-content/uploads/2020/09/island-of-Giftun-1.jpg?resize=800%2C450&ssl=1", "https://mediaim.expedia.com/destination/9/9019c82f64fc1f0028594f3fc38f6e03.jpg", "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-720x480/07/a5/16/2e.jpg"],
+            "imageSearch": "Giftun Island Hurghada",
+            "description": "A protected natural paradise offering white sand beaches and exceptional snorkeling opportunities in the clear Red Sea waters just offshore from Hurghada.",
+            "wiki": "Giftun Islands",
+            "mapEmbed": "https://maps.google.com/maps?q=Giftun+Island+Hurghada&output=embed"
+          },
+          {
+            "name": "Hurghada Marina",
+            "images": ["https://cf.bstatic.com/xdata/images/hotel/max1024x768/307447605.jpg?k=fa3e3a07db29a9690ad174a025bdf388734a53e0f4efa148d0ad3351c8e69a8e&o=", "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSJv2rJjsFS0KfAyf7Jei_oaaoWDGz98cXxig&s", "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2b/f2/43/26/hurghada-marina.jpg?w=900&h=500&s=1"],
+            "imageSearch": "Hurghada Marina",
+            "description": "A modern waterfront development with luxury yachts, restaurants, and shops. The perfect place for evening strolls and watching spectacular sunsets.",
+            "wiki": "Hurghada",
+            "mapEmbed": "https://maps.google.com/maps?q=Hurghada+Marina&output=embed"
+          },
+          {
+            "name": "El Gouna",
+            "images": ["https://www.elgouna.com/_next/image?url=https%3A%2F%2Felgounanew.wpengine.com%2Fwp-content%2Fuploads%2F2024%2F01%2FEl-Gouna-Red-Sea-Sheraton-Miramar-Resort.webp&w=3840&q=75", "https://www.ahstatic.com/photos/b4l7_ho_00_p_1024x768.jpg", "https://www.elgouna.com/_next/image?url=https%3A%2F%2Felgounanew.wpengine.com%2Fwp-content%2Fuploads%2F2024%2F04%2F1713311579.webp&w=3840&q=75"],
+            "imageSearch": "El Gouna Egypt",
+            "description": "An upscale resort town known as the 'Venice of the Red Sea' for its beautiful lagoons, upscale hotels, and sophisticated architecture amid desert landscapes.",
+            "wiki": "El Gouna",
+            "mapEmbed": "https://maps.google.com/maps?q=El+Gouna+Egypt&output=embed"
+          }
+        ]
+      }
+     }
+    },
   "United Arab Emirates": {
     "cities": {
-      "Dubai": [
-        { "name": "Burj Khalifa", "imageSearch": "Burj Khalifa Dubai skyline", "description": "The world's tallest building, offering breathtaking views.", "mapEmbed": "https://maps.google.com/maps?q=Burj+Khalifa&output=embed" },
-        { "name": "The Dubai Mall", "imageSearch": "Dubai Mall interior", "description": "One of the world's largest shopping malls.", "mapEmbed": "https://maps.google.com/maps?q=The+Dubai+Mall&output=embed" },
-        { "name": "Palm Jumeirah", "imageSearch": "Palm Jumeirah aerial", "description": "A tree-shaped artificial archipelago.", "mapEmbed": "https://maps.google.com/maps?q=Palm+Jumeirah&output=embed" },
-        { "name": "Dubai Miracle Garden", "imageSearch": "Dubai Miracle Garden flowers", "description": "The world's largest natural flower garden featuring over 50 million flowers.", "mapEmbed": "https://maps.google.com/maps?q=Citadel+of+Saladin+Cairo&t=&z=13&ie=UTF8&iwloc=&output=embed8" }
-      ],
-      "Abu Dhabi": [
-        { "name": "Sheikh Zayed Grand Mosque", "imageSearch": "Sheikh Zayed Grand Mosque", "description": "One of the world's largest mosques, featuring 82 domes.", "mapEmbed": "https://maps.google.com/maps?q=Sheikh+Zayed+Grand+Mosque&output=embed" },
-        { "name": "Louvre Abu Dhabi", "imageSearch": "Louvre Abu Dhabi architecture", "description": "An art museum famous for its 'rain of light' dome.", "mapEmbed": "https://maps.google.com/maps?q=Louvre+Abu+Dhabi&output=embed" },
-        { "name": "Emirates Palace", "imageSearch": "Emirates Palace Abu Dhabi", "description": "A luxury five-star hotel known for its gold interior and grand architecture.", "mapEmbed": "https://maps.google.com/maps?q=Citadel+of+Saladin+Cairo&t=&z=13&ie=UTF8&iwloc=&output=embed9" }
-      ]
+      "Dubai": {
+        "images": ["https://images.unsplash.com/photo-1580674684081-7617fbf3d745?fm=jpg&q=60&w=3000&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTB8fGR1YmFpfGVufDB8fDB8fHww", "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQsxhN8lUkhnmPPGkU1wXKdiCsTJKGLYXoL1Q&s", "https://a.travel-assets.com/findyours-php/viewfinder/images/res70/56000/56828-Dubai.jpg"],
+        "imageSearch": "Dubai Skyline",
+        "description": "A city of superlatives where traditional souks stand in the shadow of record-breaking skyscrapers. A global hub known for luxury shopping, innovative architecture, and ambitious projects.",
+        "wiki": "Dubai",
+        "mapEmbed": "https://maps.google.com/maps?q=Dubai+United+Arab+Emirates&output=embed",
+        "places": [
+          {
+            "name": "Burj Khalifa",
+            "images": ["https://blog.sothebysrealty.ae/hs-fs/hubfs/Imported_Blog_Media/Exploring%20the%20Wonders%20of%20Burj%20Khalifa-jpg-Oct-12-2025-09-51-47-1469-AM.jpg?width=1600&height=1067&name=Exploring%20the%20Wonders%20of%20Burj%20Khalifa-jpg-Oct-12-2025-09-51-47-1469-AM.jpg", "https://www.allplan.com/fileadmin/_processed_/6/5/csm_iStock-183346577_NEU_b998568fdd.jpg", "https://www.burjkhalifa.ae/wp-content/uploads/2024/08/BURJ-KHALIFE-Hero-image-1-min-1.jpg"],
+            "imageSearch": "Burj Khalifa",
+            "description": "The world's tallest building at 828 meters, featuring an observation deck on the 148th floor with breathtaking views of Dubai's dramatic skyline and desert beyond.",
+            "wiki": "Burj Khalifa",
+            "mapEmbed": "https://maps.google.com/maps?q=Burj+Khalifa+Dubai&output=embed"
+          },
+          {
+            "name": "The Dubai Mall",
+            "images": ["https://images.pexels.com/photos/28469864/pexels-photo-28469864.jpeg?cs=srgb&dl=pexels-katetrysh-28469864.jpg&fm=jpg", "https://mlrhpz8jmuut.i.optimole.com/cb:w8qn.502d1/w:auto/h:auto/q:mauto/f:best/ig:avif/id:a955ccdf6466daa8bd753bcc20943cb0/https://www.egypttoursplus.com/Waterfall-in-Dubai-Mall.jpg", "https://images.prismic.io/11prop-blog/Zzh8R68jQArT08A0_1FeatureImage-DUBAIMALL-aquafunwaterpark-_11zon.webp?auto=format,compress&rect=0,34,1168,613&w=2400&h=1260"],
+            "imageSearch": "The Dubai Mall",
+            "description": "One of the world's largest shopping destinations with over 1,200 stores, an aquarium, ice rink, and direct access to the Burj Khalifa and Dubai Fountain.",
+            "wiki": "The Dubai Mall",
+            "mapEmbed": "https://maps.google.com/maps?q=The+Dubai+Mall&output=embed"
+          }
+        ]
+      },
+      "Abu Dhabi": {
+        "images": ["https://plus.unsplash.com/premium_photo-1697730217428-fa63a4efa669?fm=jpg&q=60&w=3000&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8YWJ1JTIwZGhhYmklMjBza3lsaW5lfGVufDB8fDB8fHww", "https://upload.wikimedia.org/wikipedia/commons/9/9c/Abu_dhabi_skylines_2014.jpg", "https://st2.depositphotos.com/1007593/5931/i/450/depositphotos_59310457-stock-photo-skyscrapers-in-abu-dhabi-united.jpg"],
+        "imageSearch": "Abu Dhabi City",
+        "description": "The sophisticated capital of the UAE, blending modern architecture with cultural institutions on a network of natural islands in the Arabian Gulf.",
+        "wiki": "Abu Dhabi",
+        "mapEmbed": "https://maps.google.com/maps?q=Abu+Dhabi+United+Arab+Emirates&output=embed",
+        "places": [
+          {
+            "name": "Sheikh Zayed Grand Mosque",
+            "images": ["https://www.scenenow.com/Content/Admin/Uploads/Articles/ArticlesMainPhoto/64885/f2639bcb-46ec-4151-9f5c-c7f999d04a43.jpg", "https://ae.igp.com/blog/wp-content/uploads/2024/09/Al-Sheikh-Zayed-Mosque-with-Majestic-view.jpg", "https://www.cdn.travejar.com/storage/india_attraction_tour_image/16757487010.jpg"],
+            "imageSearch": "Sheikh Zayed Grand Mosque",
+            "description": "A breathtaking architectural masterpiece capable of holding 40,000 worshippers, featuring 82 domes, 1,000 columns, and the world's largest hand-knotted carpet.",
+            "wiki": "Sheikh Zayed Grand Mosque",
+            "mapEmbed": "https://maps.google.com/maps?q=Sheikh+Zayed+Grand+Mosque+Abu+Dhabi&output=embed"
+          },
+          {
+            "name": "Louvre Abu Dhabi",
+            "images": ["https://www.burohappold.com/wp-content/uploads/2016/04/louvre-abu-dhabi_A01_mohamed-somji_dark.jpg", "https://cdn.getyourguide.com/img/tour/04bbedebd72a9fbd79b51af5c82eedbf829e8ae39eda05598ca4c72d00198add.jpg/148.jpg", "https://a.travel-assets.com/findyours-php/viewfinder/images/res70/489000/489049-louvre-abu-dhabi.jpg"],
+            "imageSearch": "Louvre Abu Dhabi",
+            "description": "An architectural marvel housing art and artifacts from around the world under a stunning perforated dome that creates a 'rain of light' effect.",
+            "wiki": "Louvre Abu Dhabi",
+            "mapEmbed": "https://maps.google.com/maps?q=Louvre+Abu+Dhabi&output=embed"
+          }
+        ]
+      }
     }
   },
   "Saudi Arabia": {
     "cities": {
-      "Riyadh": [
-        { "name": "Kingdom Centre", "imageSearch": "Kingdom Centre Tower Riyadh", "description": "A 99-story skyscraper featuring a skybridge.", "mapEmbed": "https://maps.google.com/maps?q=Kingdom+Centre+Riyadh&output=embed" },
-        { "name": "Diriyah", "imageSearch": "Diriyah historic district", "description": "The birthplace of the first Saudi state.", "mapEmbed": "https://maps.google.com/maps?q=Diriyah&output=embed" },
-        { "name": "Masmak Fortress", "imageSearch": "Masmak Fortress Riyadh", "description": "A clay and mud-brick fort that played a major role in the unification of Saudi Arabia.", "mapEmbed": "https://maps.google.com/maps?q=Mosque+of+Muhammad+Ali+Cairo&t=&z=13&ie=UTF8&iwloc=&output=embed0" }
-      ],
-      "Al Ula": [
-        { "name": "Hegra", "imageSearch": "Hegra Al Ula tomb", "description": "An ancient Nabatean city carved into sandstone.", "mapEmbed": "https://maps.google.com/maps?q=Hegra+Al+Ula&output=embed" },
-        { "name": "Elephant Rock", "imageSearch": "Elephant Rock Al Ula", "description": "A massive natural sandstone rock formation.", "mapEmbed": "https://maps.google.com/maps?q=Elephant+Rock+Al+Ula&output=embed" },
-        { "name": "Old Town AlUla", "imageSearch": "AlUla Old Town mud houses", "description": "An ancient city made of mud-brick houses, inhabited for centuries.", "mapEmbed": "https://maps.google.com/maps?q=Mosque+of+Muhammad+Ali+Cairo&t=&z=13&ie=UTF8&iwloc=&output=embed1" }
-      ]
+      "Riyadh": {
+        "images": ["https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTsVpUb_7Urdno_LuRtJJ82lLneSxuwiZ1Tww&s", "https://cdn.britannica.com/79/96379-050-FDCFF8D3/landmark-tower-Markaz-al-Mamlakah-Saudi-Arabia-Riyadh.jpg", "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQQz8YAYaxX3gx7hKXls8Wk6uetoB6g29qxdw&s"],
+        "imageSearch": "Riyadh Skyline",
+        "description": "The modern capital rising dramatically from the desert, where gleaming skyscrapers stand alongside historic mud-brick palaces in the heart of the Arabian Peninsula.",
+        "wiki": "Riyadh",
+        "mapEmbed": "https://maps.google.com/maps?q=Riyadh+Saudi+Arabia&output=embed",
+        "places": [
+          {
+            "name": "Kingdom Centre",
+            "images": ["https://res.cloudinary.com/ddjuftfy2/image/upload/f_webp,c_fill,q_auto/memphis/xlarge/20663060_WikiCover_2326968853.jpg", "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2a/b8/f6/4b/caption.jpg?w=900&h=-1&s=1", "https://saudiarabiatours.net/wp-content/uploads/2024/02/e3331a06cb92418fac36a8ee3d7dcdfd-1024x614.jpg"],
+            "imageSearch": "Kingdom Centre Riyadh",
+            "description": "An iconic 99-story skyscraper with a unique sky bridge offering panoramic city views, symbolizing Riyadh's transformation into a modern metropolis.",
+            "wiki": "Kingdom Centre",
+            "mapEmbed": "https://maps.google.com/maps?q=Kingdom+Centre+Riyadh&output=embed"
+          },
+          {
+            "name": "Al-Masmak Fortress",
+            "images": ["https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ5gv7yvC0rD-3G2W-y-iX0h-LrbdmQimyQ8g&s", "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-720x480/0c/b9/bf/b4.jpg", "https://www.arabnews.com/sites/default/files/2021/09/21/2820501-4728278.jpeg"],
+            "imageSearch": "Al Masmak Fortress",
+            "description": "A clay and mud-brick fort celebrating the birthplace of modern Saudi Arabia, where the recapture of Riyadh in 1902 marked the beginning of unification.",
+            "wiki": "Al-Masmak Fortress",
+            "mapEmbed": "https://maps.google.com/maps?q=Al+Masmak+Fortress+Riyadh&output=embed"
+          }
+        ]
+      },
+      "Jeddah": {
+        "images": ["https://saudipedia.com/en/saudipediaen/uploads/images/2024/05/29/thumbs/600x600/70468.jpg", "https://imgs.skylineholding.com/storage/blogs/2024/2024/10/1728570342.jpg.webp", "https://static.majalla.com/styles/1200xauto/public/2019/04/19/172151-310155462.jpg?VersionId=zrBX12ZM3MRjBMK7tMYgBbcWWbdsvf0E"],
+        "imageSearch": "Jeddah Corniche",
+        "description": "The gateway to Mecca and a historic port city on the Red Sea, known for its coral architecture, vibrant souks, and the world's tallest fountain.",
+        "wiki": "Jeddah",
+        "mapEmbed": "https://maps.google.com/maps?q=Jeddah+Saudi+Arabia&output=embed",
+        "places": [
+          {
+            "name": "King Fahd's Fountain",
+            "images": ["https://destinationksa.com/wp-content/uploads/content/22.jpg", "https://www.timeoutjeddah.com/cloud/timeoutjeddah/2023/03/06/King-Fahds-Fountain-1-1024x768.jpg", "https://excursionmania.com/uploads/blog/gallery/2587/1739448394.jpg"],
+            "imageSearch": "King Fahd Fountain Jeddah",
+            "description": "The world's tallest fountain, shooting seawater 312 meters into the air - visible throughout much of Jeddah and particularly spectacular when illuminated at night.",
+            "wiki": "King Fahd's Fountain",
+            "mapEmbed": "https://maps.google.com/maps?q=King+Fahd's+Fountain+Jeddah&output=embed"
+          },
+          {
+            "name": "Al-Balad",
+            "images": ["https://footontheroad.com/wp-content/uploads/2024/10/al-balad-jeddah-guide.webp", "https://experiencesbyroam.com/img/asset/YXNzZXRzL2V4cGVyaWVuY2VzL2FsLWJhbGFkLWplZGRhaC9hbC1uYXNzaWYtaGlzdG9yaWNhbC1ob3VzZS1pbi1hbC1iYWxhZC1qZWRkYWguanBn/al-nassif-historical-house-in-al-balad-jeddah.jpg?p=fullwidth&fm=webp&s=736557e2b6ffe71e8eda7d6bbfadd303", "https://i0.wp.com/theotherpaths.com/wp-content/uploads/2025/02/Jeddah_cover.jpg?fit=1800%2C1200&ssl=1"],
+            "imageSearch": "Al-Balad Jeddah",
+            "description": "The historic heart of Jeddah featuring coral houses with ornate wooden balconies, traditional souks, and narrow alleyways that whisper tales of ancient trade routes.",
+            "wiki": "Al-Balad, Jeddah",
+            "mapEmbed": "https://maps.google.com/maps?q=Al-Balad+Jeddah&output=embed"
+          }
+        ]
+      }
     }
   },
   "Jordan": {
     "cities": {
-      "Petra": [
-        { "name": "The Treasury", "imageSearch": "Petra Jordan Treasury", "description": "The most elaborate temple in the ancient city of Petra.", "mapEmbed": "https://maps.google.com/maps?q=The+Treasury+Petra&output=embed" },
-        { "name": "The Monastery", "imageSearch": "Petra Monastery hike", "description": "A massive monument carved out of rock.", "mapEmbed": "https://maps.google.com/maps?q=Ad+Deir&output=embed" },
-        { "name": "The Siq", "imageSearch": "The Siq Petra canyon", "description": "The main entrance to the ancient city of Petra, a dim, narrow gorge.", "mapEmbed": "https://maps.google.com/maps?q=Mosque+of+Muhammad+Ali+Cairo&t=&z=13&ie=UTF8&iwloc=&output=embed2" }
-      ],
-      "Amman": [
-        { "name": "Amman Citadel", "imageSearch": "Amman Citadel ruins", "description": "A historical site at the center of downtown Amman.", "mapEmbed": "https://maps.google.com/maps?q=Amman+Citadel&output=embed" },
-        { "name": "Roman Theatre", "imageSearch": "Roman Theatre Amman", "description": "A 6,000-seat, 2nd-century Roman theatre.", "mapEmbed": "https://maps.google.com/maps?q=Roman+Theatre+Amman&output=embed" },
-        { "name": "Rainbow Street", "imageSearch": "Rainbow Street Amman", "description": "A popular street in Jabal Amman, full of cafes, restaurants, and shops.", "mapEmbed": "https://maps.google.com/maps?q=Mosque+of+Muhammad+Ali+Cairo&t=&z=13&ie=UTF8&iwloc=&output=embed3" }
-      ],
-      "Dead Sea": [
-        { "name": "Dead Sea Beach", "imageSearch": "Dead Sea floating Jordan", "description": "The lowest point on Earth, famous for its hyper-saline water.", "mapEmbed": "https://maps.google.com/maps?q=Dead+Sea+Jordan&output=embed" }
-      ]
+      "Petra": {
+        "images": ["https://i.natgeofe.com/n/5ba0cd81-b859-40a0-93f1-2d26ff6d5ef9/DHHXC2.jpg", "https://bunny-wp-pullzone-nfqzsydbnl.b-cdn.net/wp-content/uploads/2024/06/urdun-petra-antik-kenti.jpg", "https://cdn.britannica.com/55/189755-050-73328263/Qasr-al-Bint-Temple-of-Dusares-Petra-facade.jpg"],
+        "imageSearch": "Petra Jordan",
+        "description": "The legendary 'Rose-Red City' carved directly into vibrant sandstone cliffs, lost to the Western world for centuries and rediscovered as one of the New Seven Wonders.",
+        "wiki": "Petra",
+        "mapEmbed": "https://maps.google.com/maps?q=Petra+Jordan&output=embed",
+        "places": [
+          {
+            "name": "Al-Khazneh (The Treasury)",
+            "images": ["https://res.cloudinary.com/ddjuftfy2/image/upload/f_webp,c_fill,q_auto/memphis/large/724259958_15104168252_3f12754438_c%20(1).jpg", "https://dannythedigger.com/wp-content/uploads/petra-shutterstock.jpg", "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTT95nzNNotyueKYyxpmnEsx04jobipgvngfQ&s"],
+            "imageSearch": "The Treasury Petra",
+            "description": "Petra's most magnificent facade, intricately carved into pink sandstone and made famous by Indiana Jones. The stunning first glimpse for visitors entering through the Siq.",
+            "wiki": "Al-Khazneh",
+            "mapEmbed": "https://maps.google.com/maps?q=Al+Khazneh+Petra&output=embed"
+          },
+          {
+            "name": "The Monastery (Ad-Deir)",
+            "images": ["https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0d/7a/45/44/treasury.jpg?w=900&h=500&s=1", "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQK6cJCS7CewKcNxrm52p4AVLWBEqExIK8dfA&s", "https://images.squarespace-cdn.com/content/v1/57b9b98a29687f1ef5c622df/1477850566004-U1YEVLXPDO14K71G7MCQ/00000000000000000.jpg?format=1500w"],
+            "imageSearch": "The Monastery Petra",
+            "description": "An enormous rock-cut monument even larger than the Treasury, reached by climbing 800 steps and offering breathtaking views of the surrounding mountains.",
+            "wiki": "Ad-Deir",
+            "mapEmbed": "https://maps.google.com/maps?q=The+Monastery+Petra&output=embed"
+          }
+        ]
+      },
+      "Amman": {
+        "images": ["https://www.twowanderingsoles.com/wp-content/uploads/2022/09/IMG_0652.jpg", "https://images.unsplash.com/photo-1604157886233-08985afc49e9?fm=jpg&q=60&w=3000&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8YW1tYW4lMjBqb3JkYW58ZW58MHx8MHx8fDA%3D", "https://static.independent.co.uk/2023/11/02/16/newFile.jpg"],
+        "imageSearch": "Amman Jordan City",
+        "description": "Jordan's modern capital built on seven hills, where ancient Roman ruins blend seamlessly with bustling markets and contemporary art galleries in a city of contrasts.",
+        "wiki": "Amman",
+        "mapEmbed": "https://maps.google.com/maps?q=Amman+Jordan&output=embed",
+        "places": [
+          {
+            "name": "Amman Citadel",
+            "images": ["https://dynamic-media-cdn.tripadvisor.com/media/photo-o/04/a6/52/0d/the-citadel.jpg?w=900&h=-1&s=1", "https://res.cloudinary.com/ddjuftfy2/image/upload/f_webp,c_fill,q_100/memphis/large/504571608_Amman_Citadel_1.jpg", "https://holyjordan.myjordanjourney.com/hs-fs/hubfs/edit-6619-large.jpg?width=1920&height=1440&name=edit-6619-large.jpg"],
+            "imageSearch": "Amman Citadel",
+            "description": "A historical site overlooking downtown Amman, featuring Roman, Byzantine, and Umayyad ruins including the Temple of Hercules and offering panoramic city views.",
+            "wiki": "Amman Citadel",
+            "mapEmbed": "https://maps.google.com/maps?q=Amman+Citadel&output=embed"
+          },
+          {
+            "name": "Roman Theatre",
+            "images": ["https://dynamic-media-cdn.tripadvisor.com/media/photo-o/16/b7/2a/96/romisches-theater-amman.jpg?w=900&h=500&s=1", "https://ucarecdn.com/069be120-e3ff-4022-9cf3-18096407acd1/-/crop/682x383/0,52/-/preview/", "https://a.travel-assets.com/findyours-php/viewfinder/images/res70/294000/294482-Amman-Roman-Theater.jpg"],
+            "imageSearch": "Roman Theatre Amman",
+            "description": "A beautifully preserved 2nd-century Roman theatre carved into the hillside, capable of seating 6,000 spectators and still used for cultural performances today.",
+            "wiki": "Roman Theatre of Amman",
+            "mapEmbed": "https://maps.google.com/maps?q=Roman+Theatre+Amman&output=embed"
+          }
+        ]
+      }
     }
   },
   "France": {
     "cities": {
-      "Paris": [
-        { "name": "Eiffel Tower", "imageSearch": "Eiffel Tower Paris", "description": "The most iconic symbol of France, an iron lattice tower.", "mapEmbed": "https://maps.google.com/maps?q=Eiffel+Tower&output=embed" },
-        { "name": "Louvre Museum", "imageSearch": "Louvre Museum pyramid", "description": "The world's largest art museum.", "mapEmbed": "https://maps.google.com/maps?q=Louvre+Museum&output=embed" },
-        { "name": "Arc de Triomphe", "imageSearch": "Arc de Triomphe Paris", "description": "One of the most famous monuments in Paris.", "mapEmbed": "https://maps.google.com/maps?q=Arc+de+Triomphe&output=embed" },
-        { "name": "Musée d'Orsay", "imageSearch": "Musée d'Orsay interior", "description": "A museum housed in a Beaux-Arts railway station, holding mainly French art.", "mapEmbed": "https://maps.google.com/maps?q=Mosque+of+Muhammad+Ali+Cairo&t=&z=13&ie=UTF8&iwloc=&output=embed4" }
-      ],
-      "Nice": [
-        { "name": "Promenade des Anglais", "imageSearch": "Promenade des Anglais Nice", "description": "A celebrated promenade along the Mediterranean.", "mapEmbed": "https://maps.google.com/maps?q=Promenade+des+Anglais&output=embed" },
-        { "name": "Castle Hill", "imageSearch": "Castle Hill Nice waterfall", "description": "A hilltop park offering the best panoramic views of Nice.", "mapEmbed": "https://maps.google.com/maps?q=Castle+Hill+Nice&t=&z=13&ie=UTF8&iwloc=&output=embed" },
-        { "name": "Vieux Nice", "imageSearch": "Vieux Nice streets", "description": "The charming and colorful old town of Nice.", "mapEmbed": "https://maps.google.com/maps?q=Mosque+of+Muhammad+Ali+Cairo&t=&z=13&ie=UTF8&iwloc=&output=embed5" }
-      ],
-      "Lyon": [
-        { "name": "Basilica of Notre-Dame", "imageSearch": "Basilica Notre Dame Fourvière Lyon", "description": "A minor basilica built with private funds.", "mapEmbed": "https://maps.google.com/maps?q=Basilica+of+Notre-Dame+de+Fourvière&output=embed" },
-        { "name": "Vieux Lyon", "imageSearch": "Vieux Lyon streets", "description": "The city's oldest district, a Renaissance area.", "mapEmbed": "https://maps.google.com/maps?q=Vieux+Lyon&output=embed" },
-        { "name": "Musée des Confluences", "imageSearch": "Musée des Confluences Lyon", "description": "A science center and anthropology museum with futuristic architecture.", "mapEmbed": "https://maps.google.com/maps?q=Mosque+of+Muhammad+Ali+Cairo&t=&z=13&ie=UTF8&iwloc=&output=embed6" }
-      ]
+      "Paris": {
+        "images": ["https://www.foyerglobalhealth.com/wp-content/uploads/2024/05/alexander-kagan-t9Td0zfDTwI-unsplash-scaled.jpg", "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4b/La_Tour_Eiffel_vue_de_la_Tour_Saint-Jacques%2C_Paris_ao%C3%BBt_2014_%282%29.jpg/1200px-La_Tour_Eiffel_vue_de_la_Tour_Saint-Jacques%2C_Paris_ao%C3%BBt_2014_%282%29.jpg", "https://worldinparis.com/wp-content/uploads/2022/01/View-from-the-Pantheon.jpg"],
+        "imageSearch": "Paris France City",
+        "description": "The 'City of Light' and global capital of art, fashion, and romance, where iconic landmarks, world-class museums, and charming cafes create an unforgettable urban experience.",
+        "wiki": "Paris",
+        "mapEmbed": "https://maps.google.com/maps?q=Paris+France&output=embed",
+        "places": [
+          {
+            "name": "Eiffel Tower",
+            "images": ["https://images.unsplash.com/photo-1431274172761-fca41d930114?fm=jpg&q=60&w=3000&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8cGFyaXMlMjBlaWZmZWwlMjB0b3dlcnxlbnwwfHwwfHx8MA%3D%3D", "https://media.architecturaldigest.com/photos/66a951edce728792a48166e6/1:1/w_5304,h_5304,c_limit/GettyImages-955441104.jpg", "https://media.cntraveler.com/photos/58de89946c3567139f9b6cca/1:1/w_3633,h_3633,c_limit/GettyImages-468366251.jpg"],
+            "imageSearch": "Eiffel Tower",
+            "description": "The iron lattice tower that has become the universal symbol of Paris, offering stunning city views from its platforms and sparkling with thousands of lights every evening.",
+            "wiki": "Eiffel Tower",
+            "mapEmbed": "https://maps.google.com/maps?q=Eiffel+Tower+Paris&output=embed"
+          },
+          {
+            "name": "Louvre Museum",
+            "images": ["https://static.wixstatic.com/media/de5a6d_9f4927c3ad0b4202abfa90a329394294~mv2.webp/v1/fill/w_2000,h_1334,al_c/de5a6d_9f4927c3ad0b4202abfa90a329394294~mv2.webp", "https://images.squarespace-cdn.com/content/v1/5edbbcf3253cf824ff6fd101/1746622908134-MQR1S54WLIG8YDQQAB3Y/1.jpg", "https://www.franceguide.info/wp-content/uploads/sites/18/paris-louvre-pyramid-hd.jpg"],
+            "imageSearch": "Louvre Museum",
+            "description": "The world's largest art museum housed in a former royal palace, home to masterpieces including the Mona Lisa, Venus de Milo, and thousands of other artistic treasures.",
+            "wiki": "Louvre",
+            "mapEmbed": "https://maps.google.com/maps?q=Louvre+Museum+Paris&output=embed"
+          }
+        ]
+      },
+      "Marseille": {
+        "images": ["https://img.static-kl.com/images/media/418A7B8D-FEBA-4338-9D3A2C0E34E6F0FC", "https://media.cnn.com/api/v1/images/stellar/prod/gettyimages-2151824932.jpg?c=original", "https://diegoenfrance.com/wp-content/uploads/2024/08/things-to-do-in-marseille_37.webp"],
+        "imageSearch": "Marseille France",
+        "description": "France's oldest city and vibrant Mediterranean port, where diverse cultures mix amid historic neighborhoods, calanques, and the bustling Vieux-Port.",
+        "wiki": "Marseille",
+        "mapEmbed": "https://maps.google.com/maps?q=Marseille+France&output=embed",
+        "places": [
+          {
+            "name": "Basilique Notre-Dame de la Garde",
+            "images": ["https://cdn.generationvoyage.fr/2025/02/Basilique-Notre-Dame-de-la-Garde-a-Marseille-France-Basilique-Notre-Dame-de-la-Garde-a-Marseille-France-Basilique-Notre-Dame-de-la-Garde-a-Marseille-France.jpeg", "https://cdn.sanity.io/images/nxpteyfv/goguides/7250a2846898ed314f6b440df472e653ce239432-1600x1066.jpg", "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/07/fd/bd/ae/dans-toute-sa-splendeur.jpg?w=900&h=500&s=1"],
+            "imageSearch": "Notre Dame de la Garde",
+            "description": "Marseille's iconic basilica perched on the city's highest point, offering spectacular harbor views and recognized by its golden statue of the Virgin Mary.",
+            "wiki": "Basilique Notre-Dame de la Garde",
+            "mapEmbed": "https://maps.google.com/maps?q=Basilique+Notre+Dame+de+la+Garde+Marseille&output=embed"
+          },
+          {
+            "name": "Vieux-Port",
+            "images": ["https://img2.oastatic.com/img2/85580933/max/variant.jpg", "https://www.marseilletourisme.fr/media/filer_public/2019/06/04/quartier-vieux-port.jpg", "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQTIDMep0DyvV4VXczCHdKhLVi8GDaNgmBtfA&s"],
+            "imageSearch": "Vieux Port Marseille",
+            "description": "The historic heart of Marseille for over 2,600 years, where fishing boats still dock daily and waterfront cafes buzz with activity amid the Mediterranean atmosphere.",
+            "wiki": "Vieux-Port",
+            "mapEmbed": "https://maps.google.com/maps?q=Vieux+Port+Marseille&output=embed"
+          }
+        ]
+      }
     }
   },
   "Italy": {
     "cities": {
-      "Rome": [
-        { "name": "Colosseum", "imageSearch": "Colosseum Rome", "description": "The largest amphitheatre ever built.", "mapEmbed": "https://maps.google.com/maps?q=Colosseum+Rome&output=embed" },
-        { "name": "Trevi Fountain", "imageSearch": "Trevi Fountain Rome", "description": "The largest Baroque fountain in Rome.", "mapEmbed": "https://maps.google.com/maps?q=Trevi+Fountain&output=embed" },
-        { "name": "Vatican City", "imageSearch": "St. Peter's Basilica Vatican", "description": "Headquarters of the Roman Catholic Church.", "mapEmbed": "https://maps.google.com/maps?q=Vatican+City&output=embed" },
-        { "name": "Spanish Steps", "imageSearch": "Spanish Steps Rome", "description": "A famous set of steps climbing a steep slope between the Piazza di Spagna and Trinità dei Monti.", "mapEmbed": "https://maps.google.com/maps?q=Mosque+of+Muhammad+Ali+Cairo&t=&z=13&ie=UTF8&iwloc=&output=embed7" }
-      ],
-      "Venice": [
-        { "name": "St Mark's Basilica", "imageSearch": "St Mark's Basilica Venice", "description": "The cathedral church of Venice.", "mapEmbed": "https://maps.google.com/maps?q=St+Mark's+Basilica&output=embed" },
-        { "name": "Rialto Bridge", "imageSearch": "Rialto Bridge Grand Canal", "description": "The oldest bridge spanning the Grand Canal.", "mapEmbed": "https://maps.google.com/maps?q=Rialto+Bridge&output=embed" },
-        { "name": "Burano", "imageSearch": "Burano island colorful houses", "description": "An island famous for its lace work and brightly colored homes.", "mapEmbed": "https://maps.google.com/maps?q=Mosque+of+Muhammad+Ali+Cairo&t=&z=13&ie=UTF8&iwloc=&output=embed8" }
-      ],
-      "Milan": [
-        { "name": "Duomo di Milano", "imageSearch": "Duomo di Milano cathedral", "description": "A vast Gothic cathedral known for its intricate facade.", "mapEmbed": "https://maps.google.com/maps?q=Duomo+di+Milano&output=embed" },
-        { "name": "Galleria Vittorio Emanuele II", "imageSearch": "Galleria Vittorio Emanuele II", "description": "One of the world's oldest shopping malls.", "mapEmbed": "https://maps.google.com/maps?q=Galleria+Vittorio+Emanuele+II&output=embed" },
-        { "name": "Sforza Castle", "imageSearch": "Sforza Castle Milan", "description": "A historic fortress housing several of the city's museums and art collections.", "mapEmbed": "https://maps.google.com/maps?q=Mosque+of+Muhammad+Ali+Cairo&t=&z=13&ie=UTF8&iwloc=&output=embed9" }
-      ],
-      "Naples": [
-        { "name": "Pompeii", "imageSearch": "Pompeii ruins", "description": "An ancient Roman city preserved under volcanic ash.", "mapEmbed": "https://maps.google.com/maps?q=Pompeii&output=embed" },
-        { "name": "Mount Vesuvius", "imageSearch": "Mount Vesuvius volcano", "description": "The only active volcano on mainland Europe.", "mapEmbed": "https://maps.google.com/maps?q=Mount+Vesuvius&output=embed" },
-        { "name": "Castel dell'Ovo", "imageSearch": "Castel dell'Ovo Naples", "description": "The oldest standing fortification in Naples, located on the former island of Megaride.", "mapEmbed": "https://maps.google.com/maps?q=Cairo+Tower&t=&z=13&ie=UTF8&iwloc=&output=embed0" }
-      ]
+      "Rome": {
+        "images": ["https://images.unsplash.com/photo-1531572753322-ad063cecc140?fm=jpg&q=60&w=3000&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8cm9tZXxlbnwwfHwwfHx8MA%3D%3D", "https://img.freepik.com/free-photo/cityscape-rome-ancient-centre-italy_1268-20482.jpg?semt=ais_hybrid&w=740&q=80", "https://www.italyperfect.com/g/photos/upload/sml_845543004-1590582528-ip-info-rome.jpg"],
+        "imageSearch": "Rome Italy City",
+        "description": "The Eternal City where ancient history lives alongside modern life, with spectacular ruins, Baroque fountains, and vibrant piazzas around every corner.",
+        "wiki": "Rome",
+        "mapEmbed": "https://maps.google.com/maps?q=Rome+Italy&output=embed",
+        "places": [
+          {
+            "name": "Colosseum",
+            "images": ["https://upload.wikimedia.org/wikipedia/commons/thumb/d/de/Colosseo_2020.jpg/1200px-Colosseo_2020.jpg", "https://res.klook.com/images/fl_lossy.progressive,q_65/c_fill,w_1200,h_630/w_80,x_15,y_15,g_south_west,l_Klook_water_br_trans_yhcmh3/activities/qcrdf7fvnjivfzu8nmyr/The%20Colosseum%20and%20Ancient%20Rome%20Tour.jpg", "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d8/Colosseum_in_Rome-April_2007-1-_copie_2B.jpg/500px-Colosseum_in_Rome-April_2007-1-_copie_2B.jpg"],
+            "imageSearch": "Colosseum Rome",
+            "description": "The iconic Roman amphitheater that hosted gladiatorial contests and public spectacles, standing as a magnificent symbol of Imperial Rome's architectural prowess.",
+            "wiki": "Colosseum",
+            "mapEmbed": "https://maps.google.com/maps?q=Colosseum+Rome&output=embed"
+          },
+          {
+            "name": "Trevi Fountain",
+            "images": ["https://www.archeoroma.org/wp-content/uploads/2019/07/en-trevi-fountain-history-architecture.jpg", "https://static.wixstatic.com/media/e41b5c_5f12abc2ed614742ac47f306df5411ad~mv2.jpg/v1/fill/w_2500,h_1666,al_c/e41b5c_5f12abc2ed614742ac47f306df5411ad~mv2.jpg", "https://media.cntraveler.com/photos/55d24b6f37284fb1079cbc20/master/pass/trevi-fountain-rome-night-cr-getty.jpg"],
+            "imageSearch": "Trevi Fountain",
+            "description": "The largest Baroque fountain in Rome, famous for its dramatic sculpture of Oceanus and the tradition of tossing coins over your shoulder to ensure a return to Rome.",
+            "wiki": "Trevi Fountain",
+            "mapEmbed": "https://maps.google.com/maps?q=Trevi+Fountain+Rome&output=embed"
+          }
+        ]
+      },
+      "Venice": {
+        "images": ["https://i0.wp.com/thattravelista.com/wp-content/uploads/2020/07/Italy-Venice-217.jpg?fit=1024%2C682&ssl=1", "https://cdn.britannica.com/62/153462-050-3D4F41AF/Grand-Canal-Venice.jpg", "https://www.througheternity.com/upload/CONF83/20240909/venice_canal_at_night-tSa-1200X630.jpg"],
+        "imageSearch": "Venice Italy Canals",
+        "description": "The magical floating city built on 118 islands, where canals replace streets, gondolas glide by historic palaces, and romance fills the air in this unique UNESCO treasure.",
+        "wiki": "Venice",
+        "mapEmbed": "https://maps.google.com/maps?q=Venice+Italy&output=embed",
+        "places": [
+          {
+            "name": "St. Mark's Square",
+            "images": ["https://cdn-imgix.headout.com/media/images/652a5558e34addc383d067c9990afb61-St.%20Mark's%20Square%20with%20Campanile%20at%20Sunset%20in%20Venice.jpg?auto=format&w=1222.3999999999999&h=687.6&q=90&ar=16%3A9&crop=faces&fit=crop", "https://cdn-imgix.headout.com/media/images/ca8440479dd03d7d75e7f4bab6e89173-St.-Mark%E2%80%99s-Campanile.jpg", "https://www.citalia.com/-/media/Bynder/Citalia-destinations/Italy/Cities/Venice/Venice-2023-Venetian-Square-Piazza-San-Marco-001109-Hybris.jpg?rev=8685007bb7d641ae973adc3c9679e8ee&hash=F6826A28B32C53E6EC587953CF69F618&w=1920&h=940"],
+            "imageSearch": "St. Mark's Square Venice",
+            "description": "Venice's principal public square surrounded by iconic landmarks including St. Mark's Basilica and the Campanile, often called 'the drawing room of Europe.",
+            "wiki": "St. Mark's Square",
+            "mapEmbed": "https://maps.google.com/maps?q=St+Mark's+Square+Venice&output=embed"
+          },
+          {
+            "name": "Grand Canal",
+            "images": ["https://cdn.britannica.com/63/153463-050-06B6270D/Grand-Canal-Venice.jpg", "https://eoimages.gsfc.nasa.gov/images/imagerecords/4000/4582/venice_iko_2001092.jpg", "https://travelsetu.com/apps/uploads/new_destinations_photos/destination/2024/07/04/10b03c594e32e0eb1ba56dbc39670ffe_1000x1000.jpg"],
+            "imageSearch": "Grand Canal Venice",
+            "description": "The main waterway winding through Venice in an S-shape, lined with magnificent palaces and churches that showcase the city's architectural evolution over centuries.",
+            "wiki": "Grand Canal (Venice)",
+            "mapEmbed": "https://maps.google.com/maps?q=Grand+Canal+Venice&output=embed"
+          }
+        ]
+      }
     }
   },
   "United States": {
     "cities": {
-      "New York": [
-        { "name": "Statue of Liberty", "imageSearch": "Statue of Liberty NY", "description": "A colossal sculpture on Liberty Island.", "mapEmbed": "https://maps.google.com/maps?q=Statue+of+Liberty&output=embed" },
-        { "name": "Central Park", "imageSearch": "Central Park New York aerial", "description": "A massive urban park in Manhattan.", "mapEmbed": "https://maps.google.com/maps?q=Central+Park+NY&output=embed" },
-        { "name": "Brooklyn Bridge", "imageSearch": "Brooklyn Bridge sunset", "description": "A hybrid cable-stayed/suspension bridge connecting Manhattan and Brooklyn.", "mapEmbed": "https://maps.google.com/maps?q=Cairo+Tower&t=&z=13&ie=UTF8&iwloc=&output=embed1" }
-      ],
-      "Los Angeles": [
-        { "name": "Hollywood Sign", "imageSearch": "Hollywood Sign hills", "description": "An American landmark overlooking Hollywood.", "mapEmbed": "https://maps.google.com/maps?q=Hollywood+Sign&output=embed" },
-        { "name": "Santa Monica Pier", "imageSearch": "Santa Monica Pier sunset", "description": "A large double-jointed pier famous for its amusement park.", "mapEmbed": "https://maps.google.com/maps?q=Santa+Monica+Pier&output=embed" },
-        { "name": "Griffith Observatory", "imageSearch": "Griffith Observatory view", "description": "An observatory offering iconic views of the LA Basin and the Hollywood Sign.", "mapEmbed": "https://maps.google.com/maps?q=Cairo+Tower&t=&z=13&ie=UTF8&iwloc=&output=embed2" }
-      ],
-      "Las Vegas": [
-        { "name": "The Strip", "imageSearch": "Las Vegas Strip night", "description": "Known for its concentration of resort hotels and casinos.", "mapEmbed": "https://maps.google.com/maps?q=Las+Vegas+Strip&output=embed" },
-        { "name": "Bellagio Fountains", "imageSearch": "Bellagio Fountains", "description": "A magnificent water show choreographed to music.", "mapEmbed": "https://maps.google.com/maps?q=Bellagio+Fountains&output=embed" },
-        { "name": "The Venetian", "imageSearch": "The Venetian Las Vegas canals", "description": "A luxury hotel and casino resort featuring indoor canals and gondolas.", "mapEmbed": "https://maps.google.com/maps?q=Cairo+Tower&t=&z=13&ie=UTF8&iwloc=&output=embed3" }
-      ],
-      "Chicago": [
-        { "name": "Cloud Gate", "imageSearch": "Cloud Gate Chicago Bean", "description": "A public sculpture in Millennium Park, nicknamed 'The Bean'.", "mapEmbed": "https://maps.google.com/maps?q=Cloud+Gate+Chicago&output=embed" },
-        { "name": "Willis Tower", "imageSearch": "Willis Tower Skydeck", "description": "Famous for its glass-bottomed Skydeck ledge.", "mapEmbed": "https://maps.google.com/maps?q=Willis+Tower&output=embed" },
-        { "name": "Navy Pier", "imageSearch": "Navy Pier Chicago", "description": "A 3,300-foot-long pier on the shoreline of Lake Michigan.", "mapEmbed": "https://maps.google.com/maps?q=Cairo+Tower&t=&z=13&ie=UTF8&iwloc=&output=embed4" }
-      ],
-      "Miami": [
-        { "name": "South Beach", "imageSearch": "South Beach Miami Art Deco", "description": "Famous for its beaches and the glamorous scene.", "mapEmbed": "https://maps.google.com/maps?q=South+Beach+Miami&output=embed" },
-        { "name": "Wynwood Walls", "imageSearch": "Wynwood Walls street art", "description": "A unique outdoor museum featuring huge colorful street murals.", "mapEmbed": "https://maps.google.com/maps?q=Wynwood+Walls&output=embed" },
-        { "name": "Vizcaya Museum", "imageSearch": "Vizcaya Museum and Gardens", "description": "A breathtaking villa and estate on Biscayne Bay.", "mapEmbed": "https://maps.google.com/maps?q=Cairo+Tower&t=&z=13&ie=UTF8&iwloc=&output=embed5" }
-      ]
+      "New York City": {
+        "images": ["https://plus.unsplash.com/premium_photo-1714051661316-4432704b02f8?fm=jpg&q=60&w=3000&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8bmV3eW9yayUyMGNpdHl8ZW58MHx8MHx8fDA%3D", "https://cdn.britannica.com/61/93061-050-99147DCE/Statue-of-Liberty-Island-New-York-Bay.jpg", "https://plus.unsplash.com/premium_photo-1682656220562-32fde8256295?fm=jpg&q=60&w=3000&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OXx8bmV3JTIweW9yayUyMGNpdHl8ZW58MHx8MHx8fDA%3D"],
+        "imageSearch": "New York City Skyline",
+        "description": "The city that never sleeps, a global hub of finance, culture, and innovation where iconic landmarks, world-class museums, and diverse neighborhoods create endless energy.",
+        "wiki": "New York City",
+        "mapEmbed": "https://maps.google.com/maps?q=New+York+City+USA&output=embed",
+        "places": [
+          {
+            "name": "Statue of Liberty",
+            "images": ["https://upload.wikimedia.org/wikipedia/commons/thumb/d/d3/Statue_of_Liberty%2C_NY.jpg/2560px-Statue_of_Liberty%2C_NY.jpg", "https://www.historyhit.com/app/uploads/bis-images/5150130/Statue-of-Liberty-e1632495792514-788x537.jpg?x81146", "https://www.nps.gov/common/uploads/grid_builder/literature/crop1_1/42B82368-DEF7-756D-588590AA6BA7ADE5.jpg?width=640&quality=90&mode=crop"],
+            "imageSearch": "Statue of Liberty",
+            "description": "The universal symbol of freedom and democracy, gifted by France in 1886, standing proudly in New York Harbor as a welcoming sight to millions of immigrants.",
+            "wiki": "Statue of Liberty",
+            "mapEmbed": "https://maps.google.com/maps?q=Statue+of+Liberty+New+York&output=embed"
+          },
+          {
+            "name": "Central Park",
+            "images": ["https://res.cloudinary.com/aenetworks/image/upload/c_fill,ar_2,w_3840,h_1920,g_auto/dpr_auto/f_auto/q_auto:eco/v1/central-park-GettyImages-75024411?_a=BAVAZGID0", "https://images.pexels.com/photos/327502/pexels-photo-327502.jpeg?cs=srgb&dl=pexels-pixabay-327502.jpg&fm=jpg", "https://d2wsrtli9cxkek.cloudfront.net/media/images/Sheep-Meadow-Aerial-Central-Park-credit-the-Central-Park-Conservancy.jpg?auto=compress%2Cformat&crop=focalpoint&fit=crop&fp-x=0.5&fp-y=0.5&h=1151.1627906977&q=80&w=2475&s=d3c4f805891782ac9d112b33cc8d3f03"],
+            "imageSearch": "Central Park New York",
+            "description": "An urban oasis in the heart of Manhattan featuring 843 acres of lawns, lakes, and woodlands. The most visited urban park in the United States.",
+            "wiki": "Central Park",
+            "mapEmbed": "https://maps.google.com/maps?q=Central+Park+New+York&output=embed"
+          }
+        ]
+      },
+      "Los Angeles": {
+        "images": ["https://www.visittheusa.com/sites/default/files/styles/hero_l/public/images/hero_media_image/2017-01/Getty_515070156_EDITORIALONLY_LosAngeles_HollywoodBlvd_Web72DPI_0.jpg?h=0a8b6f8b&itok=B_VKqykq", "https://media.tacdn.com/media/attractions-splice-spp-674x446/07/71/39/f1.jpg", "https://a.travel-assets.com/findyours-php/viewfinder/images/res70/475000/475457-Los-Angeles.jpg"],
+        "imageSearch": "Los Angeles Skyline",
+        "description": "The entertainment capital of the world, where Hollywood glamour meets beach culture in a sprawling metropolis of creative energy and year-round sunshine.",
+        "wiki": "Los Angeles",
+        "mapEmbed": "https://maps.google.com/maps?q=Los+Angeles+USA&output=embed",
+        "places": [
+          {
+            "name": "Hollywood Sign",
+            "images": ["https://upload.wikimedia.org/wikipedia/commons/thumb/5/5a/Hollywood_Sign_%28Zuschnitt%29.jpg/1200px-Hollywood_Sign_%28Zuschnitt%29.jpg", "https://www.exp1.com/wp-content/uploads/sites/7/2020/07/Hollywood-1.jpeg", "https://wp-cdn.milocloud.com/kuvera-hwe-wp/wp-content/uploads/2019/01/21152109/Hollywood-sign-1024x683.jpg"],
+            "imageSearch": "Hollywood Sign",
+            "description": "The iconic white letters perched on Mount Lee, representing the global entertainment industry and offering one of the most photographed views in Los Angeles.",
+            "wiki": "Hollywood Sign",
+            "mapEmbed": "https://maps.google.com/maps?q=Hollywood+Sign+Los+Angeles&output=embed"
+          },
+          {
+            "name": "Santa Monica Pier",
+            "images": ["https://images.unsplash.com/photo-1574562514932-a0fb04d5d347?fm=jpg&q=60&w=3000&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8c2FudGElMjBtb25pY2ElMjBwaWVyfGVufDB8fDB8fHww", "https://images.squarespace-cdn.com/content/v1/5e0e65adcd39ed279a0402fd/1627422658456-7QKPXTNQ34W2OMBTESCJ/1.jpg?format=2500w", "https://drupal-prod.visitcalifornia.com/sites/default/files/styles/fluid_1920/public/2025-01/VC_Santa-Monica-Pier-and-Beach_gty-672889940-RF_1280x640.jpg.webp?itok=A38RHXCt"],
+            "imageSearch": "Santa Monica Pier",
+            "description": "A classic California beach pier featuring an amusement park, aquarium, and historic carousel. The perfect place to experience LA's famous beach culture.",
+            "wiki": "Santa Monica Pier",
+            "mapEmbed": "https://maps.google.com/maps?q=Santa+Monica+Pier+Los+Angeles&output=embed"
+          }
+        ]
+      }
     }
   },
   "United Kingdom": {
     "cities": {
-      "London": [
-        { "name": "Big Ben", "imageSearch": "Big Ben London clock", "description": "The nickname for the Great Bell of the clock at the Palace of Westminster.", "mapEmbed": "https://maps.google.com/maps?q=Big+Ben&output=embed" },
-        { "name": "Tower Bridge", "imageSearch": "Tower Bridge London", "description": "A combined bascule and suspension bridge in London.", "mapEmbed": "https://maps.google.com/maps?q=Tower+Bridge&output=embed" },
-        { "name": "The Shard", "imageSearch": "The Shard London skyline", "description": "A 72-storey skyscraper, the tallest building in the United Kingdom.", "mapEmbed": "https://maps.google.com/maps?q=Cairo+Tower&t=&z=13&ie=UTF8&iwloc=&output=embed6" }
-      ],
-      "Edinburgh": [
-        { "name": "Edinburgh Castle", "imageSearch": "Edinburgh Castle hill", "description": "A historic fortress which dominates the skyline of Edinburgh.", "mapEmbed": "https://maps.google.com/maps?q=Edinburgh+Castle&output=embed" },
-        { "name": "Palace of Holyroodhouse", "imageSearch": "Palace of Holyroodhouse", "description": "The official residence of the British monarch in Scotland.", "mapEmbed": "https://maps.google.com/maps?q=Cairo+Tower&t=&z=13&ie=UTF8&iwloc=&output=embed7" }
-      ],
-      "Manchester": [
-        { "name": "Old Trafford", "imageSearch": "Old Trafford Stadium", "description": "The home of Manchester United Football Club.", "mapEmbed": "https://maps.google.com/maps?q=Old+Trafford&output=embed" },
-        { "name": "Science and Industry Museum", "imageSearch": "Science and Industry Museum Manchester", "description": "A museum devoted to the development of science, technology and industry.", "mapEmbed": "https://maps.google.com/maps?q=Cairo+Tower&t=&z=13&ie=UTF8&iwloc=&output=embed8" }
-      ]
+      "London": {
+        "images": ["https://www.galliardhomes.com/sites/default/files/images/properties//6zh9ZL2qEWK.jpg", "https://radiusglobal.org/wp-content/uploads/2020/09/London-1024x641.png", "https://images.unsplash.com/photo-1513635269975-59663e0ac1ad?fm=jpg&q=60&w=3000&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8bG9uZG9ufGVufDB8fDB8fHww"],
+        "imageSearch": "London UK City",
+        "description": "A world capital blending ancient history with cutting-edge modernity, where royal palaces stand alongside innovative architecture in this vibrant, multicultural metropolis.",
+        "wiki": "London",
+        "mapEmbed": "https://maps.google.com/maps?q=London+UK&output=embed",
+        "places": [
+          {
+            "name": "Big Ben",
+            "images": ["https://res.cloudinary.com/aenetworks/image/upload/c_fill,ar_2,w_3840,h_1920,g_auto/dpr_auto/f_auto/q_auto:eco/v1/this-day-in-history-05-31-1859-big-ben-in-london?_a=BAVAZGID0", "https://www.londonperfect.com/g/photos/upload/sml_302526596-1498570960-big-ben-westminster.jpg", "https://as2.ftcdn.net/v2/jpg/01/35/61/33/1000_F_135613354_mBHFo7PIVm6hu7iMHy8IoE0WuCRcoe1Q.jpg"],
+            "imageSearch": "Big Ben London",
+            "description": "The nickname for the Great Bell of the clock at the north end of the Palace of Westminster, though commonly referring to the entire clock tower - an icon of British democracy.",
+            "wiki": "Big Ben",
+            "mapEmbed": "https://maps.google.com/maps?q=Big+Ben+London&output=embed"
+          },
+          {
+            "name": "Tower Bridge",
+            "images": ["https://cdn.britannica.com/35/156335-050-62245FCA/Tower-Bridge-River-Thames-London.jpg", "https://mywowo.net/media/images/cache/londra_tower_bridge_01_introduzione_jpg_1200_630_cover_85.jpg", "https://images.pexels.com/photos/726484/pexels-photo-726484.jpeg?cs=srgb&dl=pexels-manualman32-726484.jpg&fm=jpg"],
+            "imageSearch": "Tower Bridge London",
+            "description": "The magnificent Victorian bascule and suspension bridge over the River Thames, often mistaken for London Bridge and featuring high-level walkways with panoramic views.",
+            "wiki": "Tower Bridge",
+            "mapEmbed": "https://maps.google.com/maps?q=Tower+Bridge+London&output=embed"
+          }
+        ]
+      },
+      "Edinburgh": {
+        "images": ["https://ewh.org.uk/wp-content/uploads/2023/11/Old-Town.png", "https://ewh.org.uk/wp-content/uploads/2023/11/Royal-Mile.png", "https://media.cntraveller.com/photos/611be9e3d5b6f5a4a3def392/master/pass/Mountain-view-over-city-Edinburgh-scotland-conde-nast-traveller-28july17-iStock.jpg"],
+        "imageSearch": "Edinburgh Scotland",
+        "description": "Scotland's majestic capital built around an ancient volcanic rock, where medieval Old Town and Georgian New Town create one of Europe's most beautiful cityscapes.",
+        "wiki": "Edinburgh",
+        "mapEmbed": "https://maps.google.com/maps?q=Edinburgh+UK&output=embed",
+        "places": [
+          {
+            "name": "Edinburgh Castle",
+            "images": ["https://www.historic-uk.com/wp-content/uploads/2017/01/edinburgh-castle.jpg", "https://cdn.britannica.com/24/94424-050-6302BA2E/Edinburgh-Castle-Scotland.jpg", "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c1/Edinburgh_Castle_from_the_south_east.JPG/1024px-Edinburgh_Castle_from_the_south_east.JPG"],
+            "imageSearch": "Edinburgh Castle",
+            "description": "An imposing fortress dominating the city skyline from Castle Rock, housing the Scottish Crown Jewels and providing breathtaking views of Edinburgh.",
+            "wiki": "Edinburgh Castle",
+            "mapEmbed": "https://maps.google.com/maps?q=Edinburgh+Castle&output=embed"
+          },
+          {
+            "name": "Royal Mile",
+            "images": ["https://media.edinburgh.org/wp-content/uploads/2023/05/22153232/Tron-3-e1684766003868-1920x1037.jpg", "https://edinburghtips.com/images/old_town_edinburgh.jpg", "https://cityexplorerstours.com/images/city-guide/royal-mile-3.jpg"],
+            "imageSearch": "Royal Mile Edinburgh",
+            "description": "The historic thoroughfare connecting Edinburgh Castle to Holyrood Palace, lined with medieval buildings, shops, pubs, and significant historical sites.",
+            "wiki": "Royal Mile",
+            "mapEmbed": "https://maps.google.com/maps?q=Royal+Mile+Edinburgh&output=embed"
+          }
+        ]
+      }
     }
   },
   "Japan": {
     "cities": {
-      "Tokyo": [
-        { "name": "Senso-ji", "imageSearch": "Senso-ji Temple Tokyo", "description": "Tokyo's oldest temple, dedicated to Kannon.", "mapEmbed": "https://maps.google.com/maps?q=Senso-ji&output=embed" },
-        { "name": "Shibuya Crossing", "imageSearch": "Shibuya Crossing busy", "description": "A famous scramble crossing.", "mapEmbed": "https://maps.google.com/maps?q=Shibuya+Crossing&output=embed" },
-        { "name": "Tokyo Tower", "imageSearch": "Tokyo Tower night", "description": "A communications and observation tower in the Shiba-koen district.", "mapEmbed": "https://maps.google.com/maps?q=Cairo+Tower&t=&z=13&ie=UTF8&iwloc=&output=embed9" }
-      ],
-      "Kyoto": [
-        { "name": "Fushimi Inari-taisha", "imageSearch": "Fushimi Inari torii gates", "description": "A shrine famous for its thousands of vermilion torii gates.", "mapEmbed": "https://maps.google.com/maps?q=Fushimi+Inari-taisha&output=embed" },
-        { "name": "Gion District", "imageSearch": "Gion Kyoto Geisha", "description": "Kyoto's most famous geisha district.", "mapEmbed": "https://maps.google.com/maps?q=Giza+Pyramid+Complex&t=&z=13&ie=UTF8&iwloc=&output=embed0" }
-      ],
-      "Osaka": [
-        { "name": "Osaka Castle", "imageSearch": "Osaka Castle cherry blossoms", "description": "A famous landmark that played a major role in the unification of Japan.", "mapEmbed": "https://maps.google.com/maps?q=Osaka+Castle&output=embed" },
-        { "name": "Universal Studios Japan", "imageSearch": "Universal Studios Japan globe", "description": "A theme park with world-class entertainment and attractions.", "mapEmbed": "https://maps.google.com/maps?q=Giza+Pyramid+Complex&t=&z=13&ie=UTF8&iwloc=&output=embed1" }
-      ],
-      "Nara": [
-        { "name": "Nara Park", "imageSearch": "Nara Park deer", "description": "Famous for its free-roaming deer.", "mapEmbed": "https://maps.google.com/maps?q=Nara+Park&output=embed" },
-        { "name": "Kasuga-taisha", "imageSearch": "Kasuga Taisha shrine lanterns", "description": "A Shinto shrine famous for its many bronze and stone lanterns.", "mapEmbed": "https://maps.google.com/maps?q=Giza+Pyramid+Complex&t=&z=13&ie=UTF8&iwloc=&output=embed2" }
-      ]
+      "Tokyo": {
+        "images": ["https://upload.wikimedia.org/wikipedia/commons/b/b2/Skyscrapers_of_Shinjuku_2009_January.jpg", "https://images.unsplash.com/photo-1604928141064-207cea6f571f?fm=jpg&q=60&w=3000&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OHx8dG9reW98ZW58MHx8MHx8fDA%3D", "https://hips.hearstapps.com/hmg-prod/images/high-angle-view-of-tokyo-skyline-at-dusk-japan-royalty-free-image-1664309926.jpg"],
+        "imageSearch": "Tokyo Japan City",
+        "description": "A dazzling metropolis where ultra-modern skyscrapers stand beside ancient temples in the world's most populous metropolitan area, offering endless discovery.",
+        "wiki": "Tokyo",
+        "mapEmbed": "https://maps.google.com/maps?q=Tokyo+Japan&output=embed",
+        "places": [
+          {
+            "name": "Shibuya Crossing",
+            "images": ["https://plus.unsplash.com/premium_photo-1661902398022-762e88ff3f82?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D", "https://images.unsplash.com/photo-1602646993760-7b885ba225af?q=80&w=464&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D", "https://images.unsplash.com/photo-1684419078819-ce9407a4ced5?q=80&w=871&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"],
+            "imageSearch": "Shibuya Crossing",
+            "description": "The world's busiest pedestrian crossing where thousands of people cross simultaneously from multiple directions, creating an organized chaos that symbolizes modern Tokyo.",
+            "wiki": "Shibuya Crossing",
+            "mapEmbed": "https://maps.google.com/maps?q=Shibuya+Crossing+Tokyo&output=embed"
+          },
+          {
+            "name": "Senso-ji Temple",
+            "images": ["https://asset.japan.travel/image/upload/v1675339920/tokyo/Tokyo_s_id19_18.jpg", "https://www.japan-guide.com/g18/3001_01.jpg", "https://en.japantravel.com/photo/poi-5-214199/1200x630/tokyo-sensoji-temple-214199.jpg"],
+            "imageSearch": "Senso-ji Temple",
+            "description": "Tokyo's oldest temple, dating back to 645 AD, featuring a magnificent five-story pagoda and the bustling Nakamise shopping street leading to the main hall.",
+            "wiki": "Sensō-ji",
+            "mapEmbed": "https://maps.google.com/maps?q=Senso-ji+Temple+Tokyo&output=embed"
+          }
+        ]
+      },
+      "Kyoto": {
+        "images": ["https://lp-cms-production.imgix.net/2023-02/shutterstock_1017748444.jpg?auto=format,compress&q=72&w=1095&fit=crop&crop=faces,edges", "https://lp-cms-production.imgix.net/2025-06/shutterstock2315687505-cropped.jpg?auto=format,compress&q=72&w=1440&h=810&fit=crop", "https://a1.cdn.japantravel.com/photo/8598-58391/1000/kyoto-kyoto-tower-58391.jpg"],
+        "imageSearch": "Kyoto Japan City",
+        "description": "Japan's cultural heart with over 2,000 temples and shrines, where geisha still walk historic streets and traditional arts flourish amid beautiful gardens and tea houses.",
+        "wiki": "Kyoto",
+        "mapEmbed": "https://maps.google.com/maps?q=Kyoto+Japan&output=embed",
+        "places": [
+          {
+            "name": "Fushimi Inari Shrine",
+            "images": ["https://d1s09xku4jkn9v.cloudfront.net/alternate/e39e665bfbd040ee819a6498b81c0cb8_800.jpeg", "https://english-site.fudousin.com/wp-content/uploads/2024/09/Eye-catch-Fushimi-Inari-Taisha.jpg", "https://www.eclectickim.com/wp-content/uploads/2023/07/eclectickimdotcom-DSC_2051.jpg"],
+            "imageSearch": "Fushimi Inari Shrine",
+            "description": "Famous for its thousands of vibrant red torii gates forming paths up the sacred Mount Inari, dedicated to the Shinto god of rice and business.",
+            "wiki": "Fushimi Inari-taisha",
+            "mapEmbed": "https://maps.google.com/maps?q=Fushimi+Inari+Shrine+Kyoto&output=embed"
+          },
+          {
+            "name": "Kinkaku-ji (Golden Pavilion)",
+            "images": ["https://cdn.britannica.com/31/180631-050-C2714AF4/Temple-of-the-Golden-Pavilion-Yoshimitsu-Ashikaga.jpg", "https://article.bespes-jt.com/hubfs/%E5%BC%81%E5%A4%A9%E5%A0%82%20(33)-2.png", "https://www.seasonal-japanese-garden.com/wp-content/uploads/2022/12/DSC06513-13.jpg"],
+            "imageSearch": "Kinkaku-ji",
+            "description": "A Zen temple completely covered in gold leaf, reflected perfectly in the mirror pond surrounding it - one of Japan's most photographed sights.",
+            "wiki": "Kinkaku-ji",
+            "mapEmbed": "https://maps.google.com/maps?q=Kinkaku-ji+Kyoto&output=embed"
+          }
+        ]
+      }
     }
   },
   "Spain": {
     "cities": {
-      "Barcelona": [
-        { "name": "Sagrada Família", "imageSearch": "Sagrada Familia exterior", "description": "A large unfinished minor basilica designed by Antoni Gaudí.", "mapEmbed": "https://maps.google.com/maps?q=Sagrada+Familia&output=embed" },
-        { "name": "La Boqueria Market", "imageSearch": "La Boqueria Market Barcelona food", "description": "A large public market in the Ciutat Vella district of Barcelona.", "mapEmbed": "https://maps.google.com/maps?q=Giza+Pyramid+Complex&t=&z=13&ie=UTF8&iwloc=&output=embed3" }
-      ],
-      "Madrid": [
-        { "name": "Royal Palace of Madrid", "imageSearch": "Royal Palace of Madrid exterior", "description": "The official residence of the Spanish Royal Family.", "mapEmbed": "https://maps.google.com/maps?q=Royal+Palace+of+Madrid&output=embed" },
-        { "name": "Plaza Mayor", "imageSearch": "Plaza Mayor Madrid", "description": "A major public space in the heart of Madrid.", "mapEmbed": "https://maps.google.com/maps?q=Giza+Pyramid+Complex&t=&z=13&ie=UTF8&iwloc=&output=embed4" }
-      ]
+      "Barcelona": {
+        "images": ["https://images.unsplash.com/photo-1592303985550-82e3f38f1a25?fm=jpg&q=60&w=3000&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8YmFyY2Vsb25hJTIwY2l0eXxlbnwwfHwwfHx8MA%3D%3D", "https://cdn.pixabay.com/photo/2014/08/26/14/11/cathedral-427997_1280.jpg", "https://images.contentstack.io/v3/assets/blt06f605a34f1194ff/blt98aab8678ac3bce7/663907b78447cbf1b69ca84f/logan-armstrong-hVhfqhDYciU-unsplash-edited-MOBILE-HEADER.jpg?format=webp&quality=60&width=1440"],
+        "imageSearch": "Barcelona Spain City",
+        "description": "The cosmopolitan capital of Catalonia, famous for Gaudi's architectural masterpieces, vibrant street life, and beautiful Mediterranean beaches in a city of creative energy.",
+        "wiki": "Barcelona",
+        "mapEmbed": "https://maps.google.com/maps?q=Barcelona+Spain&output=embed",
+        "places": [
+          {
+            "name": "Sagrada Família",
+            "images": ["https://i.guim.co.uk/img/media/f247c7c895f07c849450ab8f7544af89acf2f472/340_0_4064_3251/master/4064.jpg?width=1200&height=1200&quality=85&auto=format&fit=crop&s=b01ef05926649a02ac67f06680111595", "https://media.architecturaldigest.com/photos/66df5877d600aa994603fbd5/3:2/w_3000,h_2000,c_limit/GettyImages-1467072114.jpg", "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRUAW_R57fra-z5DhS9WwQptpLQ816WOIqVZA&s"],
+            "imageSearch": "Sagrada Familia",
+            "description": "Antoni Gaudi's magnificent basilica, under construction since 1882 and featuring extraordinary organic architecture that blends Gothic and Art Nouveau forms.",
+            "wiki": "Sagrada Família",
+            "mapEmbed": "https://maps.google.com/maps?q=Sagrada+Família+Barcelona&output=embed"
+          },
+          {
+            "name": "Park Güell",
+            "images": ["https://www.barcelo.com/guia-turismo/wp-content/uploads/park-guell-1.jpg", "https://upload.wikimedia.org/wikipedia/commons/thumb/3/33/Parc_guell_-_panoramio.jpg/330px-Parc_guell_-_panoramio.jpg", "https://thirdeyetraveller.com/wp-content/uploads/Park-Guell-Barcelona.jpg"],
+            "imageSearch": "Park Guell",
+            "description": "A magical public park designed by Gaudi, featuring colorful mosaics, unusual structures, and panoramic views of Barcelona from its famous serpentine bench.",
+            "wiki": "Park Güell",
+            "mapEmbed": "https://maps.google.com/maps?q=Park+Guell+Barcelona&output=embed"
+          }
+        ]
+      },
+      "Madrid": {
+        "images": ["https://images.unsplash.com/photo-1539037116277-4db20889f2d4?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D", "https://plus.unsplash.com/premium_photo-1697730018241-065a9f7568c9?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D", "https://images.unsplash.com/photo-1543783207-ec64e4d95325?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"],
+        "imageSearch": "Madrid Spain City",
+        "description": "Spain's vibrant capital in the heart of the country, known for elegant boulevards, world-class art museums, and lively plazas that buzz with energy day and night.",
+        "wiki": "Madrid",
+        "mapEmbed": "https://maps.google.com/maps?q=Madrid+Spain&output=embed",
+        "places": [
+          {
+            "name": "Prado Museum",
+            "images": ["https://www.livingtours.com/public/blog/posts/20190515174117-u80qZ0Z2.jpg", "https://www.spain.info/export/sites/segtur/.content/images/cabeceras-grandes/madrid/Museo-Prado-2-c-Jose-Barea-Turismo-Madrid.jpg", "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSr5pWUNRhjm0IILJcntnHTwnUlsF3pI46log&s"],
+            "imageSearch": "Prado Museum",
+            "description": "One of the world's greatest art museums, housing masterpieces by Spanish masters including Velázquez, Goya, and El Greco in a magnificent neoclassical building.",
+            "wiki": "Museo del Prado",
+            "mapEmbed": "https://maps.google.com/maps?q=Prado+Museum+Madrid&output=embed"
+          },
+          {
+            "name": "Royal Palace of Madrid",
+            "images": ["https://upload.wikimedia.org/wikipedia/commons/9/9b/Palacio_Real_de_Madrid_Julio_2016_%28cropped%29.jpg", "https://res.cloudinary.com/ddjuftfy2/image/upload/f_webp,c_fill,q_auto/memphis/large/1320766863_WikiText-Royal%20Palace%20Madrid%201.jpg", "https://builder.livingtours.com/public/images/produtos/Kwr41XxgWyRoyal-Palace-Madrid.jpg"],
+            "imageSearch": "Royal Palace of Madrid",
+            "description": "The official residence of the Spanish royal family and the largest functioning royal palace in Europe, featuring opulent rooms and priceless art collections.",
+            "wiki": "Royal Palace of Madrid",
+            "mapEmbed": "https://maps.google.com/maps?q=Royal+Palace+of+Madrid&output=embed"
+          }
+        ]
+      }
     }
   },
   "Germany": {

@@ -30,7 +30,9 @@ export function searchJSON(keyword, mainData) {
         if (mainData[countryName].cities) {
             for (const cityName in mainData[countryName].cities) {
                 if (cityName.toLowerCase() === lowerCaseKeyword) {
-                    const placesList = mainData[countryName].cities[cityName];
+                    // Get the city object and extract places array
+                    const cityObj = mainData[countryName].cities[cityName];
+                    const placesList = cityObj.places || [];
                     
                     // HANDLE MIXED DATA (Strings vs Objects)
                     const normalizedPlaces = placesList.map(place => {
@@ -39,7 +41,6 @@ export function searchJSON(keyword, mainData) {
                                 name: place.name,
                                 city: cityName,
                                 country: countryName,
-                                // Pass custom data along if needed
                                 customDesc: place.description,
                                 customImage: place.imageSearch
                             };
@@ -57,7 +58,9 @@ export function searchJSON(keyword, mainData) {
     for (const countryName in mainData) {
         if (mainData[countryName].cities) {
             for (const cityName in mainData[countryName].cities) {
-                const places = mainData[countryName].cities[cityName];
+                // Get the city object and extract places array
+                const cityObj = mainData[countryName].cities[cityName];
+                const places = cityObj.places || [];
                 
                 for (const place of places) {
                     // Normalize the name whether it's an object or string
