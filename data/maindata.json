@@ -1652,220 +1652,567 @@
       }
     }
   },
-  "Romania": {
+ "Romania": {
     "cities": {
       "Sibiu": {
-        "images": ["", "", ""],
-        "imageSearch": "Sibiu Romania",
-        "description": "A city in Transylvania, central Romania, known for its Germanic architecture in the Old Town, the legacy of 12th-century Saxon settlers. It was the European Capital of Culture in 2007.",
-        "wiki": "https://en.wikipedia.org/wiki/Sibiu",
-        "mapEmbed": "https://maps.google.com/maps?q=Sibiu&t=&z=13&ie=UTF8&iwloc=&output=embed",
-        "places": [
-          {
-            "name": "Grand Square",
-            "images": ["", "", ""],
-            "imageSearch": "Sibiu Main Square Romania",
-            "description": "The historic center of Sibiu.",
-            "wiki": "https://en.wikipedia.org/wiki/Grand_Square,_Sibiu",
-            "mapEmbed": "https://maps.google.com/maps?q=Sibiu+Grand+Square&t=&z=15&ie=UTF8&iwloc=&output=embed"
-          },
-          {
-            "name": "ASTRA Museum",
-            "images": ["", "", ""],
-            "imageSearch": "ASTRA National Museum Complex",
-            "description": "One of the largest open-air museums in Europe.",
-            "wiki": "https://en.wikipedia.org/wiki/ASTRA_National_Museum_Complex",
-            "mapEmbed": "https://maps.google.com/maps?q=ASTRA+Museum+Sibiu&t=&z=13&ie=UTF8&iwloc=&output=embed"
-          }
-        ]
-      },
+        "images": ["https://cdn.romania-insider.com/sites/default/files/styles/article_large_image/public/2021-02/sibiu_by_silvian_tomescu_dreamstime.com_.jpg", "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS3LKjDN254jlGEdeThryOsAu_te6e69mmC3w&s","https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSJo26lZ2wYYJWkpoFp-N7SItfyFzBuM7AlKA&s"],
+        "imageSearch": "Sibiu Romania City",
+        "description": "A charming medieval city in Transylvania, known for its well-preserved old town, vibrant cultural scene, and stunning architecture.",
+        "wiki": "Sibiu",
+        "mapEmbed": "https://maps.google.com/maps?q=Sibiu+Romania&output=embed",
+        "places": [ 
+        {
+          "name": "Grand Square",
+        "image": ["https://cf.bstatic.com/xdata/images/hotel/max1024x768/275384723.jpg?k=25cea676de13d30fcaee097831ba9f1ca3b7a44a6d23d8c13b5b57d34a62fb40&o=","https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRaL6n7UqaV5qC1I52de1EkfPEykYJYKK-N1w&s", "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTv_JqUuA8H1_yGqQ-IetK4pR-9Et-hCiyhqA&s"],
+        "imageSearch": "Sibiu Grand Square Romania",
+         "description": "Big Square is Sibiu's historical centre, where there are important historical monuments, many of which are part of the UNESCO patrimony.",
+         "wiki": "Piața Mare",  
+         "mapEmbed": "https://maps.google.com/maps?q=Grand+Square+Sibiu&output=embed"
+         },
+        { "name": "ASTRA Museum",
+        "image": ["https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ-rBpPtH8wBMGN5cTNhXlHHs9NxxU6lpZl-Q&s","https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSHMZsq58a1BVeTimZbsB7PxcjtLX9exbD--A&s", "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQqMR862m27-Jo7QGmTGLMZSoRXP1-OxwLBqg&s"],
+         "imageSearch": "ASTRA National Museum Complex", 
+         "description": "One of the largest open-air museums in Europe.",
+         "wiki": "ASTRA Museum", 
+         "mapEmbed": "https://maps.google.com/maps?q=ASTRA+Museum+Sibiu&output=embed" 
+        }
+      ]
+    },
       "Bucharest": {
-        "images": ["", "", ""],
-        "imageSearch": "Bucharest Romania",
-        "description": "The capital and largest city of Romania, as well as its cultural, industrial, and financial center. It is located in the southeast of the country and is known for its wide, tree-lined boulevards and Belle Époque buildings.",
-        "wiki": "https://en.wikipedia.org/wiki/Bucharest",
-        "mapEmbed": "https://maps.google.com/maps?q=Bucharest&t=&z=12&ie=UTF8&iwloc=&output=embed",
-        "places": [
-          {
-            "name": "Palace of the Parliament",
-            "images": ["", "", ""],
-            "imageSearch": "Palace of the Parliament Bucharest",
-            "description": "The heaviest building in the world.",
-            "wiki": "https://en.wikipedia.org/wiki/Palace_of_the_Parliament",
-            "mapEmbed": "https://maps.google.com/maps?q=Palace+of+the+Parliament+Bucharest&t=&z=13&ie=UTF8&iwloc=&output=embed"
-          },
-          {
-            "name": "Romanian Athenaeum",
-            "images": ["", "", ""],
-            "imageSearch": "Romanian Athenaeum concert hall",
-            "description": "A concert hall in the center of Bucharest and a landmark of the city.",
-            "wiki": "https://en.wikipedia.org/wiki/Romanian_Athenaeum",
-            "mapEmbed": "https://maps.google.com/maps?q=Romanian+Athenaeum&t=&z=15&ie=UTF8&iwloc=&output=embed"
-          }
-        ]
+        "images": ["https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/Bucharest_University_Square_%28cropped%29.jpg/330px-Bucharest_University_Square_%28cropped%29.jpg", "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQAJWAd5BW-crphUG5J4p_O1Xxb2KsX2vyxew&s", "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTfz8VAAvs9_LTz-typE20gF4UKkzqkdKss_A&s"],
+        "imageSearch": "Bucharest Romania City",
+        "description": "The capital city of Romania, known for its wide boulevards, historic architecture, and vibrant cultural scene.",
+        "wiki": "Bucharest",
+        "mapEmbed": "https://maps.google.com/maps?q=Bucharest+Romania&output=embed",
+
+      "places": [
+        {
+        "name": "Palace of the Parliament",
+        "image": ["https://tourscanner.com/blog/wp-content/uploads/ghost-move/ghost/Palace-of--Parliament-tickets.jpg", "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQlRiztZqktKdSfIqCrYxHg0Qdn50UzGpF7lw&s", "https://www.parliament.uk/globalassets/global/assets2/parliament2/interior/royal-gallery/pc-royal-gallery-standard.jpg"],
+        "imageSearch": "Palace of the Parliament Bucharest",
+        "description": "The heaviest building in the world.",
+        "wiki": "Palace of the Parliament",
+        "mapEmbed": "https://maps.google.com/maps?q=Palace+of+the+Parliament+Bucharest&output=embed"
+        },
+      
+        { 
+        "name": "Romanian Athenaeum",
+        "image": ["https://ehl-bureau.eu/wp-content/uploads/24015_GOPA_PACE_Bucharest_02-scaled-e1725618156515.jpg", "https://www.romaniatraveltips.com/assets/romanian-athenaeum-real-6UBFzf7_.jpg", "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRkYtJMTZF_A9-JfLHNdbbmCaeormsoCj0rdg&s"], 
+        "imageSearch": "Romanian Athenaeum concert hall",
+        "description": "A concert hall in the center of Bucharest and a landmark of the city.",
+        "wiki": "Romanian Athenaeum",
+        "mapEmbed": "https://maps.google.com/maps?q=Romanian+Athenaeum+Bucharest&output=embed" 
       }
+    ]
+    }
     }
   },
   "Greece": {
     "cities": {
       "Athens": {
-        "images": ["", "", ""],
-        "imageSearch": "Athens Greece",
-        "description": "The capital of Greece and the heart of Ancient Greece, a powerful civilization and empire. The city is still dominated by 5th-century BC landmarks, including the Acropolis, a hilltop citadel topped with ancient buildings like the Parthenon.",
-        "wiki": "https://en.wikipedia.org/wiki/Athens",
-        "mapEmbed": "https://maps.google.com/maps?q=Athens&t=&z=12&ie=UTF8&iwloc=&output=embed",
+        "images": ["https://cdn.sanity.io/images/nxpteyfv/goguides/41d1a181f253481c73558fedfada0a8dd8d093fa-1600x1066.jpg", "https://ichef.bbci.co.uk/images/ic/480xn/p07qsmyr.jpg.webp", "https://thegapdecaders.com/wp-content/uploads/2022/06/AthensFI-1-1024x512.jpg"],
+        "imageSearch": "Athens Greece City",
+        "description": "The historic capital of Greece, known for its ancient landmarks, vibrant culture, and stunning views of the Aegean Sea.",
+        "wiki": "Athens",
+        "mapEmbed": "https://maps.google.com/maps?q=Athens+Greece&output=embed",
         "places": [
-          {
-            "name": "Acropolis of Athens",
-            "images": ["", "", ""],
-            "imageSearch": "Acropolis Parthenon Athens",
-            "description": "An ancient citadel on a rocky outcrop.",
-            "wiki": "https://en.wikipedia.org/wiki/Acropolis_of_Athens",
-            "mapEmbed": "https://maps.google.com/maps?q=Acropolis+of+Athens&t=&z=15&ie=UTF8&iwloc=&output=embed"
-          },
-          {
-            "name": "Syntagma Square",
-            "images": ["", "", ""],
-            "imageSearch": "Syntagma Square Athens parliament",
-            "description": "The central square of Athens, located in front of the Old Royal Palace.",
-            "wiki": "https://en.wikipedia.org/wiki/Syntagma_Square",
-            "mapEmbed": "https://maps.google.com/maps?q=Syntagma+Square+Athens&t=&z=15&ie=UTF8&iwloc=&output=embed"
-          }
-        ]
-      },
+        { 
+         "name": "Acropolis of Athens",
+         "images": ["https://a.travel-assets.com/findyours-php/viewfinder/images/res70/42000/42028-Acropolis-Akropolis.jpg", "https://ichef.bbci.co.uk/images/ic/480xn/p07qsmyr.jpg.webp", "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSa5OXbic_s5FE5Ts6QwGrupvIEYmKoQq8dNA&s"],
+         "imageSearch": "Acropolis Parthenon Athens", "description": "An ancient citadel on a rocky outcrop.", 
+         "wiki": "Acropolis of Athens",
+         "mapEmbed": "https://maps.google.com/maps?q=Acropolis+of+Athens&output=embed" 
+         },
+        { "name": "Syntagma Square",
+         "images": ["https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQwbA_aJkVv_WXReORxwh1NzeDw31IkYHpMSA&s", "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRbot-4nHzJgzPGhg-O-A84HXegRxEtZ0xMYw&s", "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSIhBFu09XnH3ywvb_bQRfOMNXZ_Gf90WrUOg&s"],
+         "imageSearch": "Syntagma Square Athens parliament",
+          "description": "The central square of Athens, located in front of the Old Royal Palace.",
+          "wiki": "Syntagma Square",
+           "mapEmbed": "https://maps.google.com/maps?q=Syntagma+Square+Athens&output=embed" }
+      ]
+    },
       "Santorini": {
-        "images": ["", "", ""],
-        "imageSearch": "Santorini Greece",
-        "description": "One of the Cyclades islands in the Aegean Sea. It was devastated by a volcanic eruption in the 16th century BC, forever shaping its rugged landscape. The whitewashed, cubiform houses of its two principal towns, Fira and Oia, cling to cliffs above an underwater caldera.",
-        "wiki": "https://en.wikipedia.org/wiki/Santorini",
-        "mapEmbed": "https://maps.google.com/maps?q=Santorini&t=&z=12&ie=UTF8&iwloc=&output=embed",
-        "places": [
-          {
-            "name": "Oia",
-            "images": ["", "", ""],
-            "imageSearch": "Oia Santorini sunset",
-            "description": "A coastal town famous for its whitewashed houses.",
-            "wiki": "https://en.wikipedia.org/wiki/Oia,_Greece",
-            "mapEmbed": "https://maps.google.com/maps?q=Oia+Santorini&t=&z=14&ie=UTF8&iwloc=&output=embed"
-          },
-          {
-            "name": "Fira",
-            "images": ["", "", ""],
-            "imageSearch": "Fira Santorini view",
-            "description": "The capital of Santorini, perched on the edge of the high caldera.",
-            "wiki": "https://en.wikipedia.org/wiki/Fira",
-            "mapEmbed": "https://maps.google.com/maps?q=Fira+Santorini&t=&z=14&ie=UTF8&iwloc=&output=embed"
-          }
-        ]
-      }
-    }
+        "images": ["https://sothebysrealty.gr/wp-content/uploads/2016/11/Santorini-sunset-at-dawn-Greece-Sothebys-International-Realty.jpg", "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTsEzZ-IQ13ws8vsZoi16mIdpj67N1j1CEtIQ&s", "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQvtoYb34_H0l6Przl77okeMouM-5l2s9ssyw&s"],
+        "imageSearch": "Santorini Greece Island",
+        "description": "A stunning island in the Aegean Sea, famous for its whitewashed buildings, blue-domed churches, and breathtaking sunsets.",
+        "wiki": "Santorini",
+        "mapEmbed": "https://maps.google.com/maps?q=Santorini+Greece&output=embed",
+      "places": [
+        { "name": "Oia",
+         "images": ["https://assets.dm.rccl.com/is/image/RoyalCaribbeanCruises/royal/data/ports/santorini-greece/overview/santorini-greece-oia-white-blue.jpg?$750x320$", "https://cdn.sanity.io/images/nxpteyfv/goguides/9ca4581e7f31535984243dfa9c08c12c8a30ffeb-1600x1066.jpg", "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRqPAYcAoWMlLlkLwf3bNyZVmnDg4OiHTZFKQ&s"],
+         "imageSearch": "Oia Santorini sunset", 
+         "description": "A coastal town famous for its whitewashed houses.",
+         "wiki": "Oia, Santorini", 
+         "mapEmbed": "https://maps.google.com/maps?q=Oia+Santorini&output=embed" 
+         },
+        { "name": "Fira",
+         "images": ["https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRYuL9ojeV7XPi1wtyBwSyrYBCfn5w45yuIdg&s", "https://images.squarespace-cdn.com/content/v1/57b9b98a29687f1ef5c622df/1486129716916-VGVFH2KY3KG2EISINQ0T/fira+santorini.jpg", "https://navaway.fr/wp-content/uploads/2025/11/FIRA-pic.jpg"],
+         "imageSearch": "Fira Santorini view", 
+         "description": "The capital of Santorini, perched on the edge of the high caldera.",
+         "wiki": "Fira, Santorini",
+         "mapEmbed": "https://maps.google.com/maps?q=Fira+Santorini&output=embed"
+        } 
+  ]
+}
+}
   },
   "Argentina": {
     "cities": {
-      "Buenos Aires": [
-        { "name": "Obelisco", "imageSearch": "Obelisco Buenos Aires", "description": "A national historic monument.", "mapEmbed": "https://maps.google.com/maps?q=Obelisco+Buenos+Aires&output=embed" },
+      "Buenos Aires": {
+        "images": ["https://a.travel-assets.com/findyours-php/viewfinder/images/res70/64000/64898-Argentina.jpg", "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/04/84/8a/db/teatro-colon.jpg?w=1200&h=700&s=1", "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQL7Yrwo-tT8xNbDh3U3Szh-Sri3KDD0V-biw&s"],
+        "imageSearch": "Buenos Aires, Argentina",
+        "description": "The capital of Argentina, known for its vibrant culture, delicious food, and stunning architecture.",
+        "wiki": "Buenos Aires, Argentina",
+        "mapEmbed": "https://maps.google.com/maps?q=Buenos+Aires+Argentina&output=embed",
+      
+      "places": [
+        { "name": "Obelisco", 
+          "image": ["https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSmL76Y1Y_f9J-rcIdduZ50MvhdwnmhRe_suQ&s", "https://cdn.britannica.com/40/195440-050-B3859318/Congressional-Plaza-building-National-Congress-Buenos-Aires.jpg", "https://cdn.contexttravel.com/image/upload/c_fill,q_60,w_2600/v1555940066/production/city/hero_image_29_1555940066.jpg"],
+          "imageSearch": "Obelisco Buenos Aires", 
+          "description": "A national historic monument.", 
+          "wiki": "Obelisco de Buenos Aires",
+          "mapEmbed": "https://maps.google.com/maps?q=Obelisco+Buenos+Aires&output=embed"
+           },
         { "name": "Recoleta Cemetery", "imageSearch": "Recoleta Cemetery Buenos Aires", "description": "A cemetery containing the graves of notable people, including Eva Perón.", "mapEmbed": "https://maps.google.com/maps?q=Grand+Egyptian+Museum&t=&z=13&ie=UTF8&iwloc=&output=embed9" }
-      ],
-      "Patagonia": [
-        { "name": "Perito Moreno Glacier", "imageSearch": "Perito Moreno Glacier", "description": "A massive glacier in Los Glaciares National Park.", "mapEmbed": "https://maps.google.com/maps?q=Perito+Moreno+Glacier&output=embed" },
-        { "name": "Mount Fitz Roy", "imageSearch": "Mount Fitz Roy trek", "description": "A mountain located near El Chaltén, famous for hiking.", "mapEmbed": "https://maps.google.com/maps?q=Karnak+Temple+Luxor&t=&z=13&ie=UTF8&iwloc=&output=embed0" }
+      ]
+    },
+      "Patagonia": {
+        "images": ["https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTcurooGyguKhjKO9zsTVXmCFNKp9wlQB8WcQ&s", "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR179BqD6_fATtUh9yZSX1KEnUQbbr5SCji3A&s", "https://static.vecteezy.com/system/resources/thumbnails/065/688/829/large/famous-patagonia-town-in-ushuaia-fin-del-mundo-in-argentina-stunning-scene-video.jpg"],
+        "imageSearch": "Patagonia Argentina region",
+        "description": "A region at the southern end of South America, shared by Argentina and Chile, known for its dramatic landscapes.",
+        "wiki": "Patagonia",
+        "mapEmbed": "https://maps.google.com/maps?q=Patagonia+Argentina&output=embed",
+      "places": [
+        {
+          "name": "Perito Moreno Glacier",
+          "images": ["https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSu3qtOtnSwOHDQXpDfO62p6YawdZkxPj6X2g&s", "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTs4x4MZvOBrH5xuiPm2HNoelTyneanWDJ6rw&s", "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQOkz23JifkBt8Rn3nqnbmhZ89IlX9cvacguw&s"],
+         "imageSearch": "Perito Moreno Glacier", 
+         "description": "A massive glacier in Los Glaciares National Park.",
+         "wiki": "Perito Moreno Glacier",
+         "mapEmbed": "https://maps.google.com/maps?q=Perito+Moreno+Glacier&output=embed" 
+        },
+        { "name": "Mount Fitz Roy",
+          "images": ["https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSPa-GDuYH0D_mgB6RuomP0KYa3JAKF-d4VTw&s", "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTZFqoKZMOPcUxPeDK-O_Iv7ZC8G7gw7y0uig&s", "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTVv9mF2giK9cjQS-X1AWlF3187eVV_Ny7f0Q&s"],
+         "imageSearch": "Mount Fitz Roy trek",
+          "description": "A mountain located near El Chaltén, famous for hiking.",
+          "wiki": "Mount Fitz Roy",
+           "mapEmbed": "https://maps.google.com/maps?q=Mount+Fitz+Roy&output=embed" 
+           }
       ]
     }
+  }
   },
+
+
   "Switzerland": {
     "cities": {
-      "Zurich": [
-        { "name": "Lake Zurich", "imageSearch": "Lake Zurich Switzerland", "description": "A lake offering swimming, boating and picnicking.", "mapEmbed": "https://maps.google.com/maps?q=Lake+Zurich&output=embed" },
-        { "name": "Grossmünster", "imageSearch": "Grossmunster Zurich", "description": "A Romanesque-style Protestant church in Zurich.", "mapEmbed": "https://maps.google.com/maps?q=Karnak+Temple+Luxor&t=&z=13&ie=UTF8&iwloc=&output=embed1" }
-      ],
-      "Zermatt": [
-        { "name": "Matterhorn", "imageSearch": "Matterhorn mountain", "description": "A mountain of the Alps, known for its distinct pyramid shape.", "mapEmbed": "https://maps.google.com/maps?q=Matterhorn&output=embed" },
-        { "name": "Gornergrat", "imageSearch": "Gornergrat railway view", "description": "A rocky ridge of the Pennine Alps, offering views of the Matterhorn.", "mapEmbed": "https://maps.google.com/maps?q=Karnak+Temple+Luxor&t=&z=13&ie=UTF8&iwloc=&output=embed2" }
+      "Zurich": {
+        "images": ["https://upload.wikimedia.org/wikipedia/commons/thumb/a/af/Altstadt_Z%C3%BCrich_2015.jpg/330px-Altstadt_Z%C3%BCrich_2015.jpg", "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTyvLbH5u3ejKoLVH1tBJRqZZvS6w7SN4tQqQ&s", "https://www.swissasap.com/wp-content/uploads/2025/03/web_zuerich_view_over_old_town_1920x1080_ZT_7967.jpg"],
+        "imageSearch": "Zurich Switzerland",
+        "description": "A city with a rich history and beautiful architecture.",
+        "wiki": "Zurich",
+        "mapEmbed": "https://maps.google.com/maps?q=Zurich+Switzerland&output=embed",
+      "places": [
+        { 
+          "name": "Lake Zurich",
+         "images": ["https://upload.wikimedia.org/wikipedia/commons/thumb/8/8f/Lake_Z%C3%BCrich_from_Grossm%C3%BCnster.jpg/960px-Lake_Z%C3%BCrich_from_Grossm%C3%BCnster.jpg", "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQnZOMGtSzZJj6AH3sgF2oTdsIrro_qK5SbJg&s", "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSXP5tkunMTAp1MALRvQMUR9uigh4P4K2omJw&s"],
+         "imageSearch": "Lake Zurich Switzerland", 
+         "description": "A lake offering swimming, boating and picnicking.",
+         "wiki": "Lake Zurich",
+         "mapEmbed": "https://maps.google.com/maps?q=Lake+Zurich+Switzerland&output=embed"
+          },
+        { 
+          "name": "Grossmünster",
+          "images": ["https://www.zuerich.com/sites/default/files/styles/1920_1152_focal_scale_crop/public/imagegallery/web_zurich_sightseeing_karlsturm_grossmunster_03.jpg?h=2020-08-14T16:41:13+02:00", "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRHYWkhsD47USBin7JnHsQx7jgzdgKUcrbWhg&s", "https://www.zuerich.com/sites/default/files/styles/1920_1152_focal_scale_crop/public/keyvisual/web_zurich_sightseeing_karlsturm_grossmunster_02.jpg?h=2024-06-12T14:01:13+02:"],
+         "imageSearch": "Grossmunster Zurich", 
+         "description": "A Romanesque-style Protestant church in Zurich.",
+         "wiki": "Grossmünster",  
+         "mapEmbed": "https://maps.google.com/maps?q=Grossmünster+Zurich&output=embed" 
+         }
+      ]
+      },
+      "Zermatt": { 
+        "images": ["https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSzpJ0aElH4CEe40XjJnZ9oxyjz8aCJ9HIl2w&s", "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRsLbza10XA4HUY67ALkRNGJB-X2cwrAubacQ&s", "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRDQKsTEheFwgfZ5ihUjTxYJpPhUjN6xfBSTg&s"],
+        "imageSearch": "Zermatt Switzerland",
+        "description": "A mountain resort renowned for skiing, climbing and hiking.",
+        "wiki": "Zermatt",
+        "mapEmbed": "https://maps.google.com/maps?q=Zermatt+Switzerland&output=embed",
+      "places": [
+        { 
+          "name": "Matterhorn",
+         "images": ["https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSrdT-HS2FTZEKZt26uqtv3qBZzPGFk8YjV2g&s", "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRYzt1xy0g0O4GRejquPUoLq-h-2osq2YeUcg&s", "https://www.swissasap.com/wp-content/uploads/2023/11/matterhorn-viewpoint_ray.jpg"],
+         "imageSearch": "Matterhorn mountain",
+          "description": "A mountain of the Alps, known for its distinct pyramid shape.",
+          "wiki": "Matterhorn",
+          "mapEmbed": "https://maps.google.com/maps?q=Matterhorn&output=embed" 
+          },
+        { 
+          "name": "Gornergrat",
+          "images": ["https://cdn-imgix.headout.com/media/images/dcc7f566d829ebe24b1b2943cb02fe9d-Gornergrat%20Observatory.jpg?auto=format&w=1222.3999999999999&h=687.6&q=90&ar=16%3A9&crop=faces&fit=crop", "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRfZQvNPz1CFAQ9F6tU53mKtHfp4QSP2TOT2A&s", "https://hips.hearstapps.com/hmg-prod/images/gettyimages-1186514526-66b349589bd16.jpg?crop=0.668xw:1.00xh;0.145xw,0&resize=640:*"],
+         "imageSearch": "Gornergrat railway view",
+          "description": "A rocky ridge of the Pennine Alps, offering views of the Matterhorn.",
+          "wiki": "Gornergrat",
+          "mapEmbed": "https://maps.google.com/maps?q=Gornergrat+3920+Zermatt+Switzerland&output=embed"
+           }
       ]
     }
+  }
   },
   "Peru": {
     "cities": {
-      "Cusco": [
-        { "name": "Machu Picchu", "imageSearch": "Machu Picchu Peru", "description": "A 15th-century Inca citadel set high in the Andes Mountains.", "mapEmbed": "https://maps.google.com/maps?q=Machu+Picchu&t=&z=13&ie=UTF8&iwloc=&output=embed" },
-        { "name": "Qorikancha", "imageSearch": "Qorikancha temple Cusco", "description": "The most important temple in the Inca Empire.", "mapEmbed": "https://maps.google.com/maps?q=Karnak+Temple+Luxor&t=&z=13&ie=UTF8&iwloc=&output=embed3" }
-      ],
-      "Lima": [
-        { "name": "Miraflores", "imageSearch": "Miraflores Lima coast", "description": "An upscale district known for its shopping and beaches.", "mapEmbed": "https://maps.google.com/maps?q=Miraflores+Lima&t=&z=13&ie=UTF8&iwloc=&output=embed" },
-        { "name": "Larco Museum", "imageSearch": "Larco Museum Lima", "description": "A privately owned museum of pre-Columbian art.", "mapEmbed": "https://maps.google.com/maps?q=Karnak+Temple+Luxor&t=&z=13&ie=UTF8&iwloc=&output=embed4" }
+      "Cusco": {
+        "images": ["https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRSHY93s_rkgZgNfs5Ul--6sxzg5dOqtEuhTw&s", "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSvXwrhk6TCZkU3cxdaq7nQN2gwppzWEbPa_Q&s", "https://freewalkingtoursperu.com/wp-content/uploads/2024/05/7-particularidades-de-la-plaza-de-armas-del-cusco_8.webp"],
+        "imageSearch": "Cusco Peru City",
+        "description": "A city in the Peruvian Andes, known for its archaeological remains and Spanish colonial architecture.",
+        "wiki": "Cusco",
+        "mapEmbed": "https://maps.google.com/maps?q=Cusco+Peru&output=embed",
+
+        "places": [
+        { 
+          "name": "Machu Picchu",
+          "images": ["https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSjy96gKX2du-dbtePn69_M0S8h8jovpg4mWg&s", "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS2iusSQqxL3XbF8ZgIYzVDrnLaJIP_Qo9Deg&s", "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSA61uBloGWk2Rr0B1ZwJohL6COKh_9lgcetQ&s"],
+         "imageSearch": "Machu Picchu Peru", 
+         "description": "A 15th-century Inca citadel set high in the Andes Mountains.",
+         "wiki": "Machu Picchu", 
+         "mapEmbed": "https://maps.google.com/maps?q=Machu+Picchu&t=&z=13&ie=UTF8&iwloc=&output=embed" 
+         },
+        { 
+          "name": "Qorikancha",
+          "images": ["https://media.istockphoto.com/id/1391471868/photo/qorikancha-sun-temple-night-cusco-peru.jpg?s=612x612&w=0&k=20&c=v_nZ06rQ69SFxpP68k2cZCrINANJdcTOVzeWXDw-HBw=", "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQqB75yk1W_XR-qGcLJjiGS9MQ4bS3ueVJ6MQ&s", "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ44VIcam4mVOSQZEFezuo0p9WUVEsTJ3gyDQ&s"], 
+          "imageSearch": "Qorikancha temple Cusco", 
+          "description": "The most important temple in the Inca Empire.", 
+          "mapEmbed": "https://maps.google.com/maps?q=Karnak+Temple+Luxor&t=&z=13&ie=UTF8&iwloc=&output=embed3" }
+      ]
+    },
+      "Lima": {
+        "images": ["https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTHfWv14ELnSzppzXs3J2AOLGAM70lNJFjuMw&s", "https://img.static-kl.com/images/media/D14D39F4-C42C-4904-B8955A8E42366E08", "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSU-6DtN8anmh_C0q70G_IIze1hEOuq3_BD4Q&s"],
+        "imageSearch": "Lima Peru City",
+        "description": "The capital of Peru, known for its rich history, vibrant culture, and culinary scene.",
+        "wiki": "Lima",
+        "mapEmbed": "https://maps.google.com/maps?q=Lima+Peru&output=embed",
+
+        "places": [
+        { 
+          "name": "Miraflores", 
+          "images": ["https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ6Kn2axQCnGrbXLepAirqF4Wrgj8gA6na5ew&s", "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTd8svIZcf8sRp2MGs5YvJfCw07onrHjS5pJQ&s", "https://content.r9cdn.net/rimg/dimg/9b/c5/d5c7611f-city-2270-16441b01e36.jpg?width=1200&height=630&xhint=1623&yhint=912&crop=true"],
+        "imageSearch": "Miraflores Lima coast", 
+        "description": "An upscale district known for its shopping and beaches.",
+        "wiki": "Miraflores District", 
+        "mapEmbed": "https://maps.google.com/maps?q=Miraflores+Lima&t=&z=13&ie=UTF8&iwloc=&output=embed" 
+        },
+
+        { 
+          "name": "Larco Museum",
+          "images": ["https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR4WJzgdU2ukSzITjZHYDw8crvz5tWZJI1n_g&s", "https://images.myguide-cdn.com/md/common/large/5db06252b4a4e-627922.jpg", "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQj9kG4Ak3xoubL1_TavntXOIEN1vf7ph6adQ&s"], 
+          "imageSearch": "Larco Museum Lima", 
+          "description": "A privately owned museum of pre-Columbian art.", 
+          "wiki": "Larco Museum",
+          "mapEmbed": "https://maps.google.com/maps?q=Larco+Museum+Lima&t=&z=13&ie=UTF8&iwloc=&output=embed" }
       ]
     }
+  }
   },
   "Morocco": {
     "cities": {
-      "Marrakech": [
-        { "name": "Jemaa el-Fnaa", "imageSearch": "Jemaa el-Fnaa market night", "description": "A famous square and market place.", "mapEmbed": "https://maps.google.com/maps?q=Jemaa+el-Fnaa&output=embed" },
-        { "name": "Koutoubia Mosque", "imageSearch": "Koutoubia Mosque Marrakech", "description": "The largest mosque in Marrakesh.", "mapEmbed": "https://maps.google.com/maps?q=Karnak+Temple+Luxor&t=&z=13&ie=UTF8&iwloc=&output=embed5" }
-      ],
-      "Chefchaouen": [
-        { "name": "Medina", "imageSearch": "Chefchaouen blue streets", "description": "The old town famous for its blue-rinsed buildings.", "mapEmbed": "https://maps.google.com/maps?q=Chefchaouen+Medina&output=embed" },
-        { "name": "Spanish Mosque", "imageSearch": "Spanish Mosque Chefchaouen", "description": "A mosque on a hill overlooking the blue city.", "mapEmbed": "https://maps.google.com/maps?q=Karnak+Temple+Luxor&t=&z=13&ie=UTF8&iwloc=&output=embed6" }
+      "Marrakech": {
+        "images": ["https://images.contentstack.io/v3/assets/blt06f605a34f1194ff/blte88b3b482f21be3c/6792a96e7d9db29775c0a327/iStock-1440978662-HEADERMOBILE.jpg?format=webp&quality=60&width=1440", "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSYbmBPazfQLbt-va0l7LdwH9ABQN3Oji8zxw&s", "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS-Vogq7XoWGOHYevprH5l966-K8dSSPbisfw&s"],
+        "imageSearch": "Marrakech Morocco City",
+        "description": "A major city in Morocco, known for its historic medina, vibrant souks, and beautiful palaces and gardens.", 
+        "wiki": "Marrakech",
+        "mapEmbed": "https://maps.google.com/maps?q=Marrakech+Morocco&output=embed",
+
+        "places":  [
+        { 
+          "name": "Jemaa el-Fnaa", 
+          "images": ["https://www.infinite-morocco.com/wp-content/uploads/2024/02/History-of-Jemaa-el-Fnaa.jpg", "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTwwuCbsdxzeixbSh7bhezOG3VCOHVNy776yg&s", "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSvZg-C-q9Tj58YtnYPjyp9zhr3M7u4LCgWOQ&s"],
+          "imageSearch": "Jemaa el-Fnaa market night", 
+          "description": "A famous square and market place.",
+          "wiki": "Jemaa el-Fnaa", 
+          "mapEmbed": "https://maps.google.com/maps?q=Jemaa+el-Fnaa&output=embed" 
+          },
+        { 
+          "name": "Koutoubia Mosque", 
+          "images": ["https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcThnRaMwzT3vKrplmF3UwTjczE5o30FcB7Vvg&s", "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQcPIeZuLAfBW9cbsDL_SeH55OP1ntCvxPkzw&s", "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ6oNBHpHBR7luJ3xwqiERi7sNYaSyztfwVbQ&s"],
+          "imageSearch": "Koutoubia Mosque Marrakech", 
+          "description": "The largest mosque in Marrakesh.",
+          "wiki": "Koutoubia Mosque",
+          "mapEmbed": "https://maps.google.com/maps?q=Koutoubia+Mosque+Marrakech&t=&z=13&ie=UTF8&iwloc=&output=embed" }
       ]
+    },
+      "Chefchaouen": { 
+       "images": ["https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTw3Gi4FM2sahUunvKovQ_96llj3hxGic_ELQ&s", "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRwJzSiIfduiyC2Vj_sFLYAa778PAWEZ174Lg&s", "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRGKZxXGz9d3Mcy63dzaDUP1e8pkQyGnvHoJA&s"],
+       "imageSearch": "Chefchaouen Morocco City",
+        "description": "A small city in the Rif Mountains, known for its striking blue-washed buildings and vibrant culture.",
+        "wiki": "Chefchaouen",
+        "mapEmbed": "https://maps.google.com/maps?q=Chefchaouen+Morocco&output=embed",
+      "places": [
+        { 
+          "name": "Medina", 
+          "images": ["https://media.istockphoto.com/id/985889774/photo/handmade-carpets-and-rugs-in-morocco.jpg?s=612x612&w=0&k=20&c=ZGL4EX-V_pyP4_qZAolhcW4fKdbWxyeKo2AbMSxyX8U=", "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQTQIg-gatija1AcfjMSjgO7TSzl6bcfHBlRw&s", "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ83y_Xux5sfsGYgS8rc0vidlsJZA3eoE__4g&s"],
+          "imageSearch": "Chefchaouen blue streets", 
+          "description": "The old town famous for its blue-rinsed buildings.",
+          "wiki": "Chefchaouen Medina",
+          "mapEmbed": "https://maps.google.com/maps?q=Chefchaouen+Medina&output=embed" 
+          },
+        { 
+          "name": "Spanish Mosque",
+          "images": ["https://s7ap1.scene7.com/is/image/incredibleindia/spanish-mosque-hyderabad-secunderabad-telangana-3-copy-attr-hero?qlt=82&ts=1742161395262", "https://res.klook.com/images/fl_lossy.progressive,q_65/c_fill,w_1200,h_630/w_80,x_15,y_15,g_south_west,l_Klook_water_br_trans_yhcmh3/activities/xw5uu1okudduxkz1sr8x/Mosque-Cathedral%20of%20C%C3%B3rdoba%20Guided%20Tour%20with%20Admission%20Ticket%2C%20Cordoba%2C%20Andalusia%2C%20Spain.jpg", "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRNxnePdP5-V5TUexy3yyw2-8ZApEQS9be0Sw&s"],
+          "imageSearch": "Spanish Mosque Chefchaouen", 
+          "description": "A mosque on a hill overlooking the blue city.",
+          "wiki": "Spanish Mosque, Chefchaouen", 
+          "mapEmbed": "https://maps.google.com/maps?q=Karnak+Temple+Luxor&t=&z=13&ie=UTF8&iwloc=&output=embed6" 
+          }
+      ]
+      }
     }
   },
   "Portugal": {
     "cities": {
-      "Lisbon": [
-        { "name": "Belém Tower", "imageSearch": "Belem Tower Lisbon", "description": "A 16th-century fortification located in Lisbon.", "mapEmbed": "https://maps.google.com/maps?q=Belem+Tower&output=embed" },
-        { "name": "Praça do Comércio", "imageSearch": "Praca do Comercio Lisbon", "description": "A large, harbour-facing plaza in Portugal's capital.", "mapEmbed": "https://maps.google.com/maps?q=Karnak+Temple+Luxor&t=&z=13&ie=UTF8&iwloc=&output=embed7" }
-      ],
-      "Sintra": [
-        { "name": "Pena Palace", "imageSearch": "Pena Palace Sintra", "description": "A Romanticist castle that stands on the top of a hill.", "mapEmbed": "https://maps.google.com/maps?q=Pena+Palace&output=embed" },
-        { "name": "Castelo dos Mouros", "imageSearch": "Castle of the Moors Sintra", "description": "A hilltop medieval castle.", "mapEmbed": "https://maps.google.com/maps?q=Karnak+Temple+Luxor&t=&z=13&ie=UTF8&iwloc=&output=embed8" }
+      "Lisbon": { 
+        "images": ["https://res.cloudinary.com/djcyhbk2e/image/upload/c_scale,f_auto,q_35,w_1400/v1/gvv/prod/t54loog2eszk4g5szssn", "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRuWJFCJnKSOPzJH5xIdzLMQzMfm1GAK0I7aA&s", "https://www.cuddlynest.com/blog/wp-content/uploads/2023/12/lisbon_in_february.jpg"],
+        "imageSearch": "Lisbon Portugal City",
+        "description": "The coastal capital city of Portugal, known for its hilly, coastal landscape, historic sites, and vibrant culture.",
+        "wiki": "Lisbon",
+        "mapEmbed": "https://maps.google.com/maps?q=Lisbon+Portugal&output=embed",
+      "places": [
+        { 
+          "name": "Belém Tower",
+          "images": ["https://portugal-magik.com/wp-content/uploads/2019/05/Lisbon_Private_Tours_Portugal_BelemTower.jpg", "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSCsDsK79CzOAK7wK5iSQDSEBmRlBmQ2Ia6uQ&s", "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT9mqADw7yeXB3YostQpzG9MM9gdC1S_ob8_g&s"], 
+          "imageSearch": "Belem Tower Lisbon", 
+          "description": "A 16th-century fortification located in Lisbon.",
+          "wiki": "Belém Tower",
+          "mapEmbed": "https://maps.google.com/maps?q=Belem+Tower&output=embed" 
+          },
+        { 
+          "name": "Praça do Comércio",
+          "images": ["https://lp-cms-production.imgix.net/2022-12/GettyImages-533338986.jpeg?w=1920&h=640&fit=crop&crop=faces%2Cedges&auto=format&q=75", "https://cdn.visitportugal.com/sites/default/files/styles/encontre_detalhe_poi_destaque/public/mediateca/N4.OTR1435D.jpg?itok=ZTyjukOg", "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSpu4k0zHyFxG33iBVO3Kr77W-inXvfRtwTvg&s"],
+          "imageSearch": "Praca do Comercio Lisbon", 
+          "description": "A large, harbour-facing plaza in Portugal's capital.", 
+          "wiki": "Praça do Comércio",
+          "mapEmbed": "https://maps.google.com/maps?q=Karnak+Temple+Luxor&t=&z=13&ie=UTF8&iwloc=&output=embed7" }
+      ]
+    },
+      "Sintra": { 
+        "images": ["https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSSxWk_D3MHUO0c06z1hBI040soBeAAch5yJA&s", "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/12/97/62/df/regaliera-palace-sintra.jpg?w=900&h=500&s=1", "https://onegirlwholeworld.com/wp-content/uploads/2018/01/sintra_portugal_IMG_4658.jpg"],
+        "imageSearch": "Sintra Portugal City",
+        "description": "A picturesque town known for its 19th-century Romanticist architecture, historic estates, and palaces.",
+        "wiki": "Sintra",
+        "mapEmbed": "https://maps.google.com/maps?q=Sintra+Portugal&output=embed",
+
+      "places": [
+        { 
+          "name": "Pena Palace",
+          "images": ["https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTWRagVh8d5WFdKYsCHmLGt5d1e8qxn8tp5_g&s", "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS6faWTE7bf9V1CYVn4gNUfojgSw0rwYr9Dbg&s", "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS8yoTg6UsR9gb2jJbuJJRfJKmF47R4K7rPWw&s"],
+          "imageSearch": "Pena Palace Sintra", 
+          "description": "A Romanticist castle that stands on the top of a hill.",
+          "wiki": "Pena Palace",
+          "mapEmbed": "https://maps.google.com/maps?q=Pena+Palace&output=embed" 
+          },
+        { 
+          "name": "Castelo dos Mouros", 
+          "images": ["https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQJ7Yt6rtkMK-3k-e4J1l4gBpNmF96zD2P5gQ&s", "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSpx8PPor9NZjnt75FBqqf3VXSj52iHa1x1Sg&s", "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTWxhs3iqOPDB5lUULv4J7m1N-qUvjPsObc3g&s"],
+          "imageSearch": "Castle of the Moors Sintra", 
+          "description": "A hilltop medieval castle.",
+          "wiki": "Castle of the Moors", 
+          "mapEmbed": "https://maps.google.com/maps?q=Karnak+Temple+Luxor&t=&z=13&ie=UTF8&iwloc=&output=embed8" 
+          }
       ]
     }
+  }
   },
   "Czech Republic": {
     "cities": {
-      "Prague": [
-        { "name": "Charles Bridge", "imageSearch": "Charles Bridge Prague", "description": "A medieval stone arch bridge that crosses the Vltava river.", "mapEmbed": "https://maps.google.com/maps?q=Charles+Bridge&output=embed" },
-        { "name": "Old Town Hall (Prague)", "imageSearch": "Old Town Hall Prague Astronomical Clock", "description": "Famous for its medieval Astronomical Clock.", "mapEmbed": "https://maps.google.com/maps?q=Karnak+Temple+Luxor&t=&z=13&ie=UTF8&iwloc=&output=embed9" }
+      "Prague": { 
+        "images": ["https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRELYMKOq0yJqNjs6ETd2Wks6TtxjmpBnSckA&s", "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQatBIzOEsH9XeQLdvItiDPlF1afwSJCv3COg&s", "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS-LzV8PtFKkfl0UhNVs-K5Z4MgN14IiANJjQ&s"],
+        "imageSearch": "Prague Czech Republic City",
+        "description": "The capital city of the Czech Republic, known for its historic architecture, charming streets, and vibrant culture.",
+        "wiki": "Prague",
+        "mapEmbed": "https://maps.google.com/maps?q=Prague+Czech+Republic&output=embed",
+      "places": [
+        { 
+          "name": "Charles Bridge",
+          "images": ["https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSIcfJ5x-K1Ren99VL23Cvc-gyoX7KL8aCDZQ&s", "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRHaL9kxXpzb-DfUy0tBF3_eeEMHfnO5d00cg&s", "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR_Qrp-rs64pi4jW9_QZPYl5QzLgqnF71Xiog&s"],
+          "imageSearch": "Charles Bridge Prague", 
+          "description": "A medieval stone arch bridge that crosses the Vltava river.", 
+          "wiki": "Charles Bridge",
+          "mapEmbed": "https://maps.google.com/maps?q=Charles+Bridge&output=embed" 
+          },
+        { 
+          "name": "Old Town Hall (Prague)",
+          "images": ["https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTNoXHyKhPqlUazO5dvBXHYh2EZrV-KkqcBpQ&s", "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQhNNDSYbgF9Le-y1lyKHf6PXV-yiKQhyAMwQ&s", "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRIW6XCZ9W5FGpszuFjw84NcSRlBUrV9gwKJQ&s"],
+          "imageSearch": "Old Town Hall Prague Astronomical Clock", 
+          "description": "Famous for its medieval Astronomical Clock.", 
+          "wiki": "Old Town Hall (Prague)",
+          "mapEmbed": "https://maps.google.com/maps?q=Karnak+Temple+Luxor&t=&z=13&ie=UTF8&iwloc=&output=embed9" }
       ]
     }
+  }
   },
   "Hungary": {
     "cities": {
-      "Budapest": [
-        { "name": "Parliament Building", "imageSearch": "Hungarian Parliament Building", "description": "A notable landmark of Hungary.", "mapEmbed": "https://maps.google.com/maps?q=Hungarian+Parliament+Building&output=embed" },
-        { "name": "Buda Castle", "imageSearch": "Buda Castle view", "description": "The historical castle and palace complex of the Hungarian kings.", "mapEmbed": "https://maps.google.com/maps?q=Valley+of+the+Kings&t=&z=13&ie=UTF8&iwloc=&output=embed0" }
+      "Budapest": { 
+        "images": ["https://www.budapestinfo.hu/storage/media-library/10003/conversions/N%C3%A9vtelen-terv-(12)-thumb-large.jpg", "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQrc-97C74bEd6LIH0niQLv2d0E0BTLhaiWeA&s", "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSYPkXGzumw8vOt6afat2hf_eWKB4LcbOLmIg&s"],
+        "imageSearch": "Budapest Hungary", 
+        "description": "The capital city of Hungary.", 
+        "wiki": "Budapest",
+        "mapEmbed": "https://maps.google.com/maps?q=Budapest+Hungary&t=&z=13&ie=UTF8&iwloc=&output=embed", 
+      "places": [
+        { 
+          "name": "Parliament Building", 
+          "images": ["https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR6ARV9h7MrQv9oxq6UqTcJa5BtBAbZQi53fw&s", "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR-qJkziZnEI7Sgo2EsTE3FSZ2jQQXIs__0gg&s", "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTdCyRJTtkNggPmsFcmQujG0jmCmnQE75dk_Q&s"],
+          "imageSearch": "Hungarian Parliament Building", 
+          "description": "A notable landmark of Hungary.", 
+          "wiki": "Hungarian Parliament Building",
+          "mapEmbed": "https://maps.google.com/maps?q=Hungarian+Parliament+Building&output=embed" 
+          },
+        { 
+          "name": "Buda Castle", 
+          "images": ["https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTZa_vVvDrt-di_RGWFUr7WZRVBXi_A3Fn3VQ&s", "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSu6NtBh2ZFPn-urJbXypKFEbnrl5fvQZ-PjQ&s", "https://cdn-imgix.headout.com/media/images/e2ce4ed62ce949f5aad10d7c06135997-Budapest%20Travel%20Tips%20%26%20Hacks.jpg?auto=format&w=1222.3999999999999&h=687.6&q=90&ar=16%3A9&crop=faces&fit=crop"],
+          "imageSearch": "Buda Castle view", 
+          "description": "The historical castle and palace complex of the Hungarian kings.",
+          "wiki": "Buda Castle", 
+          "mapEmbed": "https://maps.google.com/maps?q=Valley+of+the+Kings&t=&z=13&ie=UTF8&iwloc=&output=embed0" }
       ]
-    }
+      }
+  }
   },
   "Croatia": {
     "cities": {
-      "Dubrovnik": [
-        { "name": "City Walls", "imageSearch": "Dubrovnik City Walls", "description": "A series of defensive stone walls surrounding the city.", "mapEmbed": "https://maps.google.com/maps?q=Dubrovnik+City+Walls&output=embed" },
-        { "name": "Lovrijenac", "imageSearch": "Lovrijenac Fortress Dubrovnik", "description": "A fortress and theater outside the western wall of the city.", "mapEmbed": "https://maps.google.com/maps?q=Valley+of+the+Kings&t=&z=13&ie=UTF8&iwloc=&output=embed1" }
-      ],
-      "Split": [
-        { "name": "Diocletian's Palace", "imageSearch": "Diocletian's Palace Split", "description": "An ancient palace built for the Roman emperor Diocletian.", "mapEmbed": "https://maps.google.com/maps?q=Diocletian's+Palace&output=embed" },
-        { "name": "Marjan Hill", "imageSearch": "Marjan Hill Split view", "description": "A hill on the peninsula of the city of Split, covered in a dense pine forest.", "mapEmbed": "https://maps.google.com/maps?q=Valley+of+the+Kings&t=&z=13&ie=UTF8&iwloc=&output=embed2" }
+      "Dubrovnik": { 
+       "images": ["https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRVNRiWLbcHrEwtlmxcRPKAUJ5oQAe3M_KAXQ&s", "https://q-xx.bstatic.com/xdata/images/city/608x352/972721.webp?k=d51484724ac2281a6815ac19818d0d527f65061974e4a6991ab25470509d7421&o=", "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQTiq10wMpqwmQpHrvTdV87KWK4zp-NaXMpDQ&s"],
+       "imageSearch": "Dubrovnik Croatia City",
+       "description": "A historic city on the Adriatic coast, known for its well-preserved medieval architecture and stunning sea views.", 
+        "wiki": "Dubrovnik",
+        "mapEmbed": "https://maps.google.com/maps?q=Dubrovnik+Croatia&output=embed",
+
+      "places": [
+        { 
+          "name": "City Walls", 
+          "images": ["https://mlrhpz8jmuut.i.optimole.com/cb:w8qn.502d1/w:auto/h:auto/q:mauto/f:best/ig:avif/id:4871a8bcd4634720e8d3947898bab557/https://www.egypttoursplus.com/City-walls-of-Istanbul.jpg", "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRHkEjmn_CSv5CSjRKe51s3vnwB2Wtf2dOPKw&s", "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR2Z32uvtZi33WtwTJv6dfRNlqJCCK4O-M6uA&s"],
+          "imageSearch": "Dubrovnik City Walls", 
+          "description": "A series of defensive stone walls surrounding the city.", 
+          "wiki": "Dubrovnik City Walls",
+          "mapEmbed": "https://maps.google.com/maps?q=Dubrovnik+City+Walls&output=embed" 
+          },
+        { 
+          "name": "Lovrijenac", 
+          "images": ["https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTTuPL1EwSoHRA9IBgF0n1_Q8NlvqQQPmv9eg&s", "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQuZcsrD10RPAJHuRjdvJ2KAYeLAnmVppk1sw&s", "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR03kUPmIpSz9ZGQo7RGTypoJxG-uHMwMyyBQ&s"],
+          "imageSearch": "Lovrijenac Fortress Dubrovnik", 
+          "description": "A fortress and theater outside the western wall of the city.", 
+          "wiki": "Lovrijenac Fortress",
+          "mapEmbed": "https://maps.google.com/maps?q=Valley+of+the+Kings&t=&z=13&ie=UTF8&iwloc=&output=embed1" }
       ]
-    }
-  },
+    },
+      "Split": { 
+       "images": ["https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRmSH4CKmd78yyuuOCdaj2KAh-HCU5kazXzbA&s", "https://croatiaspots.com/wp/wp-content/uploads/split-croatia-views-from-marjan1.jpg", "https://cdn.prod.website-files.com/62200394843406293f033f05/63443b3b1cd3a68cb1840e0d_Split%2C%20Croatia%20-%20All%20You%20Need%20To%20Know.webp"],
+       "imageSearch": "Split Croatia", 
+       "description": "A Croatian city with a rich history and beautiful architecture.", 
+       "wiki": "Split, Croatia",
+       "mapEmbed": "https://maps.google.com/maps?q=Split&t=&z=13&ie=UTF8&iwloc=&output=embed",
+      
+      "places": [
+        { 
+          "name": "Diocletian's Palace", 
+          "images": ["https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR6fS76yCEAR6jmhj7E-qe15a38OvUZou5Xqg&s", "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTOFk7SLoicjIzvhsWBpRw6N6CApTdJ4Xl69g&s", "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQAYn_OoQaJ-UFdcC0QmyvqKlWHYjZyoCmTOQ&s"],
+          "imageSearch": "Diocletian's Palace Split", 
+          "description": "An ancient palace built for the Roman emperor Diocletian.", 
+          "wiki": "Diocletian's Palace",
+          "mapEmbed": "https://maps.google.com/maps?q=Diocletian's+Palace&output=embed" 
+          },
+        { 
+          "name": "Marjan Hill", 
+          "images": ["https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ1bjfQw440mXR-YfIwDEmJl_IknsYA36QgwA&s", "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSCVIr1HSmGVxMK_Al3364lsYYnEVwa2qOVNA&s", "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQWZwHxgSkixQqfCHs0rwo5ZOb8NF847grTlQ&s"],
+          "imageSearch": "Marjan Hill Split view", 
+          "description": "A hill on the peninsula of the city of Split, covered in a dense pine forest.", 
+          "wiki": "Marjan Hill",
+          "mapEmbed": "https://maps.google.com/maps?q=Valley+of+the+Kings&t=&z=13&ie=UTF8&iwloc=&output=embed2" }
+      ]
+  }
+}
+},
   "Netherlands": {
     "cities": {
-      "Amsterdam": [
-        { "name": "Rijksmuseum", "imageSearch": "Rijksmuseum Amsterdam", "description": "A Dutch national museum dedicated to arts and history.", "mapEmbed": "https://maps.google.com/maps?q=Rijksmuseum&t=&z=13&ie=UTF8&iwloc=&output=embed" },
-        { "name": "Jordaan", "imageSearch": "Jordaan Amsterdam canals", "description": "A district famous for its beautiful houses, nice restaurants and original shops.", "mapEmbed": "https://maps.google.com/maps?q=Valley+of+the+Kings&t=&z=13&ie=UTF8&iwloc=&output=embed3" }
+      "Amsterdam": { 
+       "images": ["https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTAOwYH0anbr2uNOtyvllE9ks82uogpMMu3zA&s", "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRLGimB9Z6izJdGi379sbfdf5DT_F5Qgj3kXw&s", "https://img.static-kl.com/images/media/5444C1BF-7D85-4DE4-A0CF823E2866C03F"],
+       "imageSearch": "Amsterdam Netherlands City",
+       "description": "The capital city of the Netherlands, known for its artistic heritage, elaborate canal system, and narrow houses with gabled facades.", 
+        "wiki": "Amsterdam",
+        "mapEmbed": "https://maps.google.com/maps?q=Amsterdam+Netherlands&output=embed",
+      
+      "places": [
+        { 
+          "name": "Rijksmuseum", 
+          "images": ["https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQA7rOG5CdoWMFt6vgruyN8Wj8D0YIPQRSxMg&s", "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTQ5dyAeHM9wlKFZFA_vck1pJSYEkada8klUw&s", "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT2ivCEsXWgenZwDwGBsqvKhrpuyrH_cPjAww&s"],
+          "imageSearch": "Rijksmuseum Amsterdam", 
+          "description": "A Dutch national museum dedicated to arts and history.", 
+          "wiki": "Rijksmuseum",
+          "mapEmbed": "https://maps.google.com/maps?q=Rijksmuseum&t=&z=13&ie=UTF8&iwloc=&output=embed" 
+          },
+        { 
+          "name": "Jordaan", 
+          "images": ["https://images.squarespace-cdn.com/content/v1/569e766e69492e9dd5373ef6/1580467742790-V2HU1E2KQ6KD5INCU4QD/20200123_AMS_0052low.jpg", "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSq_cehf13H4MaOjOYsd88AmNrgGoqfcRfX3Q&s", "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTCV2-oNvgWtkcSG-jZUqZ7fBEkQ2qIalKVpA&s"],
+          "imageSearch": "Jordaan Amsterdam canals", 
+          "description": "A district famous for its beautiful houses, nice restaurants and original shops.", 
+          "wiki": "Jordaan",
+          "mapEmbed": "https://maps.google.com/maps?q=Valley+of+the+Kings&t=&z=13&ie=UTF8&iwloc=&output=embed3" }
       ]
     }
+  }
   },
   "Belgium": {
     "cities": {
-      "Brussels": [
-        { "name": "Grand Place", "imageSearch": "Grand Place Brussels", "description": "The central square of Brussels.", "mapEmbed": "https://maps.google.com/maps?q=Grand+Place+Brussels&output=embed" },
-        { "name": "Royal Palace", "imageSearch": "Royal Palace of Brussels", "description": "The official palace of the King and Queen of the Belgians.", "mapEmbed": "https://maps.google.com/maps?q=Valley+of+the+Kings&t=&z=13&ie=UTF8&iwloc=&output=embed4" }
-      ],
-      "Bruges": [
-        { "name": "Belfry of Bruges", "imageSearch": "Belfry of Bruges", "description": "A medieval bell tower in the center of Bruges.", "mapEmbed": "https://maps.google.com/maps?q=Belfry+of+Bruges&output=embed" },
-        { "name": "Lake of Love", "imageSearch": "Minnewater Park Bruges", "description": "A romantic park with a lake and swans.", "mapEmbed": "https://maps.google.com/maps?q=Valley+of+the+Kings&t=&z=13&ie=UTF8&iwloc=&output=embed5" }
+      "Brussels": { 
+       "images": ["https://upload.wikimedia.org/wikipedia/commons/8/8b/Great_Russell_Street_Bloomsbury.JPG", "https://www.brussels.be/sites/default/files/styles/article_image__hd_/public/grand-place-photo_1.jpg?itok=g4nOYCT2", "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSoLX48ddFjHu0mMeFwj4RBg88vvSjGCsJWhg&s"],
+        "imageSearch": "Brussels Grand Place", 
+        "description": "The capital of Belgium, known for its rich history and beautiful architecture.", 
+        "wiki": "Brussels",
+        "mapEmbed": "https://maps.google.com/maps?q=Grand+Place+Brussels&output=embed", 
+        
+    
+      "places": [
+        { 
+          "name": "Grand Place", 
+          "images": ["https://upload.wikimedia.org/wikipedia/commons/8/8b/Great_Russell_Street_Bloomsbury.JPG", "https://www.brussels.be/sites/default/files/styles/article_image__hd_/public/grand-place-photo_1.jpg?itok=g4nOYCT2", "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSoLX48ddFjHu0mMeFwj4RBg88vvSjGCsJWhg&s"],
+          "imageSearch": "Grand Place Brussels", 
+          "description": "The central square of Brussels.", 
+          "wiki": "Grand Place Brussels",
+          "mapEmbed": "https://maps.google.com/maps?q=Grand+Place+Brussels&output=embed" 
+          },
+        { 
+          "name": "Royal Palace", 
+          "images": ["https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR_vBO1GOT3t5-OWM2ohg6C-LW2o1wWb7asCw&s", "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQQh5SIy5vS2FHKN8AMdkfM_7r990_-l52WOA&s", "https://www.monarchie.be/sites/default/files/public/content/la_salle_du_trone1-2.jpg"], 
+          "imageSearch": "Royal Palace of Brussels", 
+          "description": "The official palace of the King and Queen of the Belgians.", 
+          "wiki": "Royal Palace of Brussels",
+          "mapEmbed": "https://maps.google.com/maps?q=Royal+Palace+Brussels&output=embed" }
       ]
+    },
+      "Bruges": { 
+        "images": ["https://www.experiencegift.com/media/wp/EG/2024/09/GHENT-WINTER.jpg", "https://static.standard.co.uk/s3fs-public/thumbnails/image/2013/11/27/18/bruges-1.gif?crop=8:5,smart&quality=75&auto=webp&width=960", "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQJsYufkYq5R5BuOK-msgptGUbViR5xSfVplg&s"],
+        "imageSearch": "Bruges Belgium City",
+        "description": "A picturesque city in Belgium known for its medieval architecture and charming canals.",
+        "wiki": "Bruges",
+        "mapEmbed": "https://maps.google.com/maps?q=Bruges+Belgium&output=embed",
+        
+      "places": [
+        { 
+          "name": "Belfry of Bruges",
+          "images": ["https://wowiwalkers.com/wp-content/uploads/2021/05/belfryofbrugesblogpostheader.jpg", "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR9tseqn336kEYASsSbMI1AZj0xfzOyieeE3A&s", "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRLiwfWDLK_xUaoRAPHDTQOCZLvdOpQmPUSZg&s"], 
+          "imageSearch": "Belfry of Bruges", 
+          "description": "A medieval bell tower in the center of Bruges.",
+          "wiki": "Belfry of Bruges",
+          "mapEmbed": "https://maps.google.com/maps?q=Belfry+of+Bruges&output=embed" 
+          },
+        { 
+          "name": "Lake of Love", 
+          "images": ["https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTkVMLTCs9_MuXtqHUcNrNP-A-TATmIfVyvzQ&s", "https://c8.alamy.com/comp/2JEG3H5/view-of-the-minnewaterpark-and-the-nearby-lake-of-love-minnewater-in-the-city-of-bruges-in-flanders-belgium-europe-2JEG3H5.jpg", "https://c8.alamy.com/comp/KKBWWE/bruges-belgium-april-17-2017-swans-in-lake-of-love-in-bruges-channel-KKBWWE.jpg"],
+          "imageSearch": "Minnewater Park Bruges", 
+          "description": "A romantic park with a lake and swans.", 
+          "wiki": "Minnewater Park Bruges",
+          "mapEmbed": "https://maps.google.com/maps?q=Valley+of+the+Kings&t=&z=13&ie=UTF8&iwloc=&output=embed5" }
+      ]
+    
+      }
     }
   },
   "Taiwan": {
