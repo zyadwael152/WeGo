@@ -1069,14 +1069,6 @@
             "description": "A set of world-famous steps covered in colorful tiles.",
             "wiki": "https://en.wikipedia.org/wiki/Escadaria_Selar%C3%B3n",
             "mapEmbed": "https://maps.google.com/maps?q=Selaron+Steps&t=&z=13&ie=UTF8&iwloc=&output=embed"
-          },
-          {
-            "name": "Sugarloaf Mountain",
-            "images": ["https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT4uGW2Wh1j7BEgM55dWKh1T1kKyGy7njnPqg&s", "https://media-cdn.tripadvisor.com/media/photo-s/0a/8b/60/9c/view-from-sugarloaf-mountain.jpg", "https://velvetescape.com/wp-content/uploads/2014/03/IMG_7834.jpg"],
-            "imageSearch": "Sugarloaf Mountain Rio",
-            "description": "A peak situated in Rio de Janeiro, Brazil, at the mouth of Guanabara Bay on a peninsula that juts out into the Atlantic Ocean.",
-            "wiki": "https://en.wikipedia.org/wiki/Sugarloaf_Mountain",
-            "mapEmbed": "https://maps.google.com/maps?q=Iguazu+Falls&output=embed5"
           }
         ]
       },
@@ -2613,9 +2605,9 @@
 
   "Maldives": {
     "cities": {
-      "Male": {
+      "Malé": {
         "images": ["https://tse4.mm.bing.net/th/id/OIP.nfTg_16U2Uzyqj_6h2EBTgHaFf?rs=1&pid=ImgDetMain&o=7&rm=3", "https://th.bing.com/th/id/R.430bbccffe27df5f70644b6b86f5131b?rik=Yq98NGhElAXk7w&riu=http%3a%2f%2fwww.budgetmaldives.com%2fwp-content%2fuploads%2f2020%2f05%2fMaldives-Capital-Male-City.jpg&ehk=MtcsFUpG89ycj7qV9OrZqmP8Sl%2b67KVZiht%2ffgElXZY%3d&risl=&pid=ImgRaw&r=0", "https://tse1.mm.bing.net/th/id/OIP.cjmAc_62HzrN_BEc7wLgGgHaEo?rs=1&pid=ImgDetMain&o=7&rm=3"],
-        "imageSearch": "Male Maldives",
+        "imageSearch": "Malé Maldives",
         "description": "Malé is the capital and most populous city in the Republic of Maldives. It is located at the southern edge of North Malé Atoll. The central island is heavily urbanized, with the built-up area taking up essentially its entire landmass.",
         "wiki": "https://en.wikipedia.org/wiki/Mal%C3%A9",
         "mapEmbed": "https://maps.google.com/maps?q=Luxor+Temple&t=&z=13&ie=UTF8&iwloc=&output=embed23",
@@ -2714,7 +2706,6 @@
       }
     }
   },
-
   "New Zealand": {
     "cities": {
       "Auckland": [
@@ -2723,14 +2714,6 @@
       ],
       "Queenstown": [
         { "name": "Milford Sound", "imageSearch": "Milford Sound fjord", "description": "A fiord known for towering Mitre Peak.", "mapEmbed": "https://maps.google.com/maps?q=Milford+Sound&output=embed" }
-      ]
-    }
-  },
-  "Norway": {
-    "cities": {
-      "Oslo": [
-        { "name": "Vigeland Park", "imageSearch": "Vigeland Sculpture Park", "description": "The world's largest sculpture park made by a single artist.", "mapEmbed": "https://maps.google.com/maps?q=Vigeland+Park&output=embed" },
-        { "name": "Oslo Opera House", "imageSearch": "Oslo Opera House", "description": "Home of the Norwegian National Opera and Ballet.", "mapEmbed": "https://maps.google.com/maps?q=Citadel+of+Qaitbay&t=&z=13&ie=UTF8&iwloc=&output=embed3" }
       ]
     }
   },
@@ -2758,17 +2741,6 @@
       ]
     }
   },
-  "Ireland": {
-    "cities": {
-      "Dublin": [
-        { "name": "Guinness Storehouse", "imageSearch": "Guinness Storehouse", "description": "Tells the story of Guinness.", "mapEmbed": "https://maps.google.com/maps?q=Guinness+Storehouse&output=embed" },
-        { "name": "Trinity College", "imageSearch": "Trinity College Dublin library", "description": "Ireland's oldest university.", "mapEmbed": "https://maps.google.com/maps?q=Citadel+of+Qaitbay&t=&z=13&ie=UTF8&iwloc=&output=embed5" }
-      ],
-      "Galway": [
-        { "name": "Cliffs of Moher", "imageSearch": "Cliffs of Moher Ireland", "description": "Sea cliffs located at the southwestern edge of the Burren region.", "mapEmbed": "https://maps.google.com/maps?q=Cliffs+of+Moher&output=embed" }
-      ]
-    }
-  },
   "Austria": {
     "cities": {
       "Vienna": [
@@ -2793,14 +2765,6 @@
       "Kyiv": [
         { "name": "St. Sophia Cathedral", "imageSearch": "St Sophia Cathedral Kyiv", "description": "An outstanding architectural monument.", "mapEmbed": "https://maps.google.com/maps?q=St.+Sophia+Cathedral+Kyiv&output=embed" },
         { "name": "Kyiv Pechersk Lavra", "imageSearch": "Kyiv Pechersk Lavra", "description": "A historic Orthodox Christian monastery.", "mapEmbed": "https://maps.google.com/maps?q=Citadel+of+Qaitbay&t=&z=13&ie=UTF8&iwloc=&output=embed8" }
-      ]
-    }
-  },
-  "Belarus": {
-    "cities": {
-      "Minsk": [
-        { "name": "National Library", "imageSearch": "National Library of Belarus", "description": "The biggest library in the Republic of Belarus.", "mapEmbed": "https://maps.google.com/maps?q=National+Library+of+Belarus&output=embed" },
-        { "name": "Victory Square", "imageSearch": "Victory Square Minsk", "description": "A key landmark in the center of Minsk.", "mapEmbed": "https://maps.google.com/maps?q=Citadel+of+Qaitbay&t=&z=13&ie=UTF8&iwloc=&output=embed9" }
       ]
     }
   }
