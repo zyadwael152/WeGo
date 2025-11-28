@@ -1,6 +1,7 @@
 /* =================================== */
 /* 1. GLOBAL STYLES (For all pages) */
 /* =================================== */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@800;900&display=swap');
 :root {
     --main-color: #E8AC20;
     --bg-light: #fff7e6;
@@ -27,7 +28,42 @@ span {
     font-weight: 600;
     letter-spacing: 0.5px;
 }
+.brand h2 {
+    /* Font Settings to match the logo thickness */
+    font-family: 'Arial Rounded MT Bold', 'Helvetica Rounded', Arial, sans-serif;    font-weight: 900;
+    /* Maximum Thickness */
+    font-size: 2.5rem;
+    /* Large size */
+    color: var(--main-color);
 
+    /* TIGHT spacing makes letters touch/overlap like the logo */
+    letter-spacing: -5px;
+
+    /* Remove default margins */
+    margin: 0 0 0 8px;
+    line-height: 1;
+    position: relative;
+    padding-bottom: 15px;
+    /* Space for the zigzag line */
+    display: inline-block;
+}
+
+/* 3. THE ZIGZAG UNDERLINE (Custom SVG) */
+.brand h2::after {
+    content: '';
+    position:absolute;               
+    left: 0;
+    bottom: 4px;
+    width: 100%;
+    height: 8px;
+    /* Reduced height for a thinner look */
+
+    /* Updated SVG for a thinner, crisper line (stroke-width='4') */
+    background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 350 25' fill='none'><path d='M5 15 L145 5 L140 19 350 2' stroke='%23E8AC20' stroke-width='4' stroke-linecap='round' vector-effect='non-scaling-stroke'/></svg>");
+
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
 /* General container for layout */
 .container {
     width: 90%;
