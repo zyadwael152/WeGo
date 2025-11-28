@@ -66,7 +66,7 @@
             "mapEmbed": "https://maps.google.com/maps?q=Great+Pyramid+of+Giza&output=embed"
           },
           {
-            "name": "Grand Egyptian Museum",
+            "name": "Grand Egyptian Museum of giza",
             "images": ["https://media-cdn.tripadvisor.com/media/attractions-splice-spp-674x446/10/7f/5a/b9.jpg", "https://cdn-imgix.headout.com/media/images/b128495488af842fa92f5f6e42e4ec15-28558-cairo-cairo-tutankhamun-exhibition---grand-egyptian-museum-08.jpg?auto=format&q=90&crop=faces&fit=crop", "https://media.tacdn.com/media/attractions-splice-spp-674x446/14/ce/4b/c8.jpg"],
             "imageSearch": "Grand Egyptian Museum Giza",
             "description": "The world's largest archaeological museum, housing over 100,000 artifacts including the complete Tutankhamun collection. A state-of-the-art facility showcasing Egypt's priceless heritage.",
@@ -74,7 +74,7 @@
             "mapEmbed": "https://maps.google.com/maps?q=Grand+Egyptian+Museum+Giza&output=embed"
           },
           {
-            "name": "Great Sphinx",
+            "name": "Great Sphinx of giza",
             "images": ["https://cdn.britannica.com/85/99185-050-E1110E5C/Great-Sphinx-Giza-Egypt.jpg", "https://plus.unsplash.com/premium_photo-1694475367746-526db5575bb4?fm=jpg&q=60&w=3000&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8c3BoaW54fGVufDB8fDB8fHww", "https://www.egypttoursportal.com/images/2017/11/The-Great-Sphinx-Egypt-Tours-Portal-1-e1511900988420.jpg"],
             "imageSearch": "Great Sphinx of Giza",
             "description": "The mythical creature with a lion's body and human head, carved from a single limestone outcrop. This enigmatic guardian of the Giza Plateau has watched over the pyramids for 4,500 years.",
@@ -82,9 +82,9 @@
             "mapEmbed": "https://maps.google.com/maps?q=Great+Sphinx+of+Giza&output=embed"
           },
           {
-            "name": "Solar Boat Museum",
+            "name": "Solar Boat Museum of giza",
             "images": ["https://upload.wikimedia.org/wikipedia/commons/4/45/Cairo_-_Pharaons_funeral_ships_museum_outdoors.JPG", "https://res.cloudinary.com/ddjuftfy2/image/upload/f_webp,c_fill,q_auto/memphis/large/263751851_Khufu%20Solar%20Boat.jpg", "https://d3rr2gvhjw0wwy.cloudfront.net/uploads/mandators/41668/cms/562940/940x500-1-50-9432e95f141cea599a3b19010bc7e6c9.jpg"],
-            "imageSearch": "Solar Boat Museum Giza",
+            "imageSearch": "",
             "description": "Home to a perfectly reconstructed cedarwood boat buried near the Great Pyramid for Pharaoh Khufu's journey to the afterlife. An incredible preservation of ancient Egyptian maritime technology.",
             "wiki": "Khufu ship",
             "mapEmbed": "https://maps.google.com/maps?q=Solar+Boat+Museum+Giza&output=embed"
@@ -762,146 +762,1010 @@
   },
   "Germany": {
     "cities": {
-      "Berlin": [
-        { "name": "Brandenburg Gate", "imageSearch": "Brandenburg Gate Berlin", "description": "An 18th-century neoclassical monument.", "mapEmbed": "https://maps.google.com/maps?q=Brandenburg+Gate&output=embed" },
-        { "name": "Museum Island", "imageSearch": "Museum Island Berlin", "description": "A magnificent complex of five internationally significant museums.", "mapEmbed": "https://maps.google.com/maps?q=Giza+Pyramid+Complex&t=&z=13&ie=UTF8&iwloc=&output=embed5" }
-      ],
-      "Munich": [
-        { "name": "Marienplatz", "imageSearch": "Marienplatz Munich", "description": "A central square in the city centre of Munich.", "mapEmbed": "https://maps.google.com/maps?q=Marienplatz&output=embed" },
-        { "name": "BMW Museum", "imageSearch": "BMW Museum Munich", "description": "An automobile museum of BMW history.", "mapEmbed": "https://maps.google.com/maps?q=Giza+Pyramid+Complex&t=&z=13&ie=UTF8&iwloc=&output=embed6" }
-      ]
+      "Berlin": {
+        "images": ["https://images.unsplash.com/photo-1599946347371-68eb71b16afc?w=1000&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8YmVybGlufGVufDB8fDB8fHww", "https://images.unsplash.com/photo-1538685634737-24b83e3fa2f8?w=1000&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTF8fGJlcmxpbnxlbnwwfHwwfHx8MA%3D%3D", "https://images.unsplash.com/photo-1540224485413-4c7939106f3a?w=1000&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjN8fGJlcmxpbnxlbnwwfHwwfHx8MA%3D%3D"],
+        "imageSearch": "Berlin Germany",
+        "description": "The capital and largest city of Germany, known for its exceptional range of landmarks, vibrant cultural scene, and way of life that is somehow all go yet relaxed. In fact, Berlin is best known for its striking contrasts. Historical buildings stand alongside modern architecture as the past and present intermingle.",
+        "wiki": "https://en.wikipedia.org/wiki/Berlin",
+        "mapEmbed": "https://maps.google.com/maps?q=Berlin&t=&z=13&ie=UTF8&iwloc=&output=embed",
+        "places": [
+          {
+            "name": "Brandenburg Gate",
+            "images": ["https://upload.wikimedia.org/wikipedia/commons/thumb/a/a6/Brandenburger_Tor_abends.jpg/1200px-Brandenburger_Tor_abends.jpg", "https://cdn.prod.website-files.com/65329423a966d94a21420905/67473bbfb6d3dc5b84572db5_brandenburg-gate_6551.jpeg", "https://images.squarespace-cdn.com/content/v1/64ba44348b6a05559a816bc1/1690282629211-NTVSXV9U1G1NO7OHD4SN/Photographing+Brandenburg+Gate_0344.jpg"],
+            "imageSearch": "Brandenburg Gate Berlin",
+            "description": "An 18th-century neoclassical monument.",
+            "wiki": "https://en.wikipedia.org/wiki/Brandenburg_Gate",
+            "mapEmbed": "https://maps.google.com/maps?q=Brandenburg+Gate&t=&z=13&ie=UTF8&iwloc=&output=embed"
+          },
+          {
+            "name": "Museum Island",
+            "images": ["https://www.visitberlin.de/system/files/styles/visitberlin_hero_visitberlin_desktop_2x/private/image/Museumsinsel%2BDom_iStock_c_Chalabala_DL_PPT_0.jpg.webp?itok=X0ec7y8P", "https://cdn-imgix.headout.com/media/images/f70fe9c470392e0ee3cb2e2ee4b6553d-5910%20-%20Museum%20Island-Berlin-01.jpg?auto=format&w=1222.3999999999999&h=687.6&q=90&fit=crop&ar=16%3A9&crop=faces", "https://image-tc.galaxy.tf/wijpeg-5n7a718zcjagztjgzdvzsxm49/museum-island.jpg"],
+            "imageSearch": "Museum Island Berlin",
+            "description": "A magnificent complex of five internationally significant museums.",
+            "wiki": "https://en.wikipedia.org/wiki/Museum_Island",
+            "mapEmbed": "https://maps.google.com/maps?q=Museum+Island+Berlin&t=&z=13&ie=UTF8&iwloc=&output=embed"
+          },
+          {
+            "name": "Reichstag Building",
+            "images": ["https://media.gettyimages.com/id/1497280556/photo/west-facade-of-reichstag-building-as-seen-from-the-platz-der-republic-tiergarten-district.jpg?s=612x612&w=gi&k=20&c=z9NOXRD-sYgX3WfsfI3z5Vm-hoV748XP2MWFJRwotb0=", "https://cdn.britannica.com/45/101845-004-AB9DCB0D/Reichstag-Norman-Foster-renovations-Berlin.jpg", "https://cdn.prod.website-files.com/65329423a966d94a21420905/67473bbdc95daf7421b40c91_reichstag-building_977.jpeg"],
+            "imageSearch": "Reichstag Building Berlin",
+            "description": "A historic edifice in Berlin that houses the Bundestag, the lower house of Germany's parliament.",
+            "wiki": "https://en.wikipedia.org/wiki/Reichstag_building",
+            "mapEmbed": "https://maps.google.com/maps?q=Great+Sphinx+of+Giza&t=&z=13&ie=UTF8&iwloc=&output=embed10"
+          }
+        ]
+      },
+      "Munich": {
+        "images": ["https://images.goway.com/production/styles/article_featured_image_2xl/s3/featured_images/germany_munich_marienplatz_AdobeStock_114463007.jpeg.webp?VersionId=FRRrO8KC5UeH0Qqr5WBIlzDk6zXgibsT&itok=EV1jWTdr", "https://www.casafari.com/wp-content/uploads/2022/05/Munich-as-seen-from-above-1024x683.jpg", "https://thumbs.dreamstime.com/b/munich-germany-july-new-town-hall-sunny-summer-day-cityscape-bavaria-tourists-marienplatz-old-view-tower-alter-peter-415351439.jpg"],
+        "imageSearch": "Munich Germany",
+        "description": "The capital of Bavaria and the third-largest city in Germany. Munich is a fun-loving city known for its seasonal festivals (especially Oktoberfest), rich cultural calendar, and beer halls, along with a vibrant arts scene and museums.",
+        "wiki": "https://en.wikipedia.org/wiki/Munich",
+        "mapEmbed": "https://maps.google.com/maps?q=Munich&t=&z=13&ie=UTF8&iwloc=&output=embed",
+        "places": [
+          {
+            "name": "Marienplatz",
+            "images": ["https://plus.unsplash.com/premium_photo-1661886457733-2d936843cd70?fm=jpg&q=60&w=3000&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8bWFyaWVucGxhdHp8ZW58MHx8MHx8fDA%3D", "https://media.tourispo.com/images/ecu/entity/e_sight/sight_marienplatz-munich_n67983-44594-0_l.jpg", "https://upload.wikimedia.org/wikipedia/commons/thumb/6/62/Neues_Rathaus_und_Marienplatz_M%C3%BCnchen.jpg/330px-Neues_Rathaus_und_Marienplatz_M%C3%BCnchen.jpg"],
+            "imageSearch": "Marienplatz Munich",
+            "description": "A central square in the city centre of Munich.",
+            "wiki": "https://en.wikipedia.org/wiki/Marienplatz",
+            "mapEmbed": "https://maps.google.com/maps?q=Marienplatz+Munich&t=&z=13&ie=UTF8&iwloc=&output=embed"
+          },
+          {
+            "name": "BMW Museum",
+            "images": ["https://images.unsplash.com/photo-1585485377826-7f5a65d8a7f2?fm=jpg&q=60&w=3000&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8Ym13JTIwbXVzZXVtfGVufDB8fDB8fHww", "https://bmw.scene7.com/is/image/BMW/artcars_museum-muenchen-ausstellung-1?wid=3500&hei=2333", "https://www.muenchen.travel/var/ger_muc/storage/images/_aliases/stage_large/5/4/0/1/4441045-1-ger-DE/31cbe3ba8e35-muenchen-bmw-museum_dsf7122-foto-frank-stolle.jpg"],
+            "imageSearch": "BMW Museum Munich",
+            "description": "An automobile museum of BMW history.",
+            "wiki": "https://en.wikipedia.org/wiki/BMW_Museum",
+            "mapEmbed": "https://maps.google.com/maps?q=BMW+Museum+Munich&t=&z=13&ie=UTF8&iwloc=&output=embed"
+          },
+          {
+            "name": "English Garden",
+            "images": ["https://cdn.enthrallinggumption.com/wp-content/uploads/2024/12/Inspiring-English-Garden-Styles-Ideas-.jpg", "https://media.istockphoto.com/id/1413842363/photo/beautiful-arches-with-white-and-colorful-climbing-blooming-english-roses-in-david-austin.jpg?s=612x612&w=0&k=20&c=YOTcsVEfSM0WIkN52gmSQqFGuQftWdU9UFAN8juu2xs=", "https://www.gapphotos.com/images/LargeWebPreview/0449/0449833.jpg"],
+            "imageSearch": "English Garden Munich",
+            "description": "A large public park in the centre of Munich, stretching from the city centre to the northeastern city limits.",
+            "wiki": "https://en.wikipedia.org/wiki/English_Garden",
+            "mapEmbed": "https://maps.google.com/maps?q=Great+Sphinx+of+Giza&t=&z=13&ie=UTF8&iwloc=&output=embed11"
+          }
+        ]
+      },
+      "Hamburg": {
+        "images": ["https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQz_tirhOS2_TodeVNZJ_RXN08o_E9qFCDGqw&s", "https://media.istockphoto.com/id/1167527477/photo/aerial-view-of-hamburg-hafen-city-over-blue-harbour.jpg?s=612x612&w=0&k=20&c=NEImUnTEigETuqGg2ET8835eixiqZLB_dIhSIm2blyE=", "https://images.unsplash.com/photo-1473615695634-d284ec918736?fm=jpg&q=60&w=3000&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8aGFtYnVyZ3xlbnwwfHwwfHx8MA%3D%3D"],
+        "imageSearch": "Hamburg Germany",
+        "description": "A major port city in northern Germany, connected to the North Sea by the Elbe River. It's crossed by hundreds of canals, and also contains large areas of parkland.",
+        "wiki": "https://en.wikipedia.org/wiki/Hamburg",
+        "mapEmbed": "https://maps.google.com/maps?q=Great+Sphinx+of+Giza&t=&z=13&ie=UTF8&iwloc=&output=embed12",
+        "places": [
+          {
+            "name": "Miniatur Wunderland",
+            "images": ["https://dynamic-media-cdn.tripadvisor.com/media/photo-o/10/72/63/9e/photo8jpg.jpg?w=1200&h=-1&s=1", "https://s3-media0.fl.yelpcdn.com/bphoto/Qx8y-xGpe0EfGLiTsWY_Fg/348s.jpg", "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR-NlmswoM3lNlipbMRCG8Yw6oSrDt35UiNrQ&s"],
+            "imageSearch": "Miniatur Wunderland Hamburg",
+            "description": "The world's largest model railway system, and a major tourist attraction in Hamburg.",
+            "wiki": "https://en.wikipedia.org/wiki/Miniatur_Wunderland",
+            "mapEmbed": "https://maps.google.com/maps?q=Great+Sphinx+of+Giza&t=&z=13&ie=UTF8&iwloc=&output=embed13"
+          },
+          {
+            "name": "Elbphilharmonie",
+            "images": ["https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSRSRS5u4gV7WdSN1OyXz6ESQLSWbQKt5n_yw&s", "https://www.hamburg-tourism.de/images/aQP3CbJInRw/rs:fill-down:956:717/sharpen:1.2/cb:/gravity:fp:0.66745973645681:0.23983516483516/aHR0cHM6Ly9pbXhwbGF0Zm9ybS1jdXN0LWhodC5mc24xLnlvdXItb2JqZWN0c3RvcmFnZS5jb20vbWVkaWEvcGFudGhlcm1lZGlhX2I0OTE2MTg3NDZfNTQ2NHgzNjQwX2NfYmlsZGFnZW50dXJfcGFudGhlcm1lZGlhX2NhbmV0dGktMS5qcGc", "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS491qQ4K5U8qDJcjU7tqglENEVvjpLSJgC2A&s"],
+            "imageSearch": "Elbphilharmonie Hamburg",
+            "description": "A concert hall in the HafenCity quarter of Hamburg, located on the Elbe River.",
+            "wiki": "https://en.wikipedia.org/wiki/Elbphilharmonie",
+            "mapEmbed": "https://maps.google.com/maps?q=Great+Sphinx+of+Giza&t=&z=13&ie=UTF8&iwloc=&output=embed14"
+          }
+        ]
+      }
     }
   },
   "China": {
     "cities": {
-      "Beijing": [
-        { "name": "Great Wall of China", "imageSearch": "Great Wall of China Mutianyu", "description": "A series of fortifications built across the historical northern borders.", "mapEmbed": "https://maps.google.com/maps?q=Great+Wall+of+China+Mutianyu&output=embed" },
-        { "name": "Summer Palace", "imageSearch": "Summer Palace Beijing", "description": "A vast ensemble of lakes, gardens and palaces.", "mapEmbed": "https://maps.google.com/maps?q=Giza+Pyramid+Complex&t=&z=13&ie=UTF8&iwloc=&output=embed7" }
-      ],
-      "Shanghai": [
-        { "name": "The Bund", "imageSearch": "The Bund Shanghai skyline", "description": "A waterfront area offering spectacular views of the Pudong skyline.", "mapEmbed": "https://maps.google.com/maps?q=The+Bund+Shanghai&output=embed" },
-        { "name": "Yu Garden", "imageSearch": "Yu Garden Shanghai", "description": "An extensive Chinese garden located beside the City God Temple.", "mapEmbed": "https://maps.google.com/maps?q=Giza+Pyramid+Complex&t=&z=13&ie=UTF8&iwloc=&output=embed8" }
-      ]
+      "Beijing": {
+        "images": ["https://plus.unsplash.com/premium_photo-1723433351351-0f6cd5d21537?fm=jpg&q=60&w=3000&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8YmVpamluZ3xlbnwwfHwwfHx8MA%3D%3D", "https://www.backpackerboy.com/wp-content/uploads/2023/10/Beijing-Lights.jpg", "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSXH0z1IhxQiFi_xn9GMxj2zBZBlDLYkkLQxA&s"],
+        "imageSearch": "Beijing China",
+        "description": "The sprawling capital of China, Beijing has a history stretching back 3 millennia. It is known as much for its modern architecture as its ancient sites such as the grand Forbidden City complex and the imperial palace during the Ming and Qing dynasties.",
+        "wiki": "https://en.wikipedia.org/wiki/Beijing",
+        "mapEmbed": "https://maps.google.com/maps?q=Beijing&t=&z=13&ie=UTF8&iwloc=&output=embed",
+        "places": [
+          {
+            "name": "Great Wall of China",
+            "images": ["https://images.squarespace-cdn.com/content/v1/5db2c1c870cf53160ba6a917/1572215669054-93X3KXFUC7K8ITQ8CZIF/China29.jpeg", "https://i.natgeofe.com/n/20e923d3-042c-4045-942a-52308add6a75/great-wall-unesco-china.jpg", "https://pohcdn.com/sites/default/files/styles/paragraph__hero_banner__hb_image__1880bp/public/hero_banner/the-great-wall-of-china_optimized.jpg"],
+            "imageSearch": "Great Wall of China Mutianyu",
+            "description": "A series of fortifications built across the historical northern borders.",
+            "wiki": "https://en.wikipedia.org/wiki/Great_Wall_of_China",
+            "mapEmbed": "https://maps.google.com/maps?q=Great+Wall+of+China&t=&z=13&ie=UTF8&iwloc=&output=embed"
+          },
+          {
+            "name": "Summer Palace",
+            "images": ["https://www.connollycove.com/wp-content/uploads/2024/06/Summer-Palace-Beijing-China.jpg", "https://studycli.org/wp-content/uploads/2021/06/summer-palace-beijing-001.jpeg", "https://images.chinahighlights.com/allpicture/2021/08/c172ca64388345e8b8c26476_cut_800x500_349.jpg"],
+            "imageSearch": "Summer Palace Beijing",
+            "description": "A vast ensemble of lakes, gardens and palaces.",
+            "wiki": "https://en.wikipedia.org/wiki/Summer_Palace",
+            "mapEmbed": "https://maps.google.com/maps?q=Summer+Palace+Beijing&t=&z=13&ie=UTF8&iwloc=&output=embed"
+          },
+          {
+            "name": "Forbidden City",
+            "images": ["https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgoslGP37iRTUu6ceNvB3xCRnnbDiCCjmw2z2zgcOsq0WmSDmK9FdWjd8y1WUR7k9xhN98rb1hZZlkHDN7z5ELsh2xGFA94SreWSTe_jkGgaHhuv6cMwoDFGhpTTwl0ZGdD4DjNileuCLMq/s1600/IMG_0199.JPG", "https://res.cloudinary.com/odysseytraveller/image/fetch/f_auto,q_auto,dpr_auto,r_4,w_765,h_535.5,c_limit/https://cdn.odysseytraveller.com/app/uploads/2019/12/GettyImages-504781659.jpg", "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRl_hJighD7Pp6_0SjzemFflbdQKU01MgLuvg&s"],
+            "imageSearch": "Forbidden City Beijing",
+            "description": "A palace complex in central Beijing that served as the home of emperors and their households.",
+            "wiki": "https://en.wikipedia.org/wiki/Forbidden_City",
+            "mapEmbed": "https://maps.google.com/maps?q=Great+Sphinx+of+Giza&t=&z=13&ie=UTF8&iwloc=&output=embed15"
+          }
+        ]
+      },
+      "Shanghai": {
+        "images": ["https://virginia-duran.com/wp-content/uploads/2014/09/virginia-duran-blog-sites-to-take-the-best-skyline-pictures-in-shanghai-park-hyatt-world-financial-center.jpg", "https://lp-cms-production.imgix.net/2025-08/shutterstock1741527056.jpg?auto=format,compress&q=72&w=1440&h=810&fit=crop", "https://assets.live.dxp.maginfrastructure.com/f/73114/856x1176/ccfdebe731/shanghai-blog-hero-mobile.jpg"],
+        "imageSearch": "Shanghai China",
+        "description": "China's biggest city and a global financial hub. Its heart is the Bund, a famed waterfront promenade lined with colonial-era buildings. Across the Huangpu River rises the Pudong district’s futuristic skyline, including the 632m Shanghai Tower.",
+        "wiki": "https://en.wikipedia.org/wiki/Shanghai",
+        "mapEmbed": "https://maps.google.com/maps?q=Shanghai&t=&z=13&ie=UTF8&iwloc=&output=embed",
+        "places": [
+          {
+            "name": "The Bund",
+            "images": ["https://cdn.artphotolimited.com/images/596f55e820e52a52cf66246a/1000x1000/shanghai-bund-china.jpg", "https://media.odynovotours.com/article/75000/cover_74601.jpg", "https://www.chinaxiantour.com/media/2023/03/Shanghai-the-Bund-at-Night.webp"],
+            "imageSearch": "The Bund Shanghai skyline",
+            "description": "A waterfront area offering spectacular views of the Pudong skyline.",
+            "wiki": "https://en.wikipedia.org/wiki/The_Bund",
+            "mapEmbed": "https://maps.google.com/maps?q=The+Bund+Shanghai&t=&z=13&ie=UTF8&iwloc=&output=embed"
+          },
+          {
+            "name": "Yu Garden",
+            "images": ["https://www.chinaxiantour.com/media/2020/02/Yu-Garden-in-Shanghai.webp", "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/18/0f/30/77/located-within-the-city.jpg?w=800&h=500&s=1", "https://media.istockphoto.com/id/503729617/photo/yuyuan-gardens.jpg?s=612x612&w=0&k=20&c=ac9jM3KxQfLIuPXmbOMANbe_Bo26fpd320DVXriBGH0="],
+            "imageSearch": "Yu Garden Shanghai",
+            "description": "An extensive Chinese garden located beside the City God Temple.",
+            "wiki": "https://en.wikipedia.org/wiki/Yu_Garden",
+            "mapEmbed": "https://maps.google.com/maps?q=Yu+Garden+Shanghai&t=&z=13&ie=UTF8&iwloc=&output=embed"
+          },
+          {
+            "name": "Shanghai Tower",
+            "images": ["https://airial.travel/_next/image?url=https%3A%2F%2Flive.staticflickr.com%2F65535%2F49763913398_ab3f836d97_b.jpg&w=3840&q=70", "https://upload.wikimedia.org/wikipedia/commons/thumb/3/32/Shanghai_Tower_2015.jpg/330px-Shanghai_Tower_2015.jpg", "https://cdn.getyourguide.com/image/format=auto,fit=crop,gravity=auto,quality=60,width=450,height=450,dpr=2/tour_img/0b650f72389b1d9471a65af8cda6af94416c7758c4e237945a374af33412492f.jpeg"],
+            "imageSearch": "Shanghai Tower",
+            "description": "A 128-story megatall skyscraper in Lujiazui, Pudong, Shanghai.",
+            "wiki": "https://en.wikipedia.org/wiki/Shanghai_Tower",
+            "mapEmbed": "https://maps.google.com/maps?q=Great+Sphinx+of+Giza&t=&z=13&ie=UTF8&iwloc=&output=embed16"
+          }
+        ]
+      },
+      "Xi'an": {
+        "images": ["https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTiM3hqidgETgFhjjVZuZNIfaB2VPhLU0Ce5Q&s", "https://ca-times.brightspotcdn.com/dims4/default/d4575a7/2147483647/strip/true/crop/1849x1040+0+0/resize/1200x675!/quality/75/?url=https%3A%2F%2Fcalifornia-times-brightspot.s3.amazonaws.com%2Ff5%2F88%2Fd1d9cdc4f93dfd3257c78562297c%2Fla-1550885470-78q53n7agq-snap-image", "https://www.globaltimes.cn/Portals/0/attachment/2023/2023-05-25/0eda54b1-ec89-42b0-a987-000da78b48c8.jpeg"],
+        "imageSearch": "Xi'an China",
+        "description": "The capital of Shaanxi Province, and one of the oldest cities in China, known as the starting point of the Silk Road and home to the Terracotta Army.",
+        "wiki": "https://en.wikipedia.org/wiki/Xi%27an",
+        "mapEmbed": "https://maps.google.com/maps?q=Great+Sphinx+of+Giza&t=&z=13&ie=UTF8&iwloc=&output=embed17",
+        "places": [
+          {
+            "name": "Terracotta Army",
+            "images": ["https://upload.wikimedia.org/wikipedia/commons/thumb/8/88/51714-Terracota-Army.jpg/1200px-51714-Terracota-Army.jpg", "https://media.tacdn.com/media/attractions-splice-spp-674x446/15/41/27/70.jpg", "https://images.chinahighlights.com/allpicture/2024/06/d3001b79afd64e52b09cdddd79683102_cut_600x550_241_1744803150.jpg"],
+            "imageSearch": "Terracotta Army Xi'an",
+            "description": "A collection of terracotta sculptures depicting the armies of Qin Shi Huang, the first Emperor of China.",
+            "wiki": "https://en.wikipedia.org/wiki/Terracotta_Army",
+            "mapEmbed": "https://maps.google.com/maps?q=Great+Sphinx+of+Giza&t=&z=13&ie=UTF8&iwloc=&output=embed18"
+          },
+          {
+            "name": "Xi'an City Wall",
+            "images": ["https://www.wendywutours.com/resource/upload/794/banner-xian-walls.jpg", "https://static.toiimg.com/photo/37330861/.jpg", "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS41zvDXnYYqC4UbBGeKjdaXOC-BF9rxzCFNw&s"],
+            "imageSearch": "Xi'an City Wall",
+            "description": "The most complete city wall that has survived in China, as well being one of the largest ancient military defensive systems in the world.",
+            "wiki": "https://en.wikipedia.org/wiki/Fortifications_of_Xi%27an",
+            "mapEmbed": "https://maps.google.com/maps?q=Great+Sphinx+of+Giza&t=&z=13&ie=UTF8&iwloc=&output=embed19"
+          }
+        ]
+      }
     }
   },
   "Australia": {
     "cities": {
-      "Sydney": [
-        { "name": "Sydney Opera House", "imageSearch": "Sydney Opera House harbor", "description": "A multi-venue performing arts centre famous for its shell-like design.", "mapEmbed": "https://maps.google.com/maps?q=Sydney+Opera+House&output=embed" },
-        { "name": "Darling Harbour", "imageSearch": "Darling Harbour Sydney", "description": "A harbour adjacent to the city centre of Sydney, known for recreation and dining.", "mapEmbed": "https://maps.google.com/maps?q=Giza+Pyramid+Complex&t=&z=13&ie=UTF8&iwloc=&output=embed9" }
-      ],
-      "Queensland": [
-        { "name": "Great Barrier Reef", "imageSearch": "Great Barrier Reef aerial", "description": "The world's largest coral reef system.", "mapEmbed": "https://maps.google.com/maps?q=Great+Barrier+Reef&output=embed" },
-        { "name": "Daintree Rainforest", "imageSearch": "Daintree Rainforest", "description": "A tropical rainforest on the north east coast of Queensland, the oldest in the world.", "mapEmbed": "https://maps.google.com/maps?q=Great+Sphinx+of+Giza&t=&z=13&ie=UTF8&iwloc=&output=embed0" }
-      ]
+      "Sydney": {
+        "images": ["https://images.unsplash.com/photo-1624138784614-87fd1b6528f8?fm=jpg&q=60&w=3000&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8c3lkbmV5JTIwY2l0eXxlbnwwfHwwfHx8MA%3D%3D", "https://plus.unsplash.com/premium_photo-1697730224601-a3c867ac1886?fm=jpg&q=60&w=3000&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8YXVzdHJhbGlhJTIwY2l0eXxlbnwwfHwwfHx8MA%3D%3D", "https://www.aatkings.com/media/ltsk4p42/sydney-city-darling-harbour-north-banner.jpg?center=0.5%2C0.5&format=webp&mode=crop&width=900&height=600&quality=80"],
+        "imageSearch": "Sydney Australia",
+        "description": "Capital of New South Wales and one of Australia's largest cities, best known for its harbourfront Sydney Opera House, with a distinctive sail-like design. Massive Darling Harbour and the smaller Circular Quay port are hubs of waterside life.",
+        "wiki": "https://en.wikipedia.org/wiki/Sydney",
+        "mapEmbed": "https://maps.google.com/maps?q=Sydney&t=&z=13&ie=UTF8&iwloc=&output=embed",
+        "places": [
+          {
+            "name": "Sydney Opera House",
+            "images": ["https://images.unsplash.com/photo-1584772121849-56c717d6c542?fm=jpg&q=60&w=3000&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OHx8c3lkbmV5JTIwb3BlcmElMjBob3VzZXxlbnwwfHwwfHx8MA%3D%3D", "https://img.freepik.com/free-photo/white-concrete-structure-beside-body-water_400718-9.jpg?semt=ais_hybrid&w=740&q=80", "https://ychef.files.bbci.co.uk/1280x720/p0gp95cq.jpg"],
+            "imageSearch": "Sydney Opera House harbor",
+            "description": "A multi-venue performing arts centre famous for its shell-like design.",
+            "wiki": "https://en.wikipedia.org/wiki/Sydney_Opera_House",
+            "mapEmbed": "https://maps.google.com/maps?q=Sydney+Opera+House&t=&z=13&ie=UTF8&iwloc=&output=embed"
+          },
+          {
+            "name": "Darling Harbour",
+            "images": ["https://images.unsplash.com/photo-1564454941998-ca87e7cc6fee?fm=jpg&q=60&w=3000&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8ZGFybGluZyUyMGhhcmJvdXJ8ZW58MHx8MHx8fDA%3D", "https://www.hdwallpapers.in/download/darling_harbour_sydney-wide.jpg", "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRq-JOfDduIBX63MnC7Qe59ud7uk2eZPR2Wtg&s"],
+            "imageSearch": "Darling Harbour Sydney",
+            "description": "A harbour adjacent to the city centre of Sydney, known for recreation and dining.",
+            "wiki": "https://en.wikipedia.org/wiki/Darling_Harbour",
+            "mapEmbed": "https://maps.google.com/maps?q=Darling+Harbour+Sydney&t=&z=13&ie=UTF8&iwloc=&output=embed"
+          },
+          {
+            "name": "Sydney Harbour Bridge",
+            "images": ["https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSC6-k6hZDtdJnygMt9nkZxt4JPI0O1Efjxnw&s", "https://plus.unsplash.com/premium_photo-1697729973087-bac76016343c?fm=jpg&q=60&w=3000&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8c3lkbmV5JTIwaGFyYm91ciUyMGJyaWRnZXxlbnwwfHwwfHx8MA%3D%3D", "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRsgzz1FrzfXpBGuMyzHJwbJBUOkYQii-NfFQ&s"],
+            "imageSearch": "Sydney Harbour Bridge",
+            "description": "A heritage-listed steel through arch bridge across Sydney Harbour.",
+            "wiki": "https://en.wikipedia.org/wiki/Sydney_Harbour_Bridge",
+            "mapEmbed": "https://maps.google.com/maps?q=Iguazu+Falls&output=embed0"
+          }
+        ]
+      },
+      "Queensland": {
+        "images": ["https://plus.unsplash.com/premium_photo-1697730224601-a3c867ac1886?fm=jpg&q=60&w=3000&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8YXVzdHJhbGlhJTIwY2l0eXxlbnwwfHwwfHx8MA%3D%3D", "https://images.unsplash.com/photo-1624138784614-87fd1b6528f8?fm=jpg&q=60&w=3000&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8c3lkbmV5JTIwY2l0eXxlbnwwfHwwfHx8MA%3D%3D", "https://www.aatkings.com/media/ltsk4p42/sydney-city-darling-harbour-north-banner.jpg?center=0.5%2C0.5&format=webp&mode=crop&width=900&height=600&quality=80"],
+        "imageSearch": "Queensland Australia",
+        "description": "An Australian state covering the continent's northeast, with a coastline stretching nearly 7,000km. Its offshore Great Barrier Reef, the world's largest coral reef system, hosts thousands of marine species.",
+        "wiki": "https://en.wikipedia.org/wiki/Queensland",
+        "mapEmbed": "https://maps.google.com/maps?q=Queensland&t=&z=6&ie=UTF8&iwloc=&output=embed",
+        "places": [
+          {
+            "name": "Great Barrier Reef",
+            "images": ["https://i.natgeofe.com/n/8e44ef91-8f39-4a7b-90ac-0f1b63ba60e1/00000164-136c-ddfb-ab76-776fde2d0000.jpg?wp=1&w=1884.75&h=1060.5", "https://plus.unsplash.com/premium_photo-1661841439995-1706237c83dc?fm=jpg&q=60&w=3000&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8Z3JlYXQlMjBiYXJyaWVyJTIwcmVlZnxlbnwwfHwwfHx8MA%3D%3D", "https://i.natgeofe.com/n/8e44ef91-8f39-4a7b-90ac-0f1b63ba60e1/00000164-136c-ddfb-ab76-776fde2d0000.jpg"],
+            "imageSearch": "Great Barrier Reef aerial",
+            "description": "The world's largest coral reef system.",
+            "wiki": "https://en.wikipedia.org/wiki/Great_Barrier_Reef",
+            "mapEmbed": "https://maps.google.com/maps?q=Great+Barrier+Reef&t=&z=6&ie=UTF8&iwloc=&output=embed"
+          },
+          {
+            "name": "Daintree Rainforest",
+            "images": ["https://www.discoverthedaintree.com/wp-content/uploads/2022/05/Daintree_Rainforest-scaled.jpg", "https://www.shutterstock.com/image-photo/beautiful-peaceful-rain-forest-stream-600nw-2263349553.jpg", "https://images.unsplash.com/photo-1442120108414-42e7ea50d0b5?fm=jpg&q=60&w=3000&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8ZGFpbnRyZWUlMjByYWluZm9yZXN0fGVufDB8fDB8fHww"],
+            "imageSearch": "Daintree Rainforest",
+            "description": "A tropical rainforest on the north east coast of Queensland, the oldest in the world.",
+            "wiki": "https://en.wikipedia.org/wiki/Daintree_Rainforest",
+            "mapEmbed": "https://maps.google.com/maps?q=Daintree+Rainforest&t=&z=13&ie=UTF8&iwloc=&output=embed"
+          },
+          {
+            "name": "Whitehaven Beach",
+            "images": ["https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTB7IO5YYqLu83UUoH37tABdlgdAFPJcblAeg&s", "https://lp-cms-production.imgix.net/2021-06/500pxRF_113236433.jpg?w=1920&h=640&fit=crop&crop=faces%2Cedges&auto=format&q=75", "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT4P5NBtzfMzuY7_wyEhdM3-YodWT7Ecl9nWQ&s"],
+            "imageSearch": "Whitehaven Beach Queensland",
+            "description": "A beach on Whitsunday Island, known for its crystal clear turquoise water and pristine silica sand.",
+            "wiki": "https://en.wikipedia.org/wiki/Whitehaven_Beach",
+            "mapEmbed": "https://maps.google.com/maps?q=Iguazu+Falls&output=embed1"
+          }
+        ]
+      },
+      "Melbourne": {
+        "images": ["https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRCQ4j-KZqrO0tVMni5b5vwEJLfa_zw81V5bQ&s", "https://media.gettyimages.com/id/1480281718/video/4k-aerial-view-day-to-night-hyper-lapse-footage-of-central-business-district-of-melbourne.jpg?s=640x640&k=20&c=Fe8itN7V8VqnJfNmjiZ0U7ehVBIZwCMPIc9nNHS_z2U=", "https://melbournechauffeursservices.com.au/wp-content/uploads/2024/06/Melbourne-City-Tour1.jpg"],
+        "imageSearch": "Melbourne Australia",
+        "description": "The coastal capital of the southeastern Australian state of Victoria. At the city's centre is the modern Federation Square development, with plazas, bars, and restaurants by the Yarra River.",
+        "wiki": "https://en.wikipedia.org/wiki/Melbourne",
+        "mapEmbed": "https://maps.google.com/maps?q=Iguazu+Falls&output=embed2",
+        "places": [
+          {
+            "name": "Federation Square",
+            "images": ["https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT9EbnXnP8pSGEd3smpyL9F3Ak8BbpZB0lsDw&s", "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSb0GtWdN_K_I0s9V8dfJ-_6D6CEMFT1NZkZg&s", "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSPwO61dolLkqExHgAPSwA7HUfCWVwKYnfuyA&s"],
+            "imageSearch": "Federation Square Melbourne",
+            "description": "A venue for arts, culture and public events on the edge of the Melbourne central business district.",
+            "wiki": "https://en.wikipedia.org/wiki/Federation_Square",
+            "mapEmbed": "https://maps.google.com/maps?q=Iguazu+Falls&output=embed3"
+          },
+          {
+            "name": "Royal Botanic Gardens",
+            "images": ["https://whatson.melbourne.vic.gov.au/rails/active_storage/representations/proxy/eyJfcmFpbHMiOnsiZGF0YSI6IjA1N2Q5MDg0LTg0ZGQtNDI0MS1hYzU5LTRkMDY3Mjk4OTUwYiIsInB1ciI6ImJsb2JfaWQifX0=--57671ec7c0b7ffe164808389a75bb22c73c968b6/eyJfcmFpbHMiOnsiZGF0YSI6eyJmb3JtYXQiOiJqcGciLCJyZXNpemVfdG9fbGltaXQiOlsxMDAwLDYwMF19LCJwdXIiOiJ2YXJpYXRpb24ifX0=--0d1dec94e96bf59e4e90ca4a7c11e516560ab297/9022d12d-56c4-441c-ba61-e2a44c09fb76.jpg", "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRBaJzC14fMwT6P0ZlnqTzFqu_hROWfGRhmaQ&s", "https://rbgv-prod-cdn-bpfbb4gthrfzb4ab.a03.azurefd.net/media/fzmm5ocd/guilfoyle-s-volcano.jpg"],
+            "imageSearch": "Royal Botanic Gardens Melbourne",
+            "description": "A major botanical garden located near the centre of Melbourne.",
+            "wiki": "https://en.wikipedia.org/wiki/Royal_Botanic_Gardens_Victoria",
+            "mapEmbed": "https://maps.google.com/maps?q=Iguazu+Falls&output=embed4"
+          }
+        ]
+      }
     }
   },
   "Brazil": {
     "cities": {
-      "Rio de Janeiro": [
-        { "name": "Christ the Redeemer", "imageSearch": "Christ the Redeemer statue Rio", "description": "An Art Deco statue of Jesus Christ.", "mapEmbed": "https://maps.google.com/maps?q=Christ+the+Redeemer+Rio&output=embed" },
-        { "name": "Selarón Steps", "imageSearch": "Selaron Steps Rio", "description": "A set of world-famous steps covered in colorful tiles.", "mapEmbed": "https://maps.google.com/maps?q=Great+Sphinx+of+Giza&t=&z=13&ie=UTF8&iwloc=&output=embed1" }
-      ],
-      "Foz do Iguacu": [
-        { "name": "Iguazu Falls", "imageSearch": "Iguazu Falls Brazil side", "description": "The largest waterfall system in the world.", "mapEmbed": "https://maps.google.com/maps?q=Iguazu+Falls&output=embed" },
-        { "name": "Bird Park", "imageSearch": "Parque das Aves Foz", "description": "A privately owned zoological park, located near the Iguazu Falls.", "mapEmbed": "https://maps.google.com/maps?q=Great+Sphinx+of+Giza&t=&z=13&ie=UTF8&iwloc=&output=embed2" }
-      ]
+      "Rio de Janeiro": {
+        "images": ["https://images.unsplash.com/photo-1516834611397-8d633eaec5d0?fm=jpg&q=60&w=3000&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8cmlvJTIwZGUlMjBqYW5laXJvJTIwY2l0eXxlbnwwfHwwfHx8MA%3D%3D", "https://images.unsplash.com/photo-1483729558449-99ef09a8c325?fm=jpg&q=60&w=3000&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8cmlvJTIwZGUlMjBqYW5laXJvfGVufDB8fDB8fHww", "https://voyeglobal.com/wp-content/uploads/2025/02/thumbnail-1.jpeg"],
+        "imageSearch": "Rio de Janeiro Brazil",
+        "description": "A huge seaside city in Brazil, famed for its Copacabana and Ipanema beaches, 38m Christ the Redeemer statue atop Mount Corcovado and for Sugarloaf Mountain, a granite peak with cable cars to its summit.",
+        "wiki": "https://en.wikipedia.org/wiki/Rio_de_Janeiro",
+        "mapEmbed": "https://maps.google.com/maps?q=Rio+de+Janeiro&t=&z=13&ie=UTF8&iwloc=&output=embed",
+        "places": [
+          {
+            "name": "Christ the Redeemer",
+            "images": ["https://www.thoughtco.com/thmb/S3YU2hCvC0z8lhnKFK8yYmUQ8H0=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/christredeemer-10139156-567c92283df78ccc15684502.jpg", "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1b/06/be/34/cristo-redentor-creditos.jpg?w=900&h=-1&s=1", "https://images.pexels.com/photos/2818895/pexels-photo-2818895.jpeg?cs=srgb&dl=pexels-4fly-rj-1461715-2818895.jpg&fm=jpg"],
+            "imageSearch": "Christ the Redeemer statue Rio",
+            "description": "An Art Deco statue of Jesus Christ.",
+            "wiki": "https://en.wikipedia.org/wiki/Christ_the_Redeemer_(statue)",
+            "mapEmbed": "https://maps.google.com/maps?q=Christ+the+Redeemer+Rio&t=&z=13&ie=UTF8&iwloc=&output=embed"
+          },
+          {
+            "name": "Selarón Steps",
+            "images": ["https://dynamic-media-cdn.tripadvisor.com/media/photo-o/18/23/e8/81/escadaria-selaron.jpg?w=900&h=500&s=1", "https://d37rmf1ynyg9aw.cloudfront.net/fit-in/1280x1280/data/v4/pois/sygic-poi-30017/resources/576757.jpg", "https://c8.alamy.com/comp/W4GW41/escadaria-selaron-steps-lapa-rio-de-janeiro-brazil-W4GW41.jpg"],
+            "imageSearch": "Selaron Steps Rio",
+            "description": "A set of world-famous steps covered in colorful tiles.",
+            "wiki": "https://en.wikipedia.org/wiki/Escadaria_Selar%C3%B3n",
+            "mapEmbed": "https://maps.google.com/maps?q=Selaron+Steps&t=&z=13&ie=UTF8&iwloc=&output=embed"
+          },
+          {
+            "name": "Sugarloaf Mountain",
+            "images": ["https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT4uGW2Wh1j7BEgM55dWKh1T1kKyGy7njnPqg&s", "https://media-cdn.tripadvisor.com/media/photo-s/0a/8b/60/9c/view-from-sugarloaf-mountain.jpg", "https://velvetescape.com/wp-content/uploads/2014/03/IMG_7834.jpg"],
+            "imageSearch": "Sugarloaf Mountain Rio",
+            "description": "A peak situated in Rio de Janeiro, Brazil, at the mouth of Guanabara Bay on a peninsula that juts out into the Atlantic Ocean.",
+            "wiki": "https://en.wikipedia.org/wiki/Sugarloaf_Mountain",
+            "mapEmbed": "https://maps.google.com/maps?q=Iguazu+Falls&output=embed5"
+          }
+        ]
+      },
+      "Foz do Iguacu": {
+        "images": ["https://c8.alamy.com/comp/2AX1R9H/aerial-view-of-traffic-crossing-the-friendship-bridge-portuguese-ponte-da-amizade-connecting-foz-do-iguacu-brazil-to-ciudad-del-este-paraguay-2AX1R9H.jpg", "https://c8.alamy.com/comp/2D9NC44/foz-do-iguau-city-in-brazil-skyline-of-touristic-foz-do-iguassu-2D9NC44.jpg", "https://www.hoteldelreyfoz.com/wp-content/uploads/2020/07/vista-aerea-foz-do-iguacu.jpg"],
+        "imageSearch": "Foz do Iguacu",
+        "description": "A city in the Brazilian state of Paraná, serving as the main base for visiting the famed Iguazu Falls, one of the world's largest waterfalls, which sits on the border with Argentina.",
+        "wiki": "https://en.wikipedia.org/wiki/Foz_do_Igua%C3%A7u",
+        "mapEmbed": "https://maps.google.com/maps?q=Foz+do+Igua%C3%A7u&t=&z=13&ie=UTF8&iwloc=&output=embed",
+        "places": [
+          {
+            "name": "Iguazu Falls",
+            "images": ["https://cdn.britannica.com/04/175204-050-7F319F06/view-border-Iguacu-Falls-Argentina-Brazil.jpg", "https://media.cnn.com/api/v1/images/stellar/prod/150311151023-iguazu-brazilian-side-7.jpg?q=w_1600,h_1013,x_0,y_0,c_fill", "https://res.cloudinary.com/enchanting/q_70,f_auto,c_fill,g_face/enchanting-web/2023/09/Iguazu-falls-Foz-do-Iguazu-Brazil-South-America-Enchanting-Travels.jpg"],
+            "imageSearch": "Iguazu Falls Brazil side",
+            "description": "The largest waterfall system in the world.",
+            "wiki": "https://en.wikipedia.org/wiki/Iguazu_Falls",
+            "mapEmbed": "https://maps.google.com/maps?q=Iguazu+Falls&t=&z=13&ie=UTF8&iwloc=&output=embed"
+          },
+          {
+            "name": "Bird Park",
+            "images": ["https://c8.alamy.com/comp/CWG1JG/colorful-birds-on-a-branch-inside-the-jurong-bird-park-in-singapore-CWG1JG.jpg", "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRUOnqSjd-X1deuVlN-UrrB8TLIMKqOMVnK4A&s", "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2a/10/66/ac/hong-leong-foundation.jpg?w=1200&h=-1&s=1"],
+            "imageSearch": "Parque das Aves Foz",
+            "description": "A privately owned zoological park, located near the Iguazu Falls.",
+            "wiki": "https://en.wikipedia.org/wiki/Parque_das_Aves",
+            "mapEmbed": "https://maps.google.com/maps?q=Parque+das+Aves+Foz&t=&z=13&ie=UTF8&iwloc=&output=embed"
+          },
+          {
+            "name": "Itaipu Dam",
+            "images": ["https://thumbs.dreamstime.com/b/downstream-view-itaipu-dam-showing-operational-turbine-outlets-binacional-brazil-june-wide-hydroelectric-plant-powerhouse-408252819.jpg", "https://c8.alamy.com/comp/FK8EBJ/inside-view-of-the-itaipu-hydroelectric-plant-FK8EBJ.jpg", "https://www.shutterstock.com/shutterstock/photos/2686290905/display_1500/stock-photo-itaipu-binacional-brazil-june-dramatic-view-into-the-deep-interior-of-the-itaipu-dam-2686290905.jpg"],
+            "imageSearch": "Itaipu Dam Brazil",
+            "description": "A hydroelectric dam on the Paraná River located on the border between Brazil and Paraguay.",
+            "wiki": "https://en.wikipedia.org/wiki/Itaipu_Dam",
+            "mapEmbed": "https://maps.google.com/maps?q=Iguazu+Falls&output=embed6"
+          }
+        ]
+      },
+      "Sao Paulo": {
+        "images": ["https://c8.alamy.com/comp/T6BX4Y/metropole-view-from-above-aerial-view-of-sao-paulo-city-brazil-south-america-T6BX4Y.jpg", "https://media.istockphoto.com/id/878377556/photo/sao-paulo.jpg?s=612x612&w=0&k=20&c=YIIn27eI1l_iNx-IOn48w93ZLpfki2akZhFeBljU6LA=", "https://c8.alamy.com/comp/2BPDC3H/panoramic-view-of-the-city-of-sao-paulo-brazil-2BPDC3H.jpg"],
+        "imageSearch": "Sao Paulo Brazil",
+        "description": "A vibrant financial center and the world's most populous Portuguese-speaking city. It is known for its architecture, gastronomy, and cultural institutions.",
+        "wiki": "https://en.wikipedia.org/wiki/S%C3%A3o_Paulo",
+        "mapEmbed": "https://maps.google.com/maps?q=Iguazu+Falls&output=embed7",
+        "places": [
+          {
+            "name": "Ibirapuera Park",
+            "images": ["https://media.istockphoto.com/id/510317002/photo/aerial-view-of-sao-paulo-and-the-ibirapuera-park-brazil.jpg?s=612x612&w=0&k=20&c=mScwvu5cOTR_hebCYkNIcwslpaB1qXFqUGlc9qzU_oI=", "https://img.freepik.com/premium-photo/aerial-view-ibirapuera-park-sao-paulo-sp-residential-buildings-around-lake-ibirapuera-park_361869-529.jpg", "https://upload.wikimedia.org/wikipedia/commons/1/11/Parque_do_ibirapuera_visto_do_c%C3%A9u.jpg"],
+            "imageSearch": "Ibirapuera Park Sao Paulo",
+            "description": "A major urban park in São Paulo, and one of South America's largest city parks.",
+            "wiki": "https://en.wikipedia.org/wiki/Ibirapuera_Park",
+            "mapEmbed": "https://maps.google.com/maps?q=Iguazu+Falls&output=embed8"
+          },
+          {
+            "name": "Paulista Avenue",
+            "images": ["https://media.gettyimages.com/id/1255604838/photo/aerial-views-of-paulista-avenue-sao-paulo.jpg?s=1024x1024&w=gi&k=20&c=kVKY7PMJPfwcoWwIOELQK5vOSPU24jyv-OrQFwTWxls=", "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSBWqnejWNFmKn9DyqtwZDn77GqYFC_UQhxWA&s", "https://img.freepik.com/premium-photo/sao-paulo-brazil-aerial-view-paulista-avenue-sao-paulo-city_70216-7509.jpg"],
+            "imageSearch": "Paulista Avenue Sao Paulo",
+            "description": "One of the most important avenues in São Paulo, known for its financial institutions, cultural sites, and shopping.",
+            "wiki": "https://en.wikipedia.org/wiki/Paulista_Avenue",
+            "mapEmbed": "https://maps.google.com/maps?q=Iguazu+Falls&output=embed9"
+          }
+        ]
+      }
     }
   },
   "Canada": {
     "cities": {
-      "Toronto": [
-        { "name": "CN Tower", "imageSearch": "CN Tower Toronto skyline", "description": "A communications and observation tower.", "mapEmbed": "https://maps.google.com/maps?q=CN+Tower&output=embed" },
-        { "name": "Distillery District", "imageSearch": "Distillery District Toronto", "description": "A commercial and residential district containing numerous cafés, restaurants, and shops.", "mapEmbed": "https://maps.google.com/maps?q=Great+Sphinx+of+Giza&t=&z=13&ie=UTF8&iwloc=&output=embed3" }
-      ],
-      "Banff": [
-        { "name": "Lake Louise", "imageSearch": "Lake Louise Banff turquoise", "description": "A glacial lake within Banff National Park.", "mapEmbed": "https://maps.google.com/maps?q=Lake+Louise+Banff&output=embed" },
-        { "name": "Banff Gondola", "imageSearch": "Banff Gondola view", "description": "A cable car offering sweeping views of the six mountain ranges.", "mapEmbed": "https://maps.google.com/maps?q=Great+Sphinx+of+Giza&t=&z=13&ie=UTF8&iwloc=&output=embed4" }
-      ]
+      "Toronto": {
+        "images": ["https://static2.tripoto.com/media/filter/tst/img/2192583/TripDocument/1652106806_toronto.png", "https://d2l4159s3q6ni.cloudfront.net/resize/1200x600/filters:max_age(2604800):quality(65)/s3/dam/photos/45/de/b9/d9/b0cb31dfebbde3f5a4a749a8dbec19ea82df4984eaf05c87bc37bdfd.jpg", "https://plus.unsplash.com/premium_photo-1694475393287-88027e0fbde4?fm=jpg&q=60&w=3000&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8dG9yb250byUyQyUyMGNhbmFkYXxlbnwwfHwwfHx8MA%3D%3D"],
+        "imageSearch": "Toronto skyline",
+        "description": "The capital of the province of Ontario, is a major Canadian city along Lake Ontario’s northwestern shore. It's a dynamic metropolis with a core of soaring skyscrapers, all dwarfed by the iconic, free-standing CN Tower.",
+        "wiki": "https://en.wikipedia.org/wiki/Toronto",
+        "mapEmbed": "https://maps.google.com/maps?q=Toronto&t=&z=13&ie=UTF8&iwloc=&output=embed",
+        "places": [
+          {
+            "name": "CN Tower",
+            "images": ["https://www.cntower.ca/sites/default/files/styles/16_9_scale_and_crop_large/public/images/explore-cn-tower%20.jpg.webp?itok=1kYajz48", "https://afar.brightspotcdn.com/dims4/default/5c318bd/2147483647/strip/true/crop/1944x1334+0+629/resize/660x453!/quality/90/?url=https%3A%2F%2Fk3-prod-afar-media.s3.us-west-2.amazonaws.com%2Fbrightspot%2F52%2F68%2F985062c499aa5ebdba7a36cfe584%2Foriginal-e2b9eff6d732be57ea78ef149aa5fac2.jpg", "https://a0.muscache.com/pictures/hosting/Hosting-1013335267964882301/original/e6819737-74da-4315-af9a-c74f728f893f.jpeg"],
+            "imageSearch": "CN Tower Toronto skyline",
+            "description": "A communications and observation tower.",
+            "wiki": "https://en.wikipedia.org/wiki/CN_Tower",
+            "mapEmbed": "https://maps.google.com/maps?q=CN+Tower&t=&z=13&ie=UTF8&iwloc=&output=embed"
+          },
+          {
+            "name": "Distillery District",
+            "images": ["https://andrewmclachlan.wordpress.com/wp-content/uploads/2019/04/distillery-district_972-1.jpg", "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTIv31CaL_u90GR0hZ7TRMdsG0fnRx_oMhBUw&s", "https://www.heritagetoronto.org/wp-content/uploads/2017_11_05_Heritage-Primer-Bus-Tour_Herman-Custodio_N_0026.jpg"],
+            "imageSearch": "Distillery District Toronto",
+            "description": "A commercial and residential district containing numerous cafés, restaurants, and shops.",
+            "wiki": "https://en.wikipedia.org/wiki/Distillery_District",
+            "mapEmbed": "https://maps.google.com/maps?q=Distillery+District+Toronto&t=&z=13&ie=UTF8&iwloc=&output=embed"
+          },
+          {
+            "name": "Royal Ontario Museum",
+            "images": ["https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT2EfmVro09fepS7S5Qc43ehAmg0qtS4OoC9Q&s", "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR-HddRl0tDncMqFI1aBcS9OLHSifE0px1FfQ&s", "https://libeskind.com/wp-content/uploads/lobby-with-crystalline-skylights-c-michele-nastasi-2280x1564.jpg"],
+            "imageSearch": "Royal Ontario Museum",
+            "description": "A museum of art, world culture and natural history in Toronto.",
+            "wiki": "https://en.wikipedia.org/wiki/Royal_Ontario_Museum",
+            "mapEmbed": "https://maps.google.com/maps?q=Great+Sphinx+of+Giza&t=&z=13&ie=UTF8&iwloc=&output=embed20"
+          }
+        ]
+      },
+      "Banff": {
+        "images": ["https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQIS302cAif9HK1WYvm7MPeE-qj0Wj5LkXctg&s", "https://images.unsplash.com/photo-1503614472-8c93d56e92ce?fm=jpg&q=60&w=3000&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8YmFuZmZ8ZW58MHx8MHx8fDA%3D", "https://www.banff-springs-hotel.com/content/uploads/2022/11/Peyto-Lake-Banff-National-Park.jpeg"],
+        "imageSearch": "Banff town Canada",
+        "description": "A resort town in the province of Alberta, located within Banff National Park. The peaks of Mt. Rundle and Mt. Cascade, part of the Rocky Mountains, dominate its skyline.",
+        "wiki": "https://en.wikipedia.org/wiki/Banff,_Alberta",
+        "mapEmbed": "https://maps.google.com/maps?q=Banff&t=&z=13&ie=UTF8&iwloc=&output=embed",
+        "places": [
+          {
+            "name": "Lake Louise",
+            "images": ["https://media-cdn.tripadvisor.com/media/attractions-splice-spp-674x446/16/4e/b6/1d.jpg", "https://cdn.britannica.com/79/102279-050-EF61787B/Lake-Louise-Columbia-Glacier-Alberta-Canada-Banff.jpg", "https://t4.ftcdn.net/jpg/01/15/64/99/360_F_115649942_5GRTCwG06bTvf4R6WbTxHJ1md5edezIZ.jpg"],
+            "imageSearch": "Lake Louise Banff turquoise",
+            "description": "A glacial lake within Banff National Park.",
+            "wiki": "https://en.wikipedia.org/wiki/Lake_Louise_(Alberta)",
+            "mapEmbed": "https://maps.google.com/maps?q=Lake+Louise+Banff&t=&z=13&ie=UTF8&iwloc=&output=embed"
+          },
+          {
+            "name": "Banff Gondola",
+            "images": ["https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTruedy7X-iB2QOgj7zGHzLficELkcU5FNgFQ&s", "https://banfflakelouise.bynder.com/m/761f02ec740fc5cd/2000x1080_jpg-2021_BanffGondola_Sightseeing_PursuitBanffJasperCollection.jpg", "https://image-tc.galaxy.tf/wijpeg-duawc8tl8ezmhdbv2jnzn9ynp/banff-gondola-1920x1280-unsplash.jpg"],
+            "imageSearch": "Banff Gondola view",
+            "description": "A cable car offering sweeping views of the six mountain ranges.",
+            "wiki": "https://en.wikipedia.org/wiki/Banff_Gondola",
+            "mapEmbed": "https://maps.google.com/maps?q=Banff+Gondola&t=&z=13&ie=UTF8&iwloc=&output=embed"
+          },
+          {
+            "name": "Moraine Lake",
+            "images": ["https://www.travellingwithnikki.com/wp-content/uploads/2016/05/MoraineLake.jpg", "https://images.squarespace-cdn.com/content/v1/62dade0b56bf15245a913999/1659049414845-1RP0Y7OFIIYP8R4AKLUF/8fe0a-img_8030.jpg", "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQuolyLI-01iZVxUKWUt6hiuZA4SnSbYqYOOw&s"],
+            "imageSearch": "Moraine Lake Banff",
+            "description": "A glacially fed lake in Banff National Park, situated in the Valley of the Ten Peaks.",
+            "wiki": "https://en.wikipedia.org/wiki/Moraine_Lake",
+            "mapEmbed": "https://maps.google.com/maps?q=Great+Sphinx+of+Giza&t=&z=13&ie=UTF8&iwloc=&output=embed21"
+          }
+        ]
+      },
+      "Vancouver": {
+        "images": ["https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQpDxJxBYiXF9s3yZgBt1kBOZhjJoPjxgXs5Q&s", "https://travel.destinationcanada.com/_next/image?url=https%3A%2F%2Fadmin.destinationcanada.com%2Fsites%2Fdefault%2Ffiles%2Fimages%2Farticle%2Fheader_vancouver_views_photo_credit_destination_bc_alex_strohl.jpg&w=1920&q=75", "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRjz77a7K6d73PkBSle4oGIhrP410pilWLchg&s"],
+        "imageSearch": "Vancouver Canada",
+        "description": "A bustling west coast seaport in British Columbia, is among Canada’s densest, most ethnically diverse cities. A popular filming location, it’s surrounded by mountains, and also has thriving art, theatre and music scenes.",
+        "wiki": "https://en.wikipedia.org/wiki/Vancouver",
+        "mapEmbed": "https://maps.google.com/maps?q=Great+Sphinx+of+Giza&t=&z=13&ie=UTF8&iwloc=&output=embed22",
+        "places": [
+          {
+            "name": "Stanley Park",
+            "images": ["https://cdn.authentik.com/canada/uploads/images/orig/blog/parc-stanley-de-vancouver.jpg", "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/10/a6/09/9f/beautiful-view-of-stanley.jpg?w=900&h=500&s=1", "https://d3e1m60ptf1oym.cloudfront.net/5457805d-ddf9-43c3-b7fe-8dda387afeae/09-12-2016-0369_xgaplus.jpg"],
+            "imageSearch": "Stanley Park Vancouver",
+            "description": "A 405-hectare public park that borders the downtown of Vancouver and is mostly surrounded by waters of Burrard Inlet and English Bay.",
+            "wiki": "https://en.wikipedia.org/wiki/Stanley_Park",
+            "mapEmbed": "https://maps.google.com/maps?q=Great+Sphinx+of+Giza&t=&z=13&ie=UTF8&iwloc=&output=embed23"
+          },
+          {
+            "name": "Capilano Suspension Bridge",
+            "images": ["https://www.capbridge.com/wp-content/uploads/2022/08/Suspension-Gallery1-856x482.jpg", "https://images.spaicelabs.com/images/flus6j8v/production/ed9a80d712f72f788b652377bd8af6ddb7560a35-5272x2962.jpg?rect=0,97,5272,2768&w=1200&h=630", "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTSzdTnBLq_6RDFu3HabQgWk8cSz3CavCErkQ&s"],
+            "imageSearch": "Capilano Suspension Bridge",
+            "description": "A simple suspension bridge crossing the Capilano River in the District of North Vancouver.",
+            "wiki": "https://en.wikipedia.org/wiki/Capilano_Suspension_Bridge",
+            "mapEmbed": "https://maps.google.com/maps?q=Great+Sphinx+of+Giza&t=&z=13&ie=UTF8&iwloc=&output=embed24"
+          }
+        ]
+      }
     }
   },
   "Turkey": {
     "cities": {
-      "Istanbul": [
-        { "name": "Hagia Sophia", "imageSearch": "Hagia Sophia Istanbul exterior", "description": "A Late Antique place of worship in Istanbul.", "mapEmbed": "https://maps.google.com/maps?q=Hagia+Sophia&output=embed" },
-        { "name": "Basilica Cistern", "imageSearch": "Basilica Cistern Istanbul", "description": "The largest of several hundred ancient cisterns that lie beneath the city of Istanbul.", "mapEmbed": "https://maps.google.com/maps?q=Great+Sphinx+of+Giza&t=&z=13&ie=UTF8&iwloc=&output=embed5" }
-      ],
-      "Cappadocia": [
-        { "name": "Fairy Chimneys", "imageSearch": "Cappadocia hot air balloons", "description": "Unique rock formations famous for hot air balloon rides.", "mapEmbed": "https://maps.google.com/maps?q=Goreme+National+Park&output=embed" },
-        { "name": "Uchisar Castle", "imageSearch": "Uchisar Castle Cappadocia", "description": "A rock-cut castle located at the highest point in Cappadocia.", "mapEmbed": "https://maps.google.com/maps?q=Great+Sphinx+of+Giza&t=&z=13&ie=UTF8&iwloc=&output=embed6" }
-      ]
+      "Istanbul": {
+        "images": ["https://media.cntravellerme.com/photos/6867aeba85cc078a3f1e5ad3/3:2/w_3240,h_2160,c_limit/1480863367", "https://images.unsplash.com/photo-1636213669717-7170fbff8383?fm=jpg&q=60&w=3000&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8aXN0YW5idWwlMkMlMjB0dXJrZXl8ZW58MHx8MHx8fDA%3D", "https://plus.unsplash.com/premium_photo-1691338312403-e9f7f7984eeb?fm=jpg&q=60&w=3000&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8aXN0YW5idWx8ZW58MHx8MHx8fDA%3D"],
+        "imageSearch": "Istanbul Turkey",
+        "description": "A major city in Turkey that straddles Europe and Asia across the Bosphorus Strait. Its Old City reflects cultural influences of the many empires that once ruled here.",
+        "wiki": "https://en.wikipedia.org/wiki/Istanbul",
+        "mapEmbed": "https://maps.google.com/maps?q=Istanbul&t=&z=13&ie=UTF8&iwloc=&output=embed",
+        "places": [
+          {
+            "name": "Hagia Sophia",
+            "images": ["https://media.cnn.com/api/v1/images/stellar/prod/gettyimages-2209821026.jpg?c=original", "https://res.cloudinary.com/aenetworks/image/upload/c_fill,ar_2,w_3840,h_1920,g_auto/dpr_auto/f_auto/q_auto:eco/v1/hagia-sophia-gettyimages-1218260373?_a=BAVAZGID0", "https://images.guidedistanbultours.com/media/Hagia-Sophia-Interior-View.jpg"],
+            "imageSearch": "Hagia Sophia Istanbul exterior",
+            "description": "A Late Antique place of worship in Istanbul.",
+            "wiki": "https://en.wikipedia.org/wiki/Hagia_Sophia",
+            "mapEmbed": "https://maps.google.com/maps?q=Hagia+Sophia&t=&z=13&ie=UTF8&iwloc=&output=embed"
+          },
+          {
+            "name": "Basilica Cistern",
+            "images": ["https://idsb.tmgrup.com.tr/ly/uploads/images/2020/12/10/78477.jpg", "https://cdn-imgix.headout.com/media/images/c7fabaac729ea48a216ba27af887aba8-i.jpg?auto=format&w=702.4499999999999&h=401.4&q=90&ar=7%3A4&crop=faces&fit=crop", "https://traveldudes.com/wp-content/uploads/2023/07/Columns-and-hand-at-the-Sunken-Palace-Basilica-Cistern-in-Istanbul-Turkey.jpg"],
+            "imageSearch": "Basilica Cistern Istanbul",
+            "description": "The largest of several hundred ancient cisterns that lie beneath the city of Istanbul.",
+            "wiki": "https://en.wikipedia.org/wiki/Basilica_Cistern",
+            "mapEmbed": "https://maps.google.com/maps?q=Basilica+Cistern&t=&z=13&ie=UTF8&iwloc=&output=embed"
+          },
+          {
+            "name": "Topkapi Palace",
+            "images": ["https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTbqcuXTPvD6XGas7W5kG_paPL7-wQlQO06XQ&s", "https://theistanbulinsider.com/wp-content/uploads/2019/11/topkapi-palace-istanbul-aerial-1.jpg", "https://www.budgettraveltalk.com/wp-content/uploads/2017/08/Topkapi-Palace-Bosphorus-View.jpg"],
+            "imageSearch": "Topkapi Palace Istanbul",
+            "description": "A large museum in the east of the Fatih district of Istanbul. In the 15th and 16th centuries it served as the main residence and administrative headquarters of the Ottoman sultans.",
+            "wiki": "https://en.wikipedia.org/wiki/Topkap%C4%B1_Palace",
+            "mapEmbed": "https://maps.google.com/maps?q=Great+Sphinx+of+Giza&t=&z=13&ie=UTF8&iwloc=&output=embed25"
+          }
+        ]
+      },
+      "Cappadocia": {
+        "images": ["https://res.cloudinary.com/ddjuftfy2/image/upload/f_webp,c_fill,q_auto/memphis/xlarge/304897285_Cappadocia%20(1).jpg", "https://excursionmania.com/uploads/regions/region/capp.jpg", "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSFkCUP3laSomae9oKZDcIQ3eZCkhT_390G1g&s"],
+        "imageSearch": "Cappadocia Turkey",
+        "description": "A semi-arid region in central Turkey, is known for its distinctive 'fairy chimneys,' tall, cone-shaped rock formations clustered in Monks Valley, Göreme and elsewhere.",
+        "wiki": "https://en.wikipedia.org/wiki/Cappadocia",
+        "mapEmbed": "https://maps.google.com/maps?q=Cappadocia&t=&z=10&ie=UTF8&iwloc=&output=embed",
+        "places": [
+          {
+            "name": "Fairy Chimneys",
+            "images": ["https://globerovers.com/wp-content/uploads/2018/12/Love-Valley-Goreme-Cappadocia-Turkey.jpg", "https://cdn.mos.cms.futurecdn.net/RpRc3JjonqcKP4gpZRUycM.jpg", "https://images.ctfassets.net/m5us57n7qfgl/2h1Sdl12S4hN3Y3aXMenDY/e15d6f3cb670c1bfbcafd105a19f19d0/shutterstock_1831308829__1_.jpg?w=1200&h=630&fm=jpg&q=70&f=center"],
+            "imageSearch": "Cappadocia hot air balloons",
+            "description": "Unique rock formations famous for hot air balloon rides.",
+            "wiki": "https://en.wikipedia.org/wiki/Cappadocia#Geography_and_climate",
+            "mapEmbed": "https://maps.google.com/maps?q=Fairy+Chimneys+Cappadocia&t=&z=13&ie=UTF8&iwloc=&output=embed"
+          },
+          {
+            "name": "Uchisar Castle",
+            "images": ["https://cappadocia4u.com/wp-content/uploads/uchisar.jpg", "https://wowcappadocia.com/assets/images/places/uchisar-castle2.jpg", "https://cappadociaadventures.com/storage/attractions/May2023/4LgnwMroCioWDgrTZJs7.jpg"],
+            "imageSearch": "Uchisar Castle Cappadocia",
+            "description": "A rock-cut castle located at the highest point in Cappadocia.",
+            "wiki": "https://en.wikipedia.org/wiki/Uchisar_Castle",
+            "mapEmbed": "https://maps.google.com/maps?q=Uchisar+Castle&t=&z=13&ie=UTF8&iwloc=&output=embed"
+          },
+          {
+            "name": "Goreme Open Air Museum",
+            "images": ["https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQqmxO0DeycgoOsOA-FJUwd-tIMbfAgG0lKHQ&s", "https://static.vecteezy.com/system/resources/previews/038/081/927/large_2x/view-of-the-goreme-open-air-museum-in-cappadocia-turkey-this-unesco-world-heritage-site-is-an-essential-stop-on-any-cappadocian-itinerary-tourists-visiting-the-historical-site-photo.jpg", "https://cdn.audleytravel.com/700/500/79/16031373-greme-open-air-museum.jpg"],
+            "imageSearch": "Goreme Open Air Museum",
+            "description": "A vast monastic complex composed of scores of refectory monasteries placed side-by-side, each with its own fantastic church.",
+            "wiki": "https://en.wikipedia.org/wiki/G%C3%B6reme",
+            "mapEmbed": "https://maps.google.com/maps?q=Great+Sphinx+of+Giza&t=&z=13&ie=UTF8&iwloc=&output=embed26"
+          }
+        ]
+      },
+      "Antalya": {
+        "images": ["https://plus.unsplash.com/premium_photo-1661962590522-1b700c5bb5e3?fm=jpg&q=60&w=3000&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8YW50YWx5YSUyQyUyMHR1cmtleXxlbnwwfHwwfHx8MA%3D%3D", "https://www.shutterstock.com/image-photo/aerial-view-antalya-old-town-600nw-2673882219.jpg", "https://as1.ftcdn.net/v2/jpg/01/47/61/92/1000_F_147619202_i01wJb5rZhcKSbuNZBXBxKOjkoiMKjLt.jpg"],
+        "imageSearch": "Antalya Turkey",
+        "description": "A Turkish resort city with a yacht-filled Old Harbor and beaches flanked by large hotels. It's a gateway to Turkey's southern Mediterranean region.",
+        "wiki": "https://en.wikipedia.org/wiki/Antalya",
+        "mapEmbed": "https://maps.google.com/maps?q=Great+Sphinx+of+Giza&t=&z=13&ie=UTF8&iwloc=&output=embed27",
+        "places": [
+          {
+            "name": "Hadrian's Gate",
+            "images": ["https://dynamic-media-cdn.tripadvisor.com/media/photo-o/17/4c/48/99/hadrianstor-in-antalya.jpg?w=1200&h=1200&s=1", "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS__dEYlwaGZ4La40SdoU0V87UJ6cTYjjJngQ&s", "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ee/Hadrian%E2%80%99s_Gate%2C_Antalya%2C_Turkey%2C_and_Two_Towers.jpg/2560px-Hadrian%E2%80%99s_Gate%2C_Antalya%2C_Turkey%2C_and_Two_Towers.jpg"],
+            "imageSearch": "Hadrian's Gate Antalya",
+            "description": "A triumphal arch built in the name of the Roman emperor Hadrian.",
+            "wiki": "https://en.wikipedia.org/wiki/Hadrian%27s_Gate",
+            "mapEmbed": "https://maps.google.com/maps?q=Great+Sphinx+of+Giza&t=&z=13&ie=UTF8&iwloc=&output=embed28"
+          },
+          {
+            "name": "Duden Waterfalls",
+            "images": ["https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ7bQW82FGmvvfslFPpqF_Z8PWOwFhi4kI3jw&s", "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/04/b2/d3/17/duden-waterfalls.jpg?w=1200&h=1200&s=1", "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSj9CVAaWe5m5xuQGRqkyd3MJlgUgTOF9Zm7g&s"],
+            "imageSearch": "Duden Waterfalls Antalya",
+            "description": "A group of waterfalls in the province of Antalya, Turkey.",
+            "wiki": "https://en.wikipedia.org/wiki/D%C3%BCden_Waterfalls",
+            "mapEmbed": "https://maps.google.com/maps?q=Great+Sphinx+of+Giza&t=&z=13&ie=UTF8&iwloc=&output=embed29"
+          }
+        ]
+      }
     }
   },
   "India": {
     "cities": {
-      "Agra": [
-        { "name": "Taj Mahal", "imageSearch": "Taj Mahal Agra view", "description": "An ivory-white marble mausoleum.", "mapEmbed": "https://maps.google.com/maps?q=Taj+Mahal&output=embed" },
-        { "name": "Mehtab Bagh", "imageSearch": "Mehtab Bagh Agra", "description": "A charbagh complex located north of the Taj Mahal complex.", "mapEmbed": "https://maps.google.com/maps?q=Great+Sphinx+of+Giza&t=&z=13&ie=UTF8&iwloc=&output=embed7" }
-      ],
-      "Jaipur": [
-        { "name": "Hawa Mahal", "imageSearch": "Hawa Mahal Palace of Winds", "description": "The 'Palace of Winds', known for its intricate pink sandstone lattice windows.", "mapEmbed": "https://maps.google.com/maps?q=Hawa+Mahal&output=embed" },
-        { "name": "City Palace", "imageSearch": "City Palace Jaipur", "description": "A palace complex in Jaipur, which includes the Chandra Mahal and Mubarak Mahal palaces.", "mapEmbed": "https://maps.google.com/maps?q=Great+Sphinx+of+Giza&t=&z=13&ie=UTF8&iwloc=&output=embed8" }
-      ],
-      "Delhi": [
-        { "name": "India Gate", "imageSearch": "India Gate New Delhi", "description": "A war memorial located astride the Rajpath in New Delhi.", "mapEmbed": "https://maps.google.com/maps?q=India+Gate&t=&z=13&ie=UTF8&iwloc=&output=embed" },
-        { "name": "Humayun's Tomb", "imageSearch": "Humayun's Tomb Delhi", "description": "The tomb of the Mughal Emperor Humayun in Delhi, India.", "mapEmbed": "https://maps.google.com/maps?q=Great+Sphinx+of+Giza&t=&z=13&ie=UTF8&iwloc=&output=embed9" }
-      ]
+      "Agra": {
+        "images": ["https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQkBOz_kqE1W6z-aOFKADfSlsMaGHTm8pp2oA&s", "https://foodandtravel.com/imager/hours/219609/Ministry-of-Tourism-Govt-of-India-595161_Taj-Mahal-Uttar-Pradesh-Aerial_821631bb23140209ea99c8f810f75634.jpg", "https://images.unsplash.com/photo-1548013146-72479768bada?fm=jpg&q=60&w=3000&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8dGFqJTIwbWFoYWx8ZW58MHx8MHx8fDA%3D"],
+        "imageSearch": "Agra India",
+        "description": "A city on the banks of the Yamuna river in the Indian state of Uttar Pradesh. It is a major tourist destination because of its many Mughal-era buildings, most notably the Taj Mahal.",
+        "wiki": "https://en.wikipedia.org/wiki/Agra",
+        "mapEmbed": "https://maps.google.com/maps?q=Agra&t=&z=13&ie=UTF8&iwloc=&output=embed",
+        "places": [
+          {
+            "name": "Taj Mahal",
+            "images": ["https://images.unsplash.com/photo-1587135941948-670b381f08ce?fm=jpg&q=60&w=3000&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8dGFqJTIwbWFoYWx8ZW58MHx8MHx8fDA%3D", "https://i.natgeofe.com/n/8eba070d-14e5-4d07-8bab-9db774029063/93080.jpg", "https://madainproject.com/content/media/collect/taj_mahal_00517.jpg"],
+            "imageSearch": "Taj Mahal Agra view",
+            "description": "An ivory-white marble mausoleum.",
+            "wiki": "https://en.wikipedia.org/wiki/Taj_Mahal",
+            "mapEmbed": "https://maps.google.com/maps?q=Taj+Mahal&t=&z=13&ie=UTF8&iwloc=&output=embed"
+          },
+          {
+            "name": "Mehtab Bagh",
+            "images": ["https://upload.wikimedia.org/wikipedia/commons/8/8d/Mehtab_Bagh_facing_Taj_Mahal.JPG", "https://www.hoteldekho.com/storage/img/tourattraction/1644831440mehtab-bagh-front-view-featured.jpg", "https://www.topasiatour.com/pic/india/city/agra/attractions/mehtab-bagh-1.jpg"],
+            "imageSearch": "Mehtab Bagh Agra",
+            "description": "A charbagh complex located north of the Taj Mahal complex.",
+            "wiki": "https://en.wikipedia.org/wiki/Mehtab_Bagh",
+            "mapEmbed": "https://maps.google.com/maps?q=Mehtab+Bagh&t=&z=13&ie=UTF8&iwloc=&output=embed"
+          },
+          {
+            "name": "Agra Fort",
+            "images": ["https://media.istockphoto.com/id/1169495248/photo/agra-fort-medieval-indian-fort-at-agra-india-at-sunrise.jpg?s=612x612&w=0&k=20&c=EI9BXzCutx2gRuPCFUDSirZg9Hfc7G_kGfFbmVBmSEc=", "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTOETJ8O0vSTqH94meHQ1cyjdL3hDBbPKZa7A&s", "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcREWxIvJ3HW7sz09Dzygvqo52VkV3zav81IKg&s"],
+            "imageSearch": "Agra Fort",
+            "description": "A historical fort in the city of Agra. It was the main residence of the emperors of the Mughal Dynasty until 1638.",
+            "wiki": "https://en.wikipedia.org/wiki/Agra_Fort",
+            "mapEmbed": "https://maps.google.com/maps?q=CN+Tower&output=embed0"
+          }
+        ]
+      },
+      "Jaipur": {
+        "images": ["https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRuDD8CIjBDuVukV24jBDSDnW6-DUu3qrzpeQ&s", "https://hblimg.mmtcdn.com/content/hubble/img/jaipur/mmt/activities/m_activities-jaipur-hawa-mahal_l_400_640.jpg", "https://pohcdn.com/sites/default/files/styles/paragraph__live_banner__lb_image__1880bp/public/live_banner/Jaipur.jpg"],
+        "imageSearch": "Jaipur India",
+        "description": "The capital of India’s Rajasthan state. It evokes the royal family that once ruled the region and that, in 1727, founded what is now called the Old City, or 'Pink City' for its trademark building color.",
+        "wiki": "https://en.wikipedia.org/wiki/Jaipur",
+        "mapEmbed": "https://maps.google.com/maps?q=Jaipur&t=&z=13&ie=UTF8&iwloc=&output=embed",
+        "places": [
+          {
+            "name": "Hawa Mahal",
+            "images": ["https://canadaschmanada.files.wordpress.com/2012/02/dsc08931.jpg", "https://media.istockphoto.com/id/1146909165/photo/courtyard-of-hawa-mahal-palace-is-palace-of-winds-in-jaipur-india.jpg?s=612x612&w=0&k=20&c=XhRfsJJlHzDEUA1iM1B5qljhnRlZZR7Xx6U3ma8fe30=", "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7e/Hawa_Mahal_interior_IMG_1113.JPG/2560px-Hawa_Mahal_interior_IMG_1113.JPG"],
+            "imageSearch": "Hawa Mahal Palace of Winds",
+            "description": "The 'Palace of Winds', known for its intricate pink sandstone lattice windows.",
+            "wiki": "https://en.wikipedia.org/wiki/Hawa_Mahal",
+            "mapEmbed": "https://maps.google.com/maps?q=Hawa+Mahal&t=&z=13&ie=UTF8&iwloc=&output=embed"
+          },
+          {
+            "name": "City Palace",
+            "images": ["https://accidentallywesanderson.com/wp-content/uploads/2020/04/City-Palace-India-scaled.jpg", "https://rajasthancab.b-cdn.net/uploads/blog/1744708683-blog-image.webp", "https://upload.wikimedia.org/wikipedia/commons/6/69/Udaipur_City_Palace.jpg"],
+            "imageSearch": "City Palace Jaipur",
+            "description": "A palace complex in Jaipur, which includes the Chandra Mahal and Mubarak Mahal palaces.",
+            "wiki": "https://en.wikipedia.org/wiki/City_Palace,_Jaipur",
+            "mapEmbed": "https://maps.google.com/maps?q=City+Palace+Jaipur&t=&z=13&ie=UTF8&iwloc=&output=embed"
+          },
+          {
+            "name": "Amber Palace",
+            "images": ["https://www.shutterstock.com/image-photo/night-view-amber-fort-amer-600nw-2514703603.jpg", "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/17/d3/a8/57/images-30-largejpg.jpg?w=700&h=400&s=1", "https://c8.alamy.com/comp/B211C0/aerial-view-of-the-amber-fort-jaipur-india-B211C0.jpg"],
+            "imageSearch": "Amber Palace Jaipur",
+            "description": "A fort located in Amer, Rajasthan, India. Amer is a town with an area of 4 square kilometres located 11 kilometres from Jaipur.",
+            "wiki": "https://en.wikipedia.org/wiki/Amber_Fort",
+            "mapEmbed": "https://maps.google.com/maps?q=CN+Tower&output=embed1"
+          }
+        ]
+      },
+      "Delhi": {
+        "images": ["https://media.istockphoto.com/id/543206548/photo/panorama-of-old-delhi-india.jpg?s=612x612&w=0&k=20&c=wZ6x5ucNzCsACBBJk0YPxdoxO96Xufzk-4Gex_cea8c=", "https://www.shutterstock.com/image-photo/lotus-temple-aerial-view-using-600nw-2444449643.jpg", "https://i.ytimg.com/vi/T3ddY3f-G7s/hqdefault.jpg"],
+        "imageSearch": "Delhi India",
+        "description": "India’s capital territory, is a massive metropolitan area in the country’s north. In Old Delhi, a neighborhood dating to the 1600s, stands the imposing Mughal-era Red Fort.",
+        "wiki": "https://en.wikipedia.org/wiki/Delhi",
+        "mapEmbed": "https://maps.google.com/maps?q=Delhi&t=&z=13&ie=UTF8&iwloc=&output=embed",
+        "places": [
+          {
+            "name": "India Gate",
+            "images": ["https://cdn.britannica.com/38/189838-050-83C7395E/India-War-Memorial-arch-New-Delhi-Sir.jpg", "https://upload.wikimedia.org/wikipedia/commons/9/99/India_Gate_on_the_evening_of_77th_Independence_day.jpg", "https://t3.ftcdn.net/jpg/07/94/29/12/360_F_794291282_McTSMlE6l2bBG62ekabcoSQy3gKFaRXw.jpg"],
+            "imageSearch": "India Gate New Delhi",
+            "description": "A war memorial located astride the Rajpath in New Delhi.",
+            "wiki": "https://en.wikipedia.org/wiki/India_Gate",
+            "mapEmbed": "https://maps.google.com/maps?q=India+Gate&t=&z=13&ie=UTF8&iwloc=&output=embed"
+          },
+          {
+            "name": "Humayun's Tomb",
+            "images": ["https://miro.medium.com/1*CNGOGuIUsNE5Vz4fFQG99Q.jpeg", "https://assets.cntraveller.in/photos/66a2214859770719ba409d11/16:9/w_4992,h_2808,c_limit/GettyImages-1252466900.jpg", "https://lh6.ggpht.com/cJk5cWlzKSueFWjIyiYMERRh8bC0fHcPKtqNorr_6VXWNuhyxl08K-GfFAL4Gn95q6CxK0hkOra8TU8ZLczv7gg=s900"],
+            "imageSearch": "Humayun's Tomb Delhi",
+            "description": "The tomb of the Mughal Emperor Humayun in Delhi, India.",
+            "wiki": "https://en.wikipedia.org/wiki/Humayun%27s_Tomb",
+            "mapEmbed": "https://maps.google.com/maps?q=Humayun's+Tomb&t=&z=13&ie=UTF8&iwloc=&output=embed"
+          },
+          {
+            "name": "Qutub Minar",
+            "images": ["https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQKcVvqIZVNxjxBa6ShYQzmqnSQb7TJmkg2BA&s", "https://images.pexels.com/photos/14105979/pexels-photo-14105979.jpeg", "https://media.istockphoto.com/id/510003228/photo/qutub-minar-architectural-detail.jpg?s=612x612&w=0&k=20&c=KmDvwSyJh1VHBWJ_CPSZfZuOOoDH6ATCpD0D05NAfCE="],
+            "imageSearch": "Qutub Minar Delhi",
+            "description": "A minaret and victory tower that forms part of the Qutb complex, a UNESCO World Heritage Site in the Mehrauli area of New Delhi.",
+            "wiki": "https://en.wikipedia.org/wiki/Qutb_Minar",
+            "mapEmbed": "https://maps.google.com/maps?q=CN+Tower&output=embed2"
+          }
+        ]
+      }
     }
   },
   "Thailand": {
     "cities": {
-      "Bangkok": [
-        { "name": "The Grand Palace", "imageSearch": "Grand Palace Bangkok", "description": "A complex of buildings that has been the official residence of the Kings of Siam.", "mapEmbed": "https://maps.google.com/maps?q=Grand+Palace+Bangkok&output=embed" },
-        { "name": "Chatuchak Market", "imageSearch": "Chatuchak Weekend Market", "description": "The largest market in Thailand.", "mapEmbed": "https://maps.google.com/maps?q=Grand+Egyptian+Museum&t=&z=13&ie=UTF8&iwloc=&output=embed0" }
-      ],
-      "Phuket": [
-        { "name": "Patong Beach", "imageSearch": "Patong Beach Phuket", "description": "The main tourist resort on Phuket.", "mapEmbed": "https://maps.google.com/maps?q=Patong+Beach&output=embed" },
-        { "name": "Old Phuket Town", "imageSearch": "Old Phuket Town architecture", "description": "A historic area with Sino-Portuguese architecture and colorful buildings.", "mapEmbed": "https://maps.google.com/maps?q=Grand+Egyptian+Museum&t=&z=13&ie=UTF8&iwloc=&output=embed1" }
-      ]
+      "Bangkok": {
+        "images": ["https://plus.unsplash.com/premium_photo-1661882283038-a3af3337783e?fm=jpg&q=60&w=3000&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8YmFuZ2tvayUyMGNpdHl8ZW58MHx8MHx8fDA%3D", "https://img.freepik.com/free-photo/bangkok-city-night_1203-3111.jpg?semt=ais_hybrid&w=740&q=80", "https://images.pexels.com/photos/17746130/pexels-photo-17746130.jpeg?cs=srgb&dl=pexels-o-darny-17746130.jpg&fm=jpg"],
+        "imageSearch": "Bangkok Thailand",
+        "description": "The capital of Thailand. It is known for its ornate shrines and vibrant street life. The boat-filled Chao Phraya River feeds its network of canals.",
+        "wiki": "https://en.wikipedia.org/wiki/Bangkok",
+        "mapEmbed": "https://maps.google.com/maps?q=Bangkok&t=&z=13&ie=UTF8&iwloc=&output=embed",
+        "places": [
+          {
+            "name": "The Grand Palace",
+            "images": ["https://static.wixstatic.com/media/2cc94a_f41bf7cbf0d34a2faaf7f0e27aabb3b3~mv2.jpg/v1/fill/w_640,h_480,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/2cc94a_f41bf7cbf0d34a2faaf7f0e27aabb3b3~mv2.jpg", "https://www.expique.com/wp-content/uploads/2021/01/Grand-Palace-7.jpg", "https://media.tacdn.com/media/attractions-splice-spp-674x446/06/fa/e1/ce.jpg"],
+            "imageSearch": "Grand Palace Bangkok",
+            "description": "A complex of buildings that has been the official residence of the Kings of Siam.",
+            "wiki": "https://en.wikipedia.org/wiki/Grand_Palace",
+            "mapEmbed": "https://maps.google.com/maps?q=Grand+Palace+Bangkok&t=&z=13&ie=UTF8&iwloc=&output=embed"
+          },
+          {
+            "name": "Chatuchak Market",
+            "images": ["https://www.civitatis.com/f/tailandia/bangkok/guia/mercado-chatuchak.jpg", "https://media.istockphoto.com/id/528958374/photo/train-night-market-in-bangkok.jpg?s=612x612&w=0&k=20&c=Yu8Ky5sZCwGjDKQfbWi9UD_zJc-8XQ-uxLEeR5Q5CN0=", "https://file.hstatic.net/200000851795/article/1_c04d31037d91445ea4b5f5126214529f.png"],
+            "imageSearch": "Chatuchak Weekend Market",
+            "description": "The largest market in Thailand.",
+            "wiki": "https://en.wikipedia.org/wiki/Chatuchak_Weekend_Market",
+            "mapEmbed": "https://maps.google.com/maps?q=Chatuchak+Market&t=&z=13&ie=UTF8&iwloc=&output=embed"
+          },
+          {
+            "name": "Wat Arun",
+            "images": ["https://as2.ftcdn.net/v2/jpg/00/98/44/37/1000_F_98443741_G8VlrLoRGWUSA3cGgw36RqEiBkfVR9pX.jpg", "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR6e7SChy54B7di1rjuwupP0TEBnmM_15b9SA&s", "https://lp-cms-production.s3.amazonaws.com/public/2021-06/shutterstockRF_517093306.jpg"],
+            "imageSearch": "Wat Arun Bangkok",
+            "description": "A Buddhist temple in Bangkok Yai district of Bangkok, Thailand, on the Thonburi west bank of the Chao Phraya River.",
+            "wiki": "https://en.wikipedia.org/wiki/Wat_Arun",
+            "mapEmbed": "https://maps.google.com/maps?q=CN+Tower&output=embed3"
+          }
+        ]
+      },
+      "Phuket": {
+        "images": ["https://plus.unsplash.com/premium_photo-1661962432490-6188a6420a81?fm=jpg&q=60&w=3000&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8cGh1a2V0JTIwdGhhaWxhbmR8ZW58MHx8MHx8fDA%3D", "https://img.freepik.com/free-photo/long-tail-boat-turquoise-crystal-clear-sea-water-with-limestone-cliff-mountain-phra-nang-beach-krabi-thailand_554837-867.jpg?semt=ais_hybrid&w=740&q=80", "https://media.istockphoto.com/id/1299735828/photo/travel-photo-of-james-bond-island-with-thai-traditional-wooden-longtail-boat-and-beautiful.jpg?s=612x612&w=0&k=20&c=JIWCcvBSEoQ64IHmr4egkhC5dthQNlpG8lubFwQHmcA="],
+        "imageSearch": "Phuket Thailand",
+        "description": "A rainforested, mountainous island in the Andaman Sea, has some of Thailand’s most popular beaches, situated along the clear waters of the western shore.",
+        "wiki": "https://en.wikipedia.org/wiki/Phuket_Province",
+        "mapEmbed": "https://maps.google.com/maps?q=Phuket&t=&z=10&ie=UTF8&iwloc=&output=embed",
+        "places": [
+          {
+            "name": "Patong Beach",
+            "images": ["https://www.joeysantini.com/app/uploads/2022/04/Beach.jpg", "https://phuketelephantnaturereserve.com/wp-content/uploads/2025/01/Patong-Beach-1024x576.jpg", "https://media.istockphoto.com/id/1313418792/photo/empty-calm-sandy-crescent-patong-beach-with-turquoise-blue-clear-water-and-cirrus-cloudy-sky.jpg?s=612x612&w=0&k=20&c=5QEETPG-xrRyw80wMgzSD17KfLaqycNKnw8O_1YrRE8="],
+            "imageSearch": "Patong Beach Phuket",
+            "description": "The main tourist resort on Phuket.",
+            "wiki": "https://en.wikipedia.org/wiki/Patong",
+            "mapEmbed": "https://maps.google.com/maps?q=Patong+Beach&t=&z=13&ie=UTF8&iwloc=&output=embed"
+          },
+          {
+            "name": "Old Phuket Town",
+            "images": ["https://media1.thrillophilia.com/filestore/495y5x6h2qo8ln8v8etzufhkt5h0_shutterstock_1283102005.jpg", "https://st2.depositphotos.com/3453859/7536/i/450/depositphotos_75368519-stock-photo-the-old-town-phuket-chino.jpg", "https://content.phuket101.net/wp-content/uploads/20240730145156/Phuket-Town-Nightlife.jpg"],
+            "imageSearch": "Old Phuket Town architecture",
+            "description": "A historic area with Sino-Portuguese architecture and colorful buildings.",
+            "wiki": "https://en.wikipedia.org/wiki/Phuket_City",
+            "mapEmbed": "https://maps.google.com/maps?q=Old+Phuket+Town&t=&z=13&ie=UTF8&iwloc=&output=embed"
+          },
+          {
+            "name": "Big Buddha",
+            "images": ["https://res.klook.com/image/upload/w_500,h_313,c_fill,q_85/activities/gtjl6tmxmdwpp1ioy73k.jpg", "https://media.nationthailand.com/images/news/2017/08/18/30324191/800_e3aa4c4fca95ab120477c5b16e1578b3.jpeg", "https://shippedaway.com/wp-content/uploads/2023/11/Big-Buddha-Phuket-Thailand-23.jpg"],
+            "imageSearch": "Big Buddha Phuket",
+            "description": "A seated Maravijaya Buddha statue in Phuket, Thailand.",
+            "wiki": "https://en.wikipedia.org/wiki/Big_Buddha,_Phuket",
+            "mapEmbed": "https://maps.google.com/maps?q=CN+Tower&output=embed4"
+          }
+        ]
+      },
+      "Chiang Mai": {
+        "images": ["https://cdn.britannica.com/07/192407-050-548620BE/Sunset-view-Chiang-Mai-Thailand.jpg", "https://previews.123rf.com/images/asiastock/asiastock1711/asiastock171100173/89311526-chiang-mai-city-view-in-thailand.jpg", "https://i0.wp.com/lindagoeseast.com/wp-content/uploads/chiang-mai-itinerary-scaled.jpg?fit=2560%2C2095&ssl=1"],
+        "imageSearch": "Chiang Mai Thailand",
+        "description": "A city in mountainous northern Thailand. Founded in 1296, it was capital of the independent Lanna Kingdom until 1558.",
+        "wiki": "https://en.wikipedia.org/wiki/Chiang_Mai",
+        "mapEmbed": "https://maps.google.com/maps?q=CN+Tower&output=embed5",
+        "places": [
+          {
+            "name": "Wat Phra That Doi Suthep",
+            "images": ["https://shippedaway.com/wp-content/uploads/2024/01/Wat-Phra-That-Doi-Suthep-Chiang-Mai-Thailand-11.jpg", "https://catmotors.net/wp-content/uploads/2022/12/wat-phra-that-doi-suthep.jpg", "https://blog.bangkokair.com/wp-content/uploads/2025/03/Cover_wat-phra-that-doi-suthep-chiang-mai.jpg"],
+            "imageSearch": "Wat Phra That Doi Suthep",
+            "description": "A Theravada Buddhist temple in Chiang Mai Province, Thailand.",
+            "wiki": "https://en.wikipedia.org/wiki/Wat_Phra_That_Doi_Suthep",
+            "mapEmbed": "https://maps.google.com/maps?q=CN+Tower&output=embed6"
+          },
+          {
+            "name": "Chiang Mai Old City",
+            "images": ["https://www.aleenta.com/wp-content/uploads/Chiang-Mai-Famous-Streets.jpg", "https://thebrownetown.com/wp-content/uploads/2020/05/wat-chedi-luang-1024x683.jpg", "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSpAGGCCul9R_FqrANYyVI1qRCXHzU6AtjzSw&s"],
+            "imageSearch": "Chiang Mai Old City",
+            "description": "The historic center of Chiang Mai, surrounded by ancient walls and moats, filled with temples and markets.",
+            "wiki": "https://en.wikipedia.org/wiki/Chiang_Mai#History",
+            "mapEmbed": "https://maps.google.com/maps?q=CN+Tower&output=embed7"
+          }
+        ]
+      }
     }
   },
   "Russia": {
     "cities": {
-      "Moscow": [
-        { "name": "Red Square", "imageSearch": "Red Square Moscow", "description": "A city square in Moscow separating the Kremlin from the historic merchant quarter.", "mapEmbed": "https://maps.google.com/maps?q=Red+Square&output=embed" },
-        { "name": "St. Basil's Cathedral", "imageSearch": "St. Basil's Cathedral Moscow", "description": "A church in Red Square known for its colorful onion domes.", "mapEmbed": "https://maps.google.com/maps?q=Grand+Egyptian+Museum&t=&z=13&ie=UTF8&iwloc=&output=embed2" }
-      ],
-      "Saint Petersburg": [
-        { "name": "Hermitage Museum", "imageSearch": "Hermitage Museum Winter Palace", "description": "One of the largest and oldest museums in the world.", "mapEmbed": "https://maps.google.com/maps?q=Hermitage+Museum&output=embed" },
-        { "name": "Peterhof Palace", "imageSearch": "Peterhof Palace fountains", "description": "A series of palaces and gardens, often referred to as the 'Russian Versailles'.", "mapEmbed": "https://maps.google.com/maps?q=Grand+Egyptian+Museum&t=&z=13&ie=UTF8&iwloc=&output=embed3" }
-      ]
+      "Moscow": {
+        "images": ["https://t4.ftcdn.net/jpg/02/70/19/17/360_F_270191793_5Nk3dvcKjuUgCuNJZ4tzL5tTNsjQlkqh.jpg", "https://plus.unsplash.com/premium_photo-1697729939290-40a6275148cd?fm=jpg&q=60&w=3000&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8bW9zY293fGVufDB8fDB8fHww", "https://i.pinimg.com/736x/2f/fd/67/2ffd67cb87b92b62bb07ab39d7f868c0.jpg"],
+        "imageSearch": "Moscow Russia",
+        "description": "The capital of Russia, located on the Moskva River in western Russia. It is the nation's cosmopolitan capital, featuring historic sites like the Kremlin and Red Square.",
+        "wiki": "https://en.wikipedia.org/wiki/Moscow",
+        "mapEmbed": "https://maps.google.com/maps?q=Moscow&t=&z=11&ie=UTF8&iwloc=&output=embed",
+        "places": [
+          {
+            "name": "Red Square",
+            "images": ["https://cdn.britannica.com/83/84883-050-053834E9/Red-Square-Moscow.jpg", "https://lp-cms-production.imgix.net/2019-06/GettyImages-498208877_high.jpg", "https://mf.b37mrtl.ru/rbthmedia/images/2023.01/original/63c5373e0fc867310d57243b.jpg"],
+            "imageSearch": "Red Square Moscow",
+            "description": "A city square in Moscow separating the Kremlin from the historic merchant quarter.",
+            "wiki": "https://en.wikipedia.org/wiki/Red_Square",
+            "mapEmbed": "https://maps.google.com/maps?q=Red+Square+Moscow&t=&z=13&ie=UTF8&iwloc=&output=embed"
+          },
+          {
+            "name": "St. Basil's Cathedral",
+            "images": ["https://mf.b37mrtl.ru/rbthmedia/images/2022.01/original/61e14c2306f7b3431c680c6e.jpg", "https://cdn.britannica.com/76/121176-050-A1ACF288/Interior-St-Basil-the-Blessed-Red-Square.jpg", "https://www.moscow-driver.com/photos/var/albums/Personalized_Tours/2018-01-25_Moscow_Winter_Photo_Tour/ALP-2018-0125-114-Old-Lights-in-Interior-Gallery-of-St-Basils-Cathedral-Red-Square.jpg?m=1591274893"],
+            "imageSearch": "St. Basil's Cathedral Moscow",
+            "description": "A church in Red Square known for its colorful onion domes.",
+            "wiki": "https://en.wikipedia.org/wiki/Saint_Basil%27s_Cathedral",
+            "mapEmbed": "https://maps.google.com/maps?q=St.+Basil's+Cathedral&t=&z=13&ie=UTF8&iwloc=&output=embed"
+          },
+          {
+            "name": "The Moscow Kremlin",
+            "images": ["https://www.volgadream.com/wp-content/uploads/2020/06/Four-Seasons-Hotel-Moscow-Kremlin-view-1000x559-1.jpg", "https://images.fineartamerica.com/images/artworkimages/mediumlarge/2/close-up-view-of-night-kremlin-sergey-alimov.jpg", "https://whc.unesco.org/uploads/thumbs/site_0545_0001-400-400-20151105152453.webp"],
+            "imageSearch": "Moscow Kremlin",
+            "description": "A fortified complex in the center of Moscow, overlooking the Moskva River.",
+            "wiki": "https://en.wikipedia.org/wiki/Kremlin",
+            "mapEmbed": "https://maps.google.com/maps?q=CN+Tower&output=embed8"
+          }
+        ]
+      },
+      "Saint Petersburg": {
+        "images": ["https://cdn.britannica.com/42/178442-050-417FEC6F/Cathedral-of-the-Resurrection-Christ-St-Petersburg.jpg", "https://east-rail-stories.de/wp-content/uploads/2021/07/St.-Petersburg-Title-scaled.jpg", "https://www.ambassadorcruiseline.com/_astro/1200x675_Z1KLv8g.webp"],
+        "imageSearch": "Saint Petersburg Russia",
+        "description": "A Russian port city on the Baltic Sea. It remains the cultural center of Russia, with venues like the Mariinsky Theatre hosting opera and ballet, and the State Russian Museum showcasing Russian art.",
+        "wiki": "https://en.wikipedia.org/wiki/Saint_Petersburg",
+        "mapEmbed": "https://maps.google.com/maps?q=Saint+Petersburg&t=&z=11&ie=UTF8&iwloc=&output=embed",
+        "places": [
+          {
+            "name": "Hermitage Museum",
+            "images": ["https://www.museumnext.com/wp-content/uploads/2021/07/hermitage_museum_nft.jpg", "https://lh3.googleusercontent.com/proxy/UjWMJZtRz8TYc-AH_gSwEY9ig0VqIGMRdsfx5qqJwYoVuuU46p3B_BsnG9Rh9qI6l5rDzy6yfYjdVbXog0a2uiCGwTuYM3gsWlgULmaKoQj9AgItyoe8-WDWvUV6IzPdkAfXdKT8a3ZUHTafUR9rvEPdsQH6I8a87LwgKSEENxzarDj3aOmRdQPtjwCUKFDt8bxzEezg", "https://lh3.googleusercontent.com/proxy/ZRvIPKQU1gtKT5s_jukXdRnz0fhbAePBzfkEx6hx3x_IUu_dCw-VRDC852WUAznYMny4UOBtJQjKFvGz3fVguTERVCGU5Ne1rPWYrV39s7zXjq77c5ibzTafjH-ZOwAEFo6vY9uf6RD_aZwxfNLbwsGqRbjH59KL_vY75DUp"],
+            "imageSearch": "Hermitage Museum Winter Palace",
+            "description": "One of the largest and oldest museums in the world.",
+            "wiki": "https://en.wikipedia.org/wiki/State_Hermitage_Museum",
+            "mapEmbed": "https://maps.google.com/maps?q=Hermitage+Museum&t=&z=13&ie=UTF8&iwloc=&output=embed"
+          },
+          {
+            "name": "Peterhof Palace",
+            "images": ["https://lh6.googleusercontent.com/proxy/e0pRMStxEFzIqDM_gb9_rIAetMTx1Kvw1gBFhVd8YZopag-7p5e3UpboAOjwfpL2xu_0NVCGG5dfDuBKPSk7NQUTskedRY5jEY4ugF1Sfm4a20eh3JgHdJMFqbLJ56Y5eGZEqnhKpsxSaGej", "https://upload.wikimedia.org/wikipedia/commons/3/36/Peterhof_Palace%2C_Saint_Petersburg%2C_Russia_%2844408938295%29.jpg", "https://www.historyhit.com/app/uploads/bis-images/5156450/Peterhof-Palace-788x537.jpg?x16534"],
+            "imageSearch": "Peterhof Palace fountains",
+            "description": "A series of palaces and gardens, often referred to as the 'Russian Versailles'.",
+            "wiki": "https://en.wikipedia.org/wiki/Peterhof_Palace",
+            "mapEmbed": "https://maps.google.com/maps?q=Peterhof+Palace&t=&z=13&ie=UTF8&iwloc=&output=embed"
+          },
+          {
+            "name": "Church of the Savior on Spilled Blood",
+            "images": ["https://img.freepik.com/premium-photo/church-savior-spilled-blood-saint-petersburg-russia_788189-7076.jpg", "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQgkEOGtQisgcmuqIbjkh3P5FmONXPrAisZVw&s", "https://lh5.googleusercontent.com/proxy/SSp_b7832QgUuTUzd03SNglnfJtDKbXcqJ4VZTYn5AsoWI7Am2relZKWvNP5ldTIhfexpI6XgRxTKnA5E9Iz3vO8qx92C9Et_hWHW8Ca4gNPYwwisFdKSEsdTh2ekh49VAUQa669sCCCmAl19AfiDGRv_YLEss3rp004qM8MVAXfSfKEqz5ndIpCjl9XAvIH0qM5ZFPnUwm-7rrDmXvEyK2doy3Y"],
+            "imageSearch": "Church of the Savior on Spilled Blood",
+            "description": "A former Russian Orthodox church in Saint Petersburg, containing over 7500 square meters of mosaics.",
+            "wiki": "https://en.wikipedia.org/wiki/Church_of_the_Savior_on_Blood",
+            "mapEmbed": "https://maps.google.com/maps?q=CN+Tower&output=embed9"
+          }
+        ]
+      },
+      "Kazan": {
+        "images": ["https://www.airpano.com/files/vr_kazan_01_big.jpg", "https://visaexpress.com/wp-content/uploads/2021/03/kazan-russia.jpg", "https://images.unsplash.com/photo-1691360022796-43907daf0b0e?fm=jpg&q=60&w=3000&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8a2F6YW58ZW58MHx8MHx8fDA%3D"],
+        "imageSearch": "Kazan Russia",
+        "description": "A city in southwest Russia, on the banks of the Volga and Kazanka rivers. The capital of the Republic of Tatarstan, it is a semi-autonomous region known for its unique culture.",
+        "wiki": "https://en.wikipedia.org/wiki/Kazan",
+        "mapEmbed": "https://maps.google.com/maps?q=Great+Sphinx+of+Giza&t=&z=13&ie=UTF8&iwloc=&output=embed30",
+        "places": [
+          {
+            "name": "Kazan Kremlin",
+            "images": ["https://upload.wikimedia.org/wikipedia/commons/b/b3/%D0%9A%D0%B0%D0%B7%D0%B0%D0%BD%D1%81%D0%BA%D0%B8%D0%B9_%D0%BA%D1%80%D0%B5%D0%BC%D0%BB%D1%8C._%D0%9F%D0%B0%D0%BD%D0%BE%D1%80%D0%B0%D0%BC%D0%B0_%D1%81_%D0%BA%D0%BE%D0%BB%D0%B5%D1%81%D0%B0_%D0%BE%D0%B1%D0%BE%D0%B7%D1%80%D0%B5%D0%BD%D0%B8%D1%8F.jpg", "https://thumbs.dreamstime.com/b/morning-landscape-view-kremlin-city-kazan-russia-magnificent-unesco-world-heritage-its-church-mosque-79172416.jpg", "https://media01.stockfood.com/largepreviews/MjIxMjMxNTkzMA==/71365030-Aerial-view-of-Kazan-Kremlin-with-Kazan-Stadionn-and-Volga-River-behind-it-Kazan-Kazan-District-Republic-of.jpg"],
+            "imageSearch": "Kazan Kremlin",
+            "description": "A historic citadel that contains the main historic citadel of Tatarstan, situated in the city of Kazan.",
+            "wiki": "https://en.wikipedia.org/wiki/Kazan_Kremlin",
+            "mapEmbed": "https://maps.google.com/maps?q=Great+Sphinx+of+Giza&t=&z=13&ie=UTF8&iwloc=&output=embed31"
+          },
+          {
+            "name": "Kul Sharif Mosque",
+            "images": ["https://c8.alamy.com/comp/KY3AEK/the-kul-sharif-mosque-interior-it-is-a-one-of-the-largest-mosques-KY3AEK.jpg", "https://c8.alamy.com/comp/2GEW5H0/kul-sharif-mosque-at-sunset-kazan-tatarstan-russia-sunny-view-in-kazan-kremlin-landmark-of-kazan-famous-tourist-attraction-modern-architecture-2GEW5H0.jpg", "https://www.researchgate.net/publication/233241193/figure/fig2/AS:334470243733516@1456755328706/The-Kul-Sharif-Mosque-View-from-the-north-Source-photo-by-the-author-2006.png"],
+            "imageSearch": "Kul Sharif Mosque Kazan",
+            "description": "One of the largest mosques in Russia, located in the Kazan Kremlin.",
+            "wiki": "https://en.wikipedia.org/wiki/Kul_Sharif_Mosque",
+            "mapEmbed": "https://maps.google.com/maps?q=Great+Sphinx+of+Giza&t=&z=13&ie=UTF8&iwloc=&output=embed32"
+          }
+        ]
+      }
     }
   },
   "South Africa": {
     "cities": {
-      "Cape Town": [
-        { "name": "Table Mountain", "imageSearch": "Table Mountain Cape Town view", "description": "A flat-topped mountain forming a prominent landmark.", "mapEmbed": "https://maps.google.com/maps?q=Table+Mountain+Cape+Town&output=embed" },
-        { "name": "Kirstenbosch Gardens", "imageSearch": "Kirstenbosch National Botanical Garden", "description": "A famous botanical garden nestled at the eastern foot of Table Mountain.", "mapEmbed": "https://maps.google.com/maps?q=Grand+Egyptian+Museum&t=&z=13&ie=UTF8&iwloc=&output=embed4" }
-      ]
+      "Cape Town": {
+        "images": ["https://www.go2africa.com/wp-content/uploads/2024/11/Banner--1920x630.jpg", "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/14/10/2e/1e/cape-town.jpg?w=1400&h=1400&s=1", "https://wallpapercrafter.com/sizes/2560x1440/5394-city-coast-aerial-view-architecture-cape-town-south-africa-4k.jpg"],
+        "imageSearch": "Cape Town South Africa",
+        "description": "A port city on South Africa’s southwest coast, on a peninsula beneath the imposing Table Mountain. Slowly rotating cable cars climb to the mountain’s flat top, from which there are sweeping views of the city.",
+        "wiki": "https://en.wikipedia.org/wiki/Cape_Town",
+        "mapEmbed": "https://maps.google.com/maps?q=Cape+Town&t=&z=12&ie=UTF8&iwloc=&output=embed",
+        "places": [
+          {
+            "name": "Table Mountain",
+            "images": ["https://cdn.britannica.com/41/75841-050-FAAE44F0/Table-Mountain-Cape-Town-Western-Bay-South.jpg", "https://cdn.audleytravel.com/2368/1692/79/435256-view-from-the-table-mountain-cable-car-cape-town.jpg", "https://cdn.audleytravel.com/1050/749/79/1335845-table-mountain-south-africa.webp"],
+            "imageSearch": "Table Mountain Cape Town view",
+            "description": "A flat-topped mountain forming a prominent landmark.",
+            "wiki": "https://en.wikipedia.org/wiki/Table_Mountain",
+            "mapEmbed": "https://maps.google.com/maps?q=Table+Mountain&t=&z=13&ie=UTF8&iwloc=&output=embed"
+          },
+          {
+            "name": "Kirstenbosch Gardens",
+            "images": ["https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSe8MlsRPr-DmwJl_FdOmtL12q97w9rPfGaiQ&s", "https://sahistory.org.za/sites/default/files/button/field_feature_banner/KIRSTENBOSCH.png", "https://www.intotours.co.za/media/img/m8/picture_of_eastern_slopes_of_table_mountain_from_k9bda540.png"],
+            "imageSearch": "Kirstenbosch National Botanical Garden",
+            "description": "A famous botanical garden nestled at the eastern foot of Table Mountain.",
+            "wiki": "https://en.wikipedia.org/wiki/Kirstenbosch_National_Botanical_Garden",
+            "mapEmbed": "https://maps.google.com/maps?q=Kirstenbosch+National+Botanical+Garden&t=&z=13&ie=UTF8&iwloc=&output=embed"
+          },
+          {
+            "name": "Robben Island",
+            "images": ["https://dynamic-media-cdn.tripadvisor.com/media/photo-o/17/a4/f2/14/robben-islandhas-been.jpg?w=900&h=-1&s=1", "https://upload.wikimedia.org/wikipedia/commons/thumb/2/24/Robben_Island_-_Cape_Town%2C_South_Africa_%283883849594%29.jpg/1200px-Robben_Island_-_Cape_Town%2C_South_Africa_%283883849594%29.jpg", "https://www.shutterstock.com/image-photo/table-mountain-seen-robben-island-260nw-2475406425.jpg"],
+            "imageSearch": "Robben Island",
+            "description": "An island in Table Bay, 6.9 km west of the coast of Bloubergstrand, Cape Town, South Africa, known for imprisoning Nelson Mandela.",
+            "wiki": "https://en.wikipedia.org/wiki/Robben_Island",
+            "mapEmbed": "https://maps.google.com/maps?q=Great+Sphinx+of+Giza&t=&z=13&ie=UTF8&iwloc=&output=embed33"
+          }
+        ]
+      }
     }
   },
   "Romania": {
     "cities": {
-      "Sibiu": [
-        { "name": "Grand Square", "imageSearch": "Sibiu Main Square Romania", "description": "The historic center of Sibiu.", "mapEmbed": "https://maps.google.com/maps?q=Grand+Square+Sibiu&output=embed" },
-        { "name": "ASTRA Museum", "imageSearch": "ASTRA National Museum Complex", "description": "One of the largest open-air museums in Europe.", "mapEmbed": "https://maps.google.com/maps?q=Grand+Egyptian+Museum&t=&z=13&ie=UTF8&iwloc=&output=embed5" }
-      ],
-      "Bucharest": [
-        { "name": "Palace of the Parliament", "imageSearch": "Palace of the Parliament Bucharest", "description": "The heaviest building in the world.", "mapEmbed": "https://maps.google.com/maps?q=Palace+of+the+Parliament+Bucharest&output=embed" },
-        { "name": "Romanian Athenaeum", "imageSearch": "Romanian Athenaeum concert hall", "description": "A concert hall in the center of Bucharest and a landmark of the city.", "mapEmbed": "https://maps.google.com/maps?q=Grand+Egyptian+Museum&t=&z=13&ie=UTF8&iwloc=&output=embed6" }
-      ]
+      "Sibiu": {
+        "images": ["", "", ""],
+        "imageSearch": "Sibiu Romania",
+        "description": "A city in Transylvania, central Romania, known for its Germanic architecture in the Old Town, the legacy of 12th-century Saxon settlers. It was the European Capital of Culture in 2007.",
+        "wiki": "https://en.wikipedia.org/wiki/Sibiu",
+        "mapEmbed": "https://maps.google.com/maps?q=Sibiu&t=&z=13&ie=UTF8&iwloc=&output=embed",
+        "places": [
+          {
+            "name": "Grand Square",
+            "images": ["", "", ""],
+            "imageSearch": "Sibiu Main Square Romania",
+            "description": "The historic center of Sibiu.",
+            "wiki": "https://en.wikipedia.org/wiki/Grand_Square,_Sibiu",
+            "mapEmbed": "https://maps.google.com/maps?q=Sibiu+Grand+Square&t=&z=15&ie=UTF8&iwloc=&output=embed"
+          },
+          {
+            "name": "ASTRA Museum",
+            "images": ["", "", ""],
+            "imageSearch": "ASTRA National Museum Complex",
+            "description": "One of the largest open-air museums in Europe.",
+            "wiki": "https://en.wikipedia.org/wiki/ASTRA_National_Museum_Complex",
+            "mapEmbed": "https://maps.google.com/maps?q=ASTRA+Museum+Sibiu&t=&z=13&ie=UTF8&iwloc=&output=embed"
+          }
+        ]
+      },
+      "Bucharest": {
+        "images": ["", "", ""],
+        "imageSearch": "Bucharest Romania",
+        "description": "The capital and largest city of Romania, as well as its cultural, industrial, and financial center. It is located in the southeast of the country and is known for its wide, tree-lined boulevards and Belle Époque buildings.",
+        "wiki": "https://en.wikipedia.org/wiki/Bucharest",
+        "mapEmbed": "https://maps.google.com/maps?q=Bucharest&t=&z=12&ie=UTF8&iwloc=&output=embed",
+        "places": [
+          {
+            "name": "Palace of the Parliament",
+            "images": ["", "", ""],
+            "imageSearch": "Palace of the Parliament Bucharest",
+            "description": "The heaviest building in the world.",
+            "wiki": "https://en.wikipedia.org/wiki/Palace_of_the_Parliament",
+            "mapEmbed": "https://maps.google.com/maps?q=Palace+of+the+Parliament+Bucharest&t=&z=13&ie=UTF8&iwloc=&output=embed"
+          },
+          {
+            "name": "Romanian Athenaeum",
+            "images": ["", "", ""],
+            "imageSearch": "Romanian Athenaeum concert hall",
+            "description": "A concert hall in the center of Bucharest and a landmark of the city.",
+            "wiki": "https://en.wikipedia.org/wiki/Romanian_Athenaeum",
+            "mapEmbed": "https://maps.google.com/maps?q=Romanian+Athenaeum&t=&z=15&ie=UTF8&iwloc=&output=embed"
+          }
+        ]
+      }
     }
   },
   "Greece": {
     "cities": {
-      "Athens": [
-        { "name": "Acropolis of Athens", "imageSearch": "Acropolis Parthenon Athens", "description": "An ancient citadel on a rocky outcrop.", "mapEmbed": "https://maps.google.com/maps?q=Acropolis+of+Athens&output=embed" },
-        { "name": "Syntagma Square", "imageSearch": "Syntagma Square Athens parliament", "description": "The central square of Athens, located in front of the Old Royal Palace.", "mapEmbed": "https://maps.google.com/maps?q=Grand+Egyptian+Museum&t=&z=13&ie=UTF8&iwloc=&output=embed7" }
-      ],
-      "Santorini": [
-        { "name": "Oia", "imageSearch": "Oia Santorini sunset", "description": "A coastal town famous for its whitewashed houses.", "mapEmbed": "https://maps.google.com/maps?q=Oia+Santorini&output=embed" },
-        { "name": "Fira", "imageSearch": "Fira Santorini view", "description": "The capital of Santorini, perched on the edge of the high caldera.", "mapEmbed": "https://maps.google.com/maps?q=Grand+Egyptian+Museum&t=&z=13&ie=UTF8&iwloc=&output=embed8" }
-      ]
+      "Athens": {
+        "images": ["", "", ""],
+        "imageSearch": "Athens Greece",
+        "description": "The capital of Greece and the heart of Ancient Greece, a powerful civilization and empire. The city is still dominated by 5th-century BC landmarks, including the Acropolis, a hilltop citadel topped with ancient buildings like the Parthenon.",
+        "wiki": "https://en.wikipedia.org/wiki/Athens",
+        "mapEmbed": "https://maps.google.com/maps?q=Athens&t=&z=12&ie=UTF8&iwloc=&output=embed",
+        "places": [
+          {
+            "name": "Acropolis of Athens",
+            "images": ["", "", ""],
+            "imageSearch": "Acropolis Parthenon Athens",
+            "description": "An ancient citadel on a rocky outcrop.",
+            "wiki": "https://en.wikipedia.org/wiki/Acropolis_of_Athens",
+            "mapEmbed": "https://maps.google.com/maps?q=Acropolis+of+Athens&t=&z=15&ie=UTF8&iwloc=&output=embed"
+          },
+          {
+            "name": "Syntagma Square",
+            "images": ["", "", ""],
+            "imageSearch": "Syntagma Square Athens parliament",
+            "description": "The central square of Athens, located in front of the Old Royal Palace.",
+            "wiki": "https://en.wikipedia.org/wiki/Syntagma_Square",
+            "mapEmbed": "https://maps.google.com/maps?q=Syntagma+Square+Athens&t=&z=15&ie=UTF8&iwloc=&output=embed"
+          }
+        ]
+      },
+      "Santorini": {
+        "images": ["", "", ""],
+        "imageSearch": "Santorini Greece",
+        "description": "One of the Cyclades islands in the Aegean Sea. It was devastated by a volcanic eruption in the 16th century BC, forever shaping its rugged landscape. The whitewashed, cubiform houses of its two principal towns, Fira and Oia, cling to cliffs above an underwater caldera.",
+        "wiki": "https://en.wikipedia.org/wiki/Santorini",
+        "mapEmbed": "https://maps.google.com/maps?q=Santorini&t=&z=12&ie=UTF8&iwloc=&output=embed",
+        "places": [
+          {
+            "name": "Oia",
+            "images": ["", "", ""],
+            "imageSearch": "Oia Santorini sunset",
+            "description": "A coastal town famous for its whitewashed houses.",
+            "wiki": "https://en.wikipedia.org/wiki/Oia,_Greece",
+            "mapEmbed": "https://maps.google.com/maps?q=Oia+Santorini&t=&z=14&ie=UTF8&iwloc=&output=embed"
+          },
+          {
+            "name": "Fira",
+            "images": ["", "", ""],
+            "imageSearch": "Fira Santorini view",
+            "description": "The capital of Santorini, perched on the edge of the high caldera.",
+            "wiki": "https://en.wikipedia.org/wiki/Fira",
+            "mapEmbed": "https://maps.google.com/maps?q=Fira+Santorini&t=&z=14&ie=UTF8&iwloc=&output=embed"
+          }
+        ]
+      }
     }
   },
   "Argentina": {
@@ -1014,201 +1878,843 @@
   },
   "Taiwan": {
     "cities": {
-      "Taipei": [
-        { "name": "Taipei 101", "imageSearch": "Taipei 101", "description": "A landmark supertall skyscraper.", "mapEmbed": "https://maps.google.com/maps?q=Taipei+101&output=embed" },
-        { "name": "Elephant Mountain", "imageSearch": "Elephant Mountain Taipei view", "description": "A hiking trail offering the best views of Taipei 101.", "mapEmbed": "https://maps.google.com/maps?q=Valley+of+the+Kings&t=&z=13&ie=UTF8&iwloc=&output=embed6" }
-      ],
-      "Jiufen": [
-        { "name": "Jiufen Old Street", "imageSearch": "Jiufen Old Street lanterns", "description": "A mountain area known for its maze of lanes and alleyways.", "mapEmbed": "https://maps.google.com/maps?q=Jiufen+Old+Street&output=embed" },
-        { "name": "Golden Waterfall", "imageSearch": "Golden Waterfall Taiwan", "description": "A waterfall famous for its golden color due to heavy metal elements.", "mapEmbed": "https://maps.google.com/maps?q=Valley+of+the+Kings&t=&z=13&ie=UTF8&iwloc=&output=embed7" }
-      ]
+      "Taipei": {
+        "images": ["https://tse4.mm.bing.net/th/id/OIP.3lKVHr57O05Iq3YnRIBMGgHaE7?rs=1&pid=ImgDetMain&o=7&rm=3", "https://th.bing.com/th/id/R.822c4c66b9f975c3635f61d2a65f4c16?rik=n4ztoIYu%2fXK4YA&pid=ImgRaw&r=0", "https://tse1.mm.bing.net/th/id/OIP.ITGRQWdeUGAla0ejhbY5nwHaFj?rs=1&pid=ImgDetMain&o=7&rm=3"],
+        "imageSearch": "Taipei Taiwan",
+        "description": "Taipei is the capital and a special municipality of Taiwan. Located in the northern part of the island, it is the political, economic, educational, and cultural center of Taiwan. It is a modern metropolis known for its lively street-food scene, night markets, and the bamboo-shaped Taipei 101 skyscraper.",
+        "wiki": "https://en.wikipedia.org/wiki/Taipei",
+        "mapEmbed": "https://maps.google.com/maps?q=Khan+el-Khalili&t=&z=15&ie=UTF8&iwloc=&output=embed9",
+        
+        "places": [
+          {
+            "name": "Taipei 101",
+            "images": ["https://eng.taiwan.net.tw/att/1/big_scenic_spots/pic_7927_32.jpg", "https://www.kkday.com/en/blog/wp-content/uploads/taipei-101.jpeg", "https://media.istockphoto.com/id/459367483/photo/skyline-view-of-taipei-glowing-in-the-sunset-light.jpg?s=612x612&w=0&k=20&c=wsAIYVqJq6fS3m3hzTVyH8Up7LBqrl_92ca-e5UghAk="],
+            "imageSearch": "Taipei 101",
+            "description": "A landmark supertall skyscraper.",
+            "wiki": "https://en.wikipedia.org/wiki/Taipei_101",
+            "mapEmbed": "https://maps.google.com/maps?q=Taipei+101&output=embed"
+          },
+          {
+            "name": "Elephant Mountain",
+            "images": ["https://tse1.mm.bing.net/th/id/OIP.rT33BOV7YyxZkGTFxEEwygHaJV?rs=1&pid=ImgDetMain&o=7&rm=3", "https://bubbleteaislandcom.files.wordpress.com/2023/02/selfie-elephant-mountain.jpg?w=1180", "https://tse1.mm.bing.net/th/id/OIP.rJaxmOqHfFIIzBNUOLiP-QHaFj?w=800&h=600&rs=1&pid=ImgDetMain&o=7&rm=3"],
+            "imageSearch": "Elephant Mountain Taipei view",
+            "description": "A hiking trail offering the best views of Taipei 101.",
+            "wiki": "https://en.wikipedia.org/wiki/Xiangshan_(Taipei)",
+            "mapEmbed": "https://maps.google.com/maps?q=Valley+of+the+Kings&t=&z=13&ie=UTF8&iwloc=&output=embed6"
+          }
+        ]
+      },
+
+      "Jiufen": {
+        "images": ["https://tse3.mm.bing.net/th/id/OIP.yzqWw_2pAEu4r8wfilk6igHaE9?rs=1&pid=ImgDetMain&o=7&rm=3", "https://tse3.mm.bing.net/th/id/OIP.2Q-ZlQvbnPuiTIlWARgBuwHaEK?rs=1&pid=ImgDetMain&o=7&rm=3", "https://edisontours.com/wp-content/uploads/2022/05/Jiufen-Old-Street-1536x950.jpg"],
+        "imageSearch": "Jiufen Taiwan",
+        "description": "Jiufen is a mountain area in the Ruifang District of New Taipei City, Taiwan. Once a prosperous gold mining town, it is now famous for its maze of narrow alleyways, tea houses, and stunning views of the Pacific Ocean. It is often associated with the atmosphere of the animated movie 'Spirited Away'.",
+        "wiki": "https://en.wikipedia.org/wiki/Jiufen",
+        "mapEmbed": "https://maps.google.com/maps?q=The+Egyptian+Museum&t=&z=15&ie=UTF8&iwloc=&output=embed0",
+        
+        "places": [
+          {
+            "name": "Jiufen Old Street",
+            "images": ["https://c8.alamy.com/comp/2PPFYMD/jiufen-taiwan-07-august-2022-jiufen-old-street-of-taiwan-2PPFYMD.jpg", "https://res.klook.com/images/fl_lossy.progressive,q_65/c_fill,w_1295,h_971/w_80,x_15,y_15,g_south_west,l_Klook_water_br_trans_yhcmh3/activities/cb8svmjjbowajmhhtdwe/NightJiufenJiufenOldStreetGoldMuseumGullfossWaterfallTimesMountainOneDayTour.jpg", "https://th.bing.com/th?id=OIF.yMiU3PrQAidojiibhRT%2fEw&rs=1&pid=ImgDetMain&o=7&rm=3"],
+            "imageSearch": "Jiufen Old Street lanterns",
+            "description": "A mountain area known for its maze of lanes and alleyways.",
+            "wiki": "https://en.wikipedia.org/wiki/Jiufen_Old_Street",
+            "mapEmbed": "https://maps.google.com/maps?q=Jiufen+Old+Street&output=embed"
+          },
+          {
+            "name": "Golden Waterfall",
+            "images": ["https://tse1.mm.bing.net/th/id/OIP.5SfxBCOEVjd0GGiirfLgWgHaE8?rs=1&pid=ImgDetMain&o=7&rm=3", "https://tse2.mm.bing.net/th/id/OIP.jLo0-tM5v1VOtSjuEPXKBQHaE8?rs=1&pid=ImgDetMain&o=7&rm=3", "https://images.squarespace-cdn.com/content/v1/5438e2c6e4b0b18459a8ca06/1436288912964-6RIZO2NHGH2A9FU5VZ1Y/GTJ-2015-0707-5.jpg"],
+            "imageSearch": "Golden Waterfall Taiwan",
+            "description": "A waterfall famous for its golden color due to heavy metal elements.",
+            "wiki": "https://en.wikipedia.org/wiki/Golden_Waterfall_(Taiwan)",
+            "mapEmbed": "https://maps.google.com/maps?q=Valley+of+the+Kings&t=&z=13&ie=UTF8&iwloc=&output=embed7"
+          }
+        ]
+      }
     }
   },
+ 
   "Mongolia": {
     "cities": {
-      "Ulaanbaatar": [
-        { "name": "Gandan Monastery", "imageSearch": "Gandan Monastery Ulaanbaatar", "description": "A Tibetan-style Buddhist monastery.", "mapEmbed": "https://maps.google.com/maps?q=Gandan+Monastery&output=embed" },
-        { "name": "Sukhbaatar Square", "imageSearch": "Sukhbaatar Square Ulaanbaatar", "description": "The central square of Mongolia's capital.", "mapEmbed": "https://maps.google.com/maps?q=Valley+of+the+Kings&t=&z=13&ie=UTF8&iwloc=&output=embed8" }
-      ]
+      "Ulaanbaatar": {
+        "images": ["https://tse4.mm.bing.net/th/id/OIP.nC3_VrHlovc7iEn3s5aR2QHaDs?rs=1&pid=ImgDetMain&o=7&rm=3", "https://th.bing.com/th/id/R.267f4f38097043d627e8f5a40789ca8f?rik=UKGJ7npNm65bFA&pid=ImgRaw&r=0", "https://adventuregirl.com/wp-content/uploads/2023/02/UB_downtown-e1686258067948.jpg"],
+        "imageSearch": "Ulaanbaatar Mongolia",
+        "description": "Ulaanbaatar is the capital and largest city of Mongolia. Located in the north-central part of the country, the city lies at an elevation of about 1,300 meters in a valley on the Tuul River. It is the cultural, industrial, and financial heart of the country, known for its unique blend of Soviet-era architecture, traditional yurts (gers), and Buddhist monasteries.",
+        "wiki": "https://en.wikipedia.org/wiki/Ulaanbaatar",
+        "mapEmbed": "https://maps.google.com/maps?q=Ulaanbaatar&t=&z=13&ie=UTF8&iwloc=&output=embed",
+        
+        "places": [
+          {
+            "name": "Gandan Monastery",
+            "images": ["https://th.bing.com/th/id/R.0c67b705446d26b3b3e8f4c1ceae6e46?rik=CiWRQqs0lL13yg&pid=ImgRaw&r=0", "https://meanwhileinmongolia.com/wp-content/uploads/2020/05/Gandan-Monastery-Avalokitesvara-Statue.jpg", "https://images.tibetguru.com/attraction/lhasa/gandan-monastery/gandan-monastery4.jpg"],
+            "imageSearch": "Gandan Monastery Ulaanbaatar",
+            "description": "A Tibetan-style Buddhist monastery.",
+            "wiki": "https://en.wikipedia.org/wiki/Gandantegchinlen_Monastery",
+            "mapEmbed": "https://maps.google.com/maps?q=Gandan+Monastery&t=&z=13&ie=UTF8&iwloc=&output=embed"
+          },
+          {
+            "name": "Sukhbaatar Square",
+            "images": ["https://th.bing.com/th/id/R.ff07eb80788dcfdad4d08f76df63d71a?rik=gTeJifyKz0SfmQ&pid=ImgRaw&r=0", "https://correctmongolia.com/wp-content/uploads/2022/08/Sukhbaatar-square-2048x1361.jpg", "https://meanwhileinmongolia.com/wp-content/uploads/2020/07/Chinggis-Khaan-Sukhbaatar-Square.jpg"],
+            "imageSearch": "Sukhbaatar Square Ulaanbaatar",
+            "description": "The central square of Mongolia's capital.",
+            "wiki": "https://en.wikipedia.org/wiki/Sukhbaatar_Square",
+            "mapEmbed": "https://maps.google.com/maps?q=Sukhbaatar+Square&t=&z=13&ie=UTF8&iwloc=&output=embed"
+          }
+        ]
+      }
     }
   },
+
   "Nepal": {
     "cities": {
-      "Kathmandu": [
-        { "name": "Boudhanath Stupa", "imageSearch": "Boudhanath Stupa Kathmandu", "description": "One of the largest spherical stupas in Nepal.", "mapEmbed": "https://maps.google.com/maps?q=Boudhanath+Stupa&output=embed" },
-        { "name": "Durbar Square", "imageSearch": "Kathmandu Durbar Square", "description": "The plaza in front of the old royal palace.", "mapEmbed": "https://maps.google.com/maps?q=Valley+of+the+Kings&t=&z=13&ie=UTF8&iwloc=&output=embed9" }
-      ]
+      "Kathmandu": {
+        "images": ["https://th.bing.com/th/id/R.fac34737f43fec092dd520559abab8f7?rik=SclGl%2bYrJqhOGA&riu=http%3a%2f%2f4.bp.blogspot.com%2f_dl6Szm-ZAuk%2fS8tBHXA5HEI%2fAAAAAAAAE-U%2fRZtQA21iv9c%2fs1600%2fKathmandu.jpg&ehk=DPLI2QSTFnIHOuhjbJkA6oC3Eql0UQrnMbrXPRXVkdI%3d&risl=&pid=ImgRaw&r=0", "https://1.bp.blogspot.com/-dQj00jTU7YU/Ws7RndwfrJI/AAAAAAAANAs/KemP_XM5oPAiAVQS_sCjoQlIm4JlnCz-QCLcBGAs/s1600/Discover%2BKathmandu%2Bis%2Bkicking%2Band%2Bbook%2Bdiscount%2Bairfares%2Bto%2BKathmandu.jpg", "https://www.mountainiq.com/wp-content/uploads/2023/05/things-to-do-in-kathmandu.jpg"],
+        "imageSearch": "Kathmandu Nepal",
+        "description": "Kathmandu is the capital and largest city of Nepal. It is located in the Kathmandu Valley, a large valley in the high plateaus in central Nepal. The city is the gateway to the Nepalese Himalayas and is home to seven UNESCO World Heritage Sites, showcasing a rich history of art, architecture, and culture.",
+        "wiki": "https://en.wikipedia.org/wiki/Kathmandu",
+        "mapEmbed": "https://maps.google.com/maps?q=Kathmandu&t=&z=13&ie=UTF8&iwloc=&output=embed",
+        
+        "places": [
+          {
+            "name": "Boudhanath Stupa",
+            "images": ["https://th.bing.com/th/id/R.b0f8a7dae5983c455643c3f41314f73d?rik=Et7CbQDsenWdWg&pid=ImgRaw&r=0", "https://tse3.mm.bing.net/th/id/OIP.fHS0iFrVIJxNYhk9aip9cwHaLH?rs=1&pid=ImgDetMain&o=7&rm=3", "https://wallpapers.com/images/file/boudhanath-stupa-and-candles-iqks3lrtrqg1wf6o.jpg"],
+            "imageSearch": "Boudhanath Stupa Kathmandu",
+            "description": "One of the largest spherical stupas in Nepal.",
+            "wiki": "https://en.wikipedia.org/wiki/Boudhanath",
+            "mapEmbed": "https://maps.google.com/maps?q=Boudhanath+Stupa&t=&z=13&ie=UTF8&iwloc=&output=embed"
+          },
+          {
+            "name": "Durbar Square",
+            "images": ["https://tse3.mm.bing.net/th/id/OIP.JY4yy11dobGtE734VdndmgHaE8?rs=1&pid=ImgDetMain&o=7&rm=3", "https://tse4.mm.bing.net/th/id/OIP.nMLcFrPPj0BOiciMyAVvNQHaLH?rs=1&pid=ImgDetMain&o=7&rm=3", "https://tse3.mm.bing.net/th/id/OIP.NVLFgvPSt9YqKtTvf_efmAHaE8?rs=1&pid=ImgDetMain&o=7&rm=3"],
+            "imageSearch": "Kathmandu Durbar Square",
+            "description": "The plaza in front of the old royal palace.",
+            "wiki": "https://en.wikipedia.org/wiki/Kathmandu_Durbar_Square",
+            "mapEmbed": "https://maps.google.com/maps?q=Kathmandu+Durbar+Square&t=&z=13&ie=UTF8&iwloc=&output=embed"
+          }
+        ]
+      }
     }
   },
+
   "Pakistan": {
     "cities": {
-      "Islamabad": [
-        { "name": "Faisal Mosque", "imageSearch": "Faisal Mosque Islamabad", "description": "The largest mosque in Pakistan.", "mapEmbed": "https://maps.google.com/maps?q=Faisal+Mosque&output=embed" },
-        { "name": "Pakistan Monument", "imageSearch": "Pakistan Monument Islamabad", "description": "A national monument and heritage museum.", "mapEmbed": "https://maps.google.com/maps?q=Luxor+Temple&t=&z=13&ie=UTF8&iwloc=&output=embed0" }
-      ]
+      "Islamabad": {
+        "images": ["https://th.bing.com/th/id/R.dbf3b5768e2518c71691c1209e1d0bad?rik=5rSZ7L2Gnt4u9g&riu=http%3a%2f%2f3.bp.blogspot.com%2f-ltkqN2ZdH5c%2fToiK2kNyE9I%2fAAAAAAAAAt4%2fTTlMZxHfHko%2fs1600%2f1468131101_a4fc1f1349_b.jpg&ehk=fV3NouacPuFrN38nRi5%2fTI%2bJWDFdKhSi0IcsT4yRhHA%3d&risl=&pid=ImgRaw&r=0", "https://tse1.mm.bing.net/th/id/OIP.20ARscgQ3yNwJedOGcR4IAHaE8?rs=1&pid=ImgDetMain&o=7&rm=3", "https://th.bing.com/th/id/R.4f08c80c5b7cb0fa85b90f5d87c7da8e?rik=q%2bggefuXgCeyMQ&riu=http%3a%2f%2f4.bp.blogspot.com%2f-FjcojDXC2zI%2fT-Ur3Hjc9RI%2fAAAAAAAADM8%2f4c5EmX4cPkg%2fs1600%2fislamabad7.jpg&ehk=B0H%2foVteAFlHwjEm%2byFuvw6bkSOOuHU20Vl06DPW7G4%3d&risl=&pid=ImgRaw&r=0"],
+        "imageSearch": "Islamabad Pakistan",
+        "description": "Islamabad is the capital city of Pakistan, and is administratively part of the Islamabad Capital Territory. Built as a planned city in the 1960s to replace Karachi as Pakistan's capital, Islamabad is noted for its high standards of living, safety, and abundant greenery, nestled against the Margalla Hills.",
+        "wiki": "https://en.wikipedia.org/wiki/Islamabad",
+        "mapEmbed": "https://maps.google.com/maps?q=Islamabad&t=&z=13&ie=UTF8&iwloc=&output=embed",
+        
+        "places": [
+          {
+            "name": "Faisal Mosque",
+            "images": ["https://th.bing.com/th/id/R.682fa2835e1a1b3c0e0f1006b4b595ff?rik=TnUNYnR4DUcDqA&pid=ImgRaw&r=0", "https://res.cloudinary.com/www-travelpakistani-com/image/upload/v1661243930/Faisal_Mosque_travelpakistani.jpg", "https://tse3.mm.bing.net/th/id/OIP.JdIJoB7HbfflihksPqZlFQHaHa?rs=1&pid=ImgDetMain&o=7&rm=3"],
+            "imageSearch": "Faisal Mosque Islamabad",
+            "description": "The largest mosque in Pakistan.",
+            "wiki": "https://en.wikipedia.org/wiki/Faisal_Mosque",
+            "mapEmbed": "https://maps.google.com/maps?q=Faisal+Mosque+Islamabad&t=&z=13&ie=UTF8&iwloc=&output=embed"
+          },
+          {
+            "name": "Pakistan Monument",
+            "images": ["https://th.bing.com/th/id/R.d7b1ac5c0a9af6ca929361e41a440338?rik=V89fZ7Sl1mjRnA&pid=ImgRaw&r=0", "https://th.bing.com/th/id/R.b13089515595b63fdd9f17d5ba5cab75?rik=Ao5jitq79CC2Jg&pid=ImgRaw&r=0", "https://i.pinimg.com/originals/d1/38/a7/d138a7aa55007f3e77e2fbb968f6ee6d.jpg"],
+            "imageSearch": "Pakistan Monument Islamabad",
+            "description": "A national monument and heritage museum.",
+            "wiki": "https://en.wikipedia.org/wiki/Pakistan_Monument",
+            "mapEmbed": "https://maps.google.com/maps?q=Pakistan+Monument&t=&z=13&ie=UTF8&iwloc=&output=embed"
+          }
+        ]
+      }
     }
   },
+
   "Sri Lanka": {
     "cities": {
-      "Colombo": [
-        { "name": "Gangaramaya Temple", "imageSearch": "Gangaramaya Temple Colombo", "description": "One of the most important Buddhist temples in Colombo.", "mapEmbed": "https://maps.google.com/maps?q=Gangaramaya+Temple&output=embed" },
-        { "name": "Lotus Tower", "imageSearch": "Lotus Tower Colombo", "description": "A tower that is the tallest self-supported structure in South Asia.", "mapEmbed": "https://maps.google.com/maps?q=Luxor+Temple&t=&z=13&ie=UTF8&iwloc=&output=embed1" }
-      ],
-      "Sigiriya": [
-        { "name": "Sigiriya Rock Fortress", "imageSearch": "Sigiriya Rock Fortress", "description": "An ancient rock fortress.", "mapEmbed": "https://maps.google.com/maps?q=Sigiriya&output=embed" },
-        { "name": "Pidurangala Rock", "imageSearch": "Pidurangala Rock view", "description": "A massive rock formation offering views of Sigiriya.", "mapEmbed": "https://maps.google.com/maps?q=Luxor+Temple&t=&z=13&ie=UTF8&iwloc=&output=embed2" }
-      ]
+      "Colombo": {
+        "images": ["https://th.bing.com/th/id/OIP.Tw5L7OwAm021BHINaabqJQHaEi?o=7rm=3&rs=1&pid=ImgDetMain&o=7&rm=3", "https://www.eatsandretreats.com/travel/wp-content/uploads/2019/03/shutterstock_1141635956.jpg", "https://www.bluelankatours.com/wp-content/uploads/2020/06/Colombo-city.jpg"],
+        "imageSearch": "Colombo Sri Lanka",
+        "description": "Colombo is the commercial capital and largest city of Sri Lanka. It is a busy and vibrant place with a mixture of modern life, colonial buildings, and ruins. The city has a long history as a port on ancient east-west trade routes, ruled successively by the Portuguese, Dutch, and British.",
+        "wiki": "https://en.wikipedia.org/wiki/Colombo",
+        "mapEmbed": "https://maps.google.com/maps?q=Colombo+Sri+Lanka&t=&z=13&ie=UTF8&iwloc=&output=embed",
+        
+        "places": [
+          {
+            "name": "Gangaramaya Temple",
+            "images": ["https://th.bing.com/th/id/R.57d7d0e20c26282eb37b759d5d12496f?rik=b8u%2fZiL4SB19cw&pid=ImgRaw&r=0", "https://tse1.mm.bing.net/th/id/OIP.Vja_X0FxaHwTVCP-GB3gjQHaE8?rs=1&pid=ImgDetMain&o=7&rm=3", "https://tse1.mm.bing.net/th/id/OIP.C2EUlawRQqgPUxxd8MfvBAHaE7?rs=1&pid=ImgDetMain&o=7&rm=3"],
+            "imageSearch": "Gangaramaya Temple Colombo",
+            "description": "One of the most important Buddhist temples in Colombo.",
+            "wiki": "https://en.wikipedia.org/wiki/Gangaramaya_Temple",
+            "mapEmbed": "https://maps.google.com/maps?q=Gangaramaya+Temple&t=&z=13&ie=UTF8&iwloc=&output=embed"
+          },
+          {
+            "name": "Lotus Tower",
+            "images": ["https://www.bluelankatours.com/wp-content/uploads/2019/09/Stunning_View_at_Lotus_Tower_Colombo.png", "https://worldbrief.lk/wp-content/uploads/2023/11/Lotus_tower-2048x1360.jpg", "https://preview.redd.it/the-lotus-tower-in-sri-lanka-v0-2cxhk7gacv6a1.png?auto=webp&s=faf0777a00ae5c79ffd509ee8a1f805551a1c7ab"],
+            "imageSearch": "Lotus Tower Colombo",
+            "description": "A tower that is the tallest self-supported structure in South Asia.",
+            "wiki": "https://en.wikipedia.org/wiki/Lotus_Tower",
+            "mapEmbed": "https://maps.google.com/maps?q=Lotus+Tower+Colombo&t=&z=13&ie=UTF8&iwloc=&output=embed"
+          }
+        ]
+      },
+
+      "Sigiriya": {
+        "images": ["https://th.bing.com/th/id/R.9c02c8ea13cf7e831a8a9e02e3346386?rik=f%2by7jQF7kE8OHg&pid=ImgRaw&r=0", "https://th.bing.com/th/id/R.9bc2360264d0f354ff46ece0d2d74f08?rik=ZxpkbkBDgoKptQ&pid=ImgRaw&r=0", "https://th.bing.com/th/id/R.dd3d3c1deba2f14070e8b5d98c27bd06?rik=acvV8jGyUGGdDA&pid=ImgRaw&r=0"],
+        "imageSearch": "Sigiriya Sri Lanka",
+        "description": "Sigiriya is an ancient rock fortress located in the northern Matale District near the town of Dambulla in the Central Province, Sri Lanka. It is a site of historical and archaeological significance that is dominated by a massive column of rock around 180 metres high, often referred to as the Eighth Wonder of the World.",
+        "wiki": "https://en.wikipedia.org/wiki/Sigiriya",
+        "mapEmbed": "https://maps.google.com/maps?q=Sigiriya&t=&z=13&ie=UTF8&iwloc=&output=embed",
+        
+        "places": [
+          {
+            "name": "Sigiriya Rock Fortress",
+            "images": ["https://th.bing.com/th/id/R.6fb4ef4ba3827f6a9682df20c8c6e9de?rik=jnGVjf9jqxdwUg&pid=ImgRaw&r=0", "https://th.bing.com/th/id/R.75593b0bf5fd8e93b4b3ee45ddc1ea5d?rik=KUmaekxnkmFShQ&pid=ImgRaw&r=0", "https://th.bing.com/th/id/R.c462e3df3a4c61400ec9b7559134597f?rik=Bz%2fxbqRybpwCpA&riu=http%3a%2f%2ftravellingpearllanka.com%2fblog%2fwp-content%2fuploads%2f2014%2f05%2fsigiriya-rock-fortress-2.jpg&ehk=7KKLahc6mSTbgEbeouD7jz5Vjh32evPUvktmmO8Nh0g%3d&risl=&pid=ImgRaw&r=0"],
+            "imageSearch": "Sigiriya Rock Fortress",
+            "description": "An ancient rock fortress.",
+            "wiki": "https://en.wikipedia.org/wiki/Sigiriya",
+            "mapEmbed": "https://maps.google.com/maps?q=Sigiriya+Rock+Fortress&t=&z=13&ie=UTF8&iwloc=&output=embed"
+          },
+          {
+            "name": "Pidurangala Rock",
+            "images": ["https://th.bing.com/th/id/R.e9b5c7d6af1b9bd7468cd77b6dfcec85?rik=Jx64gJ5KGGAxIQ&pid=ImgRaw&r=0", "https://nexttravelsrilanka.com/wp-content/uploads/2023/02/Pidurangala-Rock.jpg", "https://www.colemanconcierge.com/wp-content/uploads/2018/05/Sigiriya-Rock-top-ogf-Pidurangala-rock-2-768x698.jpg"],
+            "imageSearch": "Pidurangala Rock view",
+            "description": "A massive rock formation offering views of Sigiriya.",
+            "wiki": "https://en.wikipedia.org/wiki/Pidurangala_Vihara",
+            "mapEmbed": "https://maps.google.com/maps?q=Pidurangala+Rock&t=&z=13&ie=UTF8&iwloc=&output=embed"
+          }
+        ]
+      }
     }
   },
+
   "Kenya": {
     "cities": {
-      "Nairobi": [
-        { "name": "Nairobi National Park", "imageSearch": "Nairobi National Park", "description": "A national park just 7km south of Nairobi.", "mapEmbed": "https://maps.google.com/maps?q=Nairobi+National+Park&output=embed" },
-        { "name": "Karen Blixen Museum", "imageSearch": "Karen Blixen Museum Nairobi", "description": "The former African home of the Danish author.", "mapEmbed": "https://maps.google.com/maps?q=Luxor+Temple&t=&z=13&ie=UTF8&iwloc=&output=embed3" }
-      ],
-      "Masai Mara": [
-        { "name": "Masai Mara Reserve", "imageSearch": "Masai Mara safari", "description": "A large game reserve in Narok.", "mapEmbed": "https://maps.google.com/maps?q=Masai+Mara&output=embed" },
-        { "name": "Mara River", "imageSearch": "Mara River crossing", "description": "A river famous for the wildebeest migration crossing.", "mapEmbed": "https://maps.google.com/maps?q=Luxor+Temple&t=&z=13&ie=UTF8&iwloc=&output=embed4" }
-      ]
+      "Nairobi": {
+        "images": ["https://th.bing.com/th/id/R.119a5b34247590a79ffab15d0195825b?rik=5KWoqU%2ft1OB0%2bQ&pid=ImgRaw&r=0", "https://www.worldtravelguide.net/wp-content/uploads/2017/03/shu-Kenya-Nairobi-549814942-Sopotnicki-copy.jpg", "https://drscott.co.za/wp-content/uploads/2020/08/IMG_2889.jpeg"],
+        "imageSearch": "Nairobi Kenya",
+        "description": "Nairobi is the capital and largest city of Kenya. The name comes from the Maasai phrase Enkare Nyrobi, which translates to 'cool water'. It is one of the most prominent cities in Africa, both politically and financially, and is famous for being the only major city in the world with a game reserve strictly within its borders.",
+        "wiki": "https://en.wikipedia.org/wiki/Nairobi",
+        "mapEmbed": "https://maps.google.com/maps?q=Nairobi&t=&z=13&ie=UTF8&iwloc=&output=embed",
+        
+        "places": [
+          {
+            "name": "Nairobi National Park",
+            "images": ["https://www.campoeasafaris.com/wp-content/uploads/2021/05/nairobi-national-park-main-gate.jpeg", "https://www.masaimara.travel/images/nairobi-national-park-kenya-mobile.jpg", "https://www.nairobinationalparkkenya.com/wp-content/uploads/2023/03/1519102537715.jpg"],
+            "imageSearch": "Nairobi National Park",
+            "description": "A national park just 7km south of Nairobi.",
+            "wiki": "https://en.wikipedia.org/wiki/Nairobi_National_Park",
+            "mapEmbed": "https://maps.google.com/maps?q=Nairobi+National+Park&t=&z=13&ie=UTF8&iwloc=&output=embed"
+          },
+          {
+            "name": "Karen Blixen Museum",
+            "images": ["https://th.bing.com/th/id/R.e57fd8a478c34d7d99d60c5dc718f11c?rik=0nqcOcfQjls1cw&pid=ImgRaw&r=0", "https://tse1.mm.bing.net/th/id/OIP.ht-qYpvj3VNohiv9PSOSHAHaEK?rs=1&pid=ImgDetMain&o=7&rm=3", "https://www.shadowsofafrica.com/media/wysiwyg/Itineraries/Kenya_Nairobi_NP/shutterstock_1253161237.jpg"],
+            "imageSearch": "Karen Blixen Museum Nairobi",
+            "description": "The former African home of the Danish author.",
+            "wiki": "https://en.wikipedia.org/wiki/Karen_Blixen_Museum_(Kenya)",
+            "mapEmbed": "https://maps.google.com/maps?q=Karen+Blixen+Museum+Nairobi&t=&z=13&ie=UTF8&iwloc=&output=embed"
+          }
+        ]
+      },
+
+      "Masai Mara": {
+        "images": ["https://tse3.mm.bing.net/th/id/OIP.GKs-xln3HSl9jAmb2_JY4AHaE8?rs=1&pid=ImgDetMain&o=7&rm=3", "https://cdn.getyourguide.com/img/location/5d2c5760b47fd.jpeg/88.jpg", "https://tse1.mm.bing.net/th/id/OIP.v5pzs6sY3xFShA-28a0T3wHaEK?rs=1&pid=ImgDetMain&o=7&rm=3"],
+        "imageSearch": "Masai Mara Kenya",
+        "description": "The Maasai Mara National Reserve is a large game reserve in Narok, Kenya, contiguous with the Serengeti National Park in Tanzania. It is named in honor of the Maasai people, the ancestral inhabitants of the area. It is globally famous for its exceptional population of lions, leopards, and cheetahs, and the annual migration of zebra and wildebeest.",
+        "wiki": "https://en.wikipedia.org/wiki/Maasai_Mara",
+        "mapEmbed": "https://maps.google.com/maps?q=Maasai+Mara&t=&z=13&ie=UTF8&iwloc=&output=embed",
+        
+        "places": [
+          {
+            "name": "Masai Mara Reserve",
+            "images": ["https://th.bing.com/th/id/R.696320c1bfb2aca920e97c9c973d5834?rik=PUfz242m0iP5Cw&pid=ImgRaw&r=0", "https://tse4.mm.bing.net/th/id/OIP.GduXTBt6E5sPohNDKYDNOAHaEK?rs=1&pid=ImgDetMain&o=7&rm=3", "https://th.bing.com/th/id/R.6a50674f1aaeb35065d0169977f5270a?rik=BDMlWhXJ6veXdQ&pid=ImgRaw&r=0"],
+            "imageSearch": "Masai Mara safari",
+            "description": "A large game reserve in Narok.",
+            "wiki": "https://en.wikipedia.org/wiki/Maasai_Mara",
+            "mapEmbed": "https://maps.google.com/maps?q=Maasai+Mara+Reserve&t=&z=13&ie=UTF8&iwloc=&output=embed"
+          },
+          {
+            "name": "Mara River",
+            "images": ["https://tse2.mm.bing.net/th/id/OIP.qBiCgR1r_G1qruGU7HNx_gHaEP?rs=1&pid=ImgDetMain&o=7&rm=3", "https://images.fineartamerica.com/images/artworkimages/mediumlarge/2/mara-river-in-the-serengetimasaimara-guenterguni.jpg", "https://wwfke.awsassets.panda.org/img/large_ww139850_488033.jpg"],
+            "imageSearch": "Mara River crossing",
+            "description": "A river famous for the wildebeest migration crossing.",
+            "wiki": "https://en.wikipedia.org/wiki/Mara_River",
+            "mapEmbed": "https://maps.google.com/maps?q=Mara+River+Kenya&t=&z=13&ie=UTF8&iwloc=&output=embed"
+          }
+        ]
+      }
     }
   },
+
   "Tanzania": {
     "cities": {
-      "Zanzibar": [
-        { "name": "Stone Town", "imageSearch": "Stone Town Zanzibar", "description": "The old part of Zanzibar City.", "mapEmbed": "https://maps.google.com/maps?q=Stone+Town+Zanzibar&output=embed" },
-        { "name": "Prison Island", "imageSearch": "Prison Island Zanzibar tortoises", "description": "An island famous for its giant tortoises.", "mapEmbed": "https://maps.google.com/maps?q=Luxor+Temple&t=&z=13&ie=UTF8&iwloc=&output=embed5" }
-      ],
-      "Arusha": [
-        { "name": "Mount Kilimanjaro", "imageSearch": "Mount Kilimanjaro", "description": "The highest mountain in Africa.", "mapEmbed": "https://maps.google.com/maps?q=Mount+Kilimanjaro&output=embed" },
-        { "name": "Arusha National Park", "imageSearch": "Arusha National Park giraffe", "description": "A gem of varied ecosystems and spectacular views of Mt. Meru.", "mapEmbed": "https://maps.google.com/maps?q=Luxor+Temple&t=&z=13&ie=UTF8&iwloc=&output=embed6" }
-      ]
+      "Zanzibar": {
+        "images": ["https://tse4.mm.bing.net/th/id/OIP.VMRJRAJM7osOE88ew3X3gAHaEK?rs=1&pid=ImgDetMain&o=7&rm=3", "https://www.discoverafrica.com/wp-content/uploads/2021/11/check-out-prison-island-prison-island-zanzibar.-shooting-with-the-drone.jpg", "https://www.myoxybubble.com/wp-content/uploads/2022/11/zanzibar-rock-restaurant.jpg"],
+        "imageSearch": "Zanzibar Tanzania",
+        "description": "Zanzibar is an insular semi-autonomous region of Tanzania. It is an archipelago in the Indian Ocean, consisting of many small islands and two large ones. The capital is Zanzibar City, known for its historic center, Stone Town, which is a World Heritage Site famous for its winding lanes and Swahili culture.",
+        "wiki": "https://en.wikipedia.org/wiki/Zanzibar",
+        "mapEmbed": "https://maps.google.com/maps?q=Zanzibar&t=&z=13&ie=UTF8&iwloc=&output=embed",
+        
+        "places": [
+          {
+            "name": "Stone Town",
+            "images": ["https://tse3.mm.bing.net/th/id/OIP.dosFImLp1iiWTQzifjUdywHaD2?rs=1&pid=ImgDetMain&o=7&rm=3", "https://trips4africa.com/wp-content/uploads/2024/04/Things-to-do-in-Stone-Town-Zanzibar.jpg", "https://th.bing.com/th/id/R.ef5431eef5eacedf53524da1aeaed821?rik=qhnnTY5uHwh4pA&riu=http%3a%2f%2f1.bp.blogspot.com%2f-NIBlLPAwAJA%2fTutgVJ8D_eI%2fAAAAAAAAOhE%2fTW02P8g0qWc%2fs1600%2fstonetown22.jpg&ehk=PAKp1ZW60ecMHwhvsS8NiYd24YPwvB1ukYhPzhwCH5Q%3d&risl=&pid=ImgRaw&r=0"],
+            "imageSearch": "Stone Town Zanzibar",
+            "description": "The old part of Zanzibar City.",
+            "wiki": "https://en.wikipedia.org/wiki/Stone_Town",
+            "mapEmbed": "https://maps.google.com/maps?q=Stone+Town+Zanzibar&t=&z=13&ie=UTF8&iwloc=&output=embed"
+          },
+          {
+            "name": "Prison Island",
+            "images": ["https://tse3.mm.bing.net/th/id/OIP.PBz5LWYsPSKFCrZPV693mgHaEC?rs=1&pid=ImgDetMain&o=7&rm=3", "https://www.mustseespots.com/zanzibar/img/prison-island.jpg", "https://th.bing.com/th/id/R.dd16ea4fe851feb666655921afb53f98?rik=m3V2A1U5qPBUMw&riu=http%3a%2f%2fnovumrentals.com%2fassets%2fimages%2fguides%2fprison-island-slide2.webp&ehk=wYjlL3RUVXIgMN25KVpeU9kpXOuGGX%2bNPr2X3uqdugs%3d&risl=&pid=ImgRaw&r=0"],
+            "imageSearch": "Prison Island Zanzibar tortoises",
+            "description": "An island famous for its giant tortoises.",
+            "wiki": "https://en.wikipedia.org/wiki/Changuu",
+            "mapEmbed": "https://maps.google.com/maps?q=Prison+Island+Zanzibar&t=&z=13&ie=UTF8&iwloc=&output=embed"
+          }
+        ]
+      },
+
+      "Arusha": {
+        "images": ["https://tse1.mm.bing.net/th/id/OIP.g_CzBdnqinyhmc8hsGUFLgHaE8?rs=1&pid=ImgDetMain&o=7&rm=3", "https://tse3.mm.bing.net/th/id/OIP.AUQcpyhkbZYPQ4CgISOdfgAAAA?rs=1&pid=ImgDetMain&o=7&rm=3", "https://countryhelper.com/media/locations/backgrounds/Arusha_City_view.webp"],
+        "imageSearch": "Arusha Tanzania",
+        "description": "Arusha is a city in northeastern Tanzania and the capital of the Arusha Region. Located below Mount Meru on the eastern edge of the eastern branch of the Great Rift Valley, Arusha has a temperate climate and is close to many of Tanzania's greatest landscapes and national parks, making it the safari capital of the country.",
+        "wiki": "https://en.wikipedia.org/wiki/Arusha",
+        "mapEmbed": "https://maps.google.com/maps?q=Arusha&t=&z=13&ie=UTF8&iwloc=&output=embed",
+        
+        "places": [
+          {
+            "name": "Mount Kilimanjaro",
+            "images": ["https://tse2.mm.bing.net/th/id/OIP.8wHF-HFARqHMhBp34dQ-iwHaFj?rs=1&pid=ImgDetMain&o=7&rm=3", "https://www.climbing-kilimanjaro.com/wp-content/uploads/2020/11/Mount-Kilimanjaro-Meaning.jpg", "https://tse4.mm.bing.net/th/id/OIP.O2yDSMQ9n3CjPxB93cpr8AHaEK?rs=1&pid=ImgDetMain&o=7&rm=3"],
+            "imageSearch": "Mount Kilimanjaro",
+            "description": "The highest mountain in Africa.",
+            "wiki": "https://en.wikipedia.org/wiki/Mount_Kilimanjaro",
+            "mapEmbed": "https://maps.google.com/maps?q=Mount+Kilimanjaro&t=&z=13&ie=UTF8&iwloc=&output=embed"
+          },
+          {
+            "name": "Arusha National Park",
+            "images": ["https://petnahafricatours.com/wp-content/uploads/2022/06/arusha-National-park.jpg", "https://tse2.mm.bing.net/th/id/OIP.qscxV5gtFCrJFBv1Lhw8sAHaE9?rs=1&pid=ImgDetMain&o=7&rm=3", "https://www.tanzaniatourism.com/images/uploads/Arusha_National_Park_Momella_Lake_Flamingos_83.jpg"],
+            "imageSearch": "Arusha National Park giraffe",
+            "description": "A gem of varied ecosystems and spectacular views of Mt. Meru.",
+            "wiki": "https://en.wikipedia.org/wiki/Arusha_National_Park",
+            "mapEmbed": "https://maps.google.com/maps?q=Arusha+National+Park&t=&z=13&ie=UTF8&iwloc=&output=embed"
+          }
+        ]
+      }
     }
   },
+
   "Uganda": {
     "cities": {
-      "Kampala": [
-        { "name": "Kasubi Tombs", "imageSearch": "Kasubi Tombs Kampala", "description": "The site of the burial grounds for four kabakas.", "mapEmbed": "https://maps.google.com/maps?q=Kasubi+Tombs&output=embed" },
-        { "name": "Uganda Museum", "imageSearch": "Uganda Museum Kampala", "description": "A museum displaying Uganda's cultural heritage.", "mapEmbed": "https://maps.google.com/maps?q=Luxor+Temple&t=&z=13&ie=UTF8&iwloc=&output=embed7" }
-      ]
+      "Kampala": {
+        "images": ["https://th.bing.com/th/id/R.3a9d1243a6bb32ef6e2f9ea9b13e030c?rik=jFHnd3yj02QcjA&pid=ImgRaw&r=0", "https://tse3.mm.bing.net/th/id/OIP.ZkNrKCjOoYAl3gf1CAG7AQHaFE?rs=1&pid=ImgDetMain&o=7&rm=3", "https://tse2.mm.bing.net/th/id/OIP.tgUSLSM8XdNSIcPUHepS-AHaE4?rs=1&pid=ImgDetMain&o=7&rm=3"],
+        "imageSearch": "Kampala Uganda",
+        "description": "Kampala is the capital and largest city of Uganda. The city is divided into five boroughs that oversee local planning: Kampala Central Division, Kawempe Division, Makindye Division, Nakawa Division, and Rubaga Division. It is a dynamic and engaging city with a rich history, known for its seven hills.",
+        "wiki": "https://en.wikipedia.org/wiki/Kampala",
+        "mapEmbed": "https://maps.google.com/maps?q=Kampala&t=&z=13&ie=UTF8&iwloc=&output=embed",
+        
+        "places": [
+          {
+            "name": "Kasubi Tombs",
+            "images": ["https://th.bing.com/th/id/R.9c0495198d76d7c537b8fc1aa19c5670?rik=eq5L3cQjjL%2b9jQ&pid=ImgRaw&r=0", "https://www.aboutuganda.com/wp-content/uploads/Kasubi-dome-shaped-tomb-1024x768.jpg", "https://th.bing.com/th/id/R.ce182d82e19f9bae64090fd850b36019?rik=cThOveZWj4dHKg&pid=ImgRaw&r=0"],
+            "imageSearch": "Kasubi Tombs Kampala",
+            "description": "The site of the burial grounds for four kabakas.",
+            "wiki": "https://en.wikipedia.org/wiki/Kasubi_Tombs",
+            "mapEmbed": "https://maps.google.com/maps?q=Kasubi+Tombs&t=&z=13&ie=UTF8&iwloc=&output=embed"
+          },
+          {
+            "name": "Uganda Museum",
+            "images": ["https://www.eastafricasafaristours.com/wp-content/uploads/2022/08/526b36f9-a2e6-47d9-9410-010a2f1e66c5-2-1024x678.jpg", "https://tse2.mm.bing.net/th/id/OIP.deIoWJAehL4JJfGhWJ5UCAHaEc?rs=1&pid=ImgDetMain&o=7&rm=3", "https://th.bing.com/th/id/R.98c7c17e0b56d97409e9404f66844e60?rik=MI8Hn09mITn99w&riu=http%3a%2f%2fwww.jewelsafaris.com%2fwp-content%2fuploads%2f2019%2f05%2fUganda-Museum-1-1.jpg&ehk=Y0oKxX5hHVXvVbWPxNKwyScLCgKcK%2b2oyDWW8d7USN4%3d&risl=&pid=ImgRaw&r=0"],
+            "imageSearch": "Uganda Museum Kampala",
+            "description": "A museum displaying Uganda's cultural heritage.",
+            "wiki": "https://en.wikipedia.org/wiki/Uganda_Museum",
+            "mapEmbed": "https://maps.google.com/maps?q=Uganda+Museum&t=&z=13&ie=UTF8&iwloc=&output=embed"
+          }
+        ]
+      }
     }
   },
+
   "Rwanda": {
     "cities": {
-      "Kigali": [
-        { "name": "Kigali Genocide Memorial", "imageSearch": "Kigali Genocide Memorial", "description": "Commemorates the 1994 Rwandan genocide.", "mapEmbed": "https://maps.google.com/maps?q=Kigali+Genocide+Memorial&output=embed" },
-        { "name": "Inema Art Center", "imageSearch": "Inema Art Center Kigali", "description": "A collective of Rwandan creative artists.", "mapEmbed": "https://maps.google.com/maps?q=Luxor+Temple&t=&z=13&ie=UTF8&iwloc=&output=embed8" }
-      ]
+      "Kigali": {
+        "images": ["https://tse4.mm.bing.net/th/id/OIP.AyuuCohDtNckC-fzjaQvtAHaE8?rs=1&pid=ImgDetMain&o=7&rm=3", "https://th.bing.com/th/id/R.0fbe498d1babd2fb34f95119c58ff879?rik=LVl7jsaBoxoa3w&pid=ImgRaw&r=0", "https://th.bing.com/th/id/R.80d530429b28323fe553b53ab69ae6b9?rik=PtL8nzV8hGqjCg&pid=ImgRaw&r=0"],
+        "imageSearch": "Kigali Rwanda",
+        "description": "Kigali is the capital and largest city of Rwanda. It is near the nation's geographic center in a region of rolling hills, with a series of valleys and ridges joined by steep slopes. The city is Rwanda's economic, cultural, and transport hub, known for its cleanliness and orderliness.",
+        "wiki": "https://en.wikipedia.org/wiki/Kigali",
+        "mapEmbed": "https://maps.google.com/maps?q=Kigali&t=&z=13&ie=UTF8&iwloc=&output=embed",
+        
+        "places": [
+          {
+            "name": "Kigali Genocide Memorial",
+            "images": ["https://tse1.mm.bing.net/th/id/OIP.kmT5wOb99edGKRGi3HigswHaEK?rs=1&pid=ImgDetMain&o=7&rm=3", "https://th.bing.com/th/id/R.227e3f973a060a218190a77cf1a226cb?rik=EstTt0rxUmfumQ&pid=ImgRaw&r=0", "https://primateworldsafaris.com/wp-content/uploads/2022/11/kigali-genocide-memorial.jpg"],
+            "imageSearch": "Kigali Genocide Memorial",
+            "description": "Commemorates the 1994 Rwandan genocide.",
+            "wiki": "https://en.wikipedia.org/wiki/Kigali_Genocide_Memorial",
+            "mapEmbed": "https://maps.google.com/maps?q=Kigali+Genocide+Memorial&t=&z=13&ie=UTF8&iwloc=&output=embed"
+          },
+          {
+            "name": "Inema Art Center",
+            "images": ["https://th.bing.com/th/id/R.36eb18e5f2eb2060b7c3e4051b8a6860?rik=adgE%2f%2b%2fnxkq23A&pid=ImgRaw&r=0", "https://tse3.mm.bing.net/th/id/OIP.NvTSlsYCWIUyYiHGagUlXgHaE7?rs=1&pid=ImgDetMain&o=7&rm=3", "https://lirp.cdn-website.com/09ed37c1/dms3rep/multi/opt/inventive-art-in-rwanda-museum-1920w.jpg"],
+            "imageSearch": "Inema Art Center Kigali",
+            "description": "A collective of Rwandan creative artists.",
+            "wiki": "https://en.wikipedia.org/wiki/Inema_Art_Center",
+            "mapEmbed": "https://maps.google.com/maps?q=Inema+Art+Center&t=&z=13&ie=UTF8&iwloc=&output=embed"
+          }
+        ]
+      }
     }
   },
+  
   "Ethiopia": {
     "cities": {
-      "Addis Ababa": [
-        { "name": "National Museum", "imageSearch": "National Museum of Ethiopia", "description": "Houses the nation's artistic treasures.", "mapEmbed": "https://maps.google.com/maps?q=National+Museum+of+Ethiopia&output=embed" },
-        { "name": "Holy Trinity Cathedral", "imageSearch": "Holy Trinity Cathedral Addis Ababa", "description": "The highest ranking Orthodox cathedral in Addis Ababa.", "mapEmbed": "https://maps.google.com/maps?q=Luxor+Temple&t=&z=13&ie=UTF8&iwloc=&output=embed9" }
-      ],
-      "Lalibela": [
-        { "name": "Rock-Hewn Churches", "imageSearch": "Lalibela rock churches", "description": "11 medieval monolithic cave churches.", "mapEmbed": "https://maps.google.com/maps?q=Rock-Hewn+Churches+Lalibela&output=embed" },
-        { "name": "Church of St. George", "imageSearch": "Church of St. George Lalibela", "description": "The most famous and best preserved of the rock-hewn churches.", "mapEmbed": "https://maps.google.com/maps?q=Bibliotheca+Alexandrina&t=&z=13&ie=UTF8&iwloc=&output=embed0" }
-      ]
+      "Addis Ababa": {
+        "images": ["https://tse1.mm.bing.net/th/id/OIP.FPauPwrgXCdZVB8XkCqTHwHaEK?rs=1&pid=ImgDetMain&o=7&rm=3", "https://th.bing.com/th/id/R.ff11f03374ad6877e3c45149e173d531?rik=NeLCcbI2TkF0Ew&pid=ImgRaw&r=0", "https://i.pinimg.com/736x/26/76/9d/26769dbf94379f43c2eb806d55a3dda5--africa-city-east-africa.jpg"],
+        "imageSearch": "Addis Ababa Ethiopia",
+        "description": "Addis Ababa is the capital and largest city of Ethiopia. It is where the African Union is headquartered and also hosts the headquarters of the United Nations Economic Commission for Africa. Lying at the foot of Mount Entoto, the city is a hub of Ethiopian culture and history.",
+        "wiki": "https://en.wikipedia.org/wiki/Addis_Ababa",
+        "mapEmbed": "https://maps.google.com/maps?q=Sigiriya&output=embed1",
+        
+        "places": [
+          {
+            "name": "National Museum",
+            "images": ["https://tse2.mm.bing.net/th/id/OIP.AGFO-956gGiLvfJMW80GlwHaE8?rs=1&pid=ImgDetMain&o=7&rm=3", "https://c8.alamy.com/comp/GEXX0P/national-museum-of-ethiopia-in-addis-ababa-GEXX0P.jpg", "https://thumbs.dreamstime.com/b/building-national-museum-ethiopia-addis-abeba-39734857.jpg"],
+            "imageSearch": "National Museum of Ethiopia",
+            "description": "Houses the nation's artistic treasures.",
+            "wiki": "https://en.wikipedia.org/wiki/National_Museum_of_Ethiopia",
+            "mapEmbed": "https://maps.google.com/maps?q=National+Museum+of+Ethiopia&output=embed"
+          },
+          {
+            "name": "Holy Trinity Cathedral",
+            "images": ["https://awe-inspiringplaces.com/wp-content/uploads/2024/01/Holy-Trinity-Cathedral.png", "https://th.bing.com/th/id/R.6aaeb6acd262db926b68dcae52865b80?rik=uFKIKflNUH7Y3w&pid=ImgRaw&r=0", "https://img.freepik.com/free-photo/holy-trinity-cathedral_78361-2232.jpg?size=626&ext=jpg"],
+            "imageSearch": "Holy Trinity Cathedral Addis Ababa",
+            "description": "The highest ranking Orthodox cathedral in Addis Ababa.",
+            "wiki": "https://en.wikipedia.org/wiki/Holy_Trinity_Cathedral_(Addis_Ababa)",
+            "mapEmbed": "https://maps.google.com/maps?q=Luxor+Temple&t=&z=13&ie=UTF8&iwloc=&output=embed9"
+          }
+        ]
+      },
+
+      "Lalibela": {
+        "images": ["https://tse3.mm.bing.net/th/id/OIP.RlbxUswCTmNa-Y1N1x6ScgHaE7?rs=1&pid=ImgDetMain&o=7&rm=3", "https://th.bing.com/th/id/R.45b37d6c79022c9ecda3b1958ac855f9?rik=s1%2f20slNH8KiCw&pid=ImgRaw&r=0", "https://th.bing.com/th/id/R.34d2573be688e4ce373f5a4a4491f2e6?rik=w7AvnIwYuGbs6A&riu=http%3a%2f%2fbin3aiah.net%2fwp-content%2fuploads%2f2018%2f12%2flalibela_2.jpg&ehk=i8FHF0s5CvJKly%2bBu7L7qgIny0wE2oBpqOZyKIuYl7Y%3d&risl=&pid=ImgRaw&r=0"],
+        "imageSearch": "Lalibela Ethiopia",
+        "description": "Lalibela is a town in the Amhara Region of northern Ethiopia. It is famous for its monolithic rock-cut churches. The arrangement and names of the major buildings in Lalibela are widely accepted to be a symbolic representation of Jerusalem.",
+        "wiki": "https://en.wikipedia.org/wiki/Lalibela",
+        "mapEmbed": "https://maps.google.com/maps?q=Sigiriya&output=embed2",
+        
+        "places": [
+          {
+            "name": "Rock-Hewn Churches",
+            "images": ["https://th.bing.com/th/id/R.0ab87c2472f58ff51ffaa0963eb42cae?rik=0LRN4wD5xMthOA&riu=http%3a%2f%2f4.bp.blogspot.com%2f-BXdcc6hMGb4%2fT9LylATNK3I%2fAAAAAAAAANk%2f_Cq2RVHs6VU%2fs1600%2fRock-Hewn-Churches-Lalibela.jpg&ehk=FmPXu0MkR2y217hVbYGYbXAieG1sWQ9QSD5QoLwf31E%3d&risl=&pid=ImgRaw&r=0", "https://th.bing.com/th/id/R.dfe95ff8345de1365d3401772d450f6d?rik=TxmVbIVtbZEagQ&pid=ImgRaw&r=0", "https://www.canacreativetravel.com/wp-content/uploads/2020/04/Lalibela.jpg"],
+            "imageSearch": "Lalibela rock churches",
+            "description": "11 medieval monolithic cave churches.",
+            "wiki": "https://en.wikipedia.org/wiki/Rock-Hewn_Churches,_Lalibela",
+            "mapEmbed": "https://maps.google.com/maps?q=Rock-Hewn+Churches+Lalibela&output=embed"
+          },
+          {
+            "name": "Church of St. George",
+            "images": ["https://tse1.mm.bing.net/th/id/OIP.SdMSZyl21eH-aAsVkK3k9QHaFS?rs=1&pid=ImgDetMain&o=7&rm=3", "https://tse4.mm.bing.net/th/id/OIP.LfYeZxG_3r7dCAUGS6mdwwHaDD?rs=1&pid=ImgDetMain&o=7&rm=3", "https://tse3.mm.bing.net/th/id/OIP.33tbSQbMgp2tBzw-3EITgAHaFj?rs=1&pid=ImgDetMain&o=7&rm=3"],
+            "imageSearch": "Church of St. George Lalibela",
+            "description": "The most famous and best preserved of the rock-hewn churches.",
+            "wiki": "https://en.wikipedia.org/wiki/Church_of_Saint_George,_Lalibela",
+            "mapEmbed": "https://maps.google.com/maps?q=Bibliotheca+Alexandrina&t=&z=13&ie=UTF8&iwloc=&output=embed0"
+          }
+        ]
+      }
     }
   },
+
   "Tunisia": {
     "cities": {
-      "Tunis": [
-        { "name": "Medina of Tunis", "imageSearch": "Medina of Tunis", "description": "A UNESCO World Heritage Site.", "mapEmbed": "https://maps.google.com/maps?q=Medina+of+Tunis&output=embed" },
-        { "name": "Bardo Museum", "imageSearch": "Bardo Museum Tunis", "description": "One of the most important museums in the Mediterranean region.", "mapEmbed": "https://maps.google.com/maps?q=Bibliotheca+Alexandrina&t=&z=13&ie=UTF8&iwloc=&output=embed1" }
-      ],
-      "Carthage": [
-        { "name": "Carthage Ruins", "imageSearch": "Carthage ruins Tunisia", "description": "The archaeological site of the ancient city of Carthage.", "mapEmbed": "https://maps.google.com/maps?q=Carthage+Ruins&output=embed" },
-        { "name": "Byrsa Hill", "imageSearch": "Byrsa Hill Carthage", "description": "The walled citadel of ancient Carthage.", "mapEmbed": "https://maps.google.com/maps?q=Bibliotheca+Alexandrina&t=&z=13&ie=UTF8&iwloc=&output=embed2" }
-      ]
+      "Tunis": {
+        "images": ["https://www.worldtravelguide.net/wp-content/uploads/2017/03/shu-Tunisia-SidiBouSaid-760300645-1440x823.jpg", "https://lonelyplanetimages.imgix.net/a/g/hi/t/f994299e932fa892d3a3e3ecf2f05ac3-roman-colosseum.jpg", "https://lp-cms-production.imgix.net/features/2018/06/byrsa-hill-carthage-tunis-tunisia-2d96efe7b9bf.jpg?auto=format&q=40&ar=16:9&fit=crop&w=3038"],
+        "imageSearch": "Tunis Tunisia",
+        "description": "Tunis is the capital and largest city of Tunisia. The greater metropolitan area of Tunis, often referred to as 'Grand Tunis', holds some 2.7 million people. Situated on a large Mediterranean Sea gulf (the Gulf of Tunis), behind the Lake of Tunis and the port of La Goulette, the city extends along the coastal plain and the hills that surround it.",
+        "wiki": "https://en.wikipedia.org/wiki/Tunis",
+        "mapEmbed": "https://maps.google.com/maps?q=Sigiriya&output=embed3",
+        
+        "places": [
+          {
+            "name": "Medina of Tunis",
+            "images": ["https://th.bing.com/th/id/R.8fd069db6961674ee2e70f9c3e709aaf?rik=r106ZTiBRZlqYg&pid=ImgRaw&r=0", "https://carthagemagazine.com/wp-content/uploads/2022/10/The-Medina-of-Tunis-1-1024x678.jpg", "https://cdn.getyourguide.com/img/tour/0567e73e25a7997376da68d531b29bda50eef7e3ef33ac8b07864c7cd53aea36.jpg/145.jpg"],
+            "imageSearch": "Medina of Tunis",
+            "description": "A UNESCO World Heritage Site.",
+            "wiki": "https://en.wikipedia.org/wiki/Medina_of_Tunis",
+            "mapEmbed": "https://maps.google.com/maps?q=Medina+of+Tunis&output=embed"
+          },
+          {
+            "name": "Bardo Museum",
+            "images": ["https://carthagemagazine.com/wp-content/uploads/2020/12/Bardo-Museum-scaled.jpg", "https://www.zigzagging.net/wp-content/uploads/2017/05/Bardo-Museum-12.jpg", "https://th.bing.com/th/id/R.7ec5ddb17326c5eacb40466182190f36?rik=wxUTM%2f3%2b%2ff8roA&pid=ImgRaw&r=0"],
+            "imageSearch": "Bardo Museum Tunis",
+            "description": "One of the most important museums in the Mediterranean region.",
+            "wiki": "https://en.wikipedia.org/wiki/Bardo_National_Museum_(Tunis)",
+            "mapEmbed": "https://maps.google.com/maps?q=Bibliotheca+Alexandrina&t=&z=13&ie=UTF8&iwloc=&output=embed1"
+          }
+        ]
+      },
+
+      "Carthage": {
+        "images": ["https://th.bing.com/th/id/R.77afb720ba6f7b40f46ed48fcaf4d2df?rik=yNTLTbN0t8TGKQ&pid=ImgRaw&r=0", "https://www.historyhit.com/app/uploads/2020/11/Carthage.jpg", "https://th.bing.com/th/id/R.41f43e2020cfe830e6f139c10d80ef49?rik=GwBXHxCJkzp%2fpw&riu=http%3a%2f%2f1.bp.blogspot.com%2f-0KmZ5nLruis%2fVO1j8AvSzcI%2fAAAAAAAAQ80%2f1Fy7qZF-XEA%2fs1600%2fCarthage.JPG&ehk=BqqXfTpzBDZGpK%2fv%2bDn4YHn%2fAFM411e1eWTAME7kXiE%3d&risl=&pid=ImgRaw&r=0"],
+        "imageSearch": "Carthage Tunisia",
+        "description": "Carthage was the capital city of the ancient Carthaginian civilization, on the eastern side of the Lake of Tunis in what is now Tunisia. It was one of the most important trading hubs of the Ancient Mediterranean and one of the most affluent cities of the classical world.",
+        "wiki": "https://en.wikipedia.org/wiki/Carthage",
+        "mapEmbed": "https://maps.google.com/maps?q=Sigiriya&output=embed4",
+        
+        "places": [
+          {
+            "name": "Carthage Ruins",
+            "images": ["https://th.bing.com/th/id/R.1ca86eca63a7d49a573fdcb7e491c90f?rik=6i599VDTNHQ5gA&pid=ImgRaw&r=0", "https://th.bing.com/th/id/R.f029c6a4415f397c639052ec1b85241f?rik=jZCNcZjKMciG2A&pid=ImgRaw&r=0", "https://tse4.mm.bing.net/th/id/OIP.dEOyzKn93xabEjQIQ8oXXAHaE6?rs=1&pid=ImgDetMain&o=7&rm=3"],
+            "imageSearch": "Carthage ruins Tunisia",
+            "description": "The archaeological site of the ancient city of Carthage.",
+            "wiki": "https://en.wikipedia.org/wiki/Archaeological_Site_of_Carthage",
+            "mapEmbed": "https://maps.google.com/maps?q=Carthage+Ruins&output=embed"
+          },
+          {
+            "name": "Byrsa Hill",
+            "images": ["https://tse1.mm.bing.net/th/id/OIP.xjceMbi-GFGthkF6OGrfLQHaEY?rs=1&pid=ImgDetMain&o=7&rm=3", "https://thumbs.dreamstime.com/b/byrsa-hill-famous-ruins-ancient-carthage-boasts-perfect-viewpoints-overlooking-greenery-architecture-coastline-123994122.jpg", "https://thumbs.dreamstime.com/b/panorama-byrsa-hill-carthage-ruins-archaeological-site-tunisia-63170744.jpg"],
+            "imageSearch": "Byrsa Hill Carthage",
+            "description": "The walled citadel of ancient Carthage.",
+            "wiki": "https://en.wikipedia.org/wiki/Byrsa",
+            "mapEmbed": "https://maps.google.com/maps?q=Bibliotheca+Alexandrina&t=&z=13&ie=UTF8&iwloc=&output=embed2"
+          }
+        ]
+      }
     }
   },
+
   "Algeria": {
     "cities": {
-      "Algiers": [
-        { "name": "Casbah of Algiers", "imageSearch": "Casbah of Algiers", "description": "A unique medina type of city.", "mapEmbed": "https://maps.google.com/maps?q=Casbah+of+Algiers&output=embed" },
-        { "name": "Notre Dame d'Afrique", "imageSearch": "Notre Dame d'Afrique Algiers", "description": "A Roman Catholic basilica overlooking the Bay of Algiers.", "mapEmbed": "https://maps.google.com/maps?q=Bibliotheca+Alexandrina&t=&z=13&ie=UTF8&iwloc=&output=embed3" }
-      ]
+      "Algiers": {
+        "images": ["https://th.bing.com/th/id/R.93fbec6cc6f6321e0a5470b9e202c2ae?rik=PP2MVdpijkGsdw&pid=ImgRaw&r=0", "https://www.state.gov/wp-content/uploads/2019/04/Algeria-2160x1406.jpg", "https://cdn.thecrazytourist.com/wp-content/uploads/2017/01/Notre-Dame-dAfrique.jpg"],
+        "imageSearch": "Algiers Algeria",
+        "description": "Algiers is the capital and largest city of Algeria. The city's northern part, the modern part, is built on the level ground by the seashore; the southern part, the ancient city of the Deys, climbs the steep hill behind the modern town and is crowned by the Casbah or citadel.",
+        "wiki": "https://en.wikipedia.org/wiki/Algiers",
+        "mapEmbed": "https://maps.google.com/maps?q=Sigiriya&output=embed5",
+        
+        "places": [
+          {
+            "name": "Casbah of Algiers",
+            "images": ["https://tse4.mm.bing.net/th/id/OIP.1dJD6Ak1cxD7nQgGS59ClwHaEK?rs=1&pid=ImgDetMain&o=7&rm=3", "https://destination.com/wp-content/uploads/2024/06/Casbah-Algiers-Mosque.jpg", "https://cdn.shortpixel.ai/client/q_glossy,ret_img,w_1805/https://www.sissi-traveltips.com/wp-content/uploads/2019/09/IMG_0154.jpg"],
+            "imageSearch": "Casbah of Algiers",
+            "description": "A unique medina type of city.",
+            "wiki": "https://en.wikipedia.org/wiki/Casbah_of_Algiers",
+            "mapEmbed": "https://maps.google.com/maps?q=Casbah+of+Algiers&output=embed"
+          },
+          {
+            "name": "Notre Dame d'Afrique",
+            "images": ["https://tse1.mm.bing.net/th/id/OIP.HS_sgyUl6f5nPIt7r-hLcQHaE8?rs=1&pid=ImgDetMain&o=7&rm=3", "https://th.bing.com/th/id/R.0b675881fd33341d867e0cc7dcf205e4?rik=7wXxK290X3iXeQ&pid=ImgRaw&r=0", "https://th.bing.com/th/id/R.30a66a24c68cc6a99e34f964e000ee9c?rik=TXZJZmcQqPsikA&riu=http%3a%2f%2fbrablog.b.r.pic.centerblog.net%2f7sij4bub.jpg&ehk=sb71dSKsasq9Kz3tcyNRNqHqAW2y%2bfGUc1FttaoRXZc%3d&risl=&pid=ImgRaw&r=0"],
+            "imageSearch": "Notre Dame d'Afrique Algiers",
+            "description": "A Roman Catholic basilica overlooking the Bay of Algiers.",
+            "wiki": "https://en.wikipedia.org/wiki/Notre_Dame_d%27Afrique",
+            "mapEmbed": "https://maps.google.com/maps?q=Bibliotheca+Alexandrina&t=&z=13&ie=UTF8&iwloc=&output=embed3"
+          }
+        ]
+      }
     }
   },
+
   "Indonesia": {
     "cities": {
-      "Bali": [
-        { "name": "Ubud Monkey Forest", "imageSearch": "Sacred Monkey Forest Ubud", "description": "A nature reserve and Hindu temple complex.", "mapEmbed": "https://maps.google.com/maps?q=Ubud+Monkey+Forest&output=embed" },
-        { "name": "Tanah Lot", "imageSearch": "Tanah Lot Temple sunset", "description": "A rock formation home to the ancient Hindu pilgrimage temple.", "mapEmbed": "https://maps.google.com/maps?q=Tanah+Lot&output=embed" }
-      ],
-      "Jakarta": [
-        { "name": "National Monument", "imageSearch": "Monas Jakarta", "description": "A tower in the center of Merdeka Square.", "mapEmbed": "https://maps.google.com/maps?q=Bibliotheca+Alexandrina&t=&z=13&ie=UTF8&iwloc=&output=embed4" },
-        { "name": "Istiqlal Mosque", "imageSearch": "Istiqlal Mosque Jakarta", "description": "The largest mosque in Southeast Asia.", "mapEmbed": "https://maps.google.com/maps?q=Bibliotheca+Alexandrina&t=&z=13&ie=UTF8&iwloc=&output=embed5" }
-      ]
+      "Bali": {
+        "images": ["https://th.bing.com/th/id/R.6f3cb16de8b96c0f1b2320c1b0ae4664?rik=u9gQ9bWYDyt%2b4Q&pid=ImgRaw&r=0", "https://tse4.mm.bing.net/th/id/OIP.JPxuwK63goUkpI1v3P-gSAHaE0?rs=1&pid=ImgDetMain&o=7&rm=3", "https://tse1.mm.bing.net/th/id/OIP.hZqVoIktK46I-RvsB9l4pwHaHa?rs=1&pid=ImgDetMain&o=7&rm=3"],
+        "imageSearch": "Bali Indonesia",
+        "description": "Bali is a province of Indonesia and the westernmost of the Lesser Sunda Islands. It is the country's main tourist destination, renowned for its highly developed arts, including traditional and modern dance, sculpture, painting, leather, metalworking, and music.",
+        "wiki": "https://en.wikipedia.org/wiki/Bali",
+        "mapEmbed": "https://maps.google.com/maps?q=Sigiriya&output=embed6",
+        
+        "places": [
+          {
+            "name": "Ubud Monkey Forest",
+            "images": ["https://tse3.mm.bing.net/th/id/OIP.sz_YgUdRcQzFdDrqovQ_UQHaFj?w=1600&h=1200&rs=1&pid=ImgDetMain&o=7&rm=3", "https://tse4.mm.bing.net/th/id/OIP.y33HIH9kWOxce5Z7QM7jlAHaE7?rs=1&pid=ImgDetMain&o=7&rm=3", "https://tse1.mm.bing.net/th/id/OIP.GQ6ouBXDo3DdsEbwQc6gjQHaEw?rs=1&pid=ImgDetMain&o=7&rm=3"],
+            "imageSearch": "Sacred Monkey Forest Ubud",
+            "description": "A nature reserve and Hindu temple complex.",
+            "wiki": "https://en.wikipedia.org/wiki/Sacred_Monkey_Forest_Sanctuary",
+            "mapEmbed": "https://maps.google.com/maps?q=Ubud+Monkey+Forest&output=embed"
+          },
+          {
+            "name": "Tanah Lot",
+            "images": ["https://tse1.mm.bing.net/th/id/OIP.Ld2Xe__o5vYGEnXfAOeb2gHaE8?rs=1&pid=ImgDetMain&o=7&rm=3", "https://th.bing.com/th/id/R.dc03b1e39eeac3320ad5af960d2776c3?rik=9V%2fc7uCsYn3QFg&pid=ImgRaw&r=0", "https://balisurfschool.com/wp-content/uploads/2017/06/Main-photo-Tanah-Lot-temple-hindu-hinduism-mystic-mysticism-Bali-Surf-School.-2.jpg"],
+            "imageSearch": "Tanah Lot Temple sunset",
+            "description": "A rock formation home to the ancient Hindu pilgrimage temple.",
+            "wiki": "https://en.wikipedia.org/wiki/Tanah_Lot",
+            "mapEmbed": "https://maps.google.com/maps?q=Tanah+Lot&output=embed"
+          }
+        ]
+      },
+
+      "Jakarta": {
+        "images": ["https://th.bing.com/th/id/R.56bb7119a068c23ec98aab73937ed14a?rik=nOpKRS%2fpLBMVxQ&riu=http%3a%2f%2findonesiaexpat.biz%2fwp-content%2fuploads%2f2018%2f08%2f20208_Jakarta-Indonesia-ThinkstockPhotos-hanafichi.jpg&ehk=J6DXcgIuSUHC%2beyO%2fRCleBoVByoPxj8Kg72mgtOA8Og%3d&risl=&pid=ImgRaw&r=0", "https://cdn.getyourguide.com/img/location/5c04f3f056fc8.jpeg/88.jpg", "https://tse2.mm.bing.net/th/id/OIP.bM127PeN6sUYCdvclwndDwHaE6?rs=1&pid=ImgDetMain&o=7&rm=3"],
+        "imageSearch": "Jakarta Indonesia",
+        "description": "Jakarta is the capital and largest city of Indonesia. Lying on the northwest coast of Java, the world's most populous island, Jakarta is the largest city in Southeast Asia and serves as the diplomatic capital of ASEAN.",
+        "wiki": "https://en.wikipedia.org/wiki/Jakarta",
+        "mapEmbed": "https://maps.google.com/maps?q=Sigiriya&output=embed7",
+        
+        "places": [
+          {
+            "name": "National Monument",
+            "images": ["https://7bd86aba206a59981820-a1471e32c826f82a376e3a3b16604284.ssl.cf6.rackcdn.com/2015/07/monas.jpg", "https://tse2.mm.bing.net/th/id/OIP.XSSk-QWyefRnSIbdo6yW-QHaE8?rs=1&pid=ImgDetMain&o=7&rm=3", "https://c8.alamy.com/comp/TBGG6R/jakarta-city-skyline-with-iconic-symbol-likes-national-monument-monas-in-the-afternoon-jakarta-indonesia-TBGG6R.jpg"],
+            "imageSearch": "Monas Jakarta",
+            "description": "A tower in the center of Merdeka Square.",
+            "wiki": "https://en.wikipedia.org/wiki/Monas",
+            "mapEmbed": "https://maps.google.com/maps?q=Bibliotheca+Alexandrina&t=&z=13&ie=UTF8&iwloc=&output=embed4"
+          },
+          {
+            "name": "Istiqlal Mosque",
+            "images": ["https://tse2.mm.bing.net/th/id/OIP.KoxdOcYbmXOV4v_g8F-_5wHaE0?rs=1&pid=ImgDetMain&o=7&rm=3", "https://1.bp.blogspot.com/-arH98Du4JGY/UbBrY_TlbKI/AAAAAAAAAP0/v2_8hwCPWKU/s1600/istiqlal.jpg", "https://www.tripsavvy.com/thmb/aMf15vq97TpEWoyXeVfwqGonTvk=/950x0/filters:no_upscale():max_bytes(150000):strip_icc()/GettyImages-531391722-d1c289ada86c480ca5a1fe5422df7c64.jpg"],
+            "imageSearch": "Istiqlal Mosque Jakarta",
+            "description": "The largest mosque in Southeast Asia.",
+            "wiki": "https://en.wikipedia.org/wiki/Istiqlal_Mosque,_Jakarta",
+            "mapEmbed": "https://maps.google.com/maps?q=Bibliotheca+Alexandrina&t=&z=13&ie=UTF8&iwloc=&output=embed5"
+          }
+        ]
+      }
     }
   },
+
   "Vietnam": {
     "cities": {
-      "Hanoi": [
-        { "name": "Ha Long Bay", "imageSearch": "Ha Long Bay boats", "description": "Known for its emerald waters and limestone islands.", "mapEmbed": "https://maps.google.com/maps?q=Ha+Long+Bay&output=embed" },
-        { "name": "Old Quarter", "imageSearch": "Hanoi Old Quarter", "description": "The historic soul of Hanoi.", "mapEmbed": "https://maps.google.com/maps?q=Bibliotheca+Alexandrina&t=&z=13&ie=UTF8&iwloc=&output=embed6" }
-      ]
+      "Hanoi": {
+        "images": ["https://th.bing.com/th/id/R.088c383533095c923365d4de431aeadf?rik=unWUgnVcVJHorw&pid=ImgRaw&r=0", "https://i.natgeofe.com/n/39181071-db55-488f-bd54-707759ad924e/river-hanoi-vietnam.jpg", "https://th.bing.com/th/id/R.9825973df07111da0faf928d3a1a00fb?rik=1tUsAreFrzNx9w&pid=ImgRaw&r=0"],
+        "imageSearch": "Hanoi Vietnam",
+        "description": "Hanoi is the capital city of Vietnam. It covers an area of 3,358.6 km2. The second most populous city in Vietnam, it consists of 12 urban districts, one district-level town, and 17 rural districts. It is known for its centuries-old architecture and a rich culture with Southeast Asian, Chinese, and French influences.",
+        "wiki": "https://en.wikipedia.org/wiki/Hanoi",
+        "mapEmbed": "https://maps.google.com/maps?q=Sigiriya&output=embed8",
+        
+        "places": [
+          {
+            "name": "Ha Long Bay",
+            "images": ["https://tse1.mm.bing.net/th/id/OIP.Z8EgQ7hoQeCXc4wtcFCbNQHaEo?rs=1&pid=ImgDetMain&o=7&rm=3", "https://a.cdn-hotels.com/gdcs/production125/d286/42addb9c-f516-4030-a333-d5096d37ee79.jpg?impolicy=fcrop&w=1600&h=1066&q=medium", "https://res.klook.com/images/fl_lossy.progressive,q_65/c_fill,w_1295,h_720/w_80,x_15,y_15,g_south_west,l_Klook_water_br_trans_yhcmh3/activities/blvqunciekbtrra2rlot/HaLongBayLuxuryCruiseTourfromHanoi.jpg"],
+            "imageSearch": "Ha Long Bay boats",
+            "description": "Known for its emerald waters and limestone islands.",
+            "wiki": "https://en.wikipedia.org/wiki/H%E1%BA%A1_Long_Bay",
+            "mapEmbed": "https://maps.google.com/maps?q=Ha+Long+Bay&output=embed"
+          },
+          {
+            "name": "Old Quarter",
+            "images": ["https://tse4.mm.bing.net/th/id/OIP.gFXwlyYzCBJQw0tFff6OlQHaEX?rs=1&pid=ImgDetMain&o=7&rm=3", "https://cdn.vietnamisawesome.com/wp-content/uploads/2023/02/hanoi-old-quarter.jpeg", "https://tse4.mm.bing.net/th/id/OIP.kqeKK-Bj1e8yBvc8ozev-AHaFj?rs=1&pid=ImgDetMain&o=7&rm=3"],
+            "imageSearch": "Hanoi Old Quarter",
+            "description": "The historic soul of Hanoi.",
+            "wiki": "https://en.wikipedia.org/wiki/Old_Quarter,_Hanoi",
+            "mapEmbed": "https://maps.google.com/maps?q=Bibliotheca+Alexandrina&t=&z=13&ie=UTF8&iwloc=&output=embed6"
+          }
+        ]
+      }
     }
   },
+
   "Philippines": {
     "cities": {
-      "Manila": [
-        { "name": "Intramuros", "imageSearch": "Intramuros Manila", "description": "The historic walled area within the city.", "mapEmbed": "https://maps.google.com/maps?q=Intramuros&output=embed" },
-        { "name": "Rizal Park", "imageSearch": "Rizal Park Manila", "description": "A historic urban park in the Philippines.", "mapEmbed": "https://maps.google.com/maps?q=Bibliotheca+Alexandrina&t=&z=13&ie=UTF8&iwloc=&output=embed7" }
-      ],
-      "Boracay": [
-        { "name": "White Beach", "imageSearch": "White Beach Boracay", "description": "Famous for its powdery white sand.", "mapEmbed": "https://maps.google.com/maps?q=White+Beach+Boracay&output=embed" }
-      ]
+      "Manila": {
+        "images": ["https://tse4.mm.bing.net/th/id/OIP.6VMNpA-PWCnacwjTgl_TvgHaE8?rs=1&pid=ImgDetMain&o=7&rm=3", "https://th.bing.com/th/id/R.a7ee684572af5a7577515eb067974dad?rik=pYT3LY5dVtWqzQ&pid=ImgRaw&r=0", "https://cdn.wallpapersafari.com/5/20/VZUTrH.jpg"],
+        "imageSearch": "Manila Philippines",
+        "description": "Manila is the capital of the Philippines. It is a highly urbanized city and one of the most densely populated cities in the world. It was the first chartered city in the country and is known for its Spanish colonial architecture.",
+        "wiki": "https://en.wikipedia.org/wiki/Manila",
+        "mapEmbed": "https://maps.google.com/maps?q=Sigiriya&output=embed9",
+        
+        "places": [
+          {
+            "name": "Intramuros",
+            "images": ["https://tse4.mm.bing.net/th/id/OIP._ZE_sUnbLwddEEp6GmvR2QAAAA?rs=1&pid=ImgDetMain&o=7&rm=3", "https://tse1.mm.bing.net/th/id/OIP.5m_YNctcFTXB7CD3IKProgHaE7?rs=1&pid=ImgDetMain&o=7&rm=3", "https://tse2.mm.bing.net/th/id/OIP.WbV6UAQpu8WnaREz4l0l0wHaHa?rs=1&pid=ImgDetMain&o=7&rm=3"],
+            "imageSearch": "Intramuros Manila",
+            "description": "The historic walled area within the city.",
+            "wiki": "https://en.wikipedia.org/wiki/Intramuros",
+            "mapEmbed": "https://maps.google.com/maps?q=Intramuros&output=embed"
+          },
+          {
+            "name": "Rizal Park",
+            "images": ["https://tse3.mm.bing.net/th/id/OIP.ecBm7YfYNjf_CC4eS_TePAHaEx?rs=1&pid=ImgDetMain&o=7&rm=3", "https://travelsetu.com/apps/uploads/new_destinations_photos/destination/2024/07/01/ef9f5fcd77e8720a9628c527ad0f5d56_1000x1000.jpg", "https://hblimg.mmtcdn.com/content/hubble/img/maniladestimages/mmt/activities/m_Rizal_Park_4_l_667_1000.jpg"],
+            "imageSearch": "Rizal Park Manila",
+            "description": "A historic urban park in the Philippines.",
+            "wiki": "https://en.wikipedia.org/wiki/Rizal_Park",
+            "mapEmbed": "https://maps.google.com/maps?q=Bibliotheca+Alexandrina&t=&z=13&ie=UTF8&iwloc=&output=embed7"
+          }
+        ]
+      },
+
+      "Boracay": {
+        "images": ["https://th.bing.com/th/id/R.ae8279efcba6d617a8b37647c20e0a86?rik=PCwvZgMr3f8ALA&pid=ImgRaw&r=0", "https://www.onthegotours.com/repository/Boracay-880051728980201.jpg", "https://tse1.mm.bing.net/th/id/OIP.RYzueSw4p7TRyjKIjoXNxwHaE7?rs=1&pid=ImgDetMain&o=7&rm=3"],
+        "imageSearch": "Boracay Philippines",
+        "description": "Boracay is a small island in the Philippines. It is famous for its beaches and resorts. The island is administered by the Tourism Infrastructure and Enterprise Zone Authority and the provincial government of Aklan.",
+        "wiki": "https://en.wikipedia.org/wiki/Boracay",
+        "mapEmbed": "https://maps.google.com/maps?q=Luxor+Temple&t=&z=13&ie=UTF8&iwloc=&output=embed20",
+        
+        "places": [
+          {
+            "name": "White Beach",
+            "images": ["https://3.bp.blogspot.com/-N7R-F9d-nyM/VvZLZ4YipHI/AAAAAAAAR-8/HqrPZ02F22YnlRu88bZ84X-_vDFfN1aZw/s1600/DSC_0559.jpg", "https://tse1.mm.bing.net/th/id/OIP.ugMyXqGD64T0eizQK-CeMgHaE7?rs=1&pid=ImgDetMain&o=7&rm=3", "https://tse1.mm.bing.net/th/id/OIP.HKpVN74YYd0POH-VZtgkrgHaEu?rs=1&pid=ImgDetMain&o=7&rm=3"],
+            "imageSearch": "White Beach Boracay",
+            "description": "Famous for its powdery white sand.",
+            "wiki": "https://en.wikipedia.org/wiki/Boracay#White_Beach",
+            "mapEmbed": "https://maps.google.com/maps?q=White+Beach+Boracay&output=embed"
+          }
+        ]
+      }
     }
   },
+
   "Malaysia": {
     "cities": {
-      "Kuala Lumpur": [
-        { "name": "Petronas Towers", "imageSearch": "Petronas Twin Towers", "description": "Twin skyscrapers that dominate the skyline.", "mapEmbed": "https://maps.google.com/maps?q=Petronas+Towers&output=embed" },
-        { "name": "Batu Caves", "imageSearch": "Batu Caves Malaysia", "description": "A limestone hill that has a series of caves and cave temples.", "mapEmbed": "https://maps.google.com/maps?q=Bibliotheca+Alexandrina&t=&z=13&ie=UTF8&iwloc=&output=embed8" }
-      ]
+      "Kuala Lumpur": {
+        "images": ["https://tse3.mm.bing.net/th/id/OIP.vmuw4DZHx054QBHVGsrOngHaFj?rs=1&pid=ImgDetMain&o=7&rm=3", "https://www.pentrental.com/wp-content/uploads/2019/06/Kuala_Lumpur-scaled.jpg", "https://tse4.mm.bing.net/th/id/OIP.Xgw-IrXGPz2HEb9F3mrHCAHaE8?rs=1&pid=ImgDetMain&o=7&rm=3"],
+        "imageSearch": "Kuala Lumpur Malaysia",
+        "description": "Kuala Lumpur is the capital city of Malaysia. It is the largest city in the country and one of the fastest growing metropolitan regions in Southeast Asia. It is the cultural, financial, and economic centre of Malaysia.",
+        "wiki": "https://en.wikipedia.org/wiki/Kuala_Lumpur",
+        "mapEmbed": "https://maps.google.com/maps?q=Luxor+Temple&t=&z=13&ie=UTF8&iwloc=&output=embed21",
+        
+        "places": [
+          {
+            "name": "Petronas Towers",
+            "images": ["https://th.bing.com/th/id/R.78dbcaef4037ecc2a85283b10964cacc?rik=LEQYFWy%2fqFTzKQ&pid=ImgRaw&r=0", "https://tse3.mm.bing.net/th/id/OIP.nfG-u70J2knL30GkiVD0EAHaKs?rs=1&pid=ImgDetMain&o=7&rm=3", "https://tse4.mm.bing.net/th/id/OIP.IsQ2rSt5boH3jhJy7P_cSgHaE8?rs=1&pid=ImgDetMain&o=7&rm=3"],
+            "imageSearch": "Petronas Twin Towers",
+            "description": "Twin skyscrapers that dominate the skyline.",
+            "wiki": "https://en.wikipedia.org/wiki/Petronas_Towers",
+            "mapEmbed": "https://maps.google.com/maps?q=Petronas+Towers&output=embed"
+          },
+          {
+            "name": "Batu Caves",
+            "images": ["https://tse3.mm.bing.net/th/id/OIP.i0peAdg6JgNRf7tK96S6lwHaE8?rs=1&pid=ImgDetMain&o=7&rm=3", "https://tse2.mm.bing.net/th/id/OIP.QQg9kDmUrwiLahqSNZSH3wHaE8?rs=1&pid=ImgDetMain&o=7&rm=3", "https://tse3.mm.bing.net/th/id/OIP.l6vz3KDQeSdzqnyNu5bQvgHaE_?rs=1&pid=ImgDetMain&o=7&rm=3"],
+            "imageSearch": "Batu Caves Malaysia",
+            "description": "A limestone hill that has a series of caves and cave temples.",
+            "wiki": "https://en.wikipedia.org/wiki/Batu_Caves",
+            "mapEmbed": "https://maps.google.com/maps?q=Bibliotheca+Alexandrina&t=&z=13&ie=UTF8&iwloc=&output=embed8"
+          }
+        ]
+      }
     }
   },
+
   "Singapore": {
     "cities": {
-      "Singapore": [
-        { "name": "Marina Bay Sands", "imageSearch": "Marina Bay Sands infinity pool", "description": "An integrated resort fronting Marina Bay.", "mapEmbed": "https://maps.google.com/maps?q=Marina+Bay+Sands&output=embed" },
-        { "name": "Gardens by the Bay", "imageSearch": "Supertree Grove Gardens by the Bay", "description": "A nature park spanning 101 hectares.", "mapEmbed": "https://maps.google.com/maps?q=Gardens+by+the+Bay&output=embed" }
-      ]
+      "Singapore": {
+        "images": ["https://tse2.mm.bing.net/th/id/OIP.4wv7fxjXS0NALaSaqkdHcwHaEX?rs=1&pid=ImgDetMain&o=7&rm=3", "https://i.natgeofe.com/k/95d61645-a0c7-470f-b198-74a399dd5dfb/singapore-city_square.jpg", "https://wallup.net/wp-content/uploads/2019/10/169624-singapore-city-lights.jpg"],
+        "imageSearch": "Singapore city",
+        "description": "Singapore is a sovereign island city-state in maritime Southeast Asia. It lies about one degree of latitude (137 kilometres or 85 miles) north of the equator. The country is known for its transition from third world to first world in a single generation, becoming a global financial center.",
+        "wiki": "https://en.wikipedia.org/wiki/Singapore",
+        "mapEmbed": "https://maps.google.com/maps?q=Luxor+Temple&t=&z=13&ie=UTF8&iwloc=&output=embed22",
+        
+        "places": [
+          {
+            "name": "Marina Bay Sands",
+            "images": ["https://wallpapers.com/images/hd/marina-bay-sands-infinity-pool-x5rdaeub0vy9wvvn.jpg", "https://th.bing.com/th/id/R.52739ee2ddd891f4ae5151170b418c2e?rik=fZCMxK6%2bpnzjkg&pid=ImgRaw&r=0", "https://tse2.mm.bing.net/th/id/OIP.CdqaL42Y1-eD10XxePwo-AHaE6?rs=1&pid=ImgDetMain&o=7&rm=3"],
+            "imageSearch": "Marina Bay Sands infinity pool",
+            "description": "An integrated resort fronting Marina Bay.",
+            "wiki": "https://en.wikipedia.org/wiki/Marina_Bay_Sands",
+            "mapEmbed": "https://maps.google.com/maps?q=Marina+Bay+Sands&output=embed"
+          },
+          {
+            "name": "Gardens by the Bay",
+            "images": ["https://tse2.mm.bing.net/th/id/OIP.eTJjZn4nRhDVB1ObnFFt0AHaEK?rs=1&pid=ImgDetMain&o=7&rm=3", "https://tse4.mm.bing.net/th/id/OIP.QFel9FuzL7-py0yDpJiV9QHaD7?rs=1&pid=ImgDetMain&o=7&rm=3", "https://tse3.mm.bing.net/th/id/OIP.6bryaPx_Di3noVcJ6mUVngHaEf?rs=1&pid=ImgDetMain&o=7&rm=3"],
+            "imageSearch": "Supertree Grove Gardens by the Bay",
+            "description": "A nature park spanning 101 hectares.",
+            "wiki": "https://en.wikipedia.org/wiki/Gardens_by_the_Bay",
+            "mapEmbed": "https://maps.google.com/maps?q=Gardens+by+the+Bay&output=embed"
+          }
+        ]
+      }
     }
   },
+
   "Maldives": {
     "cities": {
-      "Male": [
-        { "name": "Grand Friday Mosque", "imageSearch": "Grand Friday Mosque Male", "description": "The biggest mosque in the Maldives.", "mapEmbed": "https://maps.google.com/maps?q=Grand+Friday+Mosque+Male&output=embed" },
-        { "name": "Male Fish Market", "imageSearch": "Male Fish Market Maldives", "description": "The commercial heart of the island.", "mapEmbed": "https://maps.google.com/maps?q=Bibliotheca+Alexandrina&t=&z=13&ie=UTF8&iwloc=&output=embed9" }
-      ]
+      "Male": {
+        "images": ["https://tse4.mm.bing.net/th/id/OIP.nfTg_16U2Uzyqj_6h2EBTgHaFf?rs=1&pid=ImgDetMain&o=7&rm=3", "https://th.bing.com/th/id/R.430bbccffe27df5f70644b6b86f5131b?rik=Yq98NGhElAXk7w&riu=http%3a%2f%2fwww.budgetmaldives.com%2fwp-content%2fuploads%2f2020%2f05%2fMaldives-Capital-Male-City.jpg&ehk=MtcsFUpG89ycj7qV9OrZqmP8Sl%2b67KVZiht%2ffgElXZY%3d&risl=&pid=ImgRaw&r=0", "https://tse1.mm.bing.net/th/id/OIP.cjmAc_62HzrN_BEc7wLgGgHaEo?rs=1&pid=ImgDetMain&o=7&rm=3"],
+        "imageSearch": "Male Maldives",
+        "description": "Malé is the capital and most populous city in the Republic of Maldives. It is located at the southern edge of North Malé Atoll. The central island is heavily urbanized, with the built-up area taking up essentially its entire landmass.",
+        "wiki": "https://en.wikipedia.org/wiki/Mal%C3%A9",
+        "mapEmbed": "https://maps.google.com/maps?q=Luxor+Temple&t=&z=13&ie=UTF8&iwloc=&output=embed23",
+        
+        "places": [
+          {
+            "name": "Grand Friday Mosque",
+            "images": ["https://tse4.mm.bing.net/th/id/OIP.gQUWShib8Hsp0OAhSnBNyQHaFj?rs=1&pid=ImgDetMain&o=7&rm=3", "https://th.bing.com/th/id/R.ad22dbfe9ec7b7645b61ff3dc4ec2388?rik=BJtXGIKGvCjNQw&pid=ImgRaw&r=0", "https://thumbs.dreamstime.com/b/grand-friday-mosque-surrounded-buildings-trees-under-sunlight-male-maldives-grand-friday-mosque-surrounded-201068525.jpg"],
+            "imageSearch": "Grand Friday Mosque Male",
+            "description": "The biggest mosque in the Maldives.",
+            "wiki": "https://en.wikipedia.org/wiki/Mal%C3%A9_Friday_Mosque",
+            "mapEmbed": "https://maps.google.com/maps?q=Grand+Friday+Mosque+Male&output=embed"
+          },
+          {
+            "name": "Male Fish Market",
+            "images": ["https://tse4.mm.bing.net/th/id/OIP.j7TRPuG9OHZ3Dn46corPDgHaEf?rs=1&pid=ImgDetMain&o=7&rm=3", "https://tse1.mm.bing.net/th/id/OIP.tcQyeUKV-qXcoEpHCqZRVQHaE8?rs=1&pid=ImgDetMain&o=7&rm=3", "https://th.bing.com/th/id/R.28d8004eb0d08fc77ba77072f43f839d?rik=t%2fE8OeVXES5rkQ&pid=ImgRaw&r=0"],
+            "imageSearch": "Male Fish Market Maldives",
+            "description": "The commercial heart of the island.",
+            "wiki": "https://en.wikipedia.org/wiki/Mal%C3%A9",
+            "mapEmbed": "https://maps.google.com/maps?q=Bibliotheca+Alexandrina&t=&z=13&ie=UTF8&iwloc=&output=embed9"
+          }
+        ]
+      }
     }
   },
+
   "Chile": {
     "cities": {
-      "Santiago": [
-        { "name": "Costanera Center", "imageSearch": "Costanera Center Santiago", "description": "Includes the tallest building in South America.", "mapEmbed": "https://maps.google.com/maps?q=Costanera+Center&output=embed" },
-        { "name": "San Cristobal Hill", "imageSearch": "Cerro San Cristobal Santiago", "description": "A hill in northern Santiago with beautiful views.", "mapEmbed": "https://maps.google.com/maps?q=Citadel+of+Qaitbay&t=&z=13&ie=UTF8&iwloc=&output=embed0" }
-      ],
-      "Atacama": [
-        { "name": "Moon Valley", "imageSearch": "Valle de la Luna Atacama", "description": "Stone and sand formations which look similar to the moon.", "mapEmbed": "https://maps.google.com/maps?q=Valle+de+la+Luna+Chile&output=embed" }
-      ]
+      "Santiago": {
+        "images": ["https://cdn.getyourguide.com/img/location/5cced31b8e609.jpeg/88.jpg", "https://tse2.mm.bing.net/th/id/OIP.Phi7X_-D_CqqVoHZjzuUvAHaFj?rs=1&pid=ImgDetMain&o=7&rm=3", "https://www.qantas.com/content/dam/travelinsider/images/explore/south-america/chile/santiago/free-things-to-do-in-santiago/plaza-de-armas-santiago-chile.jpg"],
+        "imageSearch": "Santiago Chile",
+        "description": "Santiago is the capital and largest city of Chile as well as one of the largest cities in the Americas. It is the center of Chile's most densely populated region, the Santiago Metropolitan Region. The city is entirely located in the country's central valley.",
+        "wiki": "https://en.wikipedia.org/wiki/Santiago",
+        "mapEmbed": "https://maps.google.com/maps?q=Luxor+Temple&t=&z=13&ie=UTF8&iwloc=&output=embed24",
+        
+        "places": [
+          {
+            "name": "Costanera Center",
+            "images": ["https://th.bing.com/th/id/R.e1ec8de5d78864de2c82fad2d3711c8e?rik=k%2bsRRFGfgRwDZw&riu=http%3a%2f%2f1.bp.blogspot.com%2f-4P50pMQW1LI%2fUBQe2ClSAWI%2fAAAAAAAAAG4%2fVgLINb5mQCQ%2fs1600%2frender02desdecostanera1wp.jpg&ehk=7zuzUYtQoJ8pda7Fk0EvH41wV58tzgFl%2btXeytrPq8I%3d&risl=&pid=ImgRaw&r=0", "https://s3.amazonaws.com/arc-wordpress-client-uploads/infobae-wp/wp-content/uploads/2019/09/03153511/Costanera-Center-chile-1-3.jpg", "https://tse4.mm.bing.net/th/id/OIP.A-Os2icGSLHKQigkS5KrKgHaEK?rs=1&pid=ImgDetMain&o=7&rm=3"],
+            "imageSearch": "Costanera Center Santiago",
+            "description": "Includes the tallest building in South America.",
+            "wiki": "https://en.wikipedia.org/wiki/Costanera_Center",
+            "mapEmbed": "https://maps.google.com/maps?q=Costanera+Center&output=embed"
+          },
+          {
+            "name": "San Cristobal Hill",
+            "images": ["https://tse1.mm.bing.net/th/id/OIP.Uo-hK4-onMnaizWpngtjfQHaGN?rs=1&pid=ImgDetMain&o=7&rm=3", "https://tse2.mm.bing.net/th/id/OIP.ptrSOgiBACJ73l7P37yJRAAAAA?rs=1&pid=ImgDetMain&o=7&rm=3", "https://th.bing.com/th/id/R.07a9a135a1fa3c1dd07bb62db2bcbc96?rik=lpMo1hw%2bXDop1w&pid=ImgRaw&r=0"],
+            "imageSearch": "Cerro San Cristobal Santiago",
+            "description": "A hill in northern Santiago with beautiful views.",
+            "wiki": "https://en.wikipedia.org/wiki/San_Crist%C3%B3bal_Hill",
+            "mapEmbed": "https://maps.google.com/maps?q=Citadel+of+Qaitbay&t=&z=13&ie=UTF8&iwloc=&output=embed0"
+          }
+        ]
+      },
+
+      "Atacama": {
+        "images": ["https://th.bing.com/th/id/R.5d43f7791e5cfd0331f06012574841c0?rik=PQ%2b1F%2bfcmHGpsQ&pid=ImgRaw&r=0", "https://i.natgeofe.com/n/4c363dfb-f2c7-4a89-9547-a06318a87fc5/valley-moon-atacama-desert-chile.jpg?w=1200", "https://kmstravel.cl/wp-content/uploads/2024/09/Atacama.png"],
+        "imageSearch": "Atacama Desert Chile",
+        "description": "The Atacama Desert is a desert plateau in South America covering a 1,600 km strip of land on the Pacific coast, west of the Andes Mountains. It is the driest non-polar desert in the world, famous for its otherworldly landscapes.",
+        "wiki": "https://en.wikipedia.org/wiki/Atacama_Desert",
+        "mapEmbed": "https://maps.google.com/maps?q=Luxor+Temple&t=&z=13&ie=UTF8&iwloc=&output=embed25",
+        
+        "places": [
+          {
+            "name": "Moon Valley",
+            "images": ["https://1.bp.blogspot.com/-9Q4Kfqv8o-s/V1rSxaHp8PI/AAAAAAACLcQ/3c0tSMGbJDkQzrV6yRUv5P0MVZQcqwZGACLcB/s1600/2.jpg", "https://greenmochila.com/wp-content/uploads/2019/08/valle-luna-moon-valley-chile-header.jpg", "https://i.pinimg.com/originals/59/38/c5/5938c5d9e6701e77c1bb9f279d611a68.jpg"],
+            "imageSearch": "Valle de la Luna Atacama",
+            "description": "Stone and sand formations which look similar to the moon.",
+            "wiki": "https://en.wikipedia.org/wiki/Valle_de_la_Luna_(Chile)",
+            "mapEmbed": "https://maps.google.com/maps?q=Valle+de+la+Luna+Chile&output=embed"
+          }
+        ]
+      }
     }
   },
+
   "Colombia": {
     "cities": {
-      "Bogota": [
-        { "name": "Monserrate", "imageSearch": "Monserrate Bogota", "description": "A mountain that dominates the city center.", "mapEmbed": "https://maps.google.com/maps?q=Monserrate&output=embed" },
-        { "name": "Gold Museum", "imageSearch": "Gold Museum Bogota", "description": "Displays an extraordinary selection of pre-Hispanic gold work.", "mapEmbed": "https://maps.google.com/maps?q=Citadel+of+Qaitbay&t=&z=13&ie=UTF8&iwloc=&output=embed1" }
-      ],
-      "Cartagena": [
-        { "name": "Walled City", "imageSearch": "Cartagena Walled City", "description": "A colonial walled city and fortress.", "mapEmbed": "https://maps.google.com/maps?q=Walled+City+of+Cartagena&output=embed" }
-      ]
+      "Bogota": {
+        "images": ["https://tse3.mm.bing.net/th/id/OIP.mgW5DkIlB0fllllDd1xO6wHaEK?rs=1&pid=ImgDetMain&o=7&rm=3", "https://www.fodors.com/wp-content/uploads/2019/03/Hero_BogotaPartyCapitol_Heroshutterstock_1019031940.jpg", "https://toposmagazine.com/wp-content/uploads/2022/12/social-income-GkacI-_mGlg-unsplash-scaled.jpg"],
+        "imageSearch": "Bogota Colombia",
+        "description": "Bogotá is the capital and largest city of Colombia, administered as the Capital District. The city is located in the center of Colombia, on a high plateau known as the Bogotá savanna. It is the political, economic, administrative, and industrial center of the country.",
+        "wiki": "https://en.wikipedia.org/wiki/Bogot%C3%A1",
+        "mapEmbed": "https://maps.google.com/maps?q=Luxor+Temple&t=&z=13&ie=UTF8&iwloc=&output=embed26",
+        
+        "places": [
+          {
+            "name": "Monserrate",
+            "images": ["https://tse4.mm.bing.net/th/id/OIP.tHYPikSnRitBb-lcH5dQcQHaEL?rs=1&pid=ImgDetMain&o=7&rm=3", "https://img.freepik.com/premium-photo/aerial-drone-shot-monserrate-mountain-bogota_665346-43028.jpg?w=2000", "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-720x480/09/b7/b5/57.jpg"],
+            "imageSearch": "Monserrate Bogota",
+            "description": "A mountain that dominates the city center.",
+            "wiki": "https://en.wikipedia.org/wiki/Monserrate",
+            "mapEmbed": "https://maps.google.com/maps?q=Monserrate&output=embed"
+          }
+        ]
+      }
     }
   },
+
   "New Zealand": {
     "cities": {
       "Auckland": [
