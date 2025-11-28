@@ -487,9 +487,34 @@
             "mapEmbed": "https://maps.google.com/maps?q=Vieux+Port+Marseille&output=embed"
           }
         ]
+      },
+      "Lyon": {
+        "images": ["https://images.unsplash.com/photo-1602087594298-706ccc894bfd?fm=jpg&q=60&w=3000&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8bHlvbiUyQyUyMGZyYW5jZXxlbnwwfHwwfHx8MA%3D%3D", "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjP_7TmPZBMxe-6ZnJ2a9uW7qu39yZ1chTeMKho3SEWMQGht484_SUJVikph2lSaX2icX6eM5pNSJYTsArpVJcMSI_aYYHvzYrC9Hnvw0kNUfWbM0_mXGRCx6___yHb0CE4NHXScSv7lJM1fnrCibOsHRZQ9QhyphenhyphenQWz5iyZ_47avUPlKe-cOrT8sQ-Wv5loz/s1600/%5BGroup%203%5D-DJI_0971311023_2311023_3311023_4311023_5311023_fused_DJI_0976311023And4more_fused-2%20images2_1VIDmaz1_1583.jpg", "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2b/8d/e6/50/caption.jpg?w=1200&h=700&s=1&cx=2916&cy=1942&chk=v1_ff05f927a93a0d5172a2"],
+        "imageSearch": "Lyon France",
+        "description": "The gastronomic capital of France, renowned for its historic traboules, Renaissance architecture in Vieux Lyon, and the confluence of the Rhône and Saône rivers.",
+        "wiki": "Lyon",
+        "mapEmbed": "https://maps.google.com/maps?q=Lyon+France&output=embed",
+        "places": [
+      {
+          "name": "Basilique Notre-Dame de Fourvière",
+          "images": ["https://offloadmedia.feverup.com/lyonsecret.com/wp-content/uploads/2020/10/16064002/fourviere-5.png", "https://strapi-upload.cdn.fondation-patrimoine.org/small_basilique_ND_DE_Fourviere_Bony_Photography_30f3bf8e9d.jpg", "https://cellar-c2.services.clever-cloud.com/org-fourviere-www/uploads/2018/10/Le-site-de-Notre-Dame-de-Fourvi%C3%A8re-Fondation-Fourvi%C3%A8re-2018.jpg"],
+          "imageSearch": "Basilique Notre Dame de Fourvière",
+          "description": "The magnificent 19th-century basilica dominating Lyon's skyline from Fourvière hill, offering panoramic city views and featuring stunning mosaics and marblework.",
+          "wiki": "Basilique Notre-Dame de Fourvière",
+          "mapEmbed": "https://maps.google.com/maps?q=Basilique+Notre+Dame+de+Fourvière+Lyon&output=embed"
+      },
+      {
+          "name": "Vieux Lyon",
+          "images": ["https://www.barnes-lyon.com/rails/active_storage/representations/redirect/eyJfcmFpbHMiOnsiZGF0YSI6NDA5ODAsInB1ciI6ImJsb2JfaWQifX0=--240b2b53b2f2b168d9e2698310e1bd149f858d3d/eyJfcmFpbHMiOnsiZGF0YSI6eyJmb3JtYXQiOiJqcGciLCJzYXZlciI6eyJxdWFsaXR5Ijo0MH19LCJwdXIiOiJ2YXJpYXRpb24ifX0=--8948e63fc9be155f2430eefaa6f0df90bc59b25f/quartier-vieux-lyon.jpg", "https://d1brh8juzl581f.cloudfront.net/cache/img/907e63dbe84682f6ea5fb83a7a7359fe0c039dd7-907e63-1200-627-crop.jpg?q=1687781024", "https://en.visiterlyon.com/var/site/storage/images/2/5/7/2/652752-1-fre-FR/vieux-lyon_credit-jean-charles-garrivet_2400px.jpg"],
+          "imageSearch": "Vieux Lyon",
+          "description": "One of Europe's most extensive Renaissance neighborhoods, featuring narrow cobblestone streets, hidden traboule passageways, and colorful medieval buildings.",
+          "wiki": "Vieux Lyon",
+          "mapEmbed": "https://maps.google.com/maps?q=Vieux+Lyon+France&output=embed"
       }
-    }
-  },
+    ]
+  }
+}
+},
   "Italy": {
     "cities": {
       "Rome": {
@@ -517,6 +542,31 @@
           }
         ]
       },
+      "Florence": {
+        "images": ["https://ca-times.brightspotcdn.com/dims4/default/fef52b2/2147483647/strip/true/crop/1200x784+0+0/resize/1200x784!/quality/75/?url=https%3A%2F%2Fcalifornia-times-brightspot.s3.amazonaws.com%2F35%2F4b%2Fe283cc4149658db755c1eb881b4a%2Fflorence-italty-sights-1.jpeg","https://www.italyperfect.com/g/photos/upload/sml_663599357-1591022987-ip-info-florence.jpg","https://d1c96a4wcgziwl.cloudfront.net/hd_955cfirenze.jpg"],
+        "imageSearch": "Florence Italy",
+        "description": "The cradle of the Renaissance, home to unparalleled artistic treasures, magnificent Duomo, and historic bridges spanning the Arno River in the heart of Tuscany.",
+        "wiki": "Florence",
+        "mapEmbed": "https://maps.google.com/maps?q=Florence+Italy&output=embed",
+        "places": [
+      {
+          "name": "Florence Cathedral",
+          "images": ["https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQXEivIDcZaoXfgq69miSpR2RLbMmrI5g2AyQ&s","https://images.visititaly.eu/uploads/tour/19-duomo-di-firenze-min.jpg","https://sumfinity.com/wp-content/uploads/2018/09/Florence-Cathedral-with-Brunelleschi-Duomo-Florence-Italy-blue-hour.jpg"],
+          "imageSearch": "Florence Cathedral Duomo",
+          "description": "The magnificent cathedral complex featuring Brunelleschi's revolutionary dome, Giotto's bell tower, and the Baptistery with its famous Gates of Paradise.",
+          "wiki": "Florence Cathedral",
+          "mapEmbed": "https://maps.google.com/maps?q=Florence+Cathedral+Italy&output=embed"
+      },
+      {
+          "name": "Uffizi Gallery",
+          "images": ["https://upload.wikimedia.org/wikipedia/commons/d/d7/Florence%2C_Italy_-_panoramio_%28125%29.jpg","https://dynamic-media-cdn.tripadvisor.com/media/photo-o/09/93/4f/fd/uffizi-gallery.jpg?w=900&h=500&s=1","https://www.hotelvillacarlotta.it/cms-admin/materiale/categorie/cop-art-104-19/img.jpg"],
+          "imageSearch": "Uffizi Gallery Florence",
+          "description": "One of the world's greatest art museums housing Renaissance masterpieces by Botticelli, Leonardo da Vinci, Michelangelo, and Raphael in a historic Medici palace.",
+          "wiki": "Uffizi",
+          "mapEmbed": "https://maps.google.com/maps?q=Uffizi+Gallery+Florence&output=embed"
+      }
+    ]
+  },
       "Venice": {
         "images": ["https://i0.wp.com/thattravelista.com/wp-content/uploads/2020/07/Italy-Venice-217.jpg?fit=1024%2C682&ssl=1", "https://cdn.britannica.com/62/153462-050-3D4F41AF/Grand-Canal-Venice.jpg", "https://www.througheternity.com/upload/CONF83/20240909/venice_canal_at_night-tSa-1200X630.jpg"],
         "imageSearch": "Venice Italy Canals",
@@ -543,7 +593,7 @@
         ]
       }
     }
-  },
+  }, 
   "United States": {
     "cities": {
       "New York City": {
@@ -595,8 +645,33 @@
             "mapEmbed": "https://maps.google.com/maps?q=Santa+Monica+Pier+Los+Angeles&output=embed"
           }
         ]
-      }
+      },
+      "Chicago": {
+        "images": ["https://images.squarespace-cdn.com/content/v1/5e24e03399d8c23d1391c65b/1719775374283-RVW91G158MSHDK8EFGX2/4-days-in-chicago.jpg","https://lp-cms-production.imgix.net/2021-07/GettyRF_95732440.jpg","https://afar.brightspotcdn.com/dims4/default/dc61c21/2147483647/strip/true/crop/3000x1592+0+79/resize/1440x764!/quality/90/?url=https%3A%2F%2Fk3-prod-afar-media.s3.us-west-2.amazonaws.com%2Fbrightspot%2Feb%2F26%2Fd376f2ef4cf281f07496a7d722d6%2Fricky-beron-ris3eov9gom-unsplash.jpg"],
+        "imageSearch": "Chicago Illinois skyline",
+        "description": "The vibrant Windy City on Lake Michigan, renowned for its bold architecture, deep-dish pizza, and world-class museums set against a stunning urban landscape.",
+        "wiki": "Chicago",
+        "mapEmbed": "https://maps.google.com/maps?q=Chicago+Illinois&output=embed",
+        "places": [
+        {
+          "name": "Millennium Park",
+          "images": ["https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQi89AtqY5jGkgeOkGUT71Q8y22InTnT7bHTw&s","https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRrVfVtGDs3_CvI8Ngufv-gN9GNArNjhonrDhROvOkr7AvvMv8nSrFUoXI7rV19NZ7RuYc&usqp=CAU","https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRirtfXXqPagBcEdphOcRL7uqKV3dff6_DZIw&s"],
+          "imageSearch": "Millennium Park Chicago",
+          "description": "A modern downtown landmark featuring the iconic Cloud Gate sculpture, outdoor concerts, and beautiful gardens that serve as Chicago's front yard.",
+          "wiki": "Millennium Park",
+          "mapEmbed": "https://maps.google.com/maps?q=Millennium+Park+Chicago&output=embed"
+        },
+        {
+          "name": "Navy Pier",
+          "images": ["https://navypier.org/wp-content/uploads/2022/12/centennial-wheel-1.jpg","https://lp-cms-production.imgix.net/2019-06/a63949fe532d4dd8ca9f16822984afcc-navy-pier.jpg?w=1920&h=640&fit=crop&crop=faces%2Cedges&auto=format&q=75","https://navypier.org/wp-content/uploads/2022/11/chicago-shakespeare-theater-hero.jpg"],
+          "imageSearch": "Navy Pier Chicago",
+          "description": "A bustling entertainment destination stretching into Lake Michigan, offering amusement rides, boat tours, restaurants, and spectacular city views.",
+          "wiki": "Navy Pier",
+          "mapEmbed": "https://maps.google.com/maps?q=Navy+Pier+Chicago&output=embed"
+        }
+      ]
     }
+  }
   },
   "United Kingdom": {
     "cities": {
@@ -625,6 +700,31 @@
           }
         ]
       },
+      "Manchester": {
+        "images": ["https://www.manchestercentral.co.uk/sites/default/files/styles/one_one_large/public/2023-04/Andy%20Mallins%20Photography-night-landscape-aerial-17.jpg?itok=wePTlwSE","https://cdn.prod.website-files.com/657aef617d1cfbe86cbe1ee2/67ae0decb8c3e6c3575ae61a_Best%20Areas%20to%20Live%20in%20Manchester-The%20Top%2010%20in%202025-2.png","https://images.unsplash.com/photo-1724135869739-6055627ba5df?fm=jpg&q=60&w=3000&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8bWFuY2hlc3RlcnxlbnwwfHwwfHx8MA%3D%3D"],
+        "imageSearch": "Manchester UK City",
+        "description": "The industrial revolution powerhouse transformed into a vibrant cultural hub, renowned for its music scene, football heritage, and innovative spirit in Northern England.",
+        "wiki": "Manchester",
+        "mapEmbed": "https://maps.google.com/maps?q=Manchester+UK&output=embed",
+        "places": [
+        {
+          "name": "Old Trafford",
+          "images": ["https://cdn.rt.emap.com/wp-content/uploads/sites/4/2022/03/16134944/old-trafford-manchester-united-credit-shutterstock_PhotoLondonUK-1600x900.jpg","https://www.sportspro.com/wp-content/uploads/2024/03/Old-Trafford-Manchester-United-1.jpg","https://media.nbcbayarea.com/2025/03/GettyImages-1384570282.jpg?quality=85&strip=all&resize=1200%2C675"],
+          "imageSearch": "Old Trafford Stadium",
+          "description": "The iconic 'Theatre of Dreams' and home to Manchester United, one of the world's most famous football clubs with a rich history and electrifying matchday atmosphere.",
+          "wiki": "Old Trafford",
+          "mapEmbed": "https://maps.google.com/maps?q=Old+Trafford+Manchester&output=embed"
+        },
+        {
+          "name": "Manchester Cathedral",
+          "images": ["https://manchestercathedral.org/portal/public/website/page/file/52104971bc516ba7e931823e37ac0d65.jpg","https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTck6Maxyi3SPLE_qjh-hDKHaeLZ3KojvSWPw&s","https://www.historyhit.com/app/uploads/2021/04/ManchesterCathedral-1.jpg"],
+          "imageSearch": "Manchester Cathedral",
+          "description": "A magnificent medieval Gothic cathedral dating back to 1421, serving as the mother church of the Anglican Diocese of Manchester and a historic city landmark.",
+          "wiki": "Manchester Cathedral",
+          "mapEmbed": "https://maps.google.com/maps?q=Manchester+Cathedral&output=embed"
+        }
+      ]
+    },
       "Edinburgh": {
         "images": ["https://ewh.org.uk/wp-content/uploads/2023/11/Old-Town.png", "https://ewh.org.uk/wp-content/uploads/2023/11/Royal-Mile.png", "https://media.cntraveller.com/photos/611be9e3d5b6f5a4a3def392/master/pass/Mountain-view-over-city-Edinburgh-scotland-conde-nast-traveller-28july17-iStock.jpg"],
         "imageSearch": "Edinburgh Scotland",
@@ -733,6 +833,31 @@
           }
         ]
       },
+      "Seville": {
+        "images": ["https://www.spain.info/export/sites/segtur/.content/imagenes/cabeceras-grandes/andalucia/vista-sevilla-s1035089014.jpg","https://i0.wp.com/www.worldwanderista.com/wp-content/uploads/2022/08/best-things-to-do-in-Sevilla-scaled.jpg?resize=1100%2C733&ssl=1","https://images.contentstack.io/v3/assets/blt06f605a34f1194ff/blt8986fc639497f8af/6650f52b5afe350725b29de3/BCC-2023-EXPLORER-Seville-best-places-HEADER_MOBILE.jpg?fit=crop&disable=upscale&auto=webp&quality=60&crop=smart"],
+        "imageSearch": "Seville Spain City",
+        "description": "The passionate heart of Andalusia, famous for flamenco dancing, Moorish architecture, and vibrant festivals in a city filled with orange trees and historic charm.",
+        "wiki": "Seville",
+        "mapEmbed": "https://maps.google.com/maps?q=Seville+Spain&output=embed",
+        "places": [
+        {
+          "name": "Seville Cathedral",
+          "images": ["https://www.dosde.com/discover/wp-content/uploads/2018/07/01_historia-de-la-catedral-de-sevilla-dosde-publishing.jpg","https://i.content4travel.com/seeplaces/temp/eb130b56-3cbd-444a-854c-84e2116aa2b2.jpg","https://casadelpoeta.es/wp-content/uploads/2025/10/que-ver-en-la-catedral-de-sevilla.jpg"],
+          "imageSearch": "Seville Cathedral",
+          "description": "The largest Gothic cathedral in the world, featuring the iconic Giralda bell tower and the tomb of Christopher Columbus in an awe-inspiring architectural masterpiece.",
+          "wiki": "Seville Cathedral",
+          "mapEmbed": "https://maps.google.com/maps?q=Seville+Cathedral&output=embed"
+        },
+        {
+          "name": "Plaza de España",
+          "images": ["https://sevillecityguide.com/images/plaza-de-espana.jpg","https://www.spain.info/export/sites/segtur/.content/images/cabeceras-grandes/andalucia/plaza-espana-sevilla-pixabay-655015.jpg","https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1c/12/e8/20/photo3jpg.jpg?w=900&h=500&s=1"],
+          "imageSearch": "Plaza de España Seville",
+          "description": "A magnificent semi-circular square built for the 1929 exposition, featuring beautiful tile work, canals, and bridges representing Spain's diverse regions.",
+          "wiki": "Plaza de España, Seville",
+          "mapEmbed": "https://maps.google.com/maps?q=Plaza+de+España+Seville&output=embed"
+        }
+      ]
+    },
       "Madrid": {
         "images": ["https://images.unsplash.com/photo-1539037116277-4db20889f2d4?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D", "https://plus.unsplash.com/premium_photo-1697730018241-065a9f7568c9?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D", "https://images.unsplash.com/photo-1543783207-ec64e4d95325?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"],
         "imageSearch": "Madrid Spain City",
@@ -3054,65 +3179,148 @@
     }
   },
   "New Zealand": {
-    "cities": {
-      "Auckland": [
-        { "name": "Sky Tower", "imageSearch": "Sky Tower Auckland", "description": "The tallest freestanding structure in the Southern Hemisphere.", "mapEmbed": "https://maps.google.com/maps?q=Sky+Tower+Auckland&output=embed" },
-        { "name": "Mount Eden", "imageSearch": "Mount Eden Auckland", "description": "A dormant volcano offering 360-degree views.", "mapEmbed": "https://maps.google.com/maps?q=Citadel+of+Qaitbay&t=&z=13&ie=UTF8&iwloc=&output=embed2" }
-      ],
-      "Queenstown": [
-        { "name": "Milford Sound", "imageSearch": "Milford Sound fjord", "description": "A fiord known for towering Mitre Peak.", "mapEmbed": "https://maps.google.com/maps?q=Milford+Sound&output=embed" }
-      ]
-    }
-  },
-  "Sweden": {
-    "cities": {
-      "Stockholm": [
-        { "name": "Gamla Stan", "imageSearch": "Gamla Stan Stockholm", "description": "The old town of Stockholm.", "mapEmbed": "https://maps.google.com/maps?q=Gamla+Stan&output=embed" },
-        { "name": "Vasa Museum", "imageSearch": "Vasa Museum ship", "description": "Displays the only almost fully intact 17th-century ship.", "mapEmbed": "https://maps.google.com/maps?q=Vasa+Museum&output=embed" }
-      ]
-    }
-  },
-  "Denmark": {
-    "cities": {
-      "Copenhagen": [
-        { "name": "Nyhavn", "imageSearch": "Nyhavn Copenhagen", "description": "A 17th-century waterfront district.", "mapEmbed": "https://maps.google.com/maps?q=Nyhavn&output=embed" },
-        { "name": "Tivoli Gardens", "imageSearch": "Tivoli Gardens Copenhagen", "description": "A famous amusement park and pleasure garden.", "mapEmbed": "https://maps.google.com/maps?q=Tivoli+Gardens&output=embed" }
-      ]
-    }
-  },
-  "Finland": {
-    "cities": {
-      "Helsinki": [
-        { "name": "Helsinki Cathedral", "imageSearch": "Helsinki Cathedral white", "description": "The Finnish Evangelical Lutheran cathedral.", "mapEmbed": "https://maps.google.com/maps?q=Helsinki+Cathedral&output=embed" },
-        { "name": "Suomenlinna", "imageSearch": "Suomenlinna fortress", "description": "An inhabited sea fortress built on six islands.", "mapEmbed": "https://maps.google.com/maps?q=Citadel+of+Qaitbay&t=&z=13&ie=UTF8&iwloc=&output=embed4" }
-      ]
-    }
-  },
-  "Austria": {
-    "cities": {
-      "Vienna": [
-        { "name": "Schönbrunn Palace", "imageSearch": "Schonbrunn Palace", "description": "The main summer residence of the Habsburg rulers.", "mapEmbed": "https://maps.google.com/maps?q=Schonbrunn+Palace&output=embed" },
-        { "name": "St. Stephen's Cathedral", "imageSearch": "St Stephens Cathedral Vienna", "description": "The mother church of the Roman Catholic Archdiocese of Vienna.", "mapEmbed": "https://maps.google.com/maps?q=Citadel+of+Qaitbay&t=&z=13&ie=UTF8&iwloc=&output=embed6" }
-      ],
-      "Hallstatt": [
-        { "name": "Hallstatt Old Town", "imageSearch": "Hallstatt village lake", "description": "A village known for its 16th-century Alpine houses.", "mapEmbed": "https://maps.google.com/maps?q=Hallstatt&output=embed" }
-      ]
-    }
-  },
-  "Poland": {
-    "cities": {
-      "Krakow": [
-        { "name": "Main Market Square", "imageSearch": "Main Market Square Krakow", "description": "The main square of the Old Town of Kraków.", "mapEmbed": "https://maps.google.com/maps?q=Main+Market+Square+Krakow&output=embed" },
-        { "name": "Wawel Royal Castle", "imageSearch": "Wawel Castle Krakow", "description": "A castle residency built at the behest of King Casimir III the Great.", "mapEmbed": "https://maps.google.com/maps?q=Citadel+of+Qaitbay&t=&z=13&ie=UTF8&iwloc=&output=embed7" }
-      ]
-    }
-  },
-  "Ukraine": {
-    "cities": {
-      "Kyiv": [
-        { "name": "St. Sophia Cathedral", "imageSearch": "St Sophia Cathedral Kyiv", "description": "An outstanding architectural monument.", "mapEmbed": "https://maps.google.com/maps?q=St.+Sophia+Cathedral+Kyiv&output=embed" },
-        { "name": "Kyiv Pechersk Lavra", "imageSearch": "Kyiv Pechersk Lavra", "description": "A historic Orthodox Christian monastery.", "mapEmbed": "https://maps.google.com/maps?q=Citadel+of+Qaitbay&t=&z=13&ie=UTF8&iwloc=&output=embed8" }
+  "cities": {
+    "Auckland": {
+      "images": ["https://upload.wikimedia.org/wikipedia/commons/thumb/c/c9/Auckland_skyline_-_May_2024_%282%29.jpg/330px-Auckland_skyline_-_May_2024_%282%29.jpg","https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQR6CaHpMIfohcwfsnNFClrSce6yVSQ875MeG3zNZS7LoN1tHfNFvVYS2qp9vNvTTJwWHg&usqp=CAU","https://cdn.britannica.com/25/180825-050-B4693350/Wellington-Harbour-New-Zealand.jpg"],
+      "imageSearch": "Auckland New Zealand City",
+      "description": "A major city in the North Island known for its vibrant urban culture, stunning harbors, and numerous volcanoes.",
+      "wiki": "Auckland",
+      "mapEmbed": "https://maps.google.com/maps?q=Auckland+New+Zealand&output=embed",
+      "places": [
+        {
+          "name": "Sky Tower",
+          "images": ["https://dynamic-media-cdn.tripadvisor.com/media/photo-o/10/dc/e6/a1/enjoy-beautiful-views.jpg?w=900&h=500&s=1","https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2c/c9/55/42/sky-tower.jpg?w=900&h=500&s=1","https://www.aucklandnz.com/media/media/tau/tau_media/venues/tnz-hero.jpg?ext=.jpg&crop=55,0,1119,815"],
+          "imageSearch": "Sky Tower Auckland",
+          "description": "The tallest freestanding structure in the Southern Hemisphere.",
+          "wiki": "Sky Tower (Auckland)",
+          "mapEmbed": "https://maps.google.com/maps?q=Sky+Tower+Auckland&output=embed"
+        },
+        {
+          "name": "Mount Eden",
+          "images": ["https://lp-cms-production.imgix.net/2023-06/659940358.jpg?w=1920&h=640&fit=crop&crop=faces%2Cedges&auto=format&q=75","https://mediaim.expedia.com/destination/9/a9e138c7dedc795109e2ed6074e47fe4.jpg","https://maunga.nz/assets/Uploads/Maungawhau-Mt-Eden-0587__FocusFillMaxWyIwLjAwIiwiMC4wMCIsMjU2MCwxMzM4XQ_ExtRewriteWyJqcGciLCJ3ZWJwIl0.webp"],
+          "imageSearch": "Mount Eden Auckland",
+          "description": "A dormant volcano offering 360-degree views of the city.",
+          "wiki": "Mount Eden",
+          "mapEmbed": "https://maps.google.com/maps?q=Mount+Eden+Auckland&output=embed"
+        }
       ]
     }
   }
+},
+"Sweden": {
+  "cities": {
+    "Stockholm": {
+      "images": ["https://www.thonhotels.com/siteassets/artikler/thontester/thon-tester-stockholm/stockholm-panorama-2.jpg","https://ulysse.com/news/wp-content/uploads/2024/05/La-ville-de-Stockholm-en-Suede-.jpg","https://plus.unsplash.com/premium_photo-1697729828023-35f1eb84db3e?fm=jpg&q=60&w=3000&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8c3RvY2tob2xtfGVufDB8fDB8fHww"],
+      "imageSearch": "Stockholm Sweden City",
+      "description": "The capital of Sweden, built on 14 islands connected by bridges, known for its beauty and historic architecture.",
+      "wiki": "Stockholm",
+      "mapEmbed": "https://maps.google.com/maps?q=Stockholm+Sweden&output=embed",
+      "places": [
+        {
+          "name": "Gamla Stan",
+          "images": ["https://www.freedomtravel.se/wp-content/webp-express/webp-images/uploads/Stortorget-1.jpg.webp","https://cdn.britannica.com/17/195517-050-DFE271D3/Buildings-square-Stockholm-Gamla-Stan.jpg","https://www.civitatis.com/f/suecia/estocolmo/guia/gamla-stan.jpg"],
+          "imageSearch": "Gamla Stan Stockholm",
+          "description": "The old town of Stockholm, featuring medieval alleyways and cobblestone streets.",
+          "wiki": "Gamla stan",
+          "mapEmbed": "https://maps.google.com/maps?q=Gamla+Stan&output=embed"
+        },
+        {
+          "name": "Vasa Museum",
+          "images": ["https://www.stockholmfreetour.com/wp-content/uploads/2015/05/vasa-museum.jpg","https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSzM4t1U3iJXrBaKqu5I5c0vOszE3e35VpBIpZCaDZNPgxiFgrFapQiJ2OyIgul4unQGz8&usqp=CAU","https://thehiddennorth.com/wp-content/uploads/2024/05/Vasa-Museum-1024x676.jpg"],
+          "imageSearch": "Vasa Museum ship",
+          "description": "Displays the only almost fully intact 17th-century ship that has ever been salvaged.",
+          "wiki": "Vasa Museum",
+          "mapEmbed": "https://maps.google.com/maps?q=Vasa+Museum&output=embed"
+        }
+      ]
+    }
+  }
+},
+"Denmark": {
+  "cities": {
+    "Copenhagen": {
+      "images": ["https://ca-times.brightspotcdn.com/dims4/default/fa1e88d/2147483647/strip/true/crop/1500x832+0+0/resize/1200x666!/quality/75/?url=https%3A%2F%2Fcalifornia-times-brightspot.s3.amazonaws.com%2F28%2Fc8%2Fbc70151742b19b10d8906bdbb58b%2Fadobestock-661057476.jpeg","https://images.unsplash.com/photo-1513622470522-26c3c8a854bc?fm=jpg&q=60&w=3000&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8Y29wZW5oYWdlbnxlbnwwfHwwfHx8MA%3D%3D","https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTx1Wxd1oYuA2wqNJLkZFG-JOaM7umSR8pSLg&s"],
+      "imageSearch": "Copenhagen Denmark City",
+      "description": "The capital of Denmark, known for its canals, cycling culture, and strong royal history.",
+      "wiki": "Copenhagen",
+      "mapEmbed": "https://maps.google.com/maps?q=Copenhagen+Denmark&output=embed",
+      "places": [
+        {
+          "name": "Nyhavn",
+          "images": ["https://i0.wp.com/unusualplaces.org/wp-content/uploads/2024/12/Depositphotos_651107042_L.jpg?ssl=1","https://visaliv.s3.ap-south-1.amazonaws.com/Nyhavn-Denmark.jpg","https://images.unsplash.com/photo-1513622470522-26c3c8a854bc?fm=jpg&q=60&w=3000&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8Y29wZW5oYWdlbnxlbnwwfHwwfHx8MA%3D%3D"],
+          "imageSearch": "Nyhavn Copenhagen",
+          "description": "A 17th-century waterfront, canal, and entertainment district, known for its colorful townhouses.",
+          "wiki": "Nyhavn",
+          "mapEmbed": "https://maps.google.com/maps?q=Nyhavn&output=embed"
+        },
+        {
+          "name": "Tivoli Gardens",
+          "images": ["https://media.cntraveler.com/photos/5bfdad5845e16c465f8757ca/16:9/w_2560%2Cc_limit/Tivoli-Gardens_Tivoli_S%25C3%25B8en_D%25C3%25A6monen_Drageba%25CC%258Adene_Himmelskibet_Aften_2017_02.jpg","https://media.cntraveler.com/photos/6478bf7fee4e39263d8affdd/3:2/w_3000,h_2000,c_limit/Tivoli_Japanese_Pagoda_Lasse_Salling_01%20(1)%20-%20Kopi-tivoli-may23-pr.jpg","https://silversea-discover.imgix.net/2021/09/Tivoli-Lake.jpeg?auto=compress%2Cformat&ixlib=php-3.3.1"],
+          "imageSearch": "Tivoli Gardens Copenhagen",
+          "description": "A famous amusement park and pleasure garden located in the city center.",
+          "wiki": "Tivoli Gardens",
+          "mapEmbed": "https://maps.google.com/maps?q=Tivoli+Gardens&output=embed"
+        }
+      ]
+    }
+  }
+},
+"Austria": {
+  "cities": {
+    "Vienna": {
+      "images": ["https://thetourguy.com/wp-content/uploads/2023/01/TTTD-Vienna-feature-1440-675.jpg","https://a.travel-assets.com/findyours-php/viewfinder/images/res70/498000/498780-innere-stadt-vienna.jpg","https://www.wien.info/resource/image/290578/Video-Header/1920/1080/58eef66efccfe0e149afaba6917d2040/064391A20CDB6CDC7EBC0812F4508B11/40367-graben-einkaufen-shopping-altstadt-einkaufsstrassen.webp"],
+      "imageSearch": "Vienna Austria City",
+      "description": "The national capital, known for its imperial palaces, museums, and musical heritage.",
+      "wiki": "Vienna",
+      "mapEmbed": "https://maps.google.com/maps?q=Vienna+Austria&output=embed",
+      "places": [
+        {
+          "name": "Schönbrunn Palace",
+          "images": ["https://cdn.britannica.com/49/100849-050-EFDABB75/Schloss-Schonbrunn-Vienna.jpg","https://www.schoenbrunn.at//fileadmin/content_schoenbrunn/Das_Schloss/Ehrenhof_Brunnen_West.jpg","https://greatruns.com/wp-content/uploads/2017/04/schonbrunn-gardens-schonbrunn-vienna-700x400.jpeg"],
+          "imageSearch": "Schonbrunn Palace",
+          "description": "The main summer residence of the Habsburg rulers, a magnificent Baroque palace.",
+          "wiki": "Schönbrunn Palace",
+          "mapEmbed": "https://maps.google.com/maps?q=Schonbrunn+Palace&output=embed"
+        },
+        {
+          "name": "St. Stephen's Cathedral",
+          "images": ["https://erikabrowntourguide.com/wp-content/uploads/2023/07/St-Stephens-Cathedral-Vienna-Austria-Erika-Brown-Tour-Guide.jpg","https://img.freepik.com/premium-photo/st-stephen-cathedral-stephansplatz-vienna-austria_250132-23819.jpg","https://discover-culture.com/wp-content/uploads/Stephansdom.jpg"],
+          "imageSearch": "St Stephens Cathedral Vienna",
+          "description": "The mother church of the Roman Catholic Archdiocese of Vienna, a prominent city symbol.",
+          "wiki": "St. Stephen's Cathedral, Vienna",
+          "mapEmbed": "https://maps.google.com/maps?q=St.+Stephens+Cathedral+Vienna&output=embed"
+        }
+      ]
+    }
+  }
+},
+"Poland": {
+  "cities": {
+    "Krakow": {
+      "images": ["https://images.unsplash.com/photo-1670166819528-aadfddc48070?fm=jpg&q=60&w=3000&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8a3Jha293fGVufDB8fDB8fHww","https://www.earthtrekkers.com/wp-content/uploads/2019/02/Krakow-in-July.jpg","https://www.isango.com/theguidebook/wp-content/uploads/2017/07/krakow-old-town-main-square.jpg"],
+      "imageSearch": "Krakow Poland City",
+      "description": "A historic city in southern Poland, known for its well-preserved medieval core and Jewish quarter.",
+      "wiki": "Kraków",
+      "mapEmbed": "https://maps.google.com/maps?q=Krakow+Poland&output=embed",
+      "places": [
+        {
+          "name": "Main Market Square",
+          "images": ["https://media.krakow.travel/photos/20572/noresize.jpg","https://photos.smugmug.com/Krakow/Old-Town-Guide/i-J9N55Qv/0/M3Gp7Wsq4QLTz5bZHx4hwB6MXChJ5csXqFLnQL39c/L/krakow-old-town-mickiewicz-monument-L.jpg","https://www.expatfocus.com/stable/wp-content/uploads/2020/08/krakow-market-square.jpg"],
+          "imageSearch": "Main Market Square Krakow",
+          "description": "The main square of the Old Town of Kraków, one of the largest medieval town squares in Europe.",
+          "wiki": "Main Market Square, Kraków",
+          "mapEmbed": "https://maps.google.com/maps?q=Main+Market+Square+Krakow&output=embed"
+        },
+        {
+          "name": "Wawel Royal Castle",
+          "images": ["https://bilety.wawel.krakow.pl/images/zkw/wawel-main.jpg","https://hobletsonthego.com/wp-content/uploads/2024/07/20240723-Poland-Krawkow-Wawel-Castle-2.jpg","https://dynamic-media-cdn.tripadvisor.com/media/photo-o/14/ff/6d/b8/20181010-133927-largejpg.jpg?w=900&h=500&s=1"],
+          "imageSearch": "Wawel Castle Krakow",
+          "description": "A castle residency built at the behest of King Casimir III the Great, of great historical and cultural significance.",
+          "wiki": "Wawel Castle",
+          "mapEmbed": "https://maps.google.com/maps?q=Wawel+Royal+Castle+Krakow&output=embed"
+        }
+      ]
+    }
+  }
+}
 }
