@@ -68,7 +68,7 @@
           {
             "name": "Grand Egyptian Museum of giza",
             "images": ["https://media-cdn.tripadvisor.com/media/attractions-splice-spp-674x446/10/7f/5a/b9.jpg", "https://cdn-imgix.headout.com/media/images/b128495488af842fa92f5f6e42e4ec15-28558-cairo-cairo-tutankhamun-exhibition---grand-egyptian-museum-08.jpg?auto=format&q=90&crop=faces&fit=crop", "https://media.tacdn.com/media/attractions-splice-spp-674x446/14/ce/4b/c8.jpg"],
-            "imageSearch": "Grand Egyptian Museum Giza",
+            "imageSearch": "",
             "description": "The world's largest archaeological museum, housing over 100,000 artifacts including the complete Tutankhamun collection. A state-of-the-art facility showcasing Egypt's priceless heritage.",
             "wiki": "Grand Egyptian Museum",
             "mapEmbed": "https://maps.google.com/maps?q=Grand+Egyptian+Museum+Giza&output=embed"
@@ -84,7 +84,7 @@
           {
             "name": "Solar Boat Museum of giza",
             "images": ["https://upload.wikimedia.org/wikipedia/commons/4/45/Cairo_-_Pharaons_funeral_ships_museum_outdoors.JPG", "https://res.cloudinary.com/ddjuftfy2/image/upload/f_webp,c_fill,q_auto/memphis/large/263751851_Khufu%20Solar%20Boat.jpg", "https://d3rr2gvhjw0wwy.cloudfront.net/uploads/mandators/41668/cms/562940/940x500-1-50-9432e95f141cea599a3b19010bc7e6c9.jpg"],
-            "imageSearch": "",
+            "imageSearch": ".",
             "description": "Home to a perfectly reconstructed cedarwood boat buried near the Great Pyramid for Pharaoh Khufu's journey to the afterlife. An incredible preservation of ancient Egyptian maritime technology.",
             "wiki": "Khufu ship",
             "mapEmbed": "https://maps.google.com/maps?q=Solar+Boat+Museum+Giza&output=embed"
@@ -108,7 +108,7 @@
           },
           {
             "name": "Valley of the Kings",
-            "images": ["https://imagedelivery.net/1AkWDvw1F7luzpOSXoOCTw/7e42c669-f4f8-4c13-e160-f393ecd76b00/w=1024", "https://egyptescapes.com/wp-content/uploads/2022/04/AdobeStock_276788225.jpg", "https://egyptunitedtours.com/wp-content/uploads/2024/11/Luxor-and-the-Valley-of-the-Kings.jpg"],
+            "images": ["https://upload.wikimedia.org/wikipedia/commons/thumb/9/96/Luxor_Valley_of_the_Kings_D.jpg/2560px-Luxor_Valley_of_the_Kings_D.jpg, https://egyptra.pro/uploads/photo_library/photo_6821482285014.webp", "https://c8.alamy.com/comp/2BD2326/hatshepsut-temple-deir-al-bahri-valley-of-the-kings-luxor-egypt-2BD2326.jpg"],
             "imageSearch": "Valley of the Kings Luxor",
             "description": "The burial ground of pharaohs and powerful nobles for nearly 500 years, containing 63 magnificent tombs including Tutankhamun's famous discovery in 1922.",
             "wiki": "Valley of the Kings",
@@ -186,7 +186,7 @@
             "imageSearch": "Bibliotheca Alexandrina",
             "description": "A stunning modern revival of the ancient Library of Alexandria, featuring innovative architecture and housing millions of books in a magnificent cultural center.",
             "wiki": "Bibliotheca Alexandrina",
-            "mapEmbed": "https://maps.google.com/maps?q=Bibliotheca+Alexandrina&output=embed"
+            "mapEmbed": "https://www.google.com/maps/search/?api=1&query=Bibliotheca+Alexandrina"
           },
           {
             "name": "Qaitbay Citadel",
@@ -400,7 +400,7 @@
             "mapEmbed": "https://maps.google.com/maps?q=Al+Khazneh+Petra&output=embed"
           },
           {
-            "name": "The Monastery (Ad-Deir)",
+            "name": "The Monastery Petra",
             "images": ["https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0d/7a/45/44/treasury.jpg?w=900&h=500&s=1", "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQK6cJCS7CewKcNxrm52p4AVLWBEqExIK8dfA&s", "https://images.squarespace-cdn.com/content/v1/57b9b98a29687f1ef5c622df/1477850566004-U1YEVLXPDO14K71G7MCQ/00000000000000000.jpg?format=1500w"],
             "imageSearch": "The Monastery Petra",
             "description": "An enormous rock-cut monument even larger than the Treasury, reached by climbing 800 steps and offering breathtaking views of the surrounding mountains.",
@@ -596,7 +596,7 @@
   }, 
   "United States": {
     "cities": {
-      "New York City": {
+      "New York": {
         "images": ["https://plus.unsplash.com/premium_photo-1714051661316-4432704b02f8?fm=jpg&q=60&w=3000&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8bmV3eW9yayUyMGNpdHl8ZW58MHx8MHx8fDA%3D", "https://cdn.britannica.com/61/93061-050-99147DCE/Statue-of-Liberty-Island-New-York-Bay.jpg", "https://plus.unsplash.com/premium_photo-1682656220562-32fde8256295?fm=jpg&q=60&w=3000&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OXx8bmV3JTIweW9yayUyMGNpdHl8ZW58MHx8MHx8fDA%3D"],
         "imageSearch": "New York City Skyline",
         "description": "The city that never sleeps, a global hub of finance, culture, and innovation where iconic landmarks, world-class museums, and diverse neighborhoods create endless energy.",
@@ -2778,7 +2778,7 @@
             "imageSearch": "Church of St. George Lalibela",
             "description": "The most famous and best preserved of the rock-hewn churches.",
             "wiki": "https://en.wikipedia.org/wiki/Church_of_Saint_George,_Lalibela",
-            "mapEmbed": "https://maps.google.com/maps?q=Bibliotheca+Alexandrina&t=&z=13&ie=UTF8&iwloc=&output=embed0"
+            "mapEmbed": "https://www.google.com/maps/search/?api=1&query=Church+of+Saint+George+Lalibela"
           }
         ]
       }
@@ -2809,7 +2809,7 @@
             "imageSearch": "Bardo Museum Tunis",
             "description": "One of the most important museums in the Mediterranean region.",
             "wiki": "https://en.wikipedia.org/wiki/Bardo_National_Museum_(Tunis)",
-            "mapEmbed": "https://maps.google.com/maps?q=Bibliotheca+Alexandrina&t=&z=13&ie=UTF8&iwloc=&output=embed1"
+            "mapEmbed": "https://www.google.com/maps/search/?api=1&query=Bardo+National+Museum+Tunis"
           }
         ]
       },
@@ -2836,7 +2836,7 @@
             "imageSearch": "Byrsa Hill Carthage",
             "description": "The walled citadel of ancient Carthage.",
             "wiki": "https://en.wikipedia.org/wiki/Byrsa",
-            "mapEmbed": "https://maps.google.com/maps?q=Bibliotheca+Alexandrina&t=&z=13&ie=UTF8&iwloc=&output=embed2"
+            "mapEmbed": "https://www.google.com/maps/search/?api=1&query=Byrsa+Hill+Carthage"
           }
         ]
       }
@@ -2867,7 +2867,7 @@
             "imageSearch": "Notre Dame d'Afrique Algiers",
             "description": "A Roman Catholic basilica overlooking the Bay of Algiers.",
             "wiki": "https://en.wikipedia.org/wiki/Notre_Dame_d%27Afrique",
-            "mapEmbed": "https://maps.google.com/maps?q=Bibliotheca+Alexandrina&t=&z=13&ie=UTF8&iwloc=&output=embed3"
+            "mapEmbed": "https://www.google.com/maps/search/?api=1&query=Notre+Dame+d'Afrique+Algiers"
           }
         ]
       }
@@ -2917,7 +2917,7 @@
             "imageSearch": "Monas Jakarta",
             "description": "A tower in the center of Merdeka Square.",
             "wiki": "https://en.wikipedia.org/wiki/Monas",
-            "mapEmbed": "https://maps.google.com/maps?q=Bibliotheca+Alexandrina&t=&z=13&ie=UTF8&iwloc=&output=embed4"
+            "mapEmbed": "https://www.google.com/maps/search/?api=1&query=Monas+Jakarta"
           },
           {
             "name": "Istiqlal Mosque",
@@ -2925,7 +2925,7 @@
             "imageSearch": "Istiqlal Mosque Jakarta",
             "description": "The largest mosque in Southeast Asia.",
             "wiki": "https://en.wikipedia.org/wiki/Istiqlal_Mosque,_Jakarta",
-            "mapEmbed": "https://maps.google.com/maps?q=Bibliotheca+Alexandrina&t=&z=13&ie=UTF8&iwloc=&output=embed5"
+            "mapEmbed": "https://www.google.com/maps/search/?api=1&query=Istiqlal+Mosque+Jakarta"
           }
         ]
       }
@@ -2956,7 +2956,7 @@
             "imageSearch": "Hanoi Old Quarter",
             "description": "The historic soul of Hanoi.",
             "wiki": "https://en.wikipedia.org/wiki/Old_Quarter,_Hanoi",
-            "mapEmbed": "https://maps.google.com/maps?q=Bibliotheca+Alexandrina&t=&z=13&ie=UTF8&iwloc=&output=embed6"
+            "mapEmbed": "https://www.google.com/maps/search/?api=1&query=Old+Quarter+Hanoi"
           }
         ]
       }
@@ -2987,7 +2987,7 @@
             "imageSearch": "Rizal Park Manila",
             "description": "A historic urban park in the Philippines.",
             "wiki": "https://en.wikipedia.org/wiki/Rizal_Park",
-            "mapEmbed": "https://maps.google.com/maps?q=Bibliotheca+Alexandrina&t=&z=13&ie=UTF8&iwloc=&output=embed7"
+            "mapEmbed": "https://www.google.com/maps/search/?api=1&query=Rizal+Park+Manila"
           }
         ]
       },
@@ -3037,7 +3037,7 @@
             "imageSearch": "Batu Caves Malaysia",
             "description": "A limestone hill that has a series of caves and cave temples.",
             "wiki": "https://en.wikipedia.org/wiki/Batu_Caves",
-            "mapEmbed": "https://maps.google.com/maps?q=Bibliotheca+Alexandrina&t=&z=13&ie=UTF8&iwloc=&output=embed8"
+            "mapEmbed": "https://www.google.com/maps/search/?api=1&query=Batu+Caves"
           }
         ]
       }
@@ -3099,7 +3099,7 @@
             "imageSearch": "Male Fish Market Maldives",
             "description": "The commercial heart of the island.",
             "wiki": "https://en.wikipedia.org/wiki/Mal%C3%A9",
-            "mapEmbed": "https://maps.google.com/maps?q=Bibliotheca+Alexandrina&t=&z=13&ie=UTF8&iwloc=&output=embed9"
+            "mapEmbed": "https://www.google.com/maps/search/?api=1&query=Male+Fish+Market"
           }
         ]
       }
@@ -3144,7 +3144,7 @@
         
         "places": [
           {
-            "name": "Moon Valley",
+            "name": "Moon Valley ",
             "images": ["https://1.bp.blogspot.com/-9Q4Kfqv8o-s/V1rSxaHp8PI/AAAAAAACLcQ/3c0tSMGbJDkQzrV6yRUv5P0MVZQcqwZGACLcB/s1600/2.jpg", "https://greenmochila.com/wp-content/uploads/2019/08/valle-luna-moon-valley-chile-header.jpg", "https://i.pinimg.com/originals/59/38/c5/5938c5d9e6701e77c1bb9f279d611a68.jpg"],
             "imageSearch": "Valle de la Luna Atacama",
             "description": "Stone and sand formations which look similar to the moon.",
@@ -3188,7 +3188,7 @@
       "mapEmbed": "https://maps.google.com/maps?q=Auckland+New+Zealand&output=embed",
       "places": [
         {
-          "name": "Sky Tower",
+          "name": "Sky Tower Auckland",
           "images": ["https://dynamic-media-cdn.tripadvisor.com/media/photo-o/10/dc/e6/a1/enjoy-beautiful-views.jpg?w=900&h=500&s=1","https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2c/c9/55/42/sky-tower.jpg?w=900&h=500&s=1","https://www.aucklandnz.com/media/media/tau/tau_media/venues/tnz-hero.jpg?ext=.jpg&crop=55,0,1119,815"],
           "imageSearch": "Sky Tower Auckland",
           "description": "The tallest freestanding structure in the Southern Hemisphere.",

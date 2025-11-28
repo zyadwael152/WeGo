@@ -381,25 +381,38 @@ async function displaySearchResults(results, type, signal) {
     // Helper to process data in parallel
     const processCard = async (item) => {
         try {
-            // 1. Fetch Image
-            const imageUrl = await fetchUnsplashImage(item.name, signal);
+            // 1. Determine Search Term
+            // Use the specific 'imageSearch' from JSON if available, otherwise the name
+            const queryTerm = item.imageSearch ? item.imageSearch : item.name;
+
+            // 2. Fetch Image (Pass signal for abort)
+            let imageUrl = await fetchUnsplashImage(queryTerm, signal);
             
-            // 2. PRIORITY 1: Try Wikipedia Description
+            // --- FALLBACK LOGIC START ---
+            // If Unsplash returns the default placeholder ('assets/0.jpg') 
+            // AND we have a valid image array in the JSON file, use the first JSON image.
+            if (imageUrl === 'assets/0.jpg' && item.images && item.images.length > 0) {
+                imageUrl = item.images[0];
+            }
+            // --- FALLBACK LOGIC END ---
+
+            // 3. Fetch Real Description from Wikipedia
             let description = await fetchWikipediaDescription(item.name);
 
-            // 3. PRIORITY 2: If Wiki failed, try JSON 'description' property
-            if (!description && item.description) {
-                description = item.description;
-            }
-
-            // 4. PRIORITY 3: Generic Fallback
+            // 4. Fallback description logic (If Wiki failed)
             if (!description) {
-                if (type === 'country') {
-                    description = `Explore the beautiful country of ${item.name}.`;
-                } else if (type === 'city') {
-                    description = `Explore the beautiful city of ${item.name}, ${item.country}.`;
+                // Try using the hardcoded JSON description first
+                if (item.description) {
+                    description = item.description;
                 } else {
-                    description = `Located in ${item.city}, ${item.country}.`;
+                    // Generic fallback
+                    if (type === 'country') {
+                        description = `Explore the beautiful country of ${item.name}.`;
+                    } else if (type === 'city') {
+                        description = `Explore the beautiful city of ${item.name}, ${item.country}.`;
+                    } else {
+                        description = `Located in ${item.city}, ${item.country}.`;
+                    }
                 }
             }
 
@@ -410,14 +423,17 @@ async function displaySearchResults(results, type, signal) {
             };
         } catch (err) {
             if (err.name === 'AbortError') throw err;
-            return null;
+            return null; 
         }
     };
 
+    // Execute all API calls concurrently
     const allCardsData = await Promise.all(results.map(processCard));
 
+    // Clear loading status
     gridContainer.innerHTML = ''; 
 
+    // Render valid cards
     let hasContent = false;
     allCardsData.forEach((data, index) => { 
         if(data) {
