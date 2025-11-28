@@ -15,7 +15,7 @@
     <nav>
         <div class="brand">
             <img alt="WeGo logo"
-                src="data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='80' height='80' viewBox='0 0 24 24'><rect rx='6' width='24' height='24' fill='%23E8AC20'/><path d='M12 6l3 8-8 3 5-11z' fill='white'/></svg>" />
+                src="data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='80' height='80' viewBox='0 0 80 80'><rect width='80' height='80' rx='16' fill='%23E8AC20'/><path d='M 28 18 L 62 18 L 62 52 M 62 18 L 4 80' stroke='white' stroke-width='12' stroke-linecap='butt' stroke-linejoin='miter' stroke-miterlimit='10' fill='none'/></svg>" alt="WeGo Logo" />
             <h2>WeGo</h2>
         </div>
         <div class="links">
@@ -25,7 +25,10 @@
         </div>
     </nav>
     <main class="details-container">
-        <h1 class="details-title">Paris, France</h1>
+        <main class="details-container">
+            <a href="#" id="back-btn" class="back-link">← Back to Results</a>
+        
+            <h1 class="details-title">Paris, France</h1>
         <section class="gallery-grid">
             <img src="" alt="Main view" class="gallery-img-main">
             <img src="" alt="Detail view 1" class="gallery-img-side">
@@ -60,8 +63,8 @@
             document.title = `${decodeURIComponent(destination)} - WeGo Details`;
         document.getElementById('year').textContent = new Date().getFullYear();
     </script>
-    <script src="js/api.js"></script>
-    <script src="js/details.js"></script>
+    <script src="js/api.js" type="module"></script>
+    <script src="js/details.js" type="module"></script>
 </body>
 
 </html>

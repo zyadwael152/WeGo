@@ -1,13 +1,81 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Explore - WeGo</title>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;800&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/explore.css">
 </head>
+
 <body>
-    <p> Under Construction </p>
+
+    <!-- INTRO ANIMATION -->
+    <div id="intro">
+        <div id="introContent">
+            <img id="introLogo"
+                src="data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='80' height='80' viewBox='0 0 80 80'><rect width='80' height='80' rx='16' fill='%23E8AC20'/><path d='M 28 18 L 62 18 L 62 52 M 62 18 L 4 80' stroke='white' stroke-width='12' stroke-linecap='butt' stroke-linejoin='miter' stroke-miterlimit='10' fill='none'/></svg>" alt="WeGo Logo"
+                alt="Logo" />
+            <span id="introText">Explore The World</span>
+        </div>
+    </div>
+
+    <nav>
+        <div class="brand">
+            <img src="data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='80' height='80' viewBox='0 0 80 80'><rect width='80' height='80' rx='16' fill='%23E8AC20'/><path d='M 28 18 L 62 18 L 62 52 M 62 18 L 4 80' stroke='white' stroke-width='12' stroke-linecap='butt' stroke-linejoin='miter' stroke-miterlimit='10' fill='none'/></svg>" alt="WeGo Logo"
+                alt="WeGo logo" />
+            <h2>WeGo</h2>
+        </div>
+        <div class="links">
+            <a href="index.html">Home</a>
+            <a href="explore.html" class="active">Explore</a>
+            <a href="contact.html">Contact</a>
+        </div>
+    </nav>
+
+    <header class="explore-header">
+        <h1>Uncover Hidden Gems</h1>
+        <p>Browse top destinations curated just for you.</p>
+    </header>
+
+    <main class="container">
+        <!-- Section 1: Top Countries -->
+        <section class="explore-section">
+            <h2 class="section-title">Top Trending Countries</h2>
+            <div class="explore-grid" id="explore-countries">
+                <div class="loader">Loading Countries...</div>
+            </div>
+        </section>
+
+        <!-- Section 2: Top Cities -->
+        <section class="explore-section">
+            <h2 class="section-title">Popular Cities</h2>
+            <div class="explore-grid" id="explore-cities">
+                <div class="loader">Loading Cities...</div>
+            </div>
+        </section>
+
+        <!-- Section 3: Top Places -->
+        <section class="explore-section">
+            <h2 class="section-title">Must-Visit Attractions</h2>
+            <div class="explore-grid" id="explore-places">
+                <div class="loader">Loading Attractions...</div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <div class="container">
+            <p>&copy; <span id="year"></span> WeGo. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script>
+        document.getElementById('year').textContent = new Date().getFullYear();
+    </script>
+    <script type="module" src="js/main.js"></script>
 </body>
+
 </html>
