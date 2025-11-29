@@ -10,15 +10,15 @@ const wikiCache = new Map();
  * @param {AbortSignal} [signal] - Optional signal to cancel request
  * @returns {string} - URL of the image or placeholder if not found
  */
-export async function fetchUnsplashImage(destination, signal = null) {
-    try {
+export async function fetchUnsplashImage(destination, signal = null){
+    try{
         const options = signal ? { signal } : {};
         const response = await fetch(
             `https://api.unsplash.com/search/photos?query=${encodeURIComponent(destination)}&client_id=${UNSPLASH_KEY}&per_page=1`,
             options
         );
 
-        if (!response.ok) {
+        if (!response.ok){
             console.warn(`Failed to fetch image for ${destination}: ${response.status}`);
             return 'assets/0.jpg'; // Fallback to placeholder
         }
@@ -28,7 +28,8 @@ export async function fetchUnsplashImage(destination, signal = null) {
             return data.results[0].urls.small;
 
         return 'assets/0.jpg'; // Fallback if no results
-    } catch (error) {
+    } 
+    catch (error){
         if (error.name === 'AbortError') throw error; // Allow abort to bubble up
         console.error(`Error fetching image for ${destination}:`, error);
         return 'assets/0.jpg'; // Fallback on error
@@ -104,7 +105,7 @@ export function getLocalDescription(itemData) {
  * @param {Object} itemData - The item data object containing optional mapEmbed property
  * @returns {string|null} - The map embed URL or null
  */
-export function getLocalMapEmbed(itemData) {
+export function getLocalMapEmbed(itemData){
     if (itemData && typeof itemData === 'object' && itemData.mapEmbed) {
         return itemData.mapEmbed;
     }

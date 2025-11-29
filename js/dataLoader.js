@@ -3,7 +3,7 @@
  * @returns {Promise<Object>} The parsed travel data object
  * @throws {Error} If the fetch fails or JSON is invalid
  */
-export async function loadTravelData() {
+export async function loadTravelData(){
   try{
     const res = await fetch('data/maindata.json');
     if (!res.ok) 

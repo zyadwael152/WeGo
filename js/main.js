@@ -5,17 +5,15 @@ import { searchJSON } from './datahandler.js';
 // ==================== STATE MANAGEMENT ====================
 let mainData;
 let validLocations = { cities: [], countries: [] };
-
-// Search State (From Version 1)
 let currentUnsplashController = null;
 let searchTimeout = null;
 
 // ==================== CURATED LISTS (TOP 10) ====================
 const TOP_COUNTRIES = ["France", "Italy", "Japan", "United States", "Egypt", "Spain", "United Kingdom", "Brazil", "Australia", "Greece"];
-const TOP_CITIES = ["Paris", "London", "New York", "Tokyo", "Dubai", "Rome", "Barcelona", "Rio de Janeiro", "Bangkok", "Istanbul"];
+const TOP_CITIES = ["Paris", "London", "New York", "Cairo", "Dubai", "Rome", "Barcelona", "Rio de Janeiro", "Bangkok", "Istanbul"];
 const TOP_PLACES = [
     "Eiffel Tower", "Great Sphinx of Giza", "Statue of Liberty", "Colosseum", 
-    "Taj Mahal", "Great Wall of China", "Machu Picchu", "Burj Khalifa", 
+    "Taj Mahal", "Great Wall of China", "Qaitbay Citadel", "Burj Khalifa", 
     "Sydney Opera House", "Christ the Redeemer"
 ];
 
@@ -32,11 +30,7 @@ const carouselCities = [
 let currentSlide = 0;
 let carouselInterval;
 
-// ==================== UTILITIES (From Version 1) ====================
-
-/**
- * Delays function execution to prevent rapid-fire calls
- */
+// The function to limit the rate of function calls
 function debounce(fn, wait = 300) {
     return (...args) => {
         clearTimeout(searchTimeout);
@@ -44,9 +38,7 @@ function debounce(fn, wait = 300) {
     };
 }
 
-/**
- * Displays a color-coded status message in the destination grid area
- */
+// The function to show status messages in the grid
 function showGridStatus(message, type = 'info') {
     const gridContainer = document.getElementById('destination-grid');
     if (!gridContainer) return;
@@ -62,76 +54,61 @@ function showGridStatus(message, type = 'info') {
     gridContainer.innerHTML = `<p style="text-align: center; color: ${color}; padding: 40px; font-size: 1.2rem; font-weight: 500;">${message}</p>`;
 }
 
-// ==================== MAIN INITIALIZATION ====================
-document.addEventListener('DOMContentLoaded', async () => {
-    // 1. Load Data Globally
+document.addEventListener('DOMContentLoaded', async () =>{
     const appData = await initializeAppData();
-    if(appData.initialized) {
+    if(appData.initialized){
         mainData = appData.travelData;
         validLocations = appData.citiesCountries;
         console.log("App data initialized successfully");
-    } else {
+    } 
+    else{
         console.error("App data failed to initialize");
         showGridStatus('Failed to load application data. Please refresh.', 'error');
         return;
     }
-
-    // 2. Detect Page
     const path = window.location.pathname;
-
-    if (path.includes('explore.html')) {
-        // --- EXPLORE PAGE ---
+    if (path.includes('explore.html'))
         renderExplorePage();
-    
-    } else if (path.includes('results.html')) {
-        // --- RESULTS PAGE ---
+    else if (path.includes('results.html')){
         const urlParams = new URLSearchParams(window.location.search);
         const searchParam = urlParams.get('search');
+        setupSearchListener(); 
         
-        setupSearchListener(); // Allow searching from results page header too
-        
-        if (searchParam) {
+        if (searchParam){
             const queryText = document.getElementById('query-text');
             if(queryText) queryText.textContent = `"${searchParam}"`;
             performSearch(searchParam);
         }
 
-    } else {
-        // --- HOME PAGE ---
+    } 
+    else{
         setupSearchListener();
         setupTrendingPills();
         setupInspireMeButton();
         await initializeCarousel();
         
-        // 1. Check if the user hit "Refresh"
         const navigationEntries = performance.getEntriesByType("navigation");
         const isReload = navigationEntries.length > 0 && navigationEntries[0].type === 'reload';
 
-        if (isReload) {
-            // IF REFRESH: Clean the URL, stop the search, and let the original Home page load
+        if (isReload) 
             window.history.replaceState({}, document.title, window.location.pathname);
-            
-        } else {
-            // IF BACK BUTTON or NORMAL LOAD: Check for search params
+        else{
             const urlParams = new URLSearchParams(window.location.search);
             const searchParam = urlParams.get('search');
             
-            if (searchParam) {
-                // Hide intro animation immediately so we see results fast
+            if (searchParam){
                 const introDiv = document.getElementById('intro');
                 if (introDiv) introDiv.style.display = 'none';
 
-                // Fill input and run search
                 const searchInput = document.getElementById('search-input');
                 if(searchInput) searchInput.value = searchParam;
                 performSearch(searchParam);
             }
         }
-        // ============================================================
     }
 });
 
-// ==================== FEATURE: TRENDING PILLS ====================
+// The function to setup trending destination pills
 function setupTrendingPills() {
     const pills = document.querySelectorAll('.pill');
     pills.forEach(pill => {
@@ -142,27 +119,22 @@ function setupTrendingPills() {
     });
 }
 
-// ==================== FEATURE: INSPIRE ME BUTTON ====================
+// The function to setup the "Inspire Me" button
 function setupInspireMeButton() {
     const inspireBtn = document.getElementById('inspire-btn');
     if (!inspireBtn) return;
 
-    inspireBtn.addEventListener('click', () => {
+    inspireBtn.addEventListener('click', () =>{
         if (!mainData) return;
-
-        // Get all cities from mainData
         const allCities = [];
-        for (const country in mainData) {
-            if (mainData[country].cities) {
+        for (const country in mainData){
+            if (mainData[country].cities) 
                 allCities.push(...Object.keys(mainData[country].cities));
-            }
         }
 
-        if (allCities.length > 0) {
-            // Pick random city
+        if (allCities.length > 0){
             const randomCity = allCities[Math.floor(Math.random() * allCities.length)];
             
-            // Add fun animation before redirect
             inspireBtn.textContent = '✨ Inspiring...';
             inspireBtn.style.transform = 'scale(0.95)';
             
@@ -173,7 +145,7 @@ function setupInspireMeButton() {
     });
 }
 
-// ==================== FEATURE: CAROUSEL ====================
+// The function to initialize the carousel
 async function initializeCarousel() {
     const carouselContent = document.getElementById('carousel-content');
     const indicators = document.getElementById('carousel-indicators');
@@ -182,8 +154,7 @@ async function initializeCarousel() {
 
     carouselContent.innerHTML = '';
 
-    // Create slides
-    for (let i = 0; i < carouselCities.length; i++) {
+    for (let i = 0; i < carouselCities.length; i++){
         const city = carouselCities[i];
         const imageUrl = await fetchUnsplashImage(city.name);
         
@@ -198,7 +169,6 @@ async function initializeCarousel() {
         `;
         carouselContent.appendChild(slide);
 
-        // Create indicator
         const indicator = document.createElement('div');
         indicator.className = `indicator ${i === 0 ? 'active' : ''}`;
         indicator.addEventListener('click', () => goToSlide(i));
@@ -215,7 +185,8 @@ async function initializeCarousel() {
     startCarouselAutoPlay();
 }
 
-function changeSlide(direction) {
+// The function to change slides
+function changeSlide(direction){
     const slides = document.querySelectorAll('.carousel-slide');
     const indicators = document.querySelectorAll('.indicator');
     
@@ -232,7 +203,8 @@ function changeSlide(direction) {
     resetCarouselAutoPlay();
 }
 
-function goToSlide(index) {
+// The function to go to a specific slide
+function goToSlide(index){
     const slides = document.querySelectorAll('.carousel-slide');
     const indicators = document.querySelectorAll('.indicator');
     
@@ -249,22 +221,21 @@ function goToSlide(index) {
     resetCarouselAutoPlay();
 }
 
-function startCarouselAutoPlay() {
+// The function to start automatic carousel playback
+function startCarouselAutoPlay(){
     carouselInterval = setInterval(() => {
         changeSlide(1);
     }, 5000);
 }
 
-function resetCarouselAutoPlay() {
+// The function to reset carousel autoplay timer
+function resetCarouselAutoPlay(){
     clearInterval(carouselInterval);
     startCarouselAutoPlay();
 }
 
-// =========================================
-// 🔍 SEARCH LOGIC (MERGED & IMPROVED)
-// =========================================
-
-function setupSearchListener() {
+// The function to setup search listeners
+function setupSearchListener(){
     const searchBtn = document.getElementById('search-btn');
     const searchInput = document.getElementById('search-input');
     
@@ -276,164 +247,139 @@ function setupSearchListener() {
     });
 }
 
-function handleHomeSearch(inputElement) {
+// The function to handle search from home page
+function handleHomeSearch(inputElement){
     const keyword = inputElement.value.trim();
-    if (!keyword) {
+    if (!keyword){
         alert('Please enter a search keyword'); 
         return;
     }
     
     const path = window.location.pathname;
-    if (!path.includes('results.html')) {
+    if (!path.includes('results.html')){
          window.history.pushState({}, '', `?search=${encodeURIComponent(keyword)}`);
          performSearch(keyword);
-    } else {
-         performSearch(keyword);
-    }
+    } 
+    else 
+        performSearch(keyword);
 }
 
 /**
  * @function performSearch
  * Main search handler: validates input, fetches Data, handles AbortController
  */
-async function performSearch(keyword) {
+async function performSearch(keyword){
     const gridContainer = document.getElementById('destination-grid');
     const carouselWrapper = document.getElementById('carousel-wrapper');
     const resultsHeading = document.getElementById('results-heading');
     
     if(!gridContainer) return;
 
-    // 1. UI RESET
     if(carouselWrapper) carouselWrapper.style.display = 'none';
-    gridContainer.style.display = 'grid'; // Ensure grid layout
-    if(resultsHeading) {
+    gridContainer.style.display = 'grid'; 
+    if(resultsHeading){
         resultsHeading.textContent = `Search Results for "${keyword}"`;
         resultsHeading.scrollIntoView({ behavior: 'smooth', block: 'start' });
-    }    
-    // 2. INPUT VALIDATION (From Version 1)
-    if (!keyword) {
+    }
+
+    if (!keyword){
         showGridStatus('Please enter a search keyword', 'warning');
         return;
     }
 
-    if (!/^[a-zA-Z\s\-]+$/.test(keyword)) {
+    if (!/^[a-zA-Z\s\-]+$/.test(keyword)){
         showGridStatus('Please enter a valid city or country name (Letters only)', 'warning');
         return;
     }
 
     const normalizedKeyword = keyword.toLowerCase().trim();
 
-    // 3. LOGICAL VALIDATION (Using validLocations from JSON)
     if (validLocations && validLocations.cities && validLocations.countries) {
         const isValidLocation = validLocations.cities.some(city => 
             city.toLowerCase() === normalizedKeyword
         ) || validLocations.countries.some(country => 
             country.toLowerCase() === normalizedKeyword
         );
-
-        if (!isValidLocation) {
-            // It might be a specific place (landmark) inside mainData
-        }
     }
 
     showGridStatus('Searching...', 'info');
 
-    try {
-        // 4. ABORT CONTROLLER (From Version 1)
-        if (currentUnsplashController) {
+    try{
+        if (currentUnsplashController)
             currentUnsplashController.abort();
-        }
         currentUnsplashController = new AbortController();
         const signal = currentUnsplashController.signal;
 
-        // 5. INTERNAL DATA SEARCH
         const searchResult = await searchJSON(keyword, mainData);
 
         if (!searchResult || searchResult.results.length === 0) {
             const isValidButNoData = validLocations.cities.some(c => c.toLowerCase() === normalizedKeyword);
             
-            if (isValidButNoData) {
+            if (isValidButNoData)
                 showGridStatus(`We recognize "${keyword}", but we don't have detailed travel guides for it yet.`, 'info');
-            } else {
+            else
                 showGridStatus(`No results found for "${keyword}". Try a major city or country.`, 'warning');
-            }
             return;
         }
 
-        // 6. RENDER RESULTS
         await displaySearchResults(searchResult.results, searchResult.type, signal);
 
-    } catch (error) {
-        if (error.name === 'AbortError') {
+    } 
+    catch (error){
+        if (error.name === 'AbortError'){
             console.log('Search cancelled');
             return;
         }
         console.error('Search error:', error);
         showGridStatus('An error occurred while searching. Please try again.', 'error');
-    } finally {
+    } 
+    finally{
         currentUnsplashController = null;
     }
 }
 
-async function displaySearchResults(results, type, signal) {
+// The function to display search results
+async function displaySearchResults(results, type, signal){
     const gridContainer = document.getElementById('destination-grid');
     
-    // Helper to process data in parallel
     const processCard = async (item) => {
-        try {
-            // 1. Determine Search Term
-            // Use the specific 'imageSearch' from JSON if available, otherwise the name
+        try{
             const queryTerm = item.imageSearch ? item.imageSearch : item.name;
-
-            // 2. Fetch Image (Pass signal for abort)
             let imageUrl = await fetchUnsplashImage(queryTerm, signal);
             
-            // --- FALLBACK LOGIC START ---
-            // If Unsplash returns the default placeholder ('assets/0.jpg') 
-            // AND we have a valid image array in the JSON file, use the first JSON image.
-            if (imageUrl === 'assets/0.jpg' && item.images && item.images.length > 0) {
+            if (imageUrl === 'assets/0.jpg' && item.images && item.images.length > 0)
                 imageUrl = item.images[0];
-            }
-            // --- FALLBACK LOGIC END ---
-
-            // 3. Fetch Real Description from Wikipedia
+            
             let description = await fetchWikipediaDescription(item.name);
 
-            // 4. Fallback description logic (If Wiki failed)
-            if (!description) {
-                // Try using the hardcoded JSON description first
-                if (item.description) {
+            if (!description){
+                if (item.description) 
                     description = item.description;
-                } else {
-                    // Generic fallback
-                    if (type === 'country') {
-                        description = `Explore the beautiful country of ${item.name}.`;
-                    } else if (type === 'city') {
-                        description = `Explore the beautiful city of ${item.name}, ${item.country}.`;
-                    } else {
+                else{
+                    if (type === 'country')
+                        description = `Explore the beautiness of ${item.name}.`;
+                    else if (type === 'city')
+                        description = `Explore the beautiness of ${item.name}, ${item.country}.`;
+                    else
                         description = `Located in ${item.city}, ${item.country}.`;
-                    }
                 }
             }
-
-            return {
+            return{
                 title: item.name,
                 description: description,
                 imageUrl: imageUrl
             };
-        } catch (err) {
+        } 
+        catch (err){
             if (err.name === 'AbortError') throw err;
             return null; 
         }
     };
 
-    // Execute all API calls concurrently
     const allCardsData = await Promise.all(results.map(processCard));
 
-    // Clear loading status
     gridContainer.innerHTML = ''; 
 
-    // Render valid cards
     let hasContent = false;
     allCardsData.forEach((data, index) => { 
         if(data) {
@@ -443,6 +389,7 @@ async function displaySearchResults(results, type, signal) {
     });
 }
 
+// The function to create and append a card to the container
 function createCard(container, title, desc, imgUrl, index = 0) {
     const card = document.createElement('div');
     card.className = 'card';
@@ -459,14 +406,10 @@ function createCard(container, title, desc, imgUrl, index = 0) {
     container.appendChild(card);
 }
 
-// =========================================
-// 🌍 EXPLORE PAGE LOGIC
-// =========================================
-
+// The function to render the Explore page
 async function renderExplorePage() {
     if (!mainData) return;
 
-    // A. Top 10 Countries
     const countriesContainer = document.getElementById('explore-countries');
     if(countriesContainer) {
         countriesContainer.innerHTML = '';
@@ -487,7 +430,6 @@ async function renderExplorePage() {
         }
     }
 
-    // B. Top 10 Cities
     const citiesContainer = document.getElementById('explore-cities');
     if(citiesContainer) {
         citiesContainer.innerHTML = '';
@@ -495,14 +437,11 @@ async function renderExplorePage() {
             const parentCountry = findCountryForCity(city);
             if (!parentCountry) continue;
 
-            // Get the city object which contains places
             const cityObj = mainData[parentCountry].cities[city];
             
-            // Get places from the city object
             let places = [];
-            if (cityObj.places && Array.isArray(cityObj.places)) {
+            if (cityObj.places && Array.isArray(cityObj.places))
                 places = cityObj.places.slice(0, 3).map(p => (typeof p === 'object' ? p.name : p));
-            }
             
             const imageUrl = await fetchUnsplashImage(city);
             createExploreCard(citiesContainer, {
@@ -515,7 +454,6 @@ async function renderExplorePage() {
         }
     }
 
-    // C. Top 10 Places
     const placesContainer = document.getElementById('explore-places');
     if(placesContainer) {
         placesContainer.innerHTML = '';
@@ -536,24 +474,21 @@ async function renderExplorePage() {
     }
 }
 
-// --- Helper Functions for Data Lookup ---
-
-function findCountryForCity(targetCity) {
-    for (const country in mainData) {
-        if (mainData[country].cities && mainData[country].cities[targetCity]) {
-            return country;
-        }
-    }
+// Helper function to find the country for a given city
+function findCountryForCity(targetCity){
+    for (const country in mainData)
+        if (mainData[country].cities && mainData[country].cities[targetCity])
+            return country;   
     return null;
 }
 
+// Helper function to find the city and country for a given place
 function findLocationForPlace(targetPlace) {
     for (const country in mainData) {
         const cities = mainData[country].cities;
         for (const city in cities) {
             const cityObj = cities[city];
             
-            // Access places array from the city object
             const places = cityObj.places || [];
             
             const found = places.some(p => {
@@ -561,15 +496,15 @@ function findLocationForPlace(targetPlace) {
                 return pName === targetPlace || pName.includes(targetPlace);
             });
 
-            if (found) {
+            if (found)
                 return { city, country };
-            }
         }
     }
     return null;
 }
 
-function createExploreCard(container, data) {
+// The function to create and append an explore card
+function createExploreCard(container, data){
     const card = document.createElement('div');
     card.className = 'explore-card';
     const listHTML = data.listItems.map(item => `<li>${item}</li>`).join('');

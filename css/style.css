@@ -324,7 +324,7 @@ nav .links a.active {
         justify-content: center;
     }
 
-    /* Hide the mobile button (hamburger) since you aren't using it yet */
+    /* Hide the mobile button since you aren't using it yet */
     .menu-toggle {
         display: none;
     }

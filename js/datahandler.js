@@ -1,4 +1,5 @@
-export function searchJSON(keyword, mainData) {
+// The function to search for a keyword in the main data JSON
+export function searchJSON(keyword, mainData){
     if (!keyword || typeof keyword !== 'string') return null;
     
     const trimmedKeyword = keyword.trim();
@@ -11,11 +12,10 @@ export function searchJSON(keyword, mainData) {
         return null;
     }
 
-    // 1. Search for a country
-    for (const countryName in mainData) {
-        if (countryName.toLowerCase() === lowerCaseKeyword) {
+    for (const countryName in mainData){
+        if (countryName.toLowerCase() === lowerCaseKeyword){
             const citiesInCountry = Object.keys(mainData[countryName].cities);
-            return { 
+            return{ 
                 type: "country", 
                 results: citiesInCountry.map(cityName => ({ 
                     name: cityName, 
@@ -25,16 +25,13 @@ export function searchJSON(keyword, mainData) {
         }
     }
 
-    // 2. Search for a city
-    for (const countryName in mainData) {
-        if (mainData[countryName].cities) {
-            for (const cityName in mainData[countryName].cities) {
-                if (cityName.toLowerCase() === lowerCaseKeyword) {
-                    // Get the city object and extract places array
+    for (const countryName in mainData){
+        if (mainData[countryName].cities){
+            for (const cityName in mainData[countryName].cities){
+                if (cityName.toLowerCase() === lowerCaseKeyword){
                     const cityObj = mainData[countryName].cities[cityName];
                     const placesList = cityObj.places || [];
                     
-                    // HANDLE MIXED DATA (Strings vs Objects)
                     const normalizedPlaces = placesList.map(place => {
                         if (typeof place === 'object') {
                             return {
@@ -54,26 +51,22 @@ export function searchJSON(keyword, mainData) {
         }
     }
 
-    // 3. Search for a place
-    for (const countryName in mainData) {
-        if (mainData[countryName].cities) {
-            for (const cityName in mainData[countryName].cities) {
-                // Get the city object and extract places array
+    for (const countryName in mainData){
+        if (mainData[countryName].cities){
+            for (const cityName in mainData[countryName].cities){
                 const cityObj = mainData[countryName].cities[cityName];
                 const places = cityObj.places || [];
                 
-                for (const place of places) {
-                    // Normalize the name whether it's an object or string
+                for (const place of places){
                     const placeName = (typeof place === 'object') ? place.name : place;
 
-                    if (placeName.toLowerCase() === lowerCaseKeyword) {
+                    if (placeName.toLowerCase() === lowerCaseKeyword){
                         return {
                             type: "place",
                             results: [{
                                 name: placeName,
                                 city: cityName,
                                 country: countryName,
-                                // Pass object data if available
                                 ...(typeof place === 'object' ? place : {})
                             }]
                         };
@@ -83,5 +76,5 @@ export function searchJSON(keyword, mainData) {
         }
     }
 
-    return null; // No match found
+    return null;
 }
