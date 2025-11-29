@@ -128,58 +128,97 @@ span {
     }
 }
 
-/* 2. NAVBAR */
+/* 2. NAVBAR (Modern Glass Style) */
 nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 20px;
-    background: white;
-    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    padding: 15px 10%;
+    /* Keeps the spacing from the edges */
+
+    /* === GLASSMORPHISM EFFECT === */
+    background: rgba(255, 255, 255, 0.85);
+    /* See-through white */
+    backdrop-filter: blur(12px);
+    /* Blurs the content behind it */
+    -webkit-backdrop-filter: blur(12px);
+    /* For Safari */
+
+    /* Subtle Gold Border & Shadow for depth */
+    border-bottom: 1px solid rgba(232, 172, 32, 0.15);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.03);
+
     position: sticky;
     top: 0;
-    z-index: 10;
+    z-index: 100;
+    transition: all 0.3s ease;
 }
 
 .brand {
     display: flex;
     align-items: center;
-    gap: 10px;
+    gap: 12px;
 }
 
 .brand img {
     width: 44px;
     height: 44px;
-    border-radius: 8px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(232, 172, 32, 0.2);
+    /* Shadow for logo */
 }
 
 .brand h2 {
     margin: 0;
     color: var(--main-color);
     font-weight: 800;
-    letter-spacing: -0.5px;
+    letter-spacing: -1px;
+    font-size: 2rem;
+    /* Adds a tiny shadow to text to make it pop */
+    text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.05);
 }
 
+/* === LINKS STYLING === */
 nav .links {
     display: flex;
-    gap: 24px;
-    font-size: 1.05rem;
+    gap: 10px;
+    /* Reduced gap because links now have padding */
 }
 
 nav .links a {
     text-decoration: none;
     color: var(--text-dark);
     font-weight: 600;
-    transition: color 0.3s ease;
+    font-size: 1rem;
+
+    /* This creates the button shape */
+    padding: 10px 24px;
+    border-radius: 30px;
+    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
 }
 
+/* HOVER EFFECT: Turns link into a Gold Pill */
 nav .links a:hover {
-    color: var(--main-color);
+    color: white;
+    background: var(--main-color);
+    transform: translateY(-2px);
+    /* Floats up slightly */
+    box-shadow: 0 4px 15px rgba(232, 172, 32, 0.4);
+    /* Gold Glow */
 }
 
+/* Active Link Style */
+/* Active Link Style - Solid Gold (Visible and Clear) */
 nav .links a.active {
-    color: var(--main-color);
-    font-weight: 800;
+    background: var(--main-color);
+    /* Solid Gold Background */
+    color: white;
+    /* White text */
+    box-shadow: 0 4px 15px rgba(232, 172, 32, 0.3);
+    /* Soft Glow */
+    font-weight: 700;
+    pointer-events: none;
+    /* Disables clicking the page you are already on */
 }
 
 /* Mobile Menu Button */
@@ -280,7 +319,7 @@ nav .links a.active {
     /* FORCE the links to appear */
     nav .links {
         display: flex;
-        gap: 80px;
+        gap: 15px;
         font-size: 0.9rem;
         justify-content: center;
     }

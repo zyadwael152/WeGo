@@ -66,19 +66,19 @@
             "mapEmbed": "https://maps.google.com/maps?q=Great+Pyramid+of+Giza&output=embed"
           },
           {
-            "name": "Grand Egyptian Museum of giza",
-            "images": ["https://media-cdn.tripadvisor.com/media/attractions-splice-spp-674x446/10/7f/5a/b9.jpg", "https://cdn-imgix.headout.com/media/images/b128495488af842fa92f5f6e42e4ec15-28558-cairo-cairo-tutankhamun-exhibition---grand-egyptian-museum-08.jpg?auto=format&q=90&crop=faces&fit=crop", "https://media.tacdn.com/media/attractions-splice-spp-674x446/14/ce/4b/c8.jpg"],
+            "name": "Pharaonic Village",
+            "images": ["https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSKF7R86dj6xDMhCuvOqR1bbYh2DkEhLoSB2A&s", "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/11/0f/0d/99/caption.jpg?w=900&h=-1&s=1", "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/11/0f/0d/99/caption.jpg?w=900&h=-1&s=1"],
             "imageSearch": "",
-            "description": "The world's largest archaeological museum, housing over 100,000 artifacts including the complete Tutankhamun collection. A state-of-the-art facility showcasing Egypt's priceless heritage.",
-            "wiki": "Grand Egyptian Museum",
-            "mapEmbed": "https://maps.google.com/maps?q=Grand+Egyptian+Museum+Giza&output=embed"
+            "description": "A living museum on an island in the Nile, recreating ancient Egyptian life with actors in period costume, replica temples, and educational boat tours.",
+            "wiki": "Pharaonic Village Giza",
+            "mapEmbed": "https://www.google.com/maps/place/%D8%A7%D9%84%D9%82%D8%B1%D9%8A%D8%A9+%D8%A7%D9%84%D9%81%D8%B1%D8%B9%D9%88%D9%86%D9%8A%D8%A9%E2%80%AD/@29.9973428,31.2147895,777m/data=!3m2!1e3!4b1!4m6!3m5!1s0x145846ff8a3707a3:0x5658232ecdeb412!8m2!3d29.9973428!4d31.2147895!16s%2Fg%2F120kn4tw?entry=ttu&g_ep=EgoyMDI1MTEyMy4xIKXMDSoASAFQAw%3D%3D"
           },
           {
             "name": "Great Sphinx of giza",
             "images": ["https://cdn.britannica.com/85/99185-050-E1110E5C/Great-Sphinx-Giza-Egypt.jpg", "https://plus.unsplash.com/premium_photo-1694475367746-526db5575bb4?fm=jpg&q=60&w=3000&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8c3BoaW54fGVufDB8fDB8fHww", "https://www.egypttoursportal.com/images/2017/11/The-Great-Sphinx-Egypt-Tours-Portal-1-e1511900988420.jpg"],
             "imageSearch": "Great Sphinx of Giza",
             "description": "The mythical creature with a lion's body and human head, carved from a single limestone outcrop. This enigmatic guardian of the Giza Plateau has watched over the pyramids for 4,500 years.",
-            "wiki": "Great Sphinx of Giza",
+            "wiki": "The Sphinx of Giza",
             "mapEmbed": "https://maps.google.com/maps?q=Great+Sphinx+of+Giza&output=embed"
           },
           {
@@ -1321,7 +1321,7 @@
             "imageSearch": "Moraine Lake Banff",
             "description": "A glacially fed lake in Banff National Park, situated in the Valley of the Ten Peaks.",
             "wiki": "https://en.wikipedia.org/wiki/Moraine_Lake",
-            "mapEmbed": "https://maps.google.com/maps?q=Great+Sphinx+of+Giza&t=&z=13&ie=UTF8&iwloc=&output=embed21"
+            "mapEmbed": "https://www.google.com/maps/search/?api=1&query=Moraine+Lake"
           }
         ]
       },

@@ -160,29 +160,39 @@ function embedGoogleMap(query, customData) {
     const mapPlaceholder = document.querySelector('.map-placeholder');
     if (!mapPlaceholder) return;
 
-    // Priority 1: Use local map embed from JSON if available
-    const localMapEmbed = getLocalMapEmbed(customData);
-    if (localMapEmbed) {
-        console.log("Using local map embed from JSON");
-        mapPlaceholder.innerHTML = `<iframe 
-            src="${localMapEmbed}" 
-            width="100%" 
-            height="100%" 
-            style="border:0;" 
-            allowfullscreen="" 
-            loading="lazy">
-        </iframe>`;
-        return;
+    // 1. Determine the best search query
+    let searchQuery = query;
+
+    // Use custom image search term from JSON if available (it's usually more accurate)
+    // We support checking the object directly OR using the helper function if you have it
+    if (customData && customData.imageSearch) {
+        searchQuery = customData.imageSearch;
+    } else if (typeof getImageSearchTerm === 'function') {
+        const term = getImageSearchTerm(customData);
+        if (term) searchQuery = term;
     }
 
-    // Fallback: Generate map from custom image search term or query name
-    let searchQuery = query;
-    const customImageSearch = getImageSearchTerm(customData);
-    if (customImageSearch) {
-        searchQuery = customImageSearch.replace(" night", "").replace(" interior", "");
+    // 2. Clean up the query
+    // Remove keywords that might confuse Google Maps (e.g. searching for "Paris night" might fail, but "Paris" works)
+    if (searchQuery) {
+        searchQuery = searchQuery
+            .replace(" night", "")
+            .replace(" interior", "")
+            .replace(" view", "")
+            .replace(" skyline", "")
+            .replace(" aerial", "");
+    }
+
+    // 3. Edge Case: Fix specific broad regions if needed
+    if (searchQuery.trim().toLowerCase() === 'red sea') {
+        searchQuery = 'Red Sea Governorate, Egypt';
     }
 
     const encodedQuery = encodeURIComponent(searchQuery);
+
+    // 4. Generate Valid Google Maps Embed URL
+    // We intentionally ignore 'customData.mapEmbed' here because the JSON contains broken placeholder links.
+    // This dynamic URL ensures a working map 100% of the time.
     const iframeSrc = `https://maps.google.com/maps?q=${encodedQuery}&t=&z=13&ie=UTF8&iwloc=&output=embed`;
 
     mapPlaceholder.innerHTML = `<iframe 
