@@ -521,3 +521,19 @@ function createExploreCard(container, data){
     `;
     container.appendChild(card);
 }
+// Automatically highlight the current page in Navbar
+document.addEventListener('DOMContentLoaded', () => {
+    const currentLocation = location.href;
+    const menuItem = document.querySelectorAll('nav .links a');
+    const menuLength = menuItem.length;
+
+    for (let i = 0; i < menuLength; i++) {
+        // If the link href matches the current browser URL
+        if (menuItem[i].href === currentLocation) {
+            menuItem[i].classList.add("active");
+        } else {
+            // Ensure other links are NOT active
+            menuItem[i].classList.remove("active");
+        }
+    }
+});

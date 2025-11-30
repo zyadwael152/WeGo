@@ -1,6 +1,12 @@
 /* =================================== */
 /* 1. GLOBAL STYLES (For all pages) */
 /* =================================== */
+/* GLOBAL RESET - Fixes the right-side gap/scroll issue */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@800;900&display=swap');
 :root {
     --main-color: #E8AC20;
@@ -327,5 +333,65 @@ nav .links a.active {
     /* Hide the mobile button since you aren't using it yet */
     .menu-toggle {
         display: none;
+    }
+}
+/* ==================== FINAL MOBILE FIXES ==================== */
+
+/* 1. Intro Text Bold & Centered */
+#introText {
+    font-weight: 900 !important;
+    /* Make it extra bold */
+    text-transform: uppercase;
+}
+
+@media(max-width: 600px) {
+
+    /* 2. Logo to the LEFT */
+    nav {
+        flex-direction: column;
+        align-items: center;
+        /* Keeps links centered */
+    }
+
+    .brand {
+        width: 100%;
+        /* Takes full width */
+        display: flex;
+        justify-content: flex-start;
+        /* Pushes logo to the LEFT */
+        margin-bottom: 10px;
+    }
+
+    /* 3. Fix Search Button Disappearing */
+    .search-box {
+        width: 100% !important;
+        gap: 5px !important;
+        /* Smaller gap between input and button */
+        padding: 8px !important;
+        /* Smaller container padding */
+    }
+
+    .search-box input {
+        width: 100%;
+        /* Ensure input takes available space */
+    }
+
+    .search-box button {
+        padding: 10px 15px !important;
+        /* Smaller button padding */
+        font-size: 0.9rem !important;
+        white-space: nowrap;
+        /* Prevents text from breaking */
+    }
+
+    /* 4. Fix Intro Animation on Mobile */
+    #introContent {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    #introText {
+        margin-top: 15px;
+        font-size: 1.5rem !important;
     }
 }

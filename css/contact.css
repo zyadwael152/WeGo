@@ -197,3 +197,33 @@
         font-size: 2.2rem;
     }
 }
+/* ==================== FINAL MOBILE SPACING FIX ==================== */
+@media(max-width: 768px) {
+
+    /* 1. Reduce the Yellow Hero Section Space */
+    .page-hero {
+        padding-top: 40px !important;
+        padding-bottom: 10px !important;
+        /* Minimal space at the bottom */
+        min-height: auto !important;
+    }
+
+    /* 2. Pull the White Box UP to close the gap */
+    .site-main {
+        /* Negative margin pulls the box UP towards the text */
+        margin-top: -10px !important;
+        margin-bottom: 40px !important;
+        /* Space above footer */
+        border-top-left-radius: 20px;
+        border-top-right-radius: 20px;
+        position: relative;
+        z-index: 2;
+        /* Ensures it sits on top if they overlap */
+    }
+
+    /* 3. Adjust the heading inside the white box */
+    .contact-form h2 {
+        margin-top: 10px !important;
+        font-size: 1.5rem;
+    }
+}
