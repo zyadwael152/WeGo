@@ -139,7 +139,7 @@ async function loadDestinationInfo(query, customData){
             contentDiv.innerText = localDesc;
         } 
         else
-            contentDiv.innerText = `Explore the amazing ${query}. (Description currently unavailable)`;
+            contentDiv.innerText = `Explore the amazing ${query}. `;
     }
 }
 
