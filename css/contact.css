@@ -4,7 +4,6 @@
     background: var(--bg-light);
     text-align: center;
     overflow: hidden;
-    /* To contain animations */
 }
 
 .page-hero h1 {
@@ -13,7 +12,6 @@
     margin: 0 0 10px 0;
     animation: slideDown 0.8s ease-out 0.2s;
     animation-fill-mode: backwards;
-    /* Starts hidden */
 }
 
 .page-hero p {
@@ -22,7 +20,6 @@
     margin: 0;
     animation: fadeIn 1s ease-out 0.5s;
     animation-fill-mode: backwards;
-    /* Starts hidden */
 }
 
 /* Contact Main Content Card */
@@ -131,12 +128,10 @@
     opacity: 0;
     transform: translateY(20px);
     animation: fadeIn 0.5s ease-out 1s forwards;
-    /* Animation for button */
 }
 
 .btn-primary:hover {
     transform: translateY(-5px);
-    /* Animation for button */
     box-shadow: 0 8px 25px rgba(232, 172, 32, 0.5);
 }
 
@@ -151,7 +146,6 @@
     padding: 25px;
     border-radius: 12px;
     align-self: flex-start;
-    /* Keeps it aligned with the form */
     animation: fadeIn 0.8s ease-out 0.8s;
     animation-fill-mode: backwards;
 }
@@ -197,31 +191,23 @@
         font-size: 2.2rem;
     }
 }
-/* ==================== FINAL MOBILE SPACING FIX ==================== */
+/* For phones */
 @media(max-width: 768px) {
-
-    /* 1. Reduce the Yellow Hero Section Space */
     .page-hero {
         padding-top: 40px !important;
         padding-bottom: 10px !important;
-        /* Minimal space at the bottom */
         min-height: auto !important;
     }
 
-    /* 2. Pull the White Box UP to close the gap */
     .site-main {
-        /* Negative margin pulls the box UP towards the text */
         margin-top: -10px !important;
         margin-bottom: 40px !important;
-        /* Space above footer */
         border-top-left-radius: 20px;
         border-top-right-radius: 20px;
         position: relative;
         z-index: 2;
-        /* Ensures it sits on top if they overlap */
     }
 
-    /* 3. Adjust the heading inside the white box */
     .contact-form h2 {
         margin-top: 10px !important;
         font-size: 1.5rem;
