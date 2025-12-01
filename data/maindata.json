@@ -340,7 +340,7 @@
           {
             "name": "Kingdom Centre",
             "images": ["https://res.cloudinary.com/ddjuftfy2/image/upload/f_webp,c_fill,q_auto/memphis/xlarge/20663060_WikiCover_2326968853.jpg", "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2a/b8/f6/4b/caption.jpg?w=900&h=-1&s=1", "https://saudiarabiatours.net/wp-content/uploads/2024/02/e3331a06cb92418fac36a8ee3d7dcdfd-1024x614.jpg"],
-            "imageSearch": "Kingdom Centre Riyadh",
+            "imageSearch": "riyadh saudi arabia",
             "description": "An iconic 99-story skyscraper with a unique sky bridge offering panoramic city views, symbolizing Riyadh's transformation into a modern metropolis.",
             "wiki": "Kingdom Centre",
             "mapEmbed": "https://maps.google.com/maps?q=Kingdom+Centre+Riyadh&output=embed"
@@ -352,31 +352,6 @@
             "description": "A clay and mud-brick fort celebrating the birthplace of modern Saudi Arabia, where the recapture of Riyadh in 1902 marked the beginning of unification.",
             "wiki": "Al-Masmak Fortress",
             "mapEmbed": "https://maps.google.com/maps?q=Al+Masmak+Fortress+Riyadh&output=embed"
-          }
-        ]
-      },
-      "Jeddah": {
-        "images": ["https://saudipedia.com/en/saudipediaen/uploads/images/2024/05/29/thumbs/600x600/70468.jpg", "https://imgs.skylineholding.com/storage/blogs/2024/2024/10/1728570342.jpg.webp", "https://static.majalla.com/styles/1200xauto/public/2019/04/19/172151-310155462.jpg?VersionId=zrBX12ZM3MRjBMK7tMYgBbcWWbdsvf0E"],
-        "imageSearch": "Jeddah Corniche",
-        "description": "The gateway to Mecca and a historic port city on the Red Sea, known for its coral architecture, vibrant souks, and the world's tallest fountain.",
-        "wiki": "Jeddah",
-        "mapEmbed": "https://maps.google.com/maps?q=Jeddah+Saudi+Arabia&output=embed",
-        "places": [
-          {
-            "name": "King Fahd's Fountain",
-            "images": ["https://destinationksa.com/wp-content/uploads/content/22.jpg", "https://www.timeoutjeddah.com/cloud/timeoutjeddah/2023/03/06/King-Fahds-Fountain-1-1024x768.jpg", "https://excursionmania.com/uploads/blog/gallery/2587/1739448394.jpg"],
-            "imageSearch": "King Fahd Fountain Jeddah",
-            "description": "The world's tallest fountain, shooting seawater 312 meters into the air - visible throughout much of Jeddah and particularly spectacular when illuminated at night.",
-            "wiki": "King Fahd's Fountain",
-            "mapEmbed": "https://maps.google.com/maps?q=King+Fahd's+Fountain+Jeddah&output=embed"
-          },
-          {
-            "name": "Al-Balad",
-            "images": ["https://footontheroad.com/wp-content/uploads/2024/10/al-balad-jeddah-guide.webp", "https://experiencesbyroam.com/img/asset/YXNzZXRzL2V4cGVyaWVuY2VzL2FsLWJhbGFkLWplZGRhaC9hbC1uYXNzaWYtaGlzdG9yaWNhbC1ob3VzZS1pbi1hbC1iYWxhZC1qZWRkYWguanBn/al-nassif-historical-house-in-al-balad-jeddah.jpg?p=fullwidth&fm=webp&s=736557e2b6ffe71e8eda7d6bbfadd303", "https://i0.wp.com/theotherpaths.com/wp-content/uploads/2025/02/Jeddah_cover.jpg?fit=1800%2C1200&ssl=1"],
-            "imageSearch": "Al-Balad Jeddah",
-            "description": "The historic heart of Jeddah featuring coral houses with ornate wooden balconies, traditional souks, and narrow alleyways that whisper tales of ancient trade routes.",
-            "wiki": "Al-Balad, Jeddah",
-            "mapEmbed": "https://maps.google.com/maps?q=Al-Balad+Jeddah&output=embed"
           }
         ]
       }
